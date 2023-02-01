@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "LanternRiteFireworksReformFactorInfo.proto";
+
+message LanternRiteDoFireworksReformRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 8644;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	uint32 Unk3300_BJHGCFANMBI = 3;
+	bool isLucky = 7;
+	repeated LanternRiteFireworksReformFactorInfo factorInfoList = 6;
+	uint32 stageId = 1;
+	uint32 challengeId = 9;
+	uint32 Unk3300_OMHPIGGDCBO = 5;
+	uint32 Unk3300_LKKBPAJOCML = 14;
+	uint32 Unk3300_LKOFBPDKEGG = 2;
+	int32 retcode = 12;
+}
+
+
+

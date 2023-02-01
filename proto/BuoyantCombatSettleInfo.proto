@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "BuoyantCombatGallerySettleInfo.proto";
+
+message BuoyantCombatSettleInfo {
+	BuoyantCombatGallerySettleInfo settleInfo = 9;
+	bool isNewRecord = 1;
+}
+
+
+

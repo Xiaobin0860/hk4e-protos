@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message TanukiTravelLevelData {
+	bool isFinish = 2;
+	uint32 routeId = 1;
+	bool isOpen = 8;
+}
+
+
+

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "LanternRiteFireworksChallengeInfo.proto";
+
+message LanternRiteFireworksStageInfo {
+	bool isOpen = 7;
+	repeated LanternRiteFireworksChallengeInfo exceededItemTypeList = 9;
+	uint32 stageId = 15;
+}
+
+
+

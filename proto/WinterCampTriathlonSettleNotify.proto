@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message WinterCampTriathlonSettleNotify {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 8723;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	uint32 Unk3300_EMNKJGKNCMP = 12;
+	bool isSuccess = 6;
+	uint32 Unk3300_OEFOGONENFN = 8;
+	bool isNewRecord = 2;
+	uint32 galleryId = 13;
+	uint32 Unk3300_ACDOMBHMNJG = 4;
+	uint32 remainTime = 7;
+	uint32 score = 1;
+}
+
+
+

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "FleurFairMusicRecord.proto";
+
+message FleurFairMusicGameInfo {
+	map<uint32, FleurFairMusicRecord> fbmomkmdima = 9;
+}
+
+
+

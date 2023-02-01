@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message ChannelerSlabStageOneoffDungeonNotify {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 8449;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	bool isDone = 4;
+	uint32 stageId = 14;
+}
+
+
+

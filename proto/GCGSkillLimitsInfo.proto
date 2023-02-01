@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGLimitsInfo.proto";
+
+message GCGSkillLimitsInfo {
+	repeated GCGLimitsInfo limitsList = 8;
+	uint32 skillId = 9;
+}
+
+
+

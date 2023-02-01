@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message HPAKAIEAKFI {
+	string hmnbpjgckgn = 1;
+	bytes value = 2;
+}
+
+
+

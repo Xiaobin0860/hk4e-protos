@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message FungusFighterTrainingInfoNotify {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 5545;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	uint32 Unk3300_EDHANEGNMJM = 15;
+	uint32 Unk3300_IOEELCAMDCK = 14;
+	uint32 Unk3300_EKAMCPNGCGH = 1;
+	uint32 Unk3300_GMLIPFDMDOG = 7;
+	uint32 maxMonsterCount = 3;
+	uint32 buffId = 6;
+	uint32 Unk3300_HGPGNCMNDJN = 13;
+}
+
+
+

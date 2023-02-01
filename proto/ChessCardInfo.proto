@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message ChessCardInfo {
+	uint32 cardId = 11;
+	uint32 effectStack = 12;
+}
+
+
+

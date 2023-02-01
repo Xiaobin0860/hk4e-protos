@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message LanternRiteFireworksReformFactorInfo {
+	uint32 factorId = 1;
+	uint32 factorValue = 4;
+}
+
+
+

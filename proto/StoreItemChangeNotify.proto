@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "StoreType.proto";
+import "Item.proto";
+
+message StoreItemChangeNotify {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 687;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	repeated Item itemList = 13;
+	StoreType storeType = 5;
+}
+
+
+

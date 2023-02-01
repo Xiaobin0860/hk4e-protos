@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message ONGLLFPMBNL {
+	int64 ckgefmkgkhh = 1;
+	int32 cmhoaideaep = 2;
+}
+
+
+

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ChessEntranceInfo.proto";
+
+message ChessEntranceDetailInfo {
+	repeated ChessEntranceInfo infoList = 6;
+}
+
+
+

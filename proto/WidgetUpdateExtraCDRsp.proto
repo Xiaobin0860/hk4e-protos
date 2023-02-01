@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "WidgetCoolDownData.proto";
+import "WidgetExtraCdType.proto";
+
+message WidgetUpdateExtraCDRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 5908;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	uint32 materialId = 12;
+	uint32 cdGroup = 3;
+	WidgetCoolDownData coolData = 6;
+	int32 retcode = 13;
+	WidgetExtraCdType extraCdType = 4;
+}
+
+
+

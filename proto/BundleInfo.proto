@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message BundleInfo {
+	repeated uint32 famklmmklpj = 10;
+}
+
+
+

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GalleryStopReason.proto";
+
+message RacingGallerySettleInfo {
+	uint32 useTime = 9;
+	GalleryStopReason reason = 3;
+	uint32 winnerUid = 10;
+}
+
+
+

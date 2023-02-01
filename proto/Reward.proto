@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ItemParam.proto";
+
+message Reward {
+	uint32 rewardId = 1;
+	repeated ItemParam itemList = 2;
+}
+
+
+

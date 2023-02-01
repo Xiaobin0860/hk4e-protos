@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+enum AStarMethod {
+    Classic    = 0;
+    Tendency   = 1;
+    Adaptive   = 2;
+    Inflection = 3;
+}
+
+
+

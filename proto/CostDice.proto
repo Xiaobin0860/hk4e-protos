@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGReason.proto";
+
+message CostDice {
+	GCGReason reason = 7;
+	uint32 controllerId = 9;
+	repeated uint32 selectDiceIndexList = 8;
+}
+
+
+

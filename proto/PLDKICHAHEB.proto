@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HPAKAIEAKFI.proto";
+
+message PLDKICHAHEB {
+	string createTime = 1;
+	HPAKAIEAKFI value = 2;
+}
+
+
+

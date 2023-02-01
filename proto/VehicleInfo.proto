@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "VehicleMember.proto";
+
+message VehicleInfo {
+	repeated VehicleMember memberList = 1;
+	uint32 ownerUid = 2;
+	float curStamina = 3;
+}
+
+
+

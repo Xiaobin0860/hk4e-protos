@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "RogueDiaryAvatar.proto";
+
+message StartRogueDiaryPlayRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 8780;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	repeated RogueDiaryAvatar trialAvatarList = 8;
+	int32 retcode = 3;
+	repeated uint32 randCardList = 2;
+	repeated RogueDiaryAvatar avatarList = 13;
+}
+
+
+

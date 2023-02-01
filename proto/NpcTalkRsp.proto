@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message NpcTalkRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 555;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	int32 retcode = 5;
+	uint32 npcEntityId = 11;
+	uint32 curTalkId = 1;
+	uint32 entityId = 9;
+}
+
+
+

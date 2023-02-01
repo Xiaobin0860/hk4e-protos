@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message QuestRenameAvatarRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 401;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	string avatarName = 15;
+	bool isCheck = 2;
+	uint32 renameId = 13;
+	int32 retcode = 10;
+}
+
+
+

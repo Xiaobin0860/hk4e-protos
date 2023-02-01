@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message AsterLargeDetailInfo {
+	bool isOpen = 3;
+	uint32 beginTime = 7;
+}
+
+
+

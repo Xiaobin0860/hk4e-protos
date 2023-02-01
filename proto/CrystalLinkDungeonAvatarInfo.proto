@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message CrystalLinkDungeonAvatarInfo {
+	uint64 avatarGuid = 2;
+	bool isTrial = 12;
+}
+
+
+

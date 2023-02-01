@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message ChannelerSlabOneoffDungeon {
+	bool isDone = 13;
+	uint32 rewardId = 12;
+	uint32 dungeonId = 15;
+}
+
+
+

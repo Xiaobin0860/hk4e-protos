@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "BattlePassUnlockStatus.proto";
+
+message BattlePassRewardTag {
+	uint32 level = 8;
+	BattlePassUnlockStatus unlockStatus = 13;
+	uint32 rewardId = 15;
+}
+
+
+

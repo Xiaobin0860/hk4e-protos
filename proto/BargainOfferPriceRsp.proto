@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "BargainResultType.proto";
+
+message BargainOfferPriceRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 418;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	BargainResultType bargainResult = 2;
+	int32 retcode = 13;
+	int32 curMood = 7;
+	uint32 resultParam = 11;
+}
+
+
+

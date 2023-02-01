@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MatchPlayerInfo.proto";
+
+message GCGMatchInfo {
+	repeated MatchPlayerInfo playerList = 5;
+}
+
+
+

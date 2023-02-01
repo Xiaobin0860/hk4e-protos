@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "JigsawPictureData.proto";
+import "GearLevelData.proto";
+
+message GearInfo {
+	repeated GearLevelData gearLevelDataList = 9;
+	JigsawPictureData jigsawPictureData = 13;
+}
+
+
+

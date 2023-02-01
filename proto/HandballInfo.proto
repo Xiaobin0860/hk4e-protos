@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "PlaceInfo.proto";
+
+message HandballInfo {
+	PlaceInfo ballPlaceInfo = 11;
+	bool isHaveBall = 7;
+}
+
+
+

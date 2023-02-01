@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Vector.proto";
+
+message LOOBJODJJFP {
+	Vector spawnPos = 15;
+	uint32 guid = 8;
+}
+
+
+

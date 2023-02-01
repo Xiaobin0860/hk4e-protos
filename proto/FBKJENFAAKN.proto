@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "EIBBNBEBHGD.proto";
+
+message FBKJENFAAKN {
+	repeated uint32 ehbfihcdoli = 12;
+	repeated EIBBNBEBHGD avatarInfoList = 6;
+}
+
+
+

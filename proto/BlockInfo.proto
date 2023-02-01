@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message BlockInfo {
+	uint32 blockId = 1;
+	uint32 dataVersion = 2;
+	bytes binData = 3;
+	bool isDirty = 4;
+}
+
+
+

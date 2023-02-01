@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "SumoAvatarInfo.proto";
+
+message SumoTeamData {
+	repeated SumoAvatarInfo avatarInfoList = 10;
+	repeated uint32 skillIdList = 8;
+}
+
+
+

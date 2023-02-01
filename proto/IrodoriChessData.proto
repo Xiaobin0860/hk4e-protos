@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "IrodoriChessLevelData.proto";
+
+message IrodoriChessData {
+	repeated IrodoriChessLevelData levelDataList = 9;
+	bool isOpen = 7;
+}
+
+
+

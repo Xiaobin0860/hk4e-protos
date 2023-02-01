@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ShopGoods.proto";
+
+message BuyGoodsRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 798;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	uint32 buyCount = 2;
+	ShopGoods goods = 1;
+	repeated ShopGoods goodsList = 7;
+	int32 retcode = 5;
+	uint32 shopType = 14;
+}
+
+
+

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "SalvagePreventGallerySettleInfo.proto";
+
+message SalvagePreventSettleInfo {
+	bool isNewRecord = 4;
+	SalvagePreventGallerySettleInfo settleInfo = 6;
+}
+
+
+

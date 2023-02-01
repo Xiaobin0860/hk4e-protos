@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message GetHomeExchangeWoodInfoRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 4757;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	message HomeExchangeWoodInfo {
+		uint32 exchangeLimit = 8;
+		uint32 woodId = 2;
+		uint32 nextRefreshTime = 3;
+		uint32 exchangedCount = 9;
+	}
+
+	repeated HomeExchangeWoodInfo woodInfoList = 11;
+	int32 retcode = 2;
+}
+
+
+

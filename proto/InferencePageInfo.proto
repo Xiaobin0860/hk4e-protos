@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "InferenceWordInfo.proto";
+
+message InferencePageInfo {
+	uint32 pageId = 6;
+	repeated InferenceWordInfo unlockWordList = 8;
+}
+
+
+

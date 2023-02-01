@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+enum ItemGivingType {
+    QUEST  = 0;
+    GADGET = 1;
+}
+
+
+

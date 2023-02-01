@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message AvatarSkillUpgradeRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 1078;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	int32 retcode = 5;
+	uint32 curLevel = 2;
+	uint32 avatarSkillId = 15;
+	uint64 avatarGuid = 7;
+	uint32 oldLevel = 1;
+}
+
+
+

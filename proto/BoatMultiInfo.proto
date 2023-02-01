@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "IPLHKNLPPHD.proto";
+
+message BoatMultiInfo {
+	repeated IPLHKNLPPHD playerData = 14;
+}
+
+
+

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ItemParam.proto";
+import "BattlePassRewardTakeOption.proto";
+
+message TakeBattlePassRewardRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 2643;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	repeated ItemParam itemList = 3;
+	int32 retcode = 5;
+	repeated BattlePassRewardTakeOption takeOptionList = 13;
+}
+
+
+

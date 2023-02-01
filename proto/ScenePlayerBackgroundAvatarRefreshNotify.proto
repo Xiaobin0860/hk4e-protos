@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "VisionType.proto";
+import "SceneEntityInfo.proto";
+
+message ScenePlayerBackgroundAvatarRefreshNotify {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 3464;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	uint32 param = 1;
+	repeated SceneEntityInfo entityList = 14;
+	VisionType appearType = 2;
+}
+
+
+

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CustomDungeonBanType.proto";
+
+message CustomDungeonBanInfo {
+	uint32 expireTime = 12;
+	CustomDungeonBanType banType = 6;
+	uint64 dungeonGuid = 1;
+}
+
+
+

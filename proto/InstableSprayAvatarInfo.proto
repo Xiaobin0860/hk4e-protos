@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message InstableSprayAvatarInfo {
+	bool isTrial = 2;
+	uint64 avatarId = 12;
+}
+
+
+

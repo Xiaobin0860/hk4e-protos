@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "BartenderTaskInfo.proto";
+import "BartenderLevelInfo.proto";
+
+message BartenderInfo {
+	repeated BartenderTaskInfo unlockTaskList = 15;
+	bool isDevelopModuleOpen = 10;
+	repeated uint32 unlockItemList = 8;
+	repeated uint32 unlockFormulaList = 14;
+	bool leftMonsters = 2;
+	repeated BartenderLevelInfo unlockLevelList = 4;
+}
+
+
+

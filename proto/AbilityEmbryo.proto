@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message AbilityEmbryo {
+	uint32 abilityId = 1;
+	fixed32 abilityNameHash = 2;
+	fixed32 abilityOverrideNameHash = 3;
+}
+
+
+

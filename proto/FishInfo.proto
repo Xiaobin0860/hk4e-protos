@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message FishInfo {
+	uint32 pjkdcbfhaoo = 4;
+	uint32 defebhbifge = 6;
+}
+
+
+

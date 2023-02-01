@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "InstableSprayAvatarInfo.proto";
+
+message InstableSprayEnterDungeonReq {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 24659;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// 	IS_ALLOW_CLIENT = 1;
+	// }
+
+	uint32 stageId = 4;
+	repeated InstableSprayAvatarInfo avatarInfoList = 8;
+	uint32 difficulty = 1;
+}
+
+
+

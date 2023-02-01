@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MassivePropParam.proto";
+
+message MassivePropSyncInfo {
+	int64 id = 1;
+	repeated MassivePropParam propList = 2;
+}
+
+
+

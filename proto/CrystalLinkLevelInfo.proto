@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CrystalLinkTeamInfo.proto";
+
+message CrystalLinkLevelInfo {
+	uint32 levelId = 3;
+	uint32 bestScore = 6;
+	bool isOpen = 7;
+	repeated CrystalLinkTeamInfo teamInfoList = 8;
+}
+
+
+

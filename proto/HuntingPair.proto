@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message HuntingPair {
+	uint32 refreshId = 5;
+	uint32 monsterConfigId = 12;
+}
+
+
+

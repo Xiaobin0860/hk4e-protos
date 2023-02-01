@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AvatarInfo.proto";
+
+message DungeonCandidateTeamAvatar {
+	uint32 playerUid = 5;
+	AvatarInfo avatarInfo = 8;
+}
+
+
+

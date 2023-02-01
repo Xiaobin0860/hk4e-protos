@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MapMarkTipsType.proto";
+
+message MapMarkTipsInfo {
+	MapMarkTipsType tipsType = 1;
+	repeated uint32 pointIdList = 2;
+}
+
+
+

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message DungeonEnterPosInfo {
+	uint32 questId = 15;
+	uint32 pointId = 7;
+}
+
+
+

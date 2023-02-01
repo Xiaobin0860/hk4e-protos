@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AbilityEmbryo.proto";
+
+message AbilityControlBlock {
+	repeated AbilityEmbryo abilityEmbryoList = 1;
+}
+
+
+

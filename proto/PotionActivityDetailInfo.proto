@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "PotionStageData.proto";
+
+message PotionActivityDetailInfo {
+	repeated PotionStageData stageList = 11;
+}
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "UpdateType.proto";
+
+message ServerUpdateGlobalValueNotify {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 1178;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	float value = 2;
+	UpdateType updateType = 8;
+	uint32 keyHash = 10;
+	uint32 entityId = 3;
+	float delta = 12;
+}
+
+
+

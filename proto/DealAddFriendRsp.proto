@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "DealAddFriendResultType.proto";
+
+message DealAddFriendRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 4070;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// 	IS_ALLOW_CLIENT = 1;
+	// }
+
+	DealAddFriendResultType dealAddFriendResult = 2;
+	int32 retcode = 3;
+	uint32 targetUid = 4;
+}
+
+
+

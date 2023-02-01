@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "VectorPlane.proto";
+
+message PolygonRegionSize {
+	float height = 13;
+	repeated VectorPlane pointList = 15;
+}
+
+
+

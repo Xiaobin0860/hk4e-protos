@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Vector.proto";
+import "TransmitReason.proto";
+
+message ClientTransmitReq {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 203;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// 	IS_ALLOW_CLIENT = 1;
+	// }
+
+	Vector rot = 9;
+	TransmitReason reason = 13;
+	Vector pos = 12;
+	uint32 sceneId = 8;
+}
+
+
+

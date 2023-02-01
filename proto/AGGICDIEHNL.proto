@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+enum AGGICDIEHNL {
+	APOHFKNGIIJ = 0;
+	FCCAGMOBPJI = 1;
+}
+
+
+

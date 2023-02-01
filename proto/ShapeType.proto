@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+enum ShapeType {
+    OBSTACLE_SHAPE_CAPSULE = 0;
+    OBSTACLE_SHAPE_BOX     = 1;
+}
+
+
+

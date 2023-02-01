@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "SkyCrystalDetectorData.proto";
+
+message SkyCrystalDetectorQuickUseResult {
+	SkyCrystalDetectorData skyCrystalDetectorData = 14;
+	int32 retcode = 7;
+}
+
+
+

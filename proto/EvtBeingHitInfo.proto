@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AttackResult.proto";
+
+message EvtBeingHitInfo {
+	AttackResult attackResult = 5;
+	uint32 peerId = 7;
+	uint32 frameNum = 10;
+}
+
+
+

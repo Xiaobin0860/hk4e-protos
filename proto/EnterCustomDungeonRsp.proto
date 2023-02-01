@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "EnterCustomDungeonType.proto";
+import "CustomDungeon.proto";
+
+message EnterCustomDungeonRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 6245;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	int32 retcode = 9;
+	EnterCustomDungeonType enterType = 4;
+	map<uint32, uint32> roomCostMap = 2;
+	CustomDungeon customDungeon = 7;
+}
+
+
+

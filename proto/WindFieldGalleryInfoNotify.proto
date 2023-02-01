@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message WindFieldGalleryInfoNotify {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 5573;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	uint32 Unk3300_EKMHMHJDHIL = 9;
+	uint32 Unk3300_GLNHBJJJINK = 4;
+	uint32 Unk3300_FFODAKMKGEK = 13;
+	uint32 Unk3300_OJHJPBCAONA = 1;
+	uint32 Unk3300_NBIBKFKOCFK = 5;
+	uint32 Unk3300_MMONPDMIEBN = 15;
+	uint32 Unk3300_GNJKOCLJFNM = 11;
+	uint32 Unk3300_GNKCFHMDOHJ = 3;
+}
+
+
+

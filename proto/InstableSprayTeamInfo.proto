@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "InstableSprayAvatarInfo.proto";
+
+message InstableSprayTeamInfo {
+	repeated InstableSprayAvatarInfo avatarInfoList = 12;
+}
+
+
+

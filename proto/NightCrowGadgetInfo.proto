@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message NightCrowGadgetInfo {
+	repeated uint32 argumentList = 1;
+}
+
+
+

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Uint32Pair.proto";
+
+message FurnitureCurModuleArrangeCountNotify {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 4851;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	repeated Uint32Pair furnitureArrangeCountList = 13;
+}
+
+
+

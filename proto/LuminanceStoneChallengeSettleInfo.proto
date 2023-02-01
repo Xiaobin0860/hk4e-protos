@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "LuminanceStoneChallengeGallerySettleInfo.proto";
+
+message LuminanceStoneChallengeSettleInfo {
+	bool isNewRecord = 8;
+	LuminanceStoneChallengeGallerySettleInfo settleInfo = 11;
+}
+
+
+

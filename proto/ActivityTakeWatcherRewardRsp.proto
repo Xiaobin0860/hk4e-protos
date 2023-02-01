@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message ActivityTakeWatcherRewardRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 2009;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	int32 retcode = 9;
+	uint32 watcherId = 5;
+	uint32 activityId = 3;
+}
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MistTrialBestAvatar.proto";
+
+message MistTrialSettleNotify {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 8408;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// 	IS_ALLOW_CLIENT = 1;
+	// }
+
+	MistTrialBestAvatar bestHitAvatar = 2;
+	map<uint32, uint32> Unk3300_KFKHAACDJDJ = 10;
+	repeated MistTrialBestAvatar bestAvatarList = 5;
+	uint32 firstPassTime = 9;
+	uint32 dungeonSceneId = 14;
+	map<uint32, uint32> Unk3300_GMPEELLANLI = 11;
+}
+
+
+

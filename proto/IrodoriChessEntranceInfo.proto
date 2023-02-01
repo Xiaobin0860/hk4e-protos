@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "IrodoriChessMonsterInfo.proto";
+
+message IrodoriChessEntranceInfo {
+	uint32 dfpedbghhma = 10;
+	repeated IrodoriChessMonsterInfo lhjhgbpjpkl = 8;
+}
+
+
+

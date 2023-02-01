@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HomeFurnitureData.proto";
+
+message HomeFurnitureGroupData {
+	repeated HomeFurnitureData virtualFurnitureList = 12;
+	uint32 groupFurnitureIndex = 4;
+}
+
+
+

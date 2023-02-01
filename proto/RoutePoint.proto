@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Vector.proto";
+import "MathQuaternion.proto";
+
+message RoutePoint {
+	Vector position = 1;
+	float arriveRange = 2;
+	bool hasReachEvent = 3;
+	oneof move_params {
+		float velocity = 11;
+		float time = 12;
+	}
+	oneof rotate_params {
+		Vector Vector = 21;
+		MathQuaternion rotation_speed = 22;
+		MathQuaternion axis_speed = 23;
+	}
+}
+
+
+

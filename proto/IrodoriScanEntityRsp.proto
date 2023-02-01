@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "IrodoriPoetryThemeData.proto";
+
+message IrodoriScanEntityRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 8540;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	bool isGetInspiration = 4;
+	IrodoriPoetryThemeData themeData = 8;
+	int32 retcode = 12;
+}
+
+
+

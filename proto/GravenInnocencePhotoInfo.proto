@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GravenInnocencePhotoObjectInfo.proto";
+import "GravenInnocencePhotoStageInfo.proto";
+
+message GravenInnocencePhotoInfo {
+	repeated GravenInnocencePhotoObjectInfo objectInfoList = 10;
+	repeated GravenInnocencePhotoStageInfo stageInfoList = 3;
+}
+
+
+

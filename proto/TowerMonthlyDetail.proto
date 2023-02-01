@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "TowerMonthlyBrief.proto";
+import "TowerMonthlyCombatRecord.proto";
+
+message TowerMonthlyDetail {
+	TowerMonthlyBrief monthlyBrief = 5;
+	TowerMonthlyCombatRecord monthlyCombatRecord = 1;
+}
+
+
+

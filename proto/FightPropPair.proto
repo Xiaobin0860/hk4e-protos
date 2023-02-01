@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message FightPropPair {
+	uint32 propType = 1;
+	float propValue = 2;
+}
+
+
+

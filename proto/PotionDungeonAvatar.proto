@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message PotionDungeonAvatar {
+	uint64 avatarGuid = 13;
+	bool isTrial = 7;
+}
+
+
+

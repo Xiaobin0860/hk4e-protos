@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ReunionMissionInfo.proto";
+
+message TakeReunionMissionRewardRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 5092;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// 	IS_ALLOW_CLIENT = 1;
+	// }
+
+	ReunionMissionInfo missionInfo = 12;
+	uint32 rewardIndex = 5;
+	int32 retcode = 4;
+	uint32 rewardId = 11;
+}
+
+
+

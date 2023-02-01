@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "WidgetCoolDownData.proto";
+
+message WidgetCoolDownNotify {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 4290;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	repeated WidgetCoolDownData normalCoolDownDataList = 15;
+	repeated WidgetCoolDownData groupCoolDownDataList = 10;
+}
+
+
+

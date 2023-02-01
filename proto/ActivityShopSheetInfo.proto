@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message ActivityShopSheetInfo {
+	uint32 beginTime = 5;
+	uint32 sheetId = 14;
+	uint32 endTime = 12;
+}
+
+
+

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message ActivityDungeonAvatar {
+	uint32 avatarId = 1;
+	bool isTrial = 2;
+	uint32 costumeId = 3;
+}
+
+
+

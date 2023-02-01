@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message TowerLevelRecord {
+	uint32 levelId = 11;
+	repeated uint32 satisfiedCondList = 7;
+}
+
+
+

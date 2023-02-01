@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message ReadNicknameAuditRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 102;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// 	IS_ALLOW_CLIENT = 1;
+	// }
+
+	uint32 mbbjhalknla = 13;
+	bool fdabeplffil = 8;
+	uint32 nnnnclfpean = 9;
+	uint32 ejkmamgnbgj = 3;
+}
+
+
+

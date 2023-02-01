@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message AvatarEquipAffixInfo {
+	uint32 equipAffixId = 1;
+	uint32 leftCdTime = 2;
+}
+
+
+

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MatchType.proto";
+
+message PlayerConfirmMatchRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 4166;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	bool isAgreed = 6;
+	MatchType matchType = 12;
+	uint32 matchId = 3;
+	int32 retcode = 1;
+}
+
+
+

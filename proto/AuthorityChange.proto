@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "EntityAuthorityInfo.proto";
+
+message AuthorityChange {
+	uint32 authorityPeerId = 2;
+	EntityAuthorityInfo entityAuthorityInfo = 4;
+	uint32 entityId = 14;
+}
+
+
+

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Uint32Pair.proto";
+
+message UpdateController {
+	repeated Uint32Pair allowControllerMap = 3;
+}
+
+
+

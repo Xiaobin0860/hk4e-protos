@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ProfilePicture.proto";
+
+message PlantFlowerFriendFlowerWishData {
+	ProfilePicture profilePicture = 15;
+	string nickname = 3;
+	uint32 uid = 6;
+	map<uint32, uint32> flowerNumMap = 7;
+}
+
+
+

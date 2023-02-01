@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGCard.proto";
+
+message NewCard {
+	GCGCard card = 5;
+}
+
+
+

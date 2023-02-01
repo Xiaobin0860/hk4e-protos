@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "FishBattleResult.proto";
+import "FishNoRewardReason.proto";
+import "ItemParam.proto";
+
+message FishBattleEndRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 5814;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	repeated ItemParam rewardItemList = 3;
+	repeated ItemParam Unk3300_MDCKKPGNKGL = 12;
+	FishBattleResult battleResult = 10;
+	FishNoRewardReason noRewardReason = 5;
+	bool isGotReward = 8;
+	int32 retcode = 2;
+	repeated ItemParam Unk3300_ABBBGOBDJEC = 15;
+}
+
+
+

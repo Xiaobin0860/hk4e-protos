@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message AiSyncInfo {
+	uint32 entityId = 1;
+	bool has_path_to_target = 2;
+	bool is_self_killing = 10;
+}
+
+
+

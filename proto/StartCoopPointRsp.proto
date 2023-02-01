@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MainCoop.proto";
+
+message StartCoopPointRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 1992;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	int32 retcode = 10;
+	bool isStart = 5;
+	MainCoop startMainCoop = 7;
+	uint32 coopPoint = 13;
+}
+
+
+

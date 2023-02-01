@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message IrodoriChessPlayerInfo {
+	uint32 settleScore = 4;
+	uint32 buildingPoints = 8;
+	uint32 uid = 9;
+}
+
+
+

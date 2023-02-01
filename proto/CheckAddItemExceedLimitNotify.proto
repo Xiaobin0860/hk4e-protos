@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ItemExceedLimitMsgType.proto";
+
+message CheckAddItemExceedLimitNotify {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 634;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	repeated uint32 finishedChallengeIdList = 15;
+	repeated uint32 exceededItemList = 5;
+	uint32 reason = 2;
+	ItemExceedLimitMsgType msgType = 7;
+	bool isDrop = 1;
+}
+
+
+

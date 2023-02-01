@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message BounceConjuringChapterInfo {
+	uint32 chapterId = 2;
+	uint32 bestScore = 3;
+	uint32 openTime = 11;
+}
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "QuestVarOp.proto";
+
+message QuestUpdateQuestVarReq {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 439;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// 	IS_ALLOW_CLIENT = 1;
+	// }
+
+	uint32 parentQuestVarSeq = 9;
+	uint32 parentQuestId = 12;
+	repeated QuestVarOp questVarOpList = 4;
+	uint32 questId = 3;
+}
+
+
+

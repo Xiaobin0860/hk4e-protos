@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message GalleryFallCatchNotify {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 5520;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// }
+
+	uint32 timeCost = 1;
+	uint32 addScore = 4;
+	uint32 galleryId = 2;
+	uint32 curScore = 5;
+	bool isGround = 3;
+	map<uint32, uint32> ballCatchCountMap = 15;
+}
+
+
+

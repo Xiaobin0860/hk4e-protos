@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message CityInfo {
+	uint32 crystalNum = 15;
+	uint32 cityId = 6;
+	uint32 level = 11;
+}
+
+
+

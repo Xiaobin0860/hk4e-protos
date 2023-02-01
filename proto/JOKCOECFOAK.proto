@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message JOKCOECFOAK {
+	repeated uint32 data = 8;
+}
+
+
+

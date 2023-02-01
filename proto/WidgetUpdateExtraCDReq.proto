@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "WidgetExtraCdType.proto";
+
+message WidgetUpdateExtraCDReq {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 5973;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// 	IS_ALLOW_CLIENT = 1;
+	// }
+
+	WidgetExtraCdType extraCdType = 9;
+	uint32 materialId = 11;
+	uint32 cdGroup = 7;
+}
+
+
+

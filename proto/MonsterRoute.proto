@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "RoutePoint.proto";
+
+message MonsterRoute {
+	repeated RoutePoint routePoints = 1;
+	uint32 speedLevel = 2;
+	uint32 routeType = 3;
+	float arriveRange = 4;
+}
+
+
+

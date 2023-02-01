@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message BonusActivityInfo {
+	uint32 bonusActivityId = 5;
+	uint32 state = 4;
+}
+
+
+

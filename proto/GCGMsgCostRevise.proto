@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGCostReviseInfo.proto";
+
+message GCGMsgCostRevise {
+	uint32 controllerId = 15;
+	GCGCostReviseInfo costRevise = 10;
+}
+
+
+

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "WidgetSlotData.proto";
+
+message PlayerWidgetInfo {
+	repeated WidgetSlotData slotList = 15;
+	uint32 uid = 10;
+}
+
+
+

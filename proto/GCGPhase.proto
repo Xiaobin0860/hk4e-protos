@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGPhaseType.proto";
+
+message GCGPhase {
+	GCGPhaseType phaseType = 5;
+	map<uint32, uint32> allowControllerMap = 14;
+}
+
+
+

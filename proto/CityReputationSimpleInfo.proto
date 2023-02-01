@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message CityReputationSimpleInfo {
+	uint32 level = 10;
+	uint32 cityId = 8;
+}
+
+
+

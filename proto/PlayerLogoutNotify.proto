@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+message PlayerLogoutNotify {
+	// enum CmdId {
+	// 	NONE = 0;
+	// 	CMD_ID = 180;
+	// }
+
+	int32 retcode = 7;
+}
+
+
+

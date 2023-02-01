@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "DraftInviteFailInfo.proto";
+
+message DraftOwnerStartInviteRsp {
+	// enum CmdId {
+	// 	option allow_alias = true;
+	// 	NONE = 0;
+	// 	CMD_ID = 5498;
+	// 	ENET_CHANNEL_ID = 0;
+	// 	ENET_IS_RELIABLE = 1;
+	// 	IS_ALLOW_CLIENT = 1;
+	// }
+
+	repeated DraftInviteFailInfo inviteFailInfoList = 6;
+	int32 retcode = 11;
+	uint32 draftId = 9;
+	uint32 wrongUid = 15;
+}
+
+
+
