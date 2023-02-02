@@ -4,9 +4,13 @@ option go_package = "./;proto";
 
 import "AbilityAppliedAbility.proto";
 
-message BKJPMFGNDAE {
-	AbilityAppliedAbility eiemljpbfin = 4;
+message AbilityMetaAddAbility {
+	AbilityAppliedAbility ability = 4;
 }
+
+
+
+
 
 
 

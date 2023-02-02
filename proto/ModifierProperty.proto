@@ -4,7 +4,7 @@ option go_package = "./;proto";
 
 import "AbilityString.proto";
 
-message DJOOIPGJPFC {
+message ModifierProperty {
 	float value = 14;
 	AbilityString key = 8;
 }
