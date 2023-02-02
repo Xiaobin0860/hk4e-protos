@@ -2,8 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message BGADCCEEGAO {
-	bool fhkoemgadhe = 1;
+message AbilityMixinCostStamina {
+	bool isSwim = 1;
 }
 
 
