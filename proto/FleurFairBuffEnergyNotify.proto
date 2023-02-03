@@ -13,6 +13,3 @@ message FleurFairBuffEnergyNotify {
 
 	uint32 energy = 1;
 }
-
-
-

@@ -15,6 +15,3 @@ message GroupLinkMarkUpdateNotify {
 
 	GroupLinkBundle bundle = 7;
 }
-
-
-

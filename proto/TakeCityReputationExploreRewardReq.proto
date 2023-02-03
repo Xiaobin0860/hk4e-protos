@@ -15,6 +15,3 @@ message TakeCityReputationExploreRewardReq {
 	repeated uint32 exploreIdList = 14;
 	uint32 cityId = 1;
 }
-
-
-

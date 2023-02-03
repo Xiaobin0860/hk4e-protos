@@ -14,6 +14,3 @@ message LevelTagDataNotify {
 
 	repeated uint32 levelTagIdList = 11;
 }
-
-
-

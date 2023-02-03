@@ -11,6 +11,3 @@ message ActivityRecvGiftData {
 	map<uint32, uint32> giftNumMap = 8;
 	ProfilePicture profilePicture = 5;
 }
-
-
-

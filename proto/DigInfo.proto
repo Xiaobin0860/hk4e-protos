@@ -9,6 +9,3 @@ message DigInfo {
 	repeated DigMarkPoint digMarkPointList = 2;
 	uint32 stageId = 10;
 }
-
-
-

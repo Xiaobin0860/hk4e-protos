@@ -13,6 +13,3 @@ message SetH5ActivityRedDotTimestampRsp {
 
 	int32 retcode = 4;
 }
-
-
-

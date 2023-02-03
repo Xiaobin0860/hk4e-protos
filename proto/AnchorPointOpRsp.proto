@@ -15,6 +15,3 @@ message AnchorPointOpRsp {
 	int32 retcode = 4;
 	uint32 anchorPointOpType = 11;
 }
-
-
-

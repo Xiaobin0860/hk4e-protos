@@ -7,6 +7,3 @@ message MuqadasPotionLevelData {
 	bool isOpen = 10;
 	uint32 maxScore = 6;
 }
-
-
-

@@ -11,6 +11,3 @@ message TreasureMapDetectorData {
 	Vector centerPos = 8;
 	bool isRegionDetected = 12;
 }
-
-
-

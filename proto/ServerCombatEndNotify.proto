@@ -13,6 +13,3 @@ message ServerCombatEndNotify {
 
 	repeated uint32 combatEndTypeList = 15;
 }
-
-
-

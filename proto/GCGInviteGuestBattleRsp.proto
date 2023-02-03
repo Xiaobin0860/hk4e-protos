@@ -14,6 +14,3 @@ message GCGInviteGuestBattleRsp {
 	int32 retcode = 13;
 	uint32 level = 6;
 }
-
-
-

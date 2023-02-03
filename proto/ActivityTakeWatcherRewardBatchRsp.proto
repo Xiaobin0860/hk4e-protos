@@ -18,6 +18,3 @@ message ActivityTakeWatcherRewardBatchRsp {
 	repeated ItemParam itemList = 8;
 	int32 retcode = 15;
 }
-
-
-

@@ -8,6 +8,3 @@ message TowerLevelStarCondData {
 	bool Unk3300_CPBCNACKAAK = 2;
 	uint32 condValue = 8;
 }
-
-
-

@@ -18,6 +18,3 @@ message EvtAvatarLockChairRsp {
 	int32 retcode = 12;
 	uint32 entityId = 4;
 }
-
-
-

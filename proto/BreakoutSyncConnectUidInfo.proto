@@ -7,6 +7,3 @@ message BreakoutSyncConnectUidInfo {
 	repeated uint32 skillIdList = 2;
 	repeated uint32 namghchjljl = 3;
 }
-
-
-

@@ -16,6 +16,3 @@ message GetReunionMissionInfoRsp {
 	ReunionMissionInfo missionInfo = 4;
 	int32 retcode = 15;
 }
-
-
-

@@ -18,6 +18,3 @@ message GetPlayerFriendListRsp {
 	repeated FriendBrief friendList = 11;
 	int32 retcode = 12;
 }
-
-
-

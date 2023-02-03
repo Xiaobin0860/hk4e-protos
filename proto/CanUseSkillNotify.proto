@@ -13,6 +13,3 @@ message CanUseSkillNotify {
 
 	bool isCanUseSkill = 2;
 }
-
-
-

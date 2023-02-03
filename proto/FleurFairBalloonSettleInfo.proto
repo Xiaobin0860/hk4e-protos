@@ -8,6 +8,3 @@ message FleurFairBalloonSettleInfo {
 	BalloonSettleInfo settleInfo = 13;
 	bool isNewRecord = 8;
 }
-
-
-

@@ -14,6 +14,3 @@ message WorktopOptionNotify {
 	repeated uint32 optionList = 9;
 	uint32 gadgetEntityId = 15;
 }
-
-
-

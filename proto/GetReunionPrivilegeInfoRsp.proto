@@ -16,6 +16,3 @@ message GetReunionPrivilegeInfoRsp {
 	int32 retcode = 15;
 	ReunionPrivilegeInfo privilegeInfo = 14;
 }
-
-
-

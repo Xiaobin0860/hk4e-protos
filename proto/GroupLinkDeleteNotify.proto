@@ -13,6 +13,3 @@ message GroupLinkDeleteNotify {
 
 	uint32 bundleId = 13;
 }
-
-
-

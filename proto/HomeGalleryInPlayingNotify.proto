@@ -13,6 +13,3 @@ message HomeGalleryInPlayingNotify {
 
 	uint32 galleryId = 12;
 }
-
-
-

@@ -23,6 +23,3 @@ message CompoundUnlockNotify {
 		ElementReliquaryRequest element_reliquary_request = 1105;
 	}
 }
-
-
-

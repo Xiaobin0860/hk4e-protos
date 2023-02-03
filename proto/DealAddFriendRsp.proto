@@ -18,6 +18,3 @@ message DealAddFriendRsp {
 	int32 retcode = 3;
 	uint32 targetUid = 4;
 }
-
-
-

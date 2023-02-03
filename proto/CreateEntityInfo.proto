@@ -18,6 +18,3 @@ message CreateEntityInfo {
 	uint32 roomId = 11;
 	uint32 clientUniqueId = 12;
 }
-
-
-

@@ -14,6 +14,3 @@ message MistTrialGetChallengeMissionReq {
 
 	uint32 trialId = 3;
 }
-
-
-

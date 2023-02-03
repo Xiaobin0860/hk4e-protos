@@ -9,6 +9,3 @@ message LunaRiteInfo {
 	repeated LunaRiteHintPoint hintPoint = 8;
 	repeated LunaRiteAreaInfo areaInfoList = 9;
 }
-
-
-

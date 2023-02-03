@@ -30,6 +30,3 @@ enum GCGActionType {
   GCG_ACTION_TRIGGER_SKILL         = 24;
   GCG_ACTION_BEFORE_NEXT_OPERATION = 25;
 }
-
-
-

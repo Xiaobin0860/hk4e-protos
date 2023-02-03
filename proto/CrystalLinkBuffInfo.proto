@@ -6,6 +6,3 @@ message CrystalLinkBuffInfo {
 	uint32 Unk3300_BGKLAFCBNOA = 8;
 	uint32 Unk3300_PFLAOCMEFIL = 7;
 }
-
-
-

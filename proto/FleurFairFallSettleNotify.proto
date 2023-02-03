@@ -16,6 +16,3 @@ message FleurFairFallSettleNotify {
 	map<uint32, FleurFairFallSettleInfo> settleInfoMap = 5;
 	uint32 minigameId = 12;
 }
-
-
-

@@ -8,6 +8,3 @@ message FleurFairFallSettleInfo {
 	FallSettleInfo settleInfo = 11;
 	bool isNewRecord = 14;
 }
-
-
-

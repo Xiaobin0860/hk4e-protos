@@ -7,6 +7,3 @@ import "GCGCard.proto";
 message NewCard {
 	GCGCard card = 5;
 }
-
-
-

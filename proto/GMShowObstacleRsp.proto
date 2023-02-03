@@ -16,6 +16,3 @@ message GMShowObstacleRsp {
 	int32 retcode = 12;
 	repeated GMObstacleInfo obstacles = 7;
 }
-
-
-

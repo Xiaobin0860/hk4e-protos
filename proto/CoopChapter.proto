@@ -19,6 +19,3 @@ message CoopChapter {
 	uint32 id = 6;
 	uint32 totalEndCount = 14;
 }
-
-
-

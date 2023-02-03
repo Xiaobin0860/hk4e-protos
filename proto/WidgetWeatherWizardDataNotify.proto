@@ -13,6 +13,3 @@ message WidgetWeatherWizardDataNotify {
 
 	uint32 shieldValue = 15;
 }
-
-
-

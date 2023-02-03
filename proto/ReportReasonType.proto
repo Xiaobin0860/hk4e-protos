@@ -11,6 +11,3 @@ enum ReportReasonType {
   REPORT_REASON_OTHER         = 5;
   REPORT_REASON_HOME          = 6;
 }
-
-
-

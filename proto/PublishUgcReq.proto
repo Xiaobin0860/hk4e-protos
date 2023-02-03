@@ -17,6 +17,3 @@ message PublishUgcReq {
 	UgcType ugcType = 9;
 	uint64 ugcGuid = 14;
 }
-
-
-

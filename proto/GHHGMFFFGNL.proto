@@ -19,6 +19,3 @@ message GHHGMFFFGNL {
 	uint32 difficulty = 9;
 	bool isSucc = 7;
 }
-
-
-

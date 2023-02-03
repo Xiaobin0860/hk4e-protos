@@ -9,6 +9,3 @@ message FireworksLaunchSchemeData {
 	repeated FireworksLaunchParam launchParamList = 13;
 	repeated uint32 fireworksIdList = 1;
 }
-
-
-

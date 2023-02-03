@@ -13,6 +13,3 @@ message MichiaeMatsuriDarkPressureLevelUpdateNotify {
 
 	uint32 darkPressureLevel = 15;
 }
-
-
-

@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message FBCAAKCBPMH {
 	uint32 targetEntityId = 7;
 }
-
-
-

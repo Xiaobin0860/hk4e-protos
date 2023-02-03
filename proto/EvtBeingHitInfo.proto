@@ -9,6 +9,3 @@ message EvtBeingHitInfo {
 	uint32 peerId = 7;
 	uint32 frameNum = 10;
 }
-
-
-

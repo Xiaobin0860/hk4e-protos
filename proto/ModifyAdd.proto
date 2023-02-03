@@ -11,6 +11,3 @@ message ModifyAdd {
 	GCGReason reason = 14;
 	repeated uint32 cardGuidList = 4;
 }
-
-
-

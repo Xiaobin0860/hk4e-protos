@@ -16,6 +16,3 @@ message SignInInfoRsp {
 	int32 retcode = 15;
 	repeated SignInInfo signInInfoList = 1;
 }
-
-
-

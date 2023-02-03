@@ -15,6 +15,3 @@ message ScenePlayBattleInfoNotify {
 
 	ScenePlayBattleInfo battleInfo = 3;
 }
-
-
-

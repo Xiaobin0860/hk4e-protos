@@ -15,6 +15,3 @@ message SceneGalleryInfoNotify {
 
 	SceneGalleryInfo galleryInfo = 7;
 }
-
-
-

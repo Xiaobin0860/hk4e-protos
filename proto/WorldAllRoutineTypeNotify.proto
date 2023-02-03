@@ -15,6 +15,3 @@ message WorldAllRoutineTypeNotify {
 
 	repeated WorldRoutineTypeInfo worldRoutineTypeList = 4;
 }
-
-
-

@@ -15,6 +15,3 @@ message TakeReunionWatcherRewardRsp {
 	int32 retcode = 1;
 	uint32 missionId = 3;
 }
-
-
-

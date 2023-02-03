@@ -7,6 +7,3 @@ import "VintageMarketTraderInfo.proto";
 message VintageMarketDealInfo {
 	map<uint32, VintageMarketTraderInfo> traderItemInfoMap = 13;
 }
-
-
-

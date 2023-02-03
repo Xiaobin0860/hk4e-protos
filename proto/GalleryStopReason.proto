@@ -16,6 +16,3 @@ enum GalleryStopReason {
   GALLERY_STOP_FUNGUS_ALL_DIE        = 10;
   GALLERY_STOP_LIFE_COUNT_ZERO       = 11;
 }
-
-
-

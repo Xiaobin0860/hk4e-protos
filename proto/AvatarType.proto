@@ -8,6 +8,3 @@ enum AvatarType {
   AVATAR_TYPE_TRIAL  = 2;
   AVATAR_TYPE_MIRROR = 3;
 }
-
-
-

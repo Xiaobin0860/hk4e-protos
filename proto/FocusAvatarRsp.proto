@@ -15,6 +15,3 @@ message FocusAvatarRsp {
 	int32 retcode = 1;
 	uint64 avatarGuid = 15;
 }
-
-
-

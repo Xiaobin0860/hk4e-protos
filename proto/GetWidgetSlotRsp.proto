@@ -16,6 +16,3 @@ message GetWidgetSlotRsp {
 	int32 retcode = 15;
 	repeated WidgetSlotData slotList = 13;
 }
-
-
-

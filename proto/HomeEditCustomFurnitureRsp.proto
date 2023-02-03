@@ -16,6 +16,3 @@ message HomeEditCustomFurnitureRsp {
 	int32 retcode = 7;
 	HomeCustomFurnitureInfo customFurnitureInfo = 11;
 }
-
-
-

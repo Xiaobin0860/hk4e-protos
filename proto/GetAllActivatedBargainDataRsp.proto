@@ -16,6 +16,3 @@ message GetAllActivatedBargainDataRsp {
 	repeated BargainSnapshot snapshotList = 2;
 	int32 retcode = 14;
 }
-
-
-

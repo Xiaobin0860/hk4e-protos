@@ -16,6 +16,3 @@ message NpcTalkRsp {
 	uint32 curTalkId = 1;
 	uint32 entityId = 9;
 }
-
-
-

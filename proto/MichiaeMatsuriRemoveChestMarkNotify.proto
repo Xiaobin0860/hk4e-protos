@@ -14,6 +14,3 @@ message MichiaeMatsuriRemoveChestMarkNotify {
 	uint32 groupId = 8;
 	uint32 configId = 10;
 }
-
-
-

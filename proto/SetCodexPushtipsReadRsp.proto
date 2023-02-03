@@ -15,6 +15,3 @@ message SetCodexPushtipsReadRsp {
 	uint32 typeId = 4;
 	int32 retcode = 11;
 }
-
-
-

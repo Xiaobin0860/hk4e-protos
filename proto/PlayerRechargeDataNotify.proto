@@ -16,6 +16,3 @@ message PlayerRechargeDataNotify {
 	uint32 cardProductRemainDays = 14;
 	repeated ProductPriceTier productPriceTierList = 10;
 }
-
-
-

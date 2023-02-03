@@ -10,6 +10,3 @@ message EffigyChallengeV2SettleInfo {
 	uint32 challengeModeDifficulty = 13;
 	bool Unk3300_NGBKNDHJPCP = 1;
 }
-
-
-

@@ -13,6 +13,3 @@ message AvatarCardChangeRsp {
 
 	int32 retcode = 10;
 }
-
-
-

@@ -8,6 +8,3 @@ message MapMarkTipsInfo {
 	MapMarkTipsType tipsType = 1;
 	repeated uint32 pointIdList = 2;
 }
-
-
-

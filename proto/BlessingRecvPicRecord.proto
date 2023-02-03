@@ -15,6 +15,3 @@ message BlessingRecvPicRecord {
 	string nickname = 12;
 	bool isRecv = 7;
 }
-
-
-

@@ -17,6 +17,3 @@ message GetNextResourceInfoRsp {
 	int32 retcode = 9;
 	string nextResourceUrl = 1;
 }
-
-
-

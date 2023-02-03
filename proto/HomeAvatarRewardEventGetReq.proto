@@ -15,6 +15,3 @@ message HomeAvatarRewardEventGetReq {
 	uint32 eventId = 7;
 	uint32 avatarId = 12;
 }
-
-
-

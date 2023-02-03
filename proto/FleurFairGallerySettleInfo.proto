@@ -9,6 +9,3 @@ message FleurFairGallerySettleInfo {
 	uint32 galleryStageCount = 14;
 	uint32 galleryStageIndex = 15;
 }
-
-
-

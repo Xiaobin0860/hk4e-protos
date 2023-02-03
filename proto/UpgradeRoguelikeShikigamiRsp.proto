@@ -15,6 +15,3 @@ message UpgradeRoguelikeShikigamiRsp {
 	uint32 shikigamiGroupId = 5;
 	int32 retcode = 9;
 }
-
-
-

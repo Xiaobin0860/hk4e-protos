@@ -15,6 +15,3 @@ message StartFishingReq {
 	uint32 rodEntityId = 14;
 	uint32 fishPoolId = 3;
 }
-
-
-

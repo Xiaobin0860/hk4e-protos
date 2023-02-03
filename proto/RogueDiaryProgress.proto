@@ -9,6 +9,3 @@ message RogueDiaryProgress {
 	uint32 stageId = 3;
 	uint32 difficulty = 11;
 }
-
-
-

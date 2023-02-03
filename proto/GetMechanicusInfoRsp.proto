@@ -16,6 +16,3 @@ message GetMechanicusInfoRsp {
 	MechanicusInfo mechanicusInfo = 1;
 	int32 retcode = 12;
 }
-
-
-

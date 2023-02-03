@@ -16,6 +16,3 @@ message NpcTalkReq {
 	uint32 entityId = 11;
 	uint32 talkId = 15;
 }
-
-
-

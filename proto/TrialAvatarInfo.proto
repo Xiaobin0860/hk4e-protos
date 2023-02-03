@@ -10,6 +10,3 @@ message TrialAvatarInfo {
 	repeated Item trialEquipList = 2;
 	TrialAvatarGrantRecord grantRecord = 3;
 }
-
-
-

@@ -17,6 +17,3 @@ message RegionSearchChangeRegionNotify {
 	uint32 regionId = 8;
 	RegionEvent event = 12;
 }
-
-
-

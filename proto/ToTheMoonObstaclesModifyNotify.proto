@@ -19,6 +19,3 @@ message ToTheMoonObstaclesModifyNotify {
 	repeated int32 removeObstacleIds = 4;
 	repeated ToTheMoonObstacleInfo addObstacles = 14;
 }
-
-
-

@@ -15,6 +15,3 @@ message DungeonEntryToBeExploreNotify {
 	uint32 dungeonEntryScenePointId = 6;
 	uint32 dungeonEntryConfigId = 4;
 }
-
-
-

@@ -7,6 +7,3 @@ enum GetUgcType {
   GET_UGC_TYPE_MINE    = 1;
   GET_UGC_TYPE_PUBLISH = 2;
 }
-
-
-

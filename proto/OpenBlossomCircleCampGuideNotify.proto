@@ -15,6 +15,3 @@ message OpenBlossomCircleCampGuideNotify {
 	repeated uint32 circleCampIdList = 13;
 	uint32 refreshId = 5;
 }
-
-
-

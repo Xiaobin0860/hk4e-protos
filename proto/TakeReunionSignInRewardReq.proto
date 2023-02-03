@@ -15,6 +15,3 @@ message TakeReunionSignInRewardReq {
 	uint32 rewardDay = 2;
 	uint32 configId = 3;
 }
-
-
-

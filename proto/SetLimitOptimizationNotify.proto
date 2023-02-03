@@ -13,6 +13,3 @@ message SetLimitOptimizationNotify {
 
 	bool isActive = 10;
 }
-
-
-

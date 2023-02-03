@@ -9,6 +9,3 @@ message WorldRoutineTypeInfo {
 	uint32 nextRefreshTime = 15;
 	repeated WorldRoutineInfo worldRoutineInfoList = 6;
 }
-
-
-

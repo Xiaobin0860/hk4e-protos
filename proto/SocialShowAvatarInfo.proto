@@ -7,6 +7,3 @@ message SocialShowAvatarInfo {
 	uint32 level = 2;
 	uint32 costumeId = 3;
 }
-
-
-

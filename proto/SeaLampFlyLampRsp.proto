@@ -15,6 +15,3 @@ message SeaLampFlyLampRsp {
 	int32 retcode = 3;
 	uint32 itemId = 2;
 }
-
-
-

@@ -17,6 +17,3 @@ message FishAttractNotify {
 	repeated uint32 fishIdList = 5;
 	uint32 uid = 10;
 }
-
-
-

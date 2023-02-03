@@ -14,6 +14,3 @@ message VintageMarketDeliverItemRsp {
 	uint32 traderId = 14;
 	int32 retcode = 10;
 }
-
-
-

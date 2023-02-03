@@ -21,6 +21,3 @@ message AbilityAppliedModifier {
 	uint32 sbuffUid = 12;
 	bool isServerbuffModifier = 13;
 }
-
-
-

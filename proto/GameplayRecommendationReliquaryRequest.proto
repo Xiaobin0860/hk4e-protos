@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message GameplayRecommendationReliquaryRequest {
 	uint32 equipType = 7;
 }
-
-
-

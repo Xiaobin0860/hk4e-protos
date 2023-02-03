@@ -13,6 +13,3 @@ message ExpeditionChallengeFinishedNotify {
 
 	uint32 id = 8;
 }
-
-
-

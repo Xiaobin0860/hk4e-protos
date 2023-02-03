@@ -14,6 +14,3 @@ message GCGDSTakeCardProficiencyRewardRsp {
 	uint32 retcode = 12;
 	uint32 cardId = 1;
 }
-
-
-

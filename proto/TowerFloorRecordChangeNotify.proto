@@ -16,6 +16,3 @@ message TowerFloorRecordChangeNotify {
 	bool isFinishedEntranceFloor = 11;
 	repeated TowerFloorRecord towerFloorRecordList = 12;
 }
-
-
-

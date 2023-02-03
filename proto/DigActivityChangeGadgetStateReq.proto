@@ -14,6 +14,3 @@ message DigActivityChangeGadgetStateReq {
 
 	uint32 entityId = 6;
 }
-
-
-

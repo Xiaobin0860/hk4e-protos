@@ -8,6 +8,3 @@ message AranaraCollectionSuite {
 	map<uint32, AranaraCollectionState> collectionIdStateMap = 8;
 	uint32 collectionType = 12;
 }
-
-
-

@@ -17,6 +17,3 @@ message SetPlayerHeadImageRsp {
 	uint32 avatarId = 2;
 	ProfilePicture profilePicture = 9;
 }
-
-
-

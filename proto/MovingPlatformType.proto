@@ -8,6 +8,3 @@ enum MovingPlatformType {
   MOVING_PLATFORM_ABILITY    = 2;
   MOVING_PLATFORM_ROUTE      = 3;
 }
-
-
-

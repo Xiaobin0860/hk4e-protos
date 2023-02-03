@@ -7,6 +7,3 @@ message EMFJMDELOJN {
 	bool isOpen = 1;
 	uint32 costTime = 6;
 }
-
-
-

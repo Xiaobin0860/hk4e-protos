@@ -8,6 +8,3 @@ enum MissionStatus {
     MISSION_FINISHED    = 2;
     MISSION_POINT_TAKEN = 3;
 }
-
-
-

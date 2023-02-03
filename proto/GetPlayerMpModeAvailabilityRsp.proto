@@ -15,6 +15,3 @@ message GetPlayerMpModeAvailabilityRsp {
 	int32 retcode = 3;
 	repeated uint32 paramList = 7;
 }
-
-
-

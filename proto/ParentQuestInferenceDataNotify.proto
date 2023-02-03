@@ -16,6 +16,3 @@ message ParentQuestInferenceDataNotify {
 	uint32 parentQuestId = 8;
 	repeated InferencePageInfo inferencePageList = 11;
 }
-
-
-

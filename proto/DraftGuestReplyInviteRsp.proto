@@ -15,6 +15,3 @@ message DraftGuestReplyInviteRsp {
 	bool isAgree = 7;
 	int32 retcode = 2;
 }
-
-
-

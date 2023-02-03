@@ -6,6 +6,3 @@ enum LockReason {
     LEVEL = 0;
     QUEST = 1;
 }
-
-
-

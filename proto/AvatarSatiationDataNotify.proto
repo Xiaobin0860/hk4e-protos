@@ -15,6 +15,3 @@ message AvatarSatiationDataNotify {
 
 	repeated AvatarSatiationData satiationDataList = 9;
 }
-
-
-

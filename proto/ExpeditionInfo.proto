@@ -13,6 +13,3 @@ message ExpeditionInfo {
 	uint32 Unk3300_GJLCAJOFCKL = 4;
 	repeated ExpeditionPathInfo pathInfoList = 13;
 }
-
-
-

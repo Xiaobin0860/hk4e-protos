@@ -22,6 +22,3 @@ message RechargeReq {
 	PlayProduct playProduct = 6;
 	ShopConcertProduct concertProduct = 3;
 }
-
-
-

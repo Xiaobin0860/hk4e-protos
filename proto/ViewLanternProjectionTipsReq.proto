@@ -17,6 +17,3 @@ message ViewLanternProjectionTipsReq {
 	bool isInputTips = 2;
 	ClientInputType inputType = 1;
 }
-
-
-

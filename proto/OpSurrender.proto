@@ -4,6 +4,3 @@ option go_package = "./;proto";
 
 message OpSurrender {
 }
-
-
-

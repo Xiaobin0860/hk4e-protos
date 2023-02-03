@@ -18,6 +18,3 @@ message DoGachaReq {
 	string gachaTag = 15;
 	uint32 gachaTimes = 10;
 }
-
-
-

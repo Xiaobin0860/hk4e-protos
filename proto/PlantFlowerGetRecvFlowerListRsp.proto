@@ -17,6 +17,3 @@ message PlantFlowerGetRecvFlowerListRsp {
 	int32 retcode = 10;
 	uint32 scheduleId = 11;
 }
-
-
-

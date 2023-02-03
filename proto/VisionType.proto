@@ -24,6 +24,3 @@ enum VisionType {
   VISION_FISH_QTE_SUCC     = 18;
   VISION_CAPTURE_DISAPPEAR = 19;
 }
-
-
-

@@ -13,6 +13,3 @@ message PlayerGameTimeByLuaNotify {
 
 	string gpbkdlaodce = 6;
 }
-
-
-

@@ -11,6 +11,3 @@ message Achievement {
 	Status status = 5;
 	uint32 finishTimestamp = 6;
 }
-
-
-

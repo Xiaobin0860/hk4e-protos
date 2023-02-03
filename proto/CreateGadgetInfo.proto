@@ -13,6 +13,3 @@ message CreateGadgetInfo {
 	GadgetBornType bornType = 1;
 	Chest chest = 2;
 }
-
-
-

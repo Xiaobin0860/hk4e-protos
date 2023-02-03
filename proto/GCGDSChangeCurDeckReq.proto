@@ -17,6 +17,3 @@ message GCGDSChangeCurDeckReq {
 	repeated uint32 cardList = 13;
 	repeated uint32 iegclabmkdb = 12;
 }
-
-
-

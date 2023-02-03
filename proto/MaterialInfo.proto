@@ -6,6 +6,3 @@ message MaterialInfo {
 	uint32 count = 3;
 	uint64 guid = 12;
 }
-
-
-

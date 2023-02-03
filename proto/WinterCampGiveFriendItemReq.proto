@@ -17,6 +17,3 @@ message WinterCampGiveFriendItemReq {
 	repeated ItemParam itemList = 5;
 	uint32 uid = 2;
 }
-
-
-

@@ -14,6 +14,3 @@ message TowerDailyRewardProgressChangeNotify {
 	uint32 Unk3300_OHCHCJGJIDK = 4;
 	uint32 Unk3300_JBACKENDHDG = 3;
 }
-
-
-

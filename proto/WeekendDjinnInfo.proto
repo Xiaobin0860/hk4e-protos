@@ -8,6 +8,3 @@ message WeekendDjinnInfo {
 	Vector rot = 11;
 	Vector pos = 10;
 }
-
-
-

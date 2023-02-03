@@ -17,6 +17,3 @@ message FishingGallerySettleNotify {
 	uint32 galleryId = 7;
 	uint32 levelId = 6;
 }
-
-
-

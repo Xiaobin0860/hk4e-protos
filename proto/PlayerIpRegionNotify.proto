@@ -16,6 +16,3 @@ message PlayerIpRegionNotify {
 	uint32 clientGameTime = 1;
 	uint32 gameTime = 15;
 }
-
-
-

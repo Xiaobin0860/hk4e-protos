@@ -8,6 +8,3 @@ message IrodoriChessEntranceInfo {
 	uint32 dfpedbghhma = 10;
 	repeated IrodoriChessMonsterInfo lhjhgbpjpkl = 8;
 }
-
-
-

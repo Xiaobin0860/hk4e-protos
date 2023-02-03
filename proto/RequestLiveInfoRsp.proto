@@ -16,6 +16,3 @@ message RequestLiveInfoRsp {
 	uint32 liveId = 11;
 	string Unk3300_BDOGCPKPLOK = 1;
 }
-
-
-

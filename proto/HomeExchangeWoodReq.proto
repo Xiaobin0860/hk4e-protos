@@ -15,6 +15,3 @@ message HomeExchangeWoodReq {
 	map<uint32, uint32> materialCountMap = 1;
 	uint32 woodId = 8;
 }
-
-
-

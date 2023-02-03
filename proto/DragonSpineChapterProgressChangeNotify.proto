@@ -15,6 +15,3 @@ message DragonSpineChapterProgressChangeNotify {
 	uint32 curProgress = 5;
 	uint32 scheduleId = 15;
 }
-
-
-

@@ -19,6 +19,3 @@ message HuntingStartNotify {
 	bool isFinal = 7;
 	Vector cluePosition = 14;
 }
-
-
-

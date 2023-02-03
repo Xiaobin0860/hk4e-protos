@@ -11,6 +11,3 @@ enum SalvageEscortStopReason {
   SALVAGE_ESCORT_STOP_LEAVE     = 5;
   SALVAGE_ESCORT_STOP_FULL      = 6;
 }
-
-
-

@@ -17,6 +17,3 @@ message HomeAvatarRewardEventNotify {
 	HomeAvatarRewardEventInfo rewardEvent = 12;
 	repeated HomeAvatarRewardEventInfo pendingList = 15;
 }
-
-
-

@@ -8,6 +8,3 @@ message SalvageEscortGallerySettleInfo {
 	SalvageEscortStopReason reason = 6;
 	uint32 timeRemain = 8;
 }
-
-
-

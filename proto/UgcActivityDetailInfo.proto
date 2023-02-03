@@ -10,6 +10,3 @@ message UgcActivityDetailInfo {
 	bool isEnableUgc = 15;
 	uint32 customDungeonGroupId = 3;
 }
-
-
-

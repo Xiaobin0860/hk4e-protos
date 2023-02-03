@@ -7,6 +7,3 @@ import "MistTrialLevelData.proto";
 message MistTrialActivityInfo {
 	repeated MistTrialLevelData trialLevelDataList = 7;
 }
-
-
-

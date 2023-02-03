@@ -14,6 +14,3 @@ message VintageHuntingStartGalleryReq {
 
 	uint32 stageId = 5;
 }
-
-
-

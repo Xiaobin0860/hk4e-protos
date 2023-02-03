@@ -8,6 +8,3 @@ enum AsterLittleStageState {
   ASTER_LITTLE_STAGE_STARTED   = 2;
   ASTER_LITTLE_STAGE_FINISHED  = 3;
 }
-
-
-

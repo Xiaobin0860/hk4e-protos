@@ -19,6 +19,3 @@ message VehicleInteractRsp {
 	int32 retcode = 10;
 	VehicleInteractType interactType = 8;
 }
-
-
-

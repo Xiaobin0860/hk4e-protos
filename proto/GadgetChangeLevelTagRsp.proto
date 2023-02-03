@@ -13,6 +13,3 @@ message GadgetChangeLevelTagRsp {
 
 	int32 retcode = 11;
 }
-
-
-

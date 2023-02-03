@@ -9,6 +9,3 @@ message ALCGBNPJBHL {
 	repeated MassivePropSyncInfo massivePropList = 11;
 	repeated int64 amopeajfamd = 10;
 }
-
-
-

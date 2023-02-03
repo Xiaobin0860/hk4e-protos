@@ -8,6 +8,3 @@ message SceneReliquaryInfo {
 	uint32 level = 3;
 	uint32 promoteLevel = 4;
 }
-
-
-

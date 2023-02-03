@@ -16,6 +16,3 @@ message EnterMechanicusDungeonRsp {
 	uint32 dungeonId = 9;
 	uint32 wrongUid = 14;
 }
-
-
-

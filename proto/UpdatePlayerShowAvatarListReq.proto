@@ -15,6 +15,3 @@ message UpdatePlayerShowAvatarListReq {
 	repeated uint32 showAvatarIdList = 11;
 	bool isShowAvatar = 4;
 }
-
-
-

@@ -8,6 +8,3 @@ message HomeSeekFurnitureInfo {
 	uint32 Unk3300_ENKOGPIEHFD = 8;
 	map<uint32, uint32> playerScoreMap = 12;
 }
-
-
-

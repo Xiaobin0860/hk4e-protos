@@ -24,6 +24,3 @@ message GetScenePointRsp {
 	uint32 sceneId = 14;
 	repeated uint32 groupUnlimitPointList = 1;
 }
-
-
-

@@ -6,6 +6,3 @@ message GCGDamageDetail {
 	uint32 skillId = 9;
 	uint32 cardGuid = 10;
 }
-
-
-

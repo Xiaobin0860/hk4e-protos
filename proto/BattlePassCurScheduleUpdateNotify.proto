@@ -16,6 +16,3 @@ message BattlePassCurScheduleUpdateNotify {
 	bool haveCurSchedule = 5;
 	BattlePassSchedule curSchedule = 14;
 }
-
-
-

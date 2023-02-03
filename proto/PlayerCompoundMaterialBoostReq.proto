@@ -20,6 +20,3 @@ message PlayerCompoundMaterialBoostReq {
 	repeated ItemParam ikceidbkdla = 14;
 	CompoundBoostTakeStatusType obkcgkalonf = 8;
 }
-
-
-

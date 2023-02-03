@@ -7,6 +7,3 @@ message RedPointData {
 	bool isShow = 2;
 	uint32 contentId = 3;
 }
-
-
-

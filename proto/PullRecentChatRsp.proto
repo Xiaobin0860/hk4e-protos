@@ -16,6 +16,3 @@ message PullRecentChatRsp {
 	repeated ChatInfo chatInfo = 6;
 	int32 retcode = 12;
 }
-
-
-

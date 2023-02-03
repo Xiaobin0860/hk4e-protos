@@ -14,6 +14,3 @@ message DungeonSlipRevivePointActivateRsp {
 	uint32 slipRevivePointId = 11;
 	int32 retcode = 5;
 }
-
-
-

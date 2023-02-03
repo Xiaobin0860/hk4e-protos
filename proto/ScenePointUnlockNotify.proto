@@ -17,6 +17,3 @@ message ScenePointUnlockNotify {
 	repeated uint32 hidePointList = 15;
 	repeated uint32 unhidePointList = 7;
 }
-
-
-

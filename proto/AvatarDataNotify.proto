@@ -25,6 +25,3 @@ message AvatarDataNotify {
 	repeated uint32 backupAvatarTeamOrderList = 12;
 	repeated uint64 tempAvatarGuidList = 14;
 }
-
-
-

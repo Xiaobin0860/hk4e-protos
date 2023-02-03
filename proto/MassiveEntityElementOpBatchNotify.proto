@@ -27,6 +27,3 @@ message MassiveEntityElementOpBatchNotify {
 	}
 	uint32 opIdx = 1;
 }
-
-
-

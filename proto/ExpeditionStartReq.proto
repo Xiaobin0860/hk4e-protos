@@ -17,6 +17,3 @@ message ExpeditionStartReq {
 	repeated uint32 avatarIdList = 8;
 	uint32 Unk3300_AFGPGIIGAKA = 7;
 }
-
-
-

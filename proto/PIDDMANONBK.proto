@@ -7,6 +7,3 @@ import "AbilityScalarValueEntry.proto";
 message PIDDMANONBK {
 	repeated AbilityScalarValueEntry overrideMap = 2;
 }
-
-
-

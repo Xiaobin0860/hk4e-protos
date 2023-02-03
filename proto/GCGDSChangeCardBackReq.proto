@@ -15,6 +15,3 @@ message GCGDSChangeCardBackReq {
 	uint32 cardId = 12;
 	uint32 retcode = 9;
 }
-
-
-

@@ -14,6 +14,3 @@ message GCGApplyInviteBattleRsp {
 	uint32 ljemjfinpph = 8;
 	uint32 confirmEndTime = 9;
 }
-
-
-

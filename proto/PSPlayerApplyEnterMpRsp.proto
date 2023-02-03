@@ -15,6 +15,3 @@ message PSPlayerApplyEnterMpRsp {
 	int32 retcode = 2;
 	string targetPsnId = 3;
 }
-
-
-

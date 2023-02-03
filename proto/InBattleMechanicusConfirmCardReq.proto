@@ -16,6 +16,3 @@ message InBattleMechanicusConfirmCardReq {
 	uint32 groupId = 15;
 	uint32 cardId = 9;
 }
-
-
-

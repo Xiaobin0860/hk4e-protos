@@ -14,6 +14,3 @@ message EchoNotify {
 	string content = 4;
 	uint32 seqId = 3;
 }
-
-
-

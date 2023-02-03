@@ -35,6 +35,3 @@ message BeginCameraSceneLookNotify {
 	float Unk3300_HCLPGGAOIAC = 6;
 	bool Unk3300_ILMHDLHLKGJ = 9;
 }
-
-
-

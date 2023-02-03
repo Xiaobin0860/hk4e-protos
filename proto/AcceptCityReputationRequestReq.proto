@@ -15,6 +15,3 @@ message AcceptCityReputationRequestReq {
 	uint32 cityId = 2;
 	uint32 requestId = 12;
 }
-
-
-

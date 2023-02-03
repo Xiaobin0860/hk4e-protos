@@ -16,6 +16,3 @@ message WinterCampInfo {
 	bool leftMonsters = 11;
 	WinterCampStageInfo battleInfo = 10;
 }
-
-
-

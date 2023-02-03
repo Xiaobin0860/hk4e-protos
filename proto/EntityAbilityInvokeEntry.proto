@@ -8,6 +8,3 @@ message EntityAbilityInvokeEntry {
 	repeated AbilityInvokeEntry invokes = 4;
 	uint32 entityId = 9;
 }
-
-
-

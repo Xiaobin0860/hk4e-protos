@@ -7,6 +7,3 @@ import "GCGSkillLimitsInfo.proto";
 message GCGCardSkillLimitsInfo {
 	repeated GCGSkillLimitsInfo skillLimitsList = 13;
 }
-
-
-

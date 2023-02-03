@@ -13,6 +13,3 @@ message GCGHeartBeatNotify {
 
 	uint32 serverSeq = 3;
 }
-
-
-

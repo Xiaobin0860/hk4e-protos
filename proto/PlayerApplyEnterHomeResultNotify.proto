@@ -18,6 +18,3 @@ message PlayerApplyEnterHomeResultNotify {
 	bool isAgreed = 10;
 	string targetNickname = 9;
 }
-
-
-

@@ -17,6 +17,3 @@ message MiracleRingDataNotify {
 	uint32 lastTakeRewardTime = 13;
 	uint32 gadgetEntityId = 6;
 }
-
-
-

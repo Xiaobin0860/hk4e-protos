@@ -20,6 +20,3 @@ message WinterCampTriathlonSettleNotify {
 	uint32 remainTime = 7;
 	uint32 score = 1;
 }
-
-
-

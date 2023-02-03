@@ -7,6 +7,3 @@ enum GalleryStartSource {
   GALLERY_START_BY_MATCH = 1;
   GALLERY_START_BY_DRAFT = 2;
 }
-
-
-

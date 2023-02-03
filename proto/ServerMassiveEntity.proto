@@ -18,6 +18,3 @@ message ServerMassiveEntity {
 		BoxInfo box_info = 8;
 	}
 }
-
-
-

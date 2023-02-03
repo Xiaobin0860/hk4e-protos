@@ -15,6 +15,3 @@ message SetSceneWeatherAreaReq {
 	uint32 weatherGadgetId = 15;
 	map<uint32, string> weatherValueMap = 6;
 }
-
-
-

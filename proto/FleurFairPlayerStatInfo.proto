@@ -13,6 +13,3 @@ message FleurFairPlayerStatInfo {
 	uint32 headImage = 8;
 	uint32 uid = 13;
 }
-
-
-

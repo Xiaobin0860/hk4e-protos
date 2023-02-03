@@ -15,6 +15,3 @@ message SceneEntitiesMoveCombineNotify {
 
 	repeated EntityMoveInfo entityMoveInfoList = 9;
 }
-
-
-

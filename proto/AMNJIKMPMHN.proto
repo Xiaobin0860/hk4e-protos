@@ -7,6 +7,3 @@ import "BreakoutAction.proto";
 message AMNJIKMPMHN {
 	BreakoutAction henpegmkbie = 9;
 }
-
-
-

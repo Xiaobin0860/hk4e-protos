@@ -9,6 +9,3 @@ message CustomDungeonBanInfo {
 	CustomDungeonBanType banType = 6;
 	uint64 dungeonGuid = 1;
 }
-
-
-

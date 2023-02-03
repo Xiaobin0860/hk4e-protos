@@ -22,6 +22,3 @@ message AvatarLifeStateChangeNotify {
 	uint32 sourceEntityId = 5;
 	repeated ServerBuff serverBuffList = 4;
 }
-
-
-

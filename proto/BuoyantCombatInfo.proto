@@ -7,6 +7,3 @@ message BuoyantCombatInfo {
 	uint32 killSpecialMonsterCount = 15;
 	uint32 score = 12;
 }
-
-
-

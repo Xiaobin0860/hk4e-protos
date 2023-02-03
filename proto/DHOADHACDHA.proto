@@ -7,6 +7,3 @@ message DHOADHACDHA {
 	uint32 num = 6;
 	repeated uint32 type = 1;
 }
-
-
-

@@ -17,6 +17,3 @@ message DealAddFriendReq {
 	uint32 targetUid = 1;
 	DealAddFriendResultType dealAddFriendResult = 6;
 }
-
-
-

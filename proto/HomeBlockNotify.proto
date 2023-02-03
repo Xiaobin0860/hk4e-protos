@@ -13,6 +13,3 @@ message HomeBlockNotify {
 
 	uint32 endTime = 13;
 }
-
-
-

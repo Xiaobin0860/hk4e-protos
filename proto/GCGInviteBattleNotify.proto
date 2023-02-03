@@ -15,6 +15,3 @@ message GCGInviteBattleNotify {
 	uint32 uid = 11;
 	uint32 ljemjfinpph = 12;
 }
-
-
-

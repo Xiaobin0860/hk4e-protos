@@ -17,6 +17,3 @@ message GetBattlePassProductRsp {
 	uint32 curScheduleId = 6;
 	string productId = 7;
 }
-
-
-

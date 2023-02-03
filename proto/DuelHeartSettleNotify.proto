@@ -15,6 +15,3 @@ message DuelHeartSettleNotify {
 	bool isSucc = 5;
 	uint32 costTime = 1;
 }
-
-
-

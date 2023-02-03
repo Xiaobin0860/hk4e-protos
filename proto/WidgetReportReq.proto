@@ -18,6 +18,3 @@ message WidgetReportReq {
 	uint32 materialId = 5;
 	bool Unk3300_APDFKKNKIJJ = 7;
 }
-
-
-

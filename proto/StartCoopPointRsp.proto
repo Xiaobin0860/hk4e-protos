@@ -18,6 +18,3 @@ message StartCoopPointRsp {
 	MainCoop startMainCoop = 7;
 	uint32 coopPoint = 13;
 }
-
-
-

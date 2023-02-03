@@ -13,6 +13,3 @@ message MoveCard {
 	GCGZoneType to = 12;
 	GCGReason reason = 4;
 }
-
-
-

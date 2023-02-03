@@ -18,6 +18,3 @@ message EvtSetAttackTargetNotify {
 	EvtSetAttackTargetInfo evtSetAttackTargetInfo = 1;
 	ForwardType forwardType = 15;
 }
-
-
-

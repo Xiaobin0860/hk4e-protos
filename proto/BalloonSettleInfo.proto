@@ -11,6 +11,3 @@ message BalloonSettleInfo {
 	uint32 uid = 11;
 	OnlinePlayerInfo playerInfo = 15;
 }
-
-
-

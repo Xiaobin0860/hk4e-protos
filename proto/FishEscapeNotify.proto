@@ -19,6 +19,3 @@ message FishEscapeNotify {
 	repeated uint32 fishIdList = 5;
 	FishEscapeReason reason = 7;
 }
-
-
-

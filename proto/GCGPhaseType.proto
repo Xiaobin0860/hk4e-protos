@@ -15,6 +15,3 @@ enum GCGPhaseType {
   GCG_PHASE_PRE_MAIN = 9;
   GCG_PHASE_REROLL   = 10;
 }
-
-
-

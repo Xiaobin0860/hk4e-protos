@@ -18,6 +18,3 @@ message EvtAvatarSitDownNotify {
 	uint32 entityId = 4;
 	uint64 chairId = 11;
 }
-
-
-

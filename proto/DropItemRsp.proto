@@ -17,6 +17,3 @@ message DropItemRsp {
 	uint64 guid = 9;
 	int32 retcode = 10;
 }
-
-
-

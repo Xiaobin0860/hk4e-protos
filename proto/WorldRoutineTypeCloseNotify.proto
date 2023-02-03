@@ -13,6 +13,3 @@ message WorldRoutineTypeCloseNotify {
 
 	uint32 routineType = 7;
 }
-
-
-

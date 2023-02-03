@@ -18,6 +18,3 @@ message EnterCustomDungeonReq {
 	uint32 dungeonId = 13;
 	uint64 dungeonGuid = 3;
 }
-
-
-

@@ -14,6 +14,3 @@ message SignatureAuditConfigNotify {
 	bool isOpen = 11;
 	uint32 submitLimit = 13;
 }
-
-
-

@@ -17,6 +17,3 @@ message MistTrialGetChallengeMissionRsp {
 	uint32 trialId = 9;
 	repeated MistTrialMissionInfo missionInfoList = 6;
 }
-
-
-

@@ -18,6 +18,3 @@ message WidgetUpdateExtraCDReq {
 	uint32 materialId = 11;
 	uint32 cdGroup = 7;
 }
-
-
-

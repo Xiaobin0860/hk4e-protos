@@ -16,6 +16,3 @@ message GetAllSceneGalleryInfoRsp {
 	int32 retcode = 14;
 	repeated SceneGalleryInfo galleryInfoList = 8;
 }
-
-
-

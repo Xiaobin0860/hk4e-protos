@@ -19,6 +19,3 @@ message SaveCustomDungeonRoomReq {
 	CustomDungeonRoom customDungeonRoom = 15;
 	bool isUpdateSetting = 3;
 }
-
-
-

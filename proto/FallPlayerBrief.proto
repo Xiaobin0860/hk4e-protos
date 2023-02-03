@@ -7,6 +7,3 @@ message FallPlayerBrief {
 	bool isGround = 8;
 	uint32 score = 13;
 }
-
-
-

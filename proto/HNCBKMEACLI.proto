@@ -11,6 +11,3 @@ message HNCBKMEACLI {
 	uint32 bafodnbpgic = 1;
 	int32 faceAngleCompact = 10;
 }
-
-
-

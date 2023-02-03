@@ -8,6 +8,3 @@ enum ClientInputType {
   CLIENT_INPUT_GAMEPAD       = 2;
   CLIENT_INPUT_TOUCH_PANEL   = 3;
 }
-
-
-

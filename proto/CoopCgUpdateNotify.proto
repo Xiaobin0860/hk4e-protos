@@ -13,6 +13,3 @@ message CoopCgUpdateNotify {
 
 	repeated uint32 cgList = 14;
 }
-
-
-

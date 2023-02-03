@@ -8,6 +8,3 @@ message MusicRecord {
 	repeated UgcMusicTrack musicTrackList = 3;
 	uint32 musicId = 2;
 }
-
-
-

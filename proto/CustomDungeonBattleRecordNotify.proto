@@ -15,6 +15,3 @@ message CustomDungeonBattleRecordNotify {
 	uint64 dungeonGuid = 13;
 	uint32 minCostTime = 12;
 }
-
-
-

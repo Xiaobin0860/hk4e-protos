@@ -15,6 +15,3 @@ message HomePlantWeedReq {
 	uint32 index = 1;
 	uint32 fieldGuid = 7;
 }
-
-
-

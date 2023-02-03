@@ -9,6 +9,3 @@ message ReunionWatcherInfo {
 	uint32 totalProgress = 10;
 	bool isTakenReward = 5;
 }
-
-
-

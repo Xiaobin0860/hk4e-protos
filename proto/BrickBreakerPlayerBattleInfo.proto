@@ -11,6 +11,3 @@ message BrickBreakerPlayerBattleInfo {
 	repeated uint32 avatarId = 5;
 	uint32 uid = 3;
 }
-
-
-

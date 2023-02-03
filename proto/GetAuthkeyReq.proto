@@ -16,6 +16,3 @@ message GetAuthkeyReq {
 	string authAppid = 14;
 	uint32 signType = 8;
 }
-
-
-

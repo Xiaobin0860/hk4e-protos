@@ -8,6 +8,3 @@ enum CustomDungeonFinishType {
   CUSTOM_DUNGEON_FINISH_EDIT_TRY         = 2;
   CUSTOM_DUNGEON_FINISH_SELF_PLAY_NORMAL = 3;
 }
-
-
-

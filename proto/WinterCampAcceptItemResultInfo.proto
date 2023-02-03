@@ -9,6 +9,3 @@ message WinterCampAcceptItemResultInfo {
 	repeated ItemParam Unk3300_ILELLFNPDFJ = 9;
 	repeated ItemParam Unk3300_JHKOMCFHAOG = 11;
 }
-
-
-

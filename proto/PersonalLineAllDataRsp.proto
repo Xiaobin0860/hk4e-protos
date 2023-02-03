@@ -20,6 +20,3 @@ message PersonalLineAllDataRsp {
 	int32 retcode = 11;
 	repeated LockedPersonallineData lockedPersonalLineList = 10;
 }
-
-
-

@@ -10,6 +10,3 @@ enum FireworksReformParamType {
   FIREWORKS_REFORM_PARAM_DENSITY  = 4;
   FIREWORKS_REFORM_PARAM_ROTATION = 5;
 }
-
-
-

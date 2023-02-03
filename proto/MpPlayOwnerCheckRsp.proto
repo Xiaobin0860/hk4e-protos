@@ -16,6 +16,3 @@ message MpPlayOwnerCheckRsp {
 	uint32 wrongUid = 15;
 	uint32 mpPlayId = 4;
 }
-
-
-

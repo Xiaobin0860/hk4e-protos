@@ -16,6 +16,3 @@ message FurnitureMakeHelpRsp {
 	int32 retcode = 7;
 	repeated FurnitureMakeHelpData helpDataList = 4;
 }
-
-
-

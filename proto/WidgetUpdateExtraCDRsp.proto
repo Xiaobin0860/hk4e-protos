@@ -20,6 +20,3 @@ message WidgetUpdateExtraCDRsp {
 	int32 retcode = 13;
 	WidgetExtraCdType extraCdType = 4;
 }
-
-
-

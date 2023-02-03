@@ -9,6 +9,3 @@ message MistTrialBestAvatar {
 	AvatarType avatarType = 1;
 	uint32 costumeId = 3;
 }
-
-
-

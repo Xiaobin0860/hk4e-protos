@@ -12,6 +12,3 @@ message HomeBlockFieldData {
 	uint32 furnitureId = 10;
 	Vector rot = 2;
 }
-
-
-

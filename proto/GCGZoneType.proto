@@ -13,6 +13,3 @@ enum GCGZoneType {
   GCG_ZONE_ONSTAGE   = 8;
   GCG_ZONE_RULE      = 9;
 }
-
-
-

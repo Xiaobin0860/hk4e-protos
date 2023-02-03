@@ -16,6 +16,3 @@ message IrodoriChessEquipCardReq {
 	bool isHardMap = 7;
 	uint32 levelId = 12;
 }
-
-
-

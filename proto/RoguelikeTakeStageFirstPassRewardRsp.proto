@@ -14,6 +14,3 @@ message RoguelikeTakeStageFirstPassRewardRsp {
 	uint32 stageId = 2;
 	int32 retcode = 13;
 }
-
-
-

@@ -24,6 +24,3 @@ message GCGClientSettleReq {
 	uint32 gameId = 7;
 	GCGGameBusinessType businessType = 3;
 }
-
-
-

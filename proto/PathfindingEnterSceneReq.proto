@@ -22,6 +22,3 @@ message PathfindingEnterSceneReq {
 	uint32 Unk3300_MGGFOILELKH = 3;
 	repeated ObstacleInfo obstacles = 10;
 }
-
-
-

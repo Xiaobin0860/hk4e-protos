@@ -7,6 +7,3 @@ enum FriendEnterHomeOption {
   FRIEND_ENTER_HOME_OPTION_REFUSE       = 1;
   FRIEND_ENTER_HOME_OPTION_DIRECT       = 2;
 }
-
-
-

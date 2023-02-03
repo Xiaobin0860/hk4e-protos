@@ -7,6 +7,3 @@ import "LHIBCFCHIHG.proto";
 message MODKOILPBDN {
 	repeated LHIBCFCHIHG briefList = 1;
 }
-
-
-

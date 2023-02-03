@@ -15,6 +15,3 @@ message AvatarEnterElementViewNotify {
 	bool isTriggered = 6;
 	uint32 avatarEntityId = 1;
 }
-
-
-

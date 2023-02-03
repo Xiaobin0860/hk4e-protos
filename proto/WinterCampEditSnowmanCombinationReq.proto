@@ -17,6 +17,3 @@ message WinterCampEditSnowmanCombinationReq {
 	uint32 entityId = 2;
 	CustomGadgetTreeInfo combinationInfo = 4;
 }
-
-
-

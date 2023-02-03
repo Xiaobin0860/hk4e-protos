@@ -19,6 +19,3 @@ message WeaponUpgradeRsp {
 	uint32 oldLevel = 1;
 	uint64 targetWeaponGuid = 13;
 }
-
-
-

@@ -7,6 +7,3 @@ message EntityClientData {
 	float windmillSyncAngle = 2;
 	int32 windChangeTargetLevel = 3;
 }
-
-
-

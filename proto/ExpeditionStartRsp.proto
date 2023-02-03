@@ -17,6 +17,3 @@ message ExpeditionStartRsp {
 	uint32 pathId = 4;
 	repeated uint32 avatarIdList = 12;
 }
-
-
-

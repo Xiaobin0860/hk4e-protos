@@ -15,6 +15,3 @@ message DigActivityMarkPointChangeNotify {
 
 	repeated DigMarkPoint digMarkPointList = 4;
 }
-
-
-

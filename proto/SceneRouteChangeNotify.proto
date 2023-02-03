@@ -17,6 +17,3 @@ message SceneRouteChangeNotify {
 	repeated SceneRouteChangeInfo routeList = 12;
 	uint32 sceneTime = 6;
 }
-
-
-

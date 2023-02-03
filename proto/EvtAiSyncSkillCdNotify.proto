@@ -16,6 +16,3 @@ message EvtAiSyncSkillCdNotify {
 
 	map<uint32, AiSkillCdInfo> aiCdMap = 11;
 }
-
-
-

@@ -16,6 +16,3 @@ message RoguelikeEffectDataNotify {
 	repeated RogueEffectRecord curseList = 11;
 	repeated RogueEffectRecord cardList = 1;
 }
-
-
-

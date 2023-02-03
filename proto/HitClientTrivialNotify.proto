@@ -17,6 +17,3 @@ message HitClientTrivialNotify {
 	Vector position = 9;
 	uint32 ownerEntityId = 4;
 }
-
-
-

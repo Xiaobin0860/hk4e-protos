@@ -15,6 +15,3 @@ message DraftGuestReplyTwiceConfirmReq {
 	bool isAgree = 10;
 	uint32 draftId = 11;
 }
-
-
-

@@ -8,6 +8,3 @@ message AsterMidCampInfo {
 	Vector pos = 10;
 	uint32 campId = 14;
 }
-
-
-

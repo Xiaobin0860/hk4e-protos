@@ -20,6 +20,3 @@ message GetAllMailResultNotify {
 	uint32 pageIndex = 6;
 	string transaction = 15;
 }
-
-
-

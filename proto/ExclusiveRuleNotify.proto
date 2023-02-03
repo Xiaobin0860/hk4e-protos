@@ -13,6 +13,3 @@ message ExclusiveRuleNotify {
 
 	uint32 compoundId = 6;
 }
-
-
-

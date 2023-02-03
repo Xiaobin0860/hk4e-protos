@@ -19,6 +19,3 @@ message ReliquaryUpgradeRsp {
 	uint32 oldLevel = 15;
 	uint32 curLevel = 13;
 }
-
-
-

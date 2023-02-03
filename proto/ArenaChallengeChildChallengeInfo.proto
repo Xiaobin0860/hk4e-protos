@@ -9,6 +9,3 @@ message ArenaChallengeChildChallengeInfo {
 	uint32 challengeIndex = 8;
 	uint32 challengeId = 14;
 }
-
-
-

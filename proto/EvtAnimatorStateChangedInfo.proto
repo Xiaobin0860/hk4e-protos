@@ -15,6 +15,3 @@ message EvtAnimatorStateChangedInfo {
 	uint32 layer = 5;
 	Vector pos = 7;
 }
-
-
-

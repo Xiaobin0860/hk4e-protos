@@ -15,6 +15,3 @@ message EnterIrodoriChessDungeonReq {
 	uint32 levelId = 1;
 	bool isHardMap = 6;
 }
-
-
-

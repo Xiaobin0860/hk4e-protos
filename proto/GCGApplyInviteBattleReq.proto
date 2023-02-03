@@ -17,6 +17,3 @@ message GCGApplyInviteBattleReq {
 	uint32 uid = 4;
 	uint32 punishEndTime = 5;
 }
-
-
-

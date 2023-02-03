@@ -13,6 +13,3 @@ message HomeAvtarAllFinishRewardNotify {
 
 	repeated uint32 eventIdList = 7;
 }
-
-
-

@@ -16,6 +16,3 @@ message LevelupCityReq {
 	uint32 itemNum = 8;
 	uint32 areaId = 13;
 }
-
-
-

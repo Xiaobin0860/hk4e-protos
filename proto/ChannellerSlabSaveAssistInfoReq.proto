@@ -16,6 +16,3 @@ message ChannellerSlabSaveAssistInfoReq {
 
 	repeated ChannelerSlabAssistInfo assistInfoList = 6;
 }
-
-
-

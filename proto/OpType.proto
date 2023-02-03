@@ -7,6 +7,3 @@ enum OpType {
     OP_ACTIVATE   = 1;
     OP_DEACTIVATE = 2;
 }
-
-
-

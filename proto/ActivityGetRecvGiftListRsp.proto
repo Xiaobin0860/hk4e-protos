@@ -17,6 +17,3 @@ message ActivityGetRecvGiftListRsp {
 	repeated ActivityRecvGiftData recvGiftList = 7;
 	uint32 scheduleId = 10;
 }
-
-
-

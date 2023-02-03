@@ -13,6 +13,3 @@ message MechanicusCloseNotify {
 
 	uint32 mechanicusId = 12;
 }
-
-
-

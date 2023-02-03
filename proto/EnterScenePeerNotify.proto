@@ -16,6 +16,3 @@ message EnterScenePeerNotify {
 	uint32 enterSceneToken = 9;
 	uint32 peerId = 6;
 }
-
-
-

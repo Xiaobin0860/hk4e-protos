@@ -10,6 +10,3 @@ message ChannelerSlabLoopDungeonInfo {
 	uint32 openTime = 3;
 	repeated uint32 lastConditionIdList = 1;
 }
-
-
-

@@ -15,6 +15,3 @@ message MpPlayGuestReplyInviteReq {
 	uint32 mpPlayId = 6;
 	bool isAgree = 7;
 }
-
-
-

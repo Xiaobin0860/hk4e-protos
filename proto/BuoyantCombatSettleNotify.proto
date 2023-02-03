@@ -16,6 +16,3 @@ message BuoyantCombatSettleNotify {
 	BuoyantCombatSettleInfo settleInfo = 5;
 	uint32 galleryId = 15;
 }
-
-
-

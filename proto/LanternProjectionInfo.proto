@@ -11,6 +11,3 @@ message LanternProjectionInfo {
 	repeated LanternProjectionLevelInfo levelList = 11;
 	repeated uint32 openStageList = 12;
 }
-
-
-

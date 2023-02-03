@@ -17,6 +17,3 @@ message EntityAuthorityInfo {
 	repeated AnimatorParameterValueInfoPair poseParaList = 5;
 	EntityClientExtraInfo clientExtraInfo = 6;
 }
-
-
-

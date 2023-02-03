@@ -24,6 +24,3 @@ message UgcMusicBriefInfo {
 	uint32 Unk3300_KMMBLIMKJCM = 10;
 	bool isPsnPlatform = 13;
 }
-
-
-

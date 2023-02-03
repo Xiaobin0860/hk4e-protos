@@ -16,6 +16,3 @@ message AskAddFriendNotify {
 	FriendBrief targetFriendBrief = 7;
 	uint32 targetUid = 8;
 }
-
-
-

@@ -17,6 +17,3 @@ message ActivityPushTipsInfoNotify {
 	repeated ActivityPushTipsData activityPushTipsDataList = 7;
 	uint32 activityId = 9;
 }
-
-
-

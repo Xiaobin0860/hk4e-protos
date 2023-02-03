@@ -18,6 +18,3 @@ message VehicleInteractReq {
 	VehicleInteractType interactType = 11;
 	uint32 entityId = 13;
 }
-
-
-

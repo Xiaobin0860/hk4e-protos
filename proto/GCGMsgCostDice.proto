@@ -9,6 +9,3 @@ message GCGMsgCostDice {
 	uint32 controllerId = 9;
 	repeated uint32 selectDiceIndexList = 8;
 }
-
-
-

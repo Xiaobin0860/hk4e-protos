@@ -13,6 +13,3 @@ message TanukiTravelFinishGuideQuestNotify {
 
 	uint32 activityId = 7;
 }
-
-
-

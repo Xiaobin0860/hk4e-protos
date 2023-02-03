@@ -16,6 +16,3 @@ message GadgetGeneralRewardInfoNotify {
 	uint32 entityId = 5;
 	GadgetGeneralRewardInfo generalRewardInfo = 15;
 }
-
-
-

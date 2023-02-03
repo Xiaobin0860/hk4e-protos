@@ -16,6 +16,3 @@ message DungeonInterruptChallengeReq {
 	uint32 challengeId = 1;
 	uint32 challengeIndex = 11;
 }
-
-
-

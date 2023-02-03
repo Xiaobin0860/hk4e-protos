@@ -18,6 +18,3 @@ message GCGWorldChallengeUnlockNotify {
 	repeated uint32 dglpakpipci = 1;
 	repeated GCGBossChallengeData effafbokpha = 11;
 }
-
-
-

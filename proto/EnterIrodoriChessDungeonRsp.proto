@@ -15,6 +15,3 @@ message EnterIrodoriChessDungeonRsp {
 	int32 retcode = 4;
 	bool isHardMap = 3;
 }
-
-
-

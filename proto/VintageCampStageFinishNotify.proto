@@ -13,6 +13,3 @@ message VintageCampStageFinishNotify {
 
 	uint32 stageId = 7;
 }
-
-
-

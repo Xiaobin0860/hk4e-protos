@@ -8,6 +8,3 @@ message PEKDGMPDEBD {
 	Vector pos = 9;
 	Vector rot = 5;
 }
-
-
-

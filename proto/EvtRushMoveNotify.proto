@@ -18,6 +18,3 @@ message EvtRushMoveNotify {
 	EvtRushMoveInfo evtRushMoveInfo = 13;
 	ForwardType forwardType = 1;
 }
-
-
-

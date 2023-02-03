@@ -13,6 +13,3 @@ message TeamChainEnterDungeonReq {
 
 	bool gocbaipjdlk = 11;
 }
-
-
-

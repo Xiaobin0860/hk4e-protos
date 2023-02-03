@@ -11,6 +11,3 @@ message RogueDiaryInfo {
 	bool leftMonsters = 1;
 	bool isHaveProgress = 13;
 }
-
-
-

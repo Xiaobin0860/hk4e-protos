@@ -17,6 +17,3 @@ message WorldPlayerLocationNotify {
 	repeated PlayerLocationInfo playerLocList = 4;
 	repeated PlayerWorldLocationInfo playerWorldLocList = 3;
 }
-
-
-

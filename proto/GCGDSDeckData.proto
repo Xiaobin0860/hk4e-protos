@@ -12,6 +12,3 @@ message GCGDSDeckData {
 	repeated uint32 cardList = 12;
 	uint32 id = 15;
 }
-
-
-

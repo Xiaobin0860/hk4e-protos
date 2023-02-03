@@ -14,6 +14,3 @@ message RefreshRogueDiaryCardReq {
 
 	repeated uint32 refreshCardList = 4;
 }
-
-
-

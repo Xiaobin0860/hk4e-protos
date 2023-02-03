@@ -17,6 +17,3 @@ message GetSceneNpcPositionRsp {
 	repeated NpcPositionInfo npcInfoList = 6;
 	int32 retcode = 3;
 }
-
-
-

@@ -18,6 +18,3 @@ message TakeOfferingLevelRewardRsp {
 	uint32 takeLevel = 1;
 	repeated ItemParam itemList = 10;
 }
-
-
-

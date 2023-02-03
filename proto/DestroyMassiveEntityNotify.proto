@@ -16,6 +16,3 @@ message DestroyMassiveEntityNotify {
 
 	repeated ClientMassiveEntity massiveEntityList = 9;
 }
-
-
-

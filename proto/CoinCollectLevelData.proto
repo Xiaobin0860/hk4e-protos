@@ -18,6 +18,3 @@ message CoinCollectLevelData {
 	uint32 levelId = 7;
 	bool caepnfpolia = 12;
 }
-
-
-

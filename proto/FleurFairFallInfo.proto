@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message FleurFairFallInfo {
 	uint32 bestScore = 9;
 }
-
-
-

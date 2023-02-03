@@ -18,6 +18,3 @@ message UseItemReq {
 	bool isEnterMpDungeonTeam = 13;
 	uint64 targetGuid = 6;
 }
-
-
-

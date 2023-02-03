@@ -28,6 +28,3 @@ message PlayerApplyEnterMpResultNotify {
 	Reason reason = 10;
 	uint32 targetUid = 1;
 }
-
-
-

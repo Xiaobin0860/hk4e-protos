@@ -19,6 +19,3 @@ message GearActivityFinishPlayGearReq {
 	bool useClue = 13;
 	uint32 levelId = 2;
 }
-
-
-

@@ -6,6 +6,3 @@ message HPAKAIEAKFI {
 	string hmnbpjgckgn = 1;
 	bytes value = 2;
 }
-
-
-

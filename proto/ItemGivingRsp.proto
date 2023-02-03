@@ -15,6 +15,3 @@ message ItemGivingRsp {
 	int32 retcode = 13;
 	uint32 givingGroupId = 8;
 }
-
-
-

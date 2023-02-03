@@ -9,6 +9,3 @@ message InBattleFleurFairInfo {
 	uint32 enokedgdhfb = 9;
 	repeated uint32 fieibhkablj = 15;
 }
-
-
-

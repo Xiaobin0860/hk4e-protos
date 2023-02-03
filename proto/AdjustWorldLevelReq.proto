@@ -15,6 +15,3 @@ message AdjustWorldLevelReq {
 	uint32 Unk3300_DNLKIMGLBLP = 3;
 	uint32 Unk3300_DJBKBPDCBFH = 11;
 }
-
-
-

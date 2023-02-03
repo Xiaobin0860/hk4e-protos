@@ -16,6 +16,3 @@ message CheckSegmentCRCReq {
 
 	repeated SegmentCRCInfo infoList = 1;
 }
-
-
-

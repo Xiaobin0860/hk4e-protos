@@ -17,6 +17,3 @@ message PlayerGCGMatchDismissNotify {
 	repeated uint32 uidList = 7;
 	uint32 matchId = 3;
 }
-
-
-

@@ -13,6 +13,3 @@ message DungeonDataNotify {
 
 	map<uint32, uint32> dungeonDataMap = 6;
 }
-
-
-

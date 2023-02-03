@@ -16,6 +16,3 @@ message SetFriendRemarkNameRsp {
 	bool isClearRemark = 6;
 	int32 retcode = 1;
 }
-
-
-

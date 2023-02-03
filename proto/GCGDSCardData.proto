@@ -10,6 +10,3 @@ message GCGDSCardData {
 	uint32 proficiency = 12;
 	repeated uint32 mdmigcefmmd = 10;
 }
-
-
-

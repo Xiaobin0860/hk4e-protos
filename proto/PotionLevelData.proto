@@ -8,6 +8,3 @@ message PotionLevelData {
 	uint32 difficultyLevel = 10;
 	uint32 modeId = 11;
 }
-
-
-

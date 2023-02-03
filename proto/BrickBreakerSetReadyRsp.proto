@@ -13,6 +13,3 @@ message BrickBreakerSetReadyRsp {
 
 	int32 retcode = 13;
 }
-
-
-

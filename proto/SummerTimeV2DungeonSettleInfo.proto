@@ -7,6 +7,3 @@ message SummerTimeV2DungeonSettleInfo {
 	uint32 Unk3300_BNNMNCKEHHO = 9;
 	bool isSuccess = 10;
 }
-
-
-

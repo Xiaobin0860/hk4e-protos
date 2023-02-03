@@ -15,6 +15,3 @@ message HOPPJKEJENM {
 	uint32 difficulty = 7;
 	uint32 stageId = 10;
 }
-
-
-

@@ -13,6 +13,3 @@ message GalleryStopNotify {
 
 	uint32 galleryId = 3;
 }
-
-
-

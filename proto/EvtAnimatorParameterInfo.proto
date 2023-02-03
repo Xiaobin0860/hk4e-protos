@@ -10,6 +10,3 @@ message EvtAnimatorParameterInfo {
 	AnimatorParameterValueInfo value = 12;
 	bool isServerCache = 9;
 }
-
-
-

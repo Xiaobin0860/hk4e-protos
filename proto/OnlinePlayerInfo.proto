@@ -20,6 +20,3 @@ message OnlinePlayerInfo {
 	ProfilePicture profilePicture = 12;
 	string psnId = 13;
 }
-
-
-

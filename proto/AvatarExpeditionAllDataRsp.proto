@@ -18,6 +18,3 @@ message AvatarExpeditionAllDataRsp {
 	int32 retcode = 4;
 	map<uint64, AvatarExpeditionInfo> expeditionInfoMap = 10;
 }
-
-
-

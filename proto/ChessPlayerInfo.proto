@@ -13,6 +13,3 @@ message ChessPlayerInfo {
 	uint32 Unk3300_PPFBGIDKCDJ = 8;
 	uint32 Unk3300_GPNDNCCLHKE = 3;
 }
-
-
-

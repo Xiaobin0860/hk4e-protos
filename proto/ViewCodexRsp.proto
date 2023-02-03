@@ -19,6 +19,3 @@ message ViewCodexRsp {
 	int32 retcode = 10;
 	repeated uint32 Unk3300_IDNOLALHFFA = 7;
 }
-
-
-

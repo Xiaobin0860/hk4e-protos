@@ -16,6 +16,3 @@ message HomeResourceNotify {
 	HomeResource fetterExp = 9;
 	HomeResource homeCoin = 1;
 }
-
-
-

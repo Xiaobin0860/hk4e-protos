@@ -13,6 +13,3 @@ message MichiaeMatsuriInfo {
 	repeated MichiaeMatsuriChestPositionInfo chestPosList = 11;
 	repeated MichiaeMatsuriStage stageList = 7;
 }
-
-
-

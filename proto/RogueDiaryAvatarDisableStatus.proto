@@ -8,6 +8,3 @@ enum RogueDiaryAvatarDisableStatus {
   ROGUE_DIARY_AVATAR_DISABLE_TIRED      = 2;
   ROGUE_DIARY_AVATAR_DISABLE_DUPLICATED = 3;
 }
-
-
-

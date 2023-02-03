@@ -16,6 +16,3 @@ message SalvageEscortSettleNotify {
 	uint32 galleryId = 5;
 	SalvageEscortSettleInfo settleInfo = 2;
 }
-
-
-

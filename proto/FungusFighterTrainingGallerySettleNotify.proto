@@ -22,6 +22,3 @@ message FungusFighterTrainingGallerySettleNotify {
 	bool isFinalSettle = 7;
 	bool isNewRecord = 5;
 }
-
-
-

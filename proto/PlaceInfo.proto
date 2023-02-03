@@ -8,6 +8,3 @@ message PlaceInfo {
 	Vector pos = 1;
 	Vector rot = 2;
 }
-
-
-

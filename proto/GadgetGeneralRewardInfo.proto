@@ -11,6 +11,3 @@ message GadgetGeneralRewardInfo {
 	repeated uint32 qualifyUidList = 4;
 	ItemParam itemParam = 5;
 }
-
-
-

@@ -14,6 +14,3 @@ message DigActivityChangeGadgetStateRsp {
 	int32 retcode = 5;
 	uint32 entityId = 14;
 }
-
-
-

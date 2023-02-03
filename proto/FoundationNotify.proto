@@ -16,6 +16,3 @@ message FoundationNotify {
 	uint32 gadgetEntityId = 5;
 	FoundationInfo info = 2;
 }
-
-
-

@@ -19,6 +19,3 @@ message CheckAddItemExceedLimitNotify {
 	ItemExceedLimitMsgType msgType = 7;
 	bool isDrop = 1;
 }
-
-
-

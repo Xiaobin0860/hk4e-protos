@@ -14,6 +14,3 @@ message ActivityGetCanGiveFriendGiftReq {
 
 	uint32 scheduleId = 8;
 }
-
-
-

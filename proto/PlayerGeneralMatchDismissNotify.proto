@@ -17,6 +17,3 @@ message PlayerGeneralMatchDismissNotify {
 	MatchReason reason = 13;
 	repeated uint32 uidList = 5;
 }
-
-
-

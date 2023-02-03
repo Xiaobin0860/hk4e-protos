@@ -23,6 +23,3 @@ message GetGameplayRecommendationReq {
 		ElementReliquaryResponse element_reliquary_response = 1912;
 	}
 }
-
-
-

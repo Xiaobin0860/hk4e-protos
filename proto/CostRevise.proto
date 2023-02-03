@@ -8,6 +8,3 @@ message CostRevise {
 	uint32 controllerId = 15;
 	GCGCostReviseInfo costRevise = 10;
 }
-
-
-

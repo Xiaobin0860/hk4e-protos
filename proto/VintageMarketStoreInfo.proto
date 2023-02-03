@@ -9,6 +9,3 @@ message VintageMarketStoreInfo {
 	repeated uint32 Unk3300_HNBGHCCENIA = 10;
 	repeated uint32 Unk3300_ODLLANKOEND = 12;
 }
-
-
-

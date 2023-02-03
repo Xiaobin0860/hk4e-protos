@@ -12,6 +12,3 @@ message HomePlantFieldData {
 	uint32 furnitureId = 4;
 	Vector spawnPos = 9;
 }
-
-
-

@@ -11,6 +11,3 @@ message SamLampInfo {
 	repeated uint32 Unk3300_ODBFFAIIPMB = 14;
 	repeated uint32 Unk3300_FGHDJJCLNFN = 15;
 }
-
-
-

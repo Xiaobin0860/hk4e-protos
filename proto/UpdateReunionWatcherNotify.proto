@@ -16,6 +16,3 @@ message UpdateReunionWatcherNotify {
 	uint32 missionId = 12;
 	ReunionWatcherInfo watcherInfo = 14;
 }
-
-
-

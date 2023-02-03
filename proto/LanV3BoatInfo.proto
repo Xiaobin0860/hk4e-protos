@@ -8,6 +8,3 @@ message LanV3BoatInfo {
 	uint32 mapId = 15;
 	bool mdpgfcplekf = 8;
 }
-
-
-

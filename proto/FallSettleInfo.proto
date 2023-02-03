@@ -12,6 +12,3 @@ message FallSettleInfo {
 	map<uint32, uint32> flowerRingCatchCountMap = 4;
 	uint32 finalScore = 9;
 }
-
-
-

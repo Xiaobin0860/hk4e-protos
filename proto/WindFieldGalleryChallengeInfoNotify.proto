@@ -19,6 +19,3 @@ message WindFieldGalleryChallengeInfoNotify {
 	uint32 Unk3300_MMONPDMIEBN = 5;
 	uint32 Unk3300_GNJKOCLJFNM = 3;
 }
-
-
-

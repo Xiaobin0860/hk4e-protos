@@ -15,6 +15,3 @@ message GivingRecordNotify {
 
 	repeated GivingRecord givingRecordList = 4;
 }
-
-
-

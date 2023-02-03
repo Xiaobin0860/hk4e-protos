@@ -16,6 +16,3 @@ message ChannellerSlabLoopDungeonSelectConditionRsp {
 	uint32 dungeonIndex = 15;
 	uint32 difficultyId = 6;
 }
-
-
-

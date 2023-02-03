@@ -12,6 +12,3 @@ message H5ActivityInfo {
 	string url = 3;
 	uint32 Unk3300_OBKEBDCKHJF = 9;
 }
-
-
-

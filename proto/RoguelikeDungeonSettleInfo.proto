@@ -13,6 +13,3 @@ message RoguelikeDungeonSettleInfo {
 	uint32 Unk3300_GMMECMPDJMI = 13;
 	map<uint32, RoguelikeSettleCoinInfo> finishedChallengeCellNumMap = 2;
 }
-
-
-

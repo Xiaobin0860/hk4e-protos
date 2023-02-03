@@ -25,6 +25,3 @@ message BreakoutAction {
 	int32 offset = 17;
 	uint64 lccmdkibdpf = 18;
 }
-
-
-

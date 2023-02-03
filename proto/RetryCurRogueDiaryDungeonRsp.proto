@@ -13,6 +13,3 @@ message RetryCurRogueDiaryDungeonRsp {
 
 	int32 retcode = 12;
 }
-
-
-

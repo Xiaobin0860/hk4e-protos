@@ -13,6 +13,3 @@ message NoDamageSkillResult {
 	uint32 skillId = 15;
 	uint32 targetCardGuid = 4;
 }
-
-
-

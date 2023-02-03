@@ -19,6 +19,3 @@ message GCGTCInviteRsp {
 	uint32 levelId = 7;
 	uint32 avatarId = 13;
 }
-
-
-

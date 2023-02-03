@@ -9,6 +9,3 @@ message DynamicSVONode {
 	int64 index = 11;
 	Vector referPos = 9;
 }
-
-
-

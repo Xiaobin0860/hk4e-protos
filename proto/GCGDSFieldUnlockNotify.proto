@@ -21,6 +21,3 @@ message GCGDSFieldUnlockNotify {
 	repeated GCGDSDeckData ocigcagdgml = 11;
 	repeated uint32 bcmbnjhmble = 8;
 }
-
-
-

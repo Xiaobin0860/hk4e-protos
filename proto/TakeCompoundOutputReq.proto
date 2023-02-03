@@ -15,6 +15,3 @@ message TakeCompoundOutputReq {
 	uint32 compoundId = 13;
 	uint32 compoundGroupId = 4;
 }
-
-
-

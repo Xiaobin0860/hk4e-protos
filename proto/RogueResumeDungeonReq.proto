@@ -14,6 +14,3 @@ message RogueResumeDungeonReq {
 
 	uint32 stageId = 1;
 }
-
-
-

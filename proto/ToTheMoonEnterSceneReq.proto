@@ -15,6 +15,3 @@ message ToTheMoonEnterSceneReq {
 	uint32 sceneId = 12;
 	uint32 version = 10;
 }
-
-
-

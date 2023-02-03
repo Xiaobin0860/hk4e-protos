@@ -9,6 +9,3 @@ message JLKNGEIBCLM {
 	string fecoacjadfm = 7;
 	uint32 timestamp = 13;
 }
-
-
-

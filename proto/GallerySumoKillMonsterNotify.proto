@@ -16,6 +16,3 @@ message GallerySumoKillMonsterNotify {
 	uint32 killEliteMonsterNum = 4;
 	uint32 galleryId = 10;
 }
-
-
-

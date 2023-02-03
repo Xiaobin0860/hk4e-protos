@@ -13,6 +13,3 @@ message BargainTerminateNotify {
 
 	uint32 bargainId = 14;
 }
-
-
-

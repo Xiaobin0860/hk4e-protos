@@ -9,6 +9,3 @@ message DailyTaskInfo {
 	uint32 dailyTaskId = 5;
 	uint32 rewardId = 14;
 }
-
-
-

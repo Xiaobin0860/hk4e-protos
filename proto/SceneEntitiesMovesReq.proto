@@ -16,6 +16,3 @@ message SceneEntitiesMovesReq {
 
 	repeated EntityMoveInfo entityMoveInfoList = 8;
 }
-
-
-

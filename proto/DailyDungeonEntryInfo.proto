@@ -10,6 +10,3 @@ message DailyDungeonEntryInfo {
 	uint32 dungeonEntryConfigId = 2;
 	DungeonEntryInfo recommendDungeonEntryInfo = 14;
 }
-
-
-

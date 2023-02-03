@@ -13,6 +13,3 @@ message HomeModuleUnlockNotify {
 
 	uint32 moduleId = 14;
 }
-
-
-

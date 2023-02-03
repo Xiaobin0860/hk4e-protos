@@ -23,6 +23,3 @@ message LanternRiteDoFireworksReformRsp {
 	uint32 Unk3300_LKOFBPDKEGG = 2;
 	int32 retcode = 12;
 }
-
-
-

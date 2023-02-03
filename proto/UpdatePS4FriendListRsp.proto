@@ -15,6 +15,3 @@ message UpdatePS4FriendListRsp {
 	repeated string psnIdList = 7;
 	int32 retcode = 15;
 }
-
-
-

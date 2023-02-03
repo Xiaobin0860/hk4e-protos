@@ -9,6 +9,3 @@ message FlightDailyRecord {
 	bool isTouched = 8;
 	uint32 bestScore = 3;
 }
-
-
-

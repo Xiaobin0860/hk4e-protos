@@ -8,6 +8,3 @@ message PlayerWidgetInfo {
 	repeated WidgetSlotData slotList = 15;
 	uint32 uid = 10;
 }
-
-
-

@@ -15,6 +15,3 @@ message InterpretInferenceWordReq {
 	uint32 wordId = 12;
 	uint32 pageId = 10;
 }
-
-
-

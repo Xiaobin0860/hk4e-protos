@@ -15,6 +15,3 @@ message RogueHealAvatarsRsp {
 	uint32 cellId = 12;
 	uint32 dungeonId = 11;
 }
-
-
-

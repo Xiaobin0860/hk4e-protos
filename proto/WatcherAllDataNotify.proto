@@ -13,6 +13,3 @@ message WatcherAllDataNotify {
 
 	repeated uint32 watcherList = 10;
 }
-
-
-

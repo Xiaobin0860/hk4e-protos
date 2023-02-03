@@ -16,6 +16,3 @@ message ChannellerSlabWearBuffReq {
 	uint32 slotId = 11;
 	uint32 buffId = 12;
 }
-
-
-

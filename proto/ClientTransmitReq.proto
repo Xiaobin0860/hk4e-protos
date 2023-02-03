@@ -20,6 +20,3 @@ message ClientTransmitReq {
 	Vector pos = 12;
 	uint32 sceneId = 8;
 }
-
-
-

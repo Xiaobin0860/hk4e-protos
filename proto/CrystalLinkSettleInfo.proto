@@ -10,6 +10,3 @@ message CrystalLinkSettleInfo {
 	uint32 difficultyId = 3;
 	uint32 levelId = 10;
 }
-
-
-

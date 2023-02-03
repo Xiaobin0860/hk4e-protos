@@ -7,6 +7,3 @@ message TanukiTravelLevelData {
 	uint32 routeId = 1;
 	bool isOpen = 8;
 }
-
-
-

@@ -13,6 +13,3 @@ message RogueFinishRepairRsp {
 
 	int32 retcode = 2;
 }
-
-
-

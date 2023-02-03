@@ -9,6 +9,3 @@ enum GCGGameCreateReason {
     REASON_RESOURCE_NOT_COMPLETE      = 3;
     REASON_TIMEOUT                    = 4;
 }
-
-
-

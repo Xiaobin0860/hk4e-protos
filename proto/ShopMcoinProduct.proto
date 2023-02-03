@@ -11,6 +11,3 @@ message ShopMcoinProduct {
 	uint32 boughtNum = 6;
 	bool isAudit = 7;
 }
-
-
-

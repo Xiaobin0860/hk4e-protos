@@ -16,6 +16,3 @@ message AvatarPromoteGetRewardRsp {
 	int32 retcode = 12;
 	uint64 avatarGuid = 14;
 }
-
-
-

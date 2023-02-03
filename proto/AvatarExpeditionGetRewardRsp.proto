@@ -19,6 +19,3 @@ message AvatarExpeditionGetRewardRsp {
 	map<uint64, AvatarExpeditionInfo> expeditionInfoMap = 4;
 	repeated ItemParam itemList = 14;
 }
-
-
-

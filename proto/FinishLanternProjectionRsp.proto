@@ -13,6 +13,3 @@ message FinishLanternProjectionRsp {
 
 	int32 retcode = 15;
 }
-
-
-

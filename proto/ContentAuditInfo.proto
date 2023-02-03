@@ -11,6 +11,3 @@ message ContentAuditInfo {
 	AuditState auditState = 4;
 	uint32 submitLimit = 5;
 }
-
-
-

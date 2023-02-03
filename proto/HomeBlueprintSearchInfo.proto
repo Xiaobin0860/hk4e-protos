@@ -8,6 +8,3 @@ message HomeBlueprintSearchInfo {
 	uint32 blockId = 2;
 	uint32 moduleId = 13;
 }
-
-
-

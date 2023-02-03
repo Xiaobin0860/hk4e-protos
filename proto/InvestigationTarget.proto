@@ -11,6 +11,3 @@ message InvestigationTarget {
 	uint32 questId = 3;
 	uint32 progress = 15;
 }
-
-
-

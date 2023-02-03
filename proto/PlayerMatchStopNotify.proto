@@ -16,6 +16,3 @@ message PlayerMatchStopNotify {
 	uint32 hostUid = 4;
 	MatchReason reason = 9;
 }
-
-
-

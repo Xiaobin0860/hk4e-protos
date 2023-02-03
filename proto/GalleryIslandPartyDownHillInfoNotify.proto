@@ -15,6 +15,3 @@ message GalleryIslandPartyDownHillInfoNotify {
 	uint32 totalKillMonsterCount = 15;
 	uint32 coin = 12;
 }
-
-
-

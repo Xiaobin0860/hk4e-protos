@@ -15,6 +15,3 @@ message ChangeMpTeamAvatarReq {
 	uint64 curAvatarGuid = 8;
 	repeated uint64 avatarGuidList = 2;
 }
-
-
-

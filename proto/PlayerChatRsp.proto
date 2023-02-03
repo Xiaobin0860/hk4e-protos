@@ -14,6 +14,3 @@ message PlayerChatRsp {
 	uint32 chatForbiddenEndtime = 2;
 	int32 retcode = 14;
 }
-
-
-

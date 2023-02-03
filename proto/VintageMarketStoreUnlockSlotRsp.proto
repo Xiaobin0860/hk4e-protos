@@ -15,6 +15,3 @@ message VintageMarketStoreUnlockSlotRsp {
 	int32 retcode = 8;
 	uint32 slotCount = 10;
 }
-
-
-

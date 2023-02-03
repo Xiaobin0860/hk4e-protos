@@ -13,6 +13,3 @@ message FungusFighterTrainingSelectFungusRsp {
 
 	int32 retcode = 15;
 }
-
-
-

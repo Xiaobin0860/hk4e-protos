@@ -15,6 +15,3 @@ message ChannelerSlabStageActiveChallengeIndexNotify {
 	uint32 challengeIndex = 8;
 	uint32 stageId = 7;
 }
-
-
-

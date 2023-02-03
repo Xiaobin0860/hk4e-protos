@@ -7,6 +7,3 @@ message CityReputationExploreInfo {
 	bool isOpen = 1;
 	uint32 explorePercent = 11;
 }
-
-
-

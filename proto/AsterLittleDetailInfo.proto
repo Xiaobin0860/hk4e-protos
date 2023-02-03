@@ -11,6 +11,3 @@ message AsterLittleDetailInfo {
 	uint32 beginTime = 11;
 	bool isOpen = 12;
 }
-
-
-

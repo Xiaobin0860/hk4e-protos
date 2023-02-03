@@ -15,6 +15,3 @@ message GCGDSChangeDeckNameRsp {
 	uint32 rewardIndex = 1;
 	int32 retcode = 6;
 }
-
-
-

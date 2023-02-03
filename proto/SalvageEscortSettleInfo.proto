@@ -8,6 +8,3 @@ message SalvageEscortSettleInfo {
 	SalvageEscortGallerySettleInfo settleInfo = 8;
 	bool isNewRecord = 9;
 }
-
-
-

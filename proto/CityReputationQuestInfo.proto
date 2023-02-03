@@ -7,6 +7,3 @@ message CityReputationQuestInfo {
 	repeated uint32 Unk3300_OMGMGDIHDOH = 4;
 	repeated uint32 Unk3300_IMLDPDMHJBJ = 10;
 }
-
-
-

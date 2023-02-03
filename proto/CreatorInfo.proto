@@ -10,6 +10,3 @@ message CreatorInfo {
 	LocationInfo locationInfo = 12;
 	WidgetCreatorOpType opType = 5;
 }
-
-
-

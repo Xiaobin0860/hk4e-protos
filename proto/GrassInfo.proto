@@ -9,6 +9,3 @@ message GrassInfo {
 	Vector center = 2;
 	Vector size = 3;
 }
-
-
-

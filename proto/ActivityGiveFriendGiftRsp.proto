@@ -15,6 +15,3 @@ message ActivityGiveFriendGiftRsp {
 	int32 retcode = 3;
 	uint32 scheduleId = 13;
 }
-
-
-

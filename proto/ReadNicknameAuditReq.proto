@@ -13,6 +13,3 @@ message ReadNicknameAuditReq {
 
 	int32 retcode = 1;
 }
-
-
-

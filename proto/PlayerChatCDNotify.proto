@@ -13,6 +13,3 @@ message PlayerChatCDNotify {
 
 	uint32 overTime = 3;
 }
-
-
-

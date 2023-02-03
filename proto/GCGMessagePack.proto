@@ -11,6 +11,3 @@ message GCGMessagePack {
 	repeated GCGMessage msgList = 3;
 	GCGActionType actionType = 8;
 }
-
-
-

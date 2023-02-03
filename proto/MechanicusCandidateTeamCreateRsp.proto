@@ -15,6 +15,3 @@ message MechanicusCandidateTeamCreateRsp {
 	uint32 dungeonId = 15;
 	int32 retcode = 10;
 }
-
-
-

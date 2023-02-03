@@ -18,6 +18,3 @@ message VintageMarketStoreChooseStrategyReq {
 	repeated uint32 strategyList = 2;
 	repeated VintageMarketStoreOpInfo storeOpList = 15;
 }
-
-
-

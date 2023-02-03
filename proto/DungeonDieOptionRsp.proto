@@ -17,6 +17,3 @@ message DungeonDieOptionRsp {
 	PlayerDieOption dieOption = 4;
 	uint32 reviveCount = 10;
 }
-
-
-

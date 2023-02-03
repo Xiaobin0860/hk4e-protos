@@ -16,6 +16,3 @@ message CookDataNotify {
 	repeated CookRecipeData recipeDataList = 9;
 	uint32 grade = 2;
 }
-
-
-

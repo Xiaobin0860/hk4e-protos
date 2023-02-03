@@ -20,6 +20,3 @@ message QuestCreateEntityRsp {
 	uint32 questId = 3;
 	int32 retcode = 13;
 }
-
-
-

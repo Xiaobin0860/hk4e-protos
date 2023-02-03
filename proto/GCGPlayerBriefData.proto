@@ -14,6 +14,3 @@ message GCGPlayerBriefData {
 	uint32 controllerId = 11;
 	repeated uint32 cardIdList = 13;
 }
-
-
-

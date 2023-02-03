@@ -18,6 +18,3 @@ message SceneEntityAppearNotify {
 	VisionType appearType = 3;
 	uint32 param = 14;
 }
-
-
-

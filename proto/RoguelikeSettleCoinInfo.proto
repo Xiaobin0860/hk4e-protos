@@ -7,6 +7,3 @@ message RoguelikeSettleCoinInfo {
 	uint32 coinC = 7;
 	uint32 Unk3300_LFEKGBBAMHE = 15;
 }
-
-
-

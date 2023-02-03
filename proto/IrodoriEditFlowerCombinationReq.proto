@@ -17,6 +17,3 @@ message IrodoriEditFlowerCombinationReq {
 	uint32 entityId = 8;
 	CustomGadgetTreeInfo combinationInfo = 9;
 }
-
-
-

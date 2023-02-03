@@ -14,6 +14,3 @@ message PersonalSceneJumpReq {
 
 	uint32 pointId = 13;
 }
-
-
-

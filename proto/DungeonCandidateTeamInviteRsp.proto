@@ -14,6 +14,3 @@ message DungeonCandidateTeamInviteRsp {
 	repeated uint32 invalidPlayerUids = 4;
 	int32 retcode = 13;
 }
-
-
-

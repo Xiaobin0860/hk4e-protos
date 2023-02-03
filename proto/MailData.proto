@@ -19,6 +19,3 @@ message MailData {
 	repeated string argumentList = 14;
 	MailCollectState collectState = 15;
 }
-
-
-

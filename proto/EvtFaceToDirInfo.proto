@@ -8,6 +8,3 @@ message EvtFaceToDirInfo {
 	Vector faceDir = 2;
 	uint32 entityId = 5;
 }
-
-
-

@@ -15,6 +15,3 @@ message GCGDSBanCardNotify {
 	uint32 rewardIndex = 2;
 	uint32 cardId = 14;
 }
-
-
-

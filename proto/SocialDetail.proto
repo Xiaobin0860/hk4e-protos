@@ -36,6 +36,3 @@ message SocialDetail {
 	ProfilePicture profilePicture = 25;
 	string gpbkdlaodce = 26;
 }
-
-
-

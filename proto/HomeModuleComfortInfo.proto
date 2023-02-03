@@ -7,6 +7,3 @@ message HomeModuleComfortInfo {
 	uint32 moduleId = 13;
 	uint32 roomSceneComfortValue = 2;
 }
-
-
-

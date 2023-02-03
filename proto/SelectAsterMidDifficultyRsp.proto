@@ -16,6 +16,3 @@ message SelectAsterMidDifficultyRsp {
 	uint32 difficultyId = 3;
 	uint32 scheduleId = 8;
 }
-
-
-

@@ -16,6 +16,3 @@ message GetPlayerAskFriendListRsp {
 	int32 retcode = 5;
 	repeated FriendBrief askFriendList = 6;
 }
-
-
-

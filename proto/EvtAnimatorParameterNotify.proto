@@ -18,6 +18,3 @@ message EvtAnimatorParameterNotify {
 	EvtAnimatorParameterInfo animatorParamInfo = 10;
 	ForwardType forwardType = 4;
 }
-
-
-

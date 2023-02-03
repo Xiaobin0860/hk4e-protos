@@ -13,6 +13,3 @@ message SetFriendEnterHomeOptionRsp {
 
 	int32 retcode = 13;
 }
-
-
-

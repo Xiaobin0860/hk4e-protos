@@ -13,6 +13,3 @@ message ServerTryCancelGeneralMatchNotify {
 
 	uint32 matchId = 1;
 }
-
-
-

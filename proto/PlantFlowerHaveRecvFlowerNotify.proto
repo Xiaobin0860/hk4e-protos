@@ -13,6 +13,3 @@ message PlantFlowerHaveRecvFlowerNotify {
 
 	uint32 scheduleId = 12;
 }
-
-
-

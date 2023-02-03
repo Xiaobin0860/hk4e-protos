@@ -7,6 +7,3 @@ message IrodoriChessPlayerInfo {
 	uint32 buildingPoints = 8;
 	uint32 uid = 9;
 }
-
-
-

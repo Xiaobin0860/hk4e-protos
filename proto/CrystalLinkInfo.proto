@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message CrystalLinkInfo {
 	uint32 score = 6;
 }
-
-
-

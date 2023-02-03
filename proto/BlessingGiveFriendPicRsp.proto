@@ -15,6 +15,3 @@ message BlessingGiveFriendPicRsp {
 	uint32 picId = 15;
 	int32 retcode = 11;
 }
-
-
-

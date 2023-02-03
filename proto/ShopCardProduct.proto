@@ -21,6 +21,3 @@ message ShopCardProduct {
 		ResinCard resin_card = 101;
 	}
 }
-
-
-

@@ -14,6 +14,3 @@ message EntityFightPropUpdateNotify {
 	map<uint32, float> fightPropMap = 11;
 	uint32 entityId = 7;
 }
-
-
-

@@ -18,6 +18,3 @@ message CalcWeaponUpgradeReturnItemsReq {
 	repeated ItemParam itemParamList = 4;
 	uint64 targetWeaponGuid = 10;
 }
-
-
-

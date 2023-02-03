@@ -8,6 +8,3 @@ enum EnterCustomDungeonType {
   ENTER_CUSTOM_DUNGEON_PLAY     = 2;
   ENTER_CUSTOM_DUNGEON_OFFICIAL = 3;
 }
-
-
-

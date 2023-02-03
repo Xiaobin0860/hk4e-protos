@@ -17,6 +17,3 @@ message PlantFlowerAcceptAllGiveFlowerRsp {
 	int32 retcode = 1;
 	repeated PlantFlowerAcceptFlowerResultInfo acceptFlowerResultInfoList = 7;
 }
-
-
-

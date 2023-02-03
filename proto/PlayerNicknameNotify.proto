@@ -14,6 +14,3 @@ message PlayerNicknameNotify {
 	uint32 submitLimit = 7;
 	bool isOpen = 5;
 }
-
-
-

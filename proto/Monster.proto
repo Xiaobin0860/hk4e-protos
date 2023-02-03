@@ -37,6 +37,3 @@ message Monster {
 		FishtankFishInfo fishtank_fish_info = 51;
 	}
 }
-
-
-

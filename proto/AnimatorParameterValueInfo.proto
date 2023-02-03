@@ -10,6 +10,3 @@ message AnimatorParameterValueInfo {
 		bool bool_val = 4;
 	}
 }
-
-
-

@@ -8,6 +8,3 @@ message HideAndSeekPlayerBattleInfo {
 	repeated uint32 skillList = 3;
 	uint32 avatarId = 11;
 }
-
-
-

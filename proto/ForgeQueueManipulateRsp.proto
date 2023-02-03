@@ -20,6 +20,3 @@ message ForgeQueueManipulateRsp {
 	repeated ItemParam outputItemList = 12;
 	int32 retcode = 5;
 }
-
-
-

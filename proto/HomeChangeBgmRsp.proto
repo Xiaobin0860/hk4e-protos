@@ -13,6 +13,3 @@ message HomeChangeBgmRsp {
 
 	int32 retcode = 7;
 }
-
-
-

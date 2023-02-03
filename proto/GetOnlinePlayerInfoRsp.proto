@@ -18,6 +18,3 @@ message GetOnlinePlayerInfoRsp {
 	uint32 targetUid = 3;
 	uint32 param = 10;
 }
-
-
-

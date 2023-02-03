@@ -15,6 +15,3 @@ message GCGDSChangeFieldRsp {
 	uint32 rewardIndex = 3;
 	int32 retcode = 4;
 }
-
-
-

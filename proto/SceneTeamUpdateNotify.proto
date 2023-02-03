@@ -16,6 +16,3 @@ message SceneTeamUpdateNotify {
 	bool isInMp = 15;
 	repeated SceneTeamAvatar sceneTeamAvatarList = 12;
 }
-
-
-

@@ -16,6 +16,3 @@ message GalleryFallScoreNotify {
 	uint32 galleryId = 8;
 	map<uint32, FallPlayerBrief> uidBriefMap = 4;
 }
-
-
-

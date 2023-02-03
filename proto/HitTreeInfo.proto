@@ -8,6 +8,3 @@ message HitTreeInfo {
 	uint32 treeType = 1;
 	Vector treePos = 2;
 }
-
-
-

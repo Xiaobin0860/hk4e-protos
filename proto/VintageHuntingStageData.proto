@@ -9,6 +9,3 @@ message VintageHuntingStageData {
 	uint32 openTime = 1;
 	uint32 recordValue = 2;
 }
-
-
-

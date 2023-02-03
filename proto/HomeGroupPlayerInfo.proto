@@ -12,6 +12,3 @@ message HomeGroupPlayerInfo {
 	ProfilePicture profilePicture = 2;
 	string psnId = 1;
 }
-
-
-

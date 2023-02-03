@@ -17,6 +17,3 @@ message TowerTeamSelectReq {
 	repeated TowerTeam towerTeamList = 1;
 	uint32 floorId = 11;
 }
-
-
-

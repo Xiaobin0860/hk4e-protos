@@ -16,6 +16,3 @@ message VintageInfo {
 	map<uint32, VintageCampChallengeStageData> Unk3300_NPKMDFCLGBJ = 3;
 	VintageMarketInfo marketInfo = 1;
 }
-
-
-

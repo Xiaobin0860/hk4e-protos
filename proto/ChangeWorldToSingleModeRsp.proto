@@ -14,6 +14,3 @@ message ChangeWorldToSingleModeRsp {
 	uint32 quitMpValidTime = 13;
 	int32 retcode = 3;
 }
-
-
-

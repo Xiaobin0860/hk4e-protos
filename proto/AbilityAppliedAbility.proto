@@ -11,6 +11,3 @@ message AbilityAppliedAbility {
 	repeated AbilityScalarValueEntry overrideMap = 3;
 	uint32 instancedAbilityId = 4;
 }
-
-
-

@@ -9,6 +9,3 @@ enum ServerLogLevel {
   LOG_LEVEL_WARNING = 3;
   LOG_LEVEL_ERROR   = 4;
 }
-
-
-

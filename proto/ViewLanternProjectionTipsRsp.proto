@@ -13,6 +13,3 @@ message ViewLanternProjectionTipsRsp {
 
 	int32 retcode = 3;
 }
-
-
-

@@ -16,6 +16,3 @@ message EffigyChallengeInfoNotify {
 	uint32 difficultyId = 7;
 	uint32 challengeId = 8;
 }
-
-
-

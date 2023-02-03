@@ -14,6 +14,3 @@ message StartCoopPointReq {
 
 	uint32 coopPoint = 8;
 }
-
-
-

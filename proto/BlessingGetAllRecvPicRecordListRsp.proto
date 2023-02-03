@@ -16,6 +16,3 @@ message BlessingGetAllRecvPicRecordListRsp {
 	repeated BlessingRecvPicRecord recvPicRecordList = 9;
 	int32 retcode = 4;
 }
-
-
-

@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message FlowerStartParam {
 	uint32 targetScore = 8;
 }
-
-
-

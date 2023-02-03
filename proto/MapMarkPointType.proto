@@ -11,6 +11,3 @@ enum MapMarkPointType {
   MONSTER    = 5;
   FISH_POOL  = 6;
 }
-
-
-

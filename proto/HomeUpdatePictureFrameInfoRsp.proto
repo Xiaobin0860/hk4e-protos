@@ -16,6 +16,3 @@ message HomeUpdatePictureFrameInfoRsp {
 	int32 retcode = 11;
 	HomePictureFrameInfo pictureFrameInfo = 4;
 }
-
-
-

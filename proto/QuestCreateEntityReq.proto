@@ -19,6 +19,3 @@ message QuestCreateEntityReq {
 	CreateEntityInfo entity = 11;
 	uint32 questId = 10;
 }
-
-
-

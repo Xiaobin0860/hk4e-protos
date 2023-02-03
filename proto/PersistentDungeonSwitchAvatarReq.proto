@@ -15,6 +15,3 @@ message PersistentDungeonSwitchAvatarReq {
 	uint64 curAvatarGuid = 14;
 	repeated uint64 avatarTeamGuidList = 2;
 }
-
-
-

@@ -14,6 +14,3 @@ message ChannelerSlabStageOneoffDungeonNotify {
 	bool isDone = 4;
 	uint32 stageId = 14;
 }
-
-
-

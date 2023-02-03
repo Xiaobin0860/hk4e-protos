@@ -11,6 +11,3 @@ message HomePlantSubFieldData {
 	HomePlantFieldStatus fieldStatus = 8;
 	uint32 seedId = 6;
 }
-
-
-

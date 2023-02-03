@@ -22,6 +22,3 @@ message LifeStateChangeNotify {
 	uint32 lifeState = 9;
 	PlayerDieType dieType = 6;
 }
-
-
-

@@ -18,6 +18,3 @@ message PlayerPropChangeReasonNotify {
 	float curValue = 9;
 	PropChangeReason reason = 1;
 }
-
-
-

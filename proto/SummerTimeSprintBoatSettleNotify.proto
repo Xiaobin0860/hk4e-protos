@@ -20,6 +20,3 @@ message SummerTimeSprintBoatSettleNotify {
 	uint32 totalNum = 7;
 	bool isNewRecord = 4;
 }
-
-
-

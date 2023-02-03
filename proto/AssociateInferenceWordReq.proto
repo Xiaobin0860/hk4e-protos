@@ -16,6 +16,3 @@ message AssociateInferenceWordReq {
 	uint32 pageId = 3;
 	uint32 Unk3300_FDGLBLJOKOK = 13;
 }
-
-
-

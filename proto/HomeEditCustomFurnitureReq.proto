@@ -16,6 +16,3 @@ message HomeEditCustomFurnitureReq {
 
 	HomeCustomFurnitureInfo customFurnitureInfo = 5;
 }
-
-
-

@@ -16,6 +16,3 @@ message IrodoriFillPoetryRsp {
 	IrodoriPoetryThemeData themeData = 14;
 	int32 retcode = 15;
 }
-
-
-

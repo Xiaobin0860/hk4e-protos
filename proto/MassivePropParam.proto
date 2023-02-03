@@ -8,6 +8,3 @@ message MassivePropParam {
 	repeated float paramList = 3;
 	uint32 eejlkopeggc = 4;
 }
-
-
-

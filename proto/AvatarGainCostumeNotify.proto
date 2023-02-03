@@ -13,6 +13,3 @@ message AvatarGainCostumeNotify {
 
 	uint32 costumeId = 6;
 }
-
-
-

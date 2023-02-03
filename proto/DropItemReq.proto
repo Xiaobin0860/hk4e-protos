@@ -20,6 +20,3 @@ message DropItemReq {
 	StoreType storeType = 12;
 	Vector pos = 13;
 }
-
-
-

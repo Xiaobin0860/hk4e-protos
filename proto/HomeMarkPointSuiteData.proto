@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message HomeMarkPointSuiteData {
 	uint32 suiteId = 1;
 }
-
-
-

@@ -16,6 +16,3 @@ message ChannellerSlabTakeoffBuffReq {
 	uint32 buffId = 10;
 	uint32 slotId = 13;
 }
-
-
-

@@ -25,6 +25,3 @@ message BrickBreakerSettleNotify {
 	bool isSingleMode = 14;
 	bool isNewRecord = 7;
 }
-
-
-

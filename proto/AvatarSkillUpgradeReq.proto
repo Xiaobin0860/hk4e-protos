@@ -16,6 +16,3 @@ message AvatarSkillUpgradeReq {
 	uint64 avatarGuid = 2;
 	uint32 oldLevel = 12;
 }
-
-
-

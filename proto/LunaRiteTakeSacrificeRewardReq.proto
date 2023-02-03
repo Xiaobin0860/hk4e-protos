@@ -15,6 +15,3 @@ message LunaRiteTakeSacrificeRewardReq {
 	uint32 index = 10;
 	uint32 areaId = 5;
 }
-
-
-

@@ -9,6 +9,3 @@ enum RegionSearchState {
   REGION_SEARCH_WAIT_REWARD = 3;
   REGION_SEARCH_FINISHED    = 4;
 }
-
-
-

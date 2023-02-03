@@ -9,6 +9,3 @@ message CustomDungeonAbstract {
 	uint32 lastPublishTime = 4;
 	map<uint32, uint32> brickStatisticsMap = 12;
 }
-
-
-

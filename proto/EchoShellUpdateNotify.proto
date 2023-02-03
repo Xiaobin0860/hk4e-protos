@@ -13,6 +13,3 @@ message EchoShellUpdateNotify {
 
 	uint32 shellId = 12;
 }
-
-
-

@@ -20,6 +20,3 @@ message StoreWeightLimitNotify {
 	StoreType storeType = 11;
 	uint32 weaponCountLimit = 9;
 }
-
-
-

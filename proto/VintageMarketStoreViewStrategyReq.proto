@@ -15,6 +15,3 @@ message VintageMarketStoreViewStrategyReq {
 	uint32 strategyId = 10;
 	repeated uint32 strategyList = 15;
 }
-
-
-

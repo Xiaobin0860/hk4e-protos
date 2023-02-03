@@ -16,6 +16,3 @@ message ChangeGameTimeReq {
 	bool isForceSet = 6;
 	uint32 gameTime = 9;
 }
-
-
-

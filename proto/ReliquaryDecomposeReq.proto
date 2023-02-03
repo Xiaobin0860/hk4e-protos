@@ -16,6 +16,3 @@ message ReliquaryDecomposeReq {
 	uint32 configId = 13;
 	repeated uint64 guidList = 2;
 }
-
-
-

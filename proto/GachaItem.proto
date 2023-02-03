@@ -12,6 +12,3 @@ message GachaItem {
 	ItemParam gachaItem = 4;
 	bool isFlashCard = 11;
 }
-
-
-

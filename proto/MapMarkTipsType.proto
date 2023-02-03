@@ -5,6 +5,3 @@ option go_package = "./;proto";
 enum MapMarkTipsType {
   MARK_TIPS_DUNGEON_ELEMENT_TRIAL = 0;
 }
-
-
-

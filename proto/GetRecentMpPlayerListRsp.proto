@@ -17,6 +17,3 @@ message GetRecentMpPlayerListRsp {
 	int32 retcode = 14;
 	repeated FriendBrief recentMpPlayerBriefList = 6;
 }
-
-
-

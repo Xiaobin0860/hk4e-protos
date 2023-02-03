@@ -17,6 +17,3 @@ message EvtAvatarStandUpNotify {
 	int32 direction = 5;
 	uint32 entityId = 4;
 }
-
-
-

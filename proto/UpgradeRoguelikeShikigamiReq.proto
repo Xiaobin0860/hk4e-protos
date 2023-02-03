@@ -15,6 +15,3 @@ message UpgradeRoguelikeShikigamiReq {
 	uint32 shikigamiGroupId = 10;
 	uint32 upgradeLevel = 6;
 }
-
-
-

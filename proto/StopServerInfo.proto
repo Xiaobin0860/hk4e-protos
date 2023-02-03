@@ -8,6 +8,3 @@ message StopServerInfo {
 	string url = 3;
 	string contentMsg = 4;
 }
-
-
-

@@ -15,6 +15,3 @@ message PullRecentChatReq {
 	uint32 beginSequence = 14;
 	uint32 pullNum = 2;
 }
-
-
-

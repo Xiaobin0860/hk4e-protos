@@ -16,6 +16,3 @@ message ClientAbilitiesInitFinishCombineNotify {
 
 	repeated EntityAbilityInvokeEntry entityInvokeList = 4;
 }
-
-
-

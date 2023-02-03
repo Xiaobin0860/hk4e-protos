@@ -14,6 +14,3 @@ message WinterCampTriathlonRestartRsp {
 	int32 retcode = 14;
 	uint32 galleryId = 13;
 }
-
-
-

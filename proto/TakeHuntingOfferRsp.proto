@@ -17,6 +17,3 @@ message TakeHuntingOfferRsp {
 	uint32 cityId = 8;
 	HuntingPair huntingPair = 6;
 }
-
-
-

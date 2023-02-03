@@ -16,6 +16,3 @@ message DropHintNotify {
 	Vector position = 9;
 	repeated uint32 itemIdList = 10;
 }
-
-
-

@@ -11,6 +11,3 @@ message LunaRiteHintPoint {
 	uint32 areaId = 2;
 	LunaRiteHintPointType type = 15;
 }
-
-
-

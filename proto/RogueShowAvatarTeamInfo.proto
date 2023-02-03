@@ -7,6 +7,3 @@ import "RogueAvatarInfo.proto";
 message RogueShowAvatarTeamInfo {
 	repeated RogueAvatarInfo avatarList = 3;
 }
-
-
-

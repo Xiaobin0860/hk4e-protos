@@ -8,6 +8,3 @@ message PMBPGKEONAG {
 	Vector aapdkabicbn = 10;
 	float damage = 4;
 }
-
-
-

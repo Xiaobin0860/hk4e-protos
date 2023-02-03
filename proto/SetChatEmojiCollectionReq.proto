@@ -16,6 +16,3 @@ message SetChatEmojiCollectionReq {
 
 	ChatEmojiCollectionData chatEmojiCollectionData = 11;
 }
-
-
-

@@ -17,6 +17,3 @@ message TakeHuntingOfferReq {
 	HuntingPair huntingPair = 1;
 	uint32 cityId = 14;
 }
-
-
-

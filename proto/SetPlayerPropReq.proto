@@ -16,6 +16,3 @@ message SetPlayerPropReq {
 
 	repeated PropValue propList = 8;
 }
-
-
-

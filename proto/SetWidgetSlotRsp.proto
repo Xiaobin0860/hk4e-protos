@@ -19,6 +19,3 @@ message SetWidgetSlotRsp {
 	uint32 materialId = 12;
 	WidgetSlotOp op = 9;
 }
-
-
-

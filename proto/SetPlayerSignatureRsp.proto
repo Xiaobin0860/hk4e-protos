@@ -14,6 +14,3 @@ message SetPlayerSignatureRsp {
 	string signature = 13;
 	int32 retcode = 10;
 }
-
-
-

@@ -16,6 +16,3 @@ message HomeCreateBlueprintRsp {
 	HomeBlueprintSlotInfo slotInfo = 4;
 	int32 retcode = 13;
 }
-
-
-

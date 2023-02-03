@@ -15,6 +15,3 @@ message ShowCommonTipsNotify {
 	uint32 closeTime = 7;
 	string title = 8;
 }
-
-
-

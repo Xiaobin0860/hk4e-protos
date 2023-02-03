@@ -17,6 +17,3 @@ message GetFriendShowAvatarInfoRsp {
 	int32 retcode = 12;
 	uint32 uid = 13;
 }
-
-
-

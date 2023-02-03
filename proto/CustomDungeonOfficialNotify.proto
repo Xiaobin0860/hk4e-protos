@@ -18,6 +18,3 @@ message CustomDungeonOfficialNotify {
 	repeated uint32 officialBlackCoinList = 12;
 	EnterCustomDungeonType enterType = 11;
 }
-
-
-

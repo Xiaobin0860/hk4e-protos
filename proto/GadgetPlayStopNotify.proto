@@ -20,6 +20,3 @@ message GadgetPlayStopNotify {
 	uint32 entityId = 1;
 	uint32 playType = 11;
 }
-
-
-

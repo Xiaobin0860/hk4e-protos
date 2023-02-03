@@ -13,6 +13,3 @@ message MainCoop {
 	map<uint32, int32> tempVarMap = 2;
 	map<uint32, uint32> seenEndingMap = 4;
 }
-
-
-

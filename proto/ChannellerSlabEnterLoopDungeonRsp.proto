@@ -17,6 +17,3 @@ message ChannellerSlabEnterLoopDungeonRsp {
 	uint32 pointId = 2;
 	uint32 difficultyId = 4;
 }
-
-
-

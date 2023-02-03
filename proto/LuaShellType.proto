@@ -8,6 +8,3 @@ enum LuaShellType {
   LUASHELL_SECURITY   = 2;
   LUASHELL_SHELL_CODE = 3;
 }
-
-
-

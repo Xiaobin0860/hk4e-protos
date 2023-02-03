@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message WeatherInfo {
 	uint32 weatherAreaId = 1;
 }
-
-
-

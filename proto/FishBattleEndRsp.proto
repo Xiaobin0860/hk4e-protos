@@ -23,6 +23,3 @@ message FishBattleEndRsp {
 	int32 retcode = 2;
 	repeated ItemParam Unk3300_ABBBGOBDJEC = 15;
 }
-
-
-

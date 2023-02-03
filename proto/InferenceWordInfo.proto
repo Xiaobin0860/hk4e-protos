@@ -9,6 +9,3 @@ message InferenceWordInfo {
 	bool isSubmit = 4;
 	bool isInterpret = 7;
 }
-
-
-

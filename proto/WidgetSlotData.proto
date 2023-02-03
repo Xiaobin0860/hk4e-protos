@@ -10,6 +10,3 @@ message WidgetSlotData {
 	bool isActive = 12;
 	WidgetSlotTag tag = 8;
 }
-
-
-

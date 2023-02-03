@@ -9,6 +9,3 @@ message FishingGallerySettleInfo {
 	repeated FishingScore fishingScoreList = 4;
 	map<uint32, FishInfo> fishMap = 9;
 }
-
-
-

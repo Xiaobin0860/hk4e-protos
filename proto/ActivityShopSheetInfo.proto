@@ -7,6 +7,3 @@ message ActivityShopSheetInfo {
 	uint32 sheetId = 14;
 	uint32 endTime = 12;
 }
-
-
-

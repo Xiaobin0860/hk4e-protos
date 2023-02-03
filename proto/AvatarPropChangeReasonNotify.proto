@@ -19,6 +19,3 @@ message AvatarPropChangeReasonNotify {
 	PropChangeReason reason = 5;
 	uint64 avatarGuid = 12;
 }
-
-
-

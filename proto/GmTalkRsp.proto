@@ -15,6 +15,3 @@ message GmTalkRsp {
 	int32 retcode = 7;
 	string msg = 5;
 }
-
-
-

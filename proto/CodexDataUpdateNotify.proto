@@ -17,6 +17,3 @@ message CodexDataUpdateNotify {
 	uint32 id = 6;
 	uint32 weaponMaxPromoteLevel = 1;
 }
-
-
-

@@ -8,6 +8,3 @@ message RogueEffectRecord {
 	uint32 count = 1;
 	repeated uint32 extraParamList = 9;
 }
-
-
-

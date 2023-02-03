@@ -16,6 +16,3 @@ message HomeUpdateArrangementInfoReq {
 
 	HomeSceneArrangementInfo sceneArrangementInfo = 2;
 }
-
-
-

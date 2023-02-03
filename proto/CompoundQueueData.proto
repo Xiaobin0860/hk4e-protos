@@ -8,6 +8,3 @@ message CompoundQueueData {
 	uint32 waitCount = 8;
 	uint32 outputTime = 11;
 }
-
-
-

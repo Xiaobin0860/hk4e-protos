@@ -17,6 +17,3 @@ message SeaLampContributeItemReq {
 	repeated ItemParam itemList = 13;
 	uint32 activityId = 12;
 }
-
-
-

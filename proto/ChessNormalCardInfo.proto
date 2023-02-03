@@ -7,6 +7,3 @@ message ChessNormalCardInfo {
 	bool isAttachCurse = 9;
 	uint32 costPoints = 2;
 }
-
-
-

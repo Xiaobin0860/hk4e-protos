@@ -13,6 +13,3 @@ message PlayerSetLanguageRsp {
 
 	int32 retcode = 6;
 }
-
-
-

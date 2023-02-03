@@ -18,6 +18,3 @@ message GCGLevelChallengeFinishNotify {
 	int32 retcode = 11;
 	uint32 configId = 8;
 }
-
-
-

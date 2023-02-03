@@ -13,6 +13,3 @@ message HomeChangeBgmNotify {
 
 	uint32 bgmId = 7;
 }
-
-
-

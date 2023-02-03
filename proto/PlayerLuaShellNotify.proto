@@ -18,6 +18,3 @@ message PlayerLuaShellNotify {
 	LuaShellType shellType = 7;
 	uint32 id = 12;
 }
-
-
-

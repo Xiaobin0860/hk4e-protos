@@ -16,6 +16,3 @@ message GetRecommendCustomDungeonRsp {
 	repeated OtherCustomDungeonBrief customDungeonList = 10;
 	int32 retcode = 12;
 }
-
-
-

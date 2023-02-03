@@ -16,6 +16,3 @@ message IslandPartyRaftInfoNotify {
 	uint32 pointId = 6;
 	uint32 coin = 5;
 }
-
-
-

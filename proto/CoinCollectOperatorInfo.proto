@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message CoinCollectOperatorInfo {
 	uint32 levelId = 1;
 }
-
-
-

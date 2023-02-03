@@ -25,6 +25,3 @@ message DungeonPlayerDieNotify {
 	}
 	uint32 dungeonId = 6;
 }
-
-
-

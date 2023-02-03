@@ -18,6 +18,3 @@ message CrystalLinkEnterDungeonRsp {
 	int32 retcode = 3;
 	repeated CrystalLinkTeamInfo teamInfoList = 10;
 }
-
-
-

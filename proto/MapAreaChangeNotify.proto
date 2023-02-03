@@ -15,6 +15,3 @@ message MapAreaChangeNotify {
 
 	repeated MapAreaInfo mapAreaInfoList = 10;
 }
-
-
-

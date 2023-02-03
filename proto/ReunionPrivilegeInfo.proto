@@ -7,6 +7,3 @@ message ReunionPrivilegeInfo {
 	uint32 privilegeId = 12;
 	uint32 Unk3300_GJBEAFPMFAA = 8;
 }
-
-
-

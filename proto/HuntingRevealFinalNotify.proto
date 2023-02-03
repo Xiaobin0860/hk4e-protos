@@ -18,6 +18,3 @@ message HuntingRevealFinalNotify {
 	uint32 finishedGroupId = 2;
 	Vector finalPosition = 5;
 }
-
-
-

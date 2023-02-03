@@ -15,6 +15,3 @@ message WatcherEventNotify {
 	uint32 addProgress = 3;
 	uint32 watcherId = 15;
 }
-
-
-

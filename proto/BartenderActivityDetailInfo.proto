@@ -13,6 +13,3 @@ message BartenderActivityDetailInfo {
 	bool leftMonsters = 2;
 	repeated BartenderLevelInfo unlockLevelList = 4;
 }
-
-
-

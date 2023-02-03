@@ -20,6 +20,3 @@ message PlayerReportReq {
 	uint32 targetHomeModuleId = 12;
 	string targetHomeModuleName = 2;
 }
-
-
-

@@ -22,6 +22,3 @@ message ShowAvatarInfo {
 	uint32 costumeId = 12;
 	AvatarExcelInfo excelInfo = 13;
 }
-
-
-

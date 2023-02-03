@@ -15,6 +15,3 @@ message ScenePlayOwnerCheckReq {
 	uint32 playId = 13;
 	bool isSkipMatch = 8;
 }
-
-
-

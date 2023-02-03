@@ -16,6 +16,3 @@ message ClientMassiveEntity {
 		BoxInfo box_info = 6;
 	}
 }
-
-
-

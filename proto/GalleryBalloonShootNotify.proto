@@ -18,6 +18,3 @@ message GalleryBalloonShootNotify {
 	uint32 combo = 7;
 	uint64 comboDisableTime = 6;
 }
-
-
-

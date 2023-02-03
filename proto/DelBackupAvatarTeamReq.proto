@@ -14,6 +14,3 @@ message DelBackupAvatarTeamReq {
 
 	uint32 backupAvatarTeamId = 4;
 }
-
-
-

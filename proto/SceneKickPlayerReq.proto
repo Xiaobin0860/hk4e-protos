@@ -14,6 +14,3 @@ message SceneKickPlayerReq {
 
 	uint32 targetUid = 2;
 }
-
-
-

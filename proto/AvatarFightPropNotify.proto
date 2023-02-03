@@ -14,6 +14,3 @@ message AvatarFightPropNotify {
 	map<uint32, float> fightPropMap = 13;
 	uint64 avatarGuid = 12;
 }
-
-
-

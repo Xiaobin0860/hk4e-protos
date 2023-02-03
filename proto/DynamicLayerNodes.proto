@@ -8,6 +8,3 @@ message DynamicLayerNodes {
 	repeated DynamicSVONode nodes = 8;
 	int32 level = 12;
 }
-
-
-

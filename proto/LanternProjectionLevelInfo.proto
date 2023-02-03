@@ -9,6 +9,3 @@ message LanternProjectionLevelInfo {
 	bool isFinished = 14;
 	bool isShowTips = 2;
 }
-
-
-

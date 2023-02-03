@@ -10,6 +10,3 @@ message BlossomScheduleInfo {
 	uint32 round = 14;
 	uint32 progress = 15;
 }
-
-
-

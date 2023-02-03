@@ -23,6 +23,3 @@ message GetUgcRsp {
 		MusicRecord music_record = 1;
 	}
 }
-
-
-

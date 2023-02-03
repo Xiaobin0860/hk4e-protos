@@ -18,6 +18,3 @@ message ObstacleModifyNotify {
 	repeated int32 removeObstacleIds = 7;
 	uint32 sceneId = 9;
 }
-
-
-

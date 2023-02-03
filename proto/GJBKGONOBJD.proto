@@ -8,6 +8,3 @@ message GJBKGONOBJD {
 	uint32 storeNum = 3;
 	uint32 winNum = 4;
 }
-
-
-

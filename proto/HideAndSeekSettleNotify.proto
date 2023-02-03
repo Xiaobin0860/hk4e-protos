@@ -24,6 +24,3 @@ message HideAndSeekSettleNotify {
 	repeated ExhibitionDisplayInfo scoreList = 7;
 	bool isRecordScore = 5;
 }
-
-
-

@@ -15,6 +15,3 @@ message GadgetPlayInfo {
 		CrucibleInfo crucible_info = 21;
 	}
 }
-
-
-

@@ -16,6 +16,3 @@ message GCGMessagePackNotify {
 	repeated GCGMessagePack msgPackList = 13;
 	uint32 serverSeq = 6;
 }
-
-
-

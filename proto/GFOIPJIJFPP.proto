@@ -8,6 +8,3 @@ message GFOIPJIJFPP {
 	Vector initPos = 6;
 	Vector forward = 9;
 }
-
-
-

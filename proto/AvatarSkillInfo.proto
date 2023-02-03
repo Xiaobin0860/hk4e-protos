@@ -7,6 +7,3 @@ message AvatarSkillInfo {
 	repeated uint32 fullCdTimeList = 2;
 	uint32 maxChargeCount = 3;
 }
-
-
-

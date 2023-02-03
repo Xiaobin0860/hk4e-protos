@@ -13,6 +13,3 @@ message AnnounceData {
 	uint32 countDownFrequency = 8;
 	string centerSystemText = 13;
 }
-
-
-

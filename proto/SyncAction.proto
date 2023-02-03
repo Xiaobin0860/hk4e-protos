@@ -7,6 +7,3 @@ import "BreakoutAction.proto";
 message SyncAction {
 	BreakoutAction henpegmkbie = 9;
 }
-
-
-

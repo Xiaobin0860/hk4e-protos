@@ -13,6 +13,3 @@ message OpenStateUpdateNotify {
 
 	map<uint32, uint32> openStateMap = 9;
 }
-
-
-

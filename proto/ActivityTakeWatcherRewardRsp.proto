@@ -15,6 +15,3 @@ message ActivityTakeWatcherRewardRsp {
 	uint32 watcherId = 5;
 	uint32 activityId = 3;
 }
-
-
-

@@ -17,6 +17,3 @@ message ShowTemplateReminderNotify {
 	repeated int32 paramList = 12;
 	uint32 templateReminderId = 9;
 }
-
-
-

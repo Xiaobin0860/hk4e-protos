@@ -10,6 +10,3 @@ message TowerFloorRecord {
 	repeated TowerLevelRecord passedLevelRecordList = 7;
 	uint32 floorId = 15;
 }
-
-
-

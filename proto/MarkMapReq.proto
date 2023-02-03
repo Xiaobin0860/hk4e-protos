@@ -25,6 +25,3 @@ message MarkMapReq {
 	MapMarkPoint old = 7;
 	MapMarkPoint mark = 10;
 }
-
-
-

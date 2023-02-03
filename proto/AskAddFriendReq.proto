@@ -14,6 +14,3 @@ message AskAddFriendReq {
 
 	uint32 targetUid = 10;
 }
-
-
-

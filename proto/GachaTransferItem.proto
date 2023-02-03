@@ -8,6 +8,3 @@ message GachaTransferItem {
 	ItemParam item = 5;
 	bool isTransferItemNew = 3;
 }
-
-
-

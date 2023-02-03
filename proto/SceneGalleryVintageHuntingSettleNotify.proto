@@ -26,6 +26,3 @@ message SceneGalleryVintageHuntingSettleNotify {
 		ThirdStageInfo third_stage_info = 4;
 	}
 }
-
-
-

@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message GCGZone {
 	repeated uint32 cardList = 14;
 }
-
-
-

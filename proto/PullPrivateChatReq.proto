@@ -16,6 +16,3 @@ message PullPrivateChatReq {
 	uint32 fromSequence = 4;
 	uint32 pullNum = 6;
 }
-
-
-

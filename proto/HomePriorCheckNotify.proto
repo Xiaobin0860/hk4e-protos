@@ -13,6 +13,3 @@ message HomePriorCheckNotify {
 
 	uint32 endTime = 7;
 }
-
-
-

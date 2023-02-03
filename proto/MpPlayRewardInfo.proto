@@ -7,6 +7,3 @@ message MpPlayRewardInfo {
 	repeated uint32 remainUidList = 2;
 	repeated uint32 qualifyUidList = 3;
 }
-
-
-

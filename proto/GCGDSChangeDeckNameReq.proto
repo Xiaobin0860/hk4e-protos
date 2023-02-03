@@ -15,6 +15,3 @@ message GCGDSChangeDeckNameReq {
 	uint32 rewardIndex = 15;
 	uint32 ccdlgbcdpbp = 2;
 }
-
-
-

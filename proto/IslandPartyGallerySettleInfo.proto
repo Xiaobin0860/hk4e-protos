@@ -9,6 +9,3 @@ message IslandPartyGallerySettleInfo {
 	OnlinePlayerInfo playerInfo = 3;
 	repeated ExhibitionDisplayInfo cardList = 9;
 }
-
-
-

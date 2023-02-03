@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message ReactionEnd {
 	uint32 skillId = 15;
 }
-
-
-

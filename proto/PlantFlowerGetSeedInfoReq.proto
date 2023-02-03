@@ -14,6 +14,3 @@ message PlantFlowerGetSeedInfoReq {
 
 	uint32 scheduleId = 13;
 }
-
-
-

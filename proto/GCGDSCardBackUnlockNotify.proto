@@ -15,6 +15,3 @@ message GCGDSCardBackUnlockNotify {
 	bool isSuccess = 8;
 	string cardBackId = 4;
 }
-
-
-

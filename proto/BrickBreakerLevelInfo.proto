@@ -10,6 +10,3 @@ message BrickBreakerLevelInfo {
 	uint32 maxScore = 6;
 	repeated uint32 chosenAvatarList = 4;
 }
-
-
-

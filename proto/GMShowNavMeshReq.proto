@@ -17,6 +17,3 @@ message GMShowNavMeshReq {
 	Vector center = 6;
 	Vector extent = 13;
 }
-
-
-

@@ -13,6 +13,3 @@ message ReadSignatureAuditRsp {
 
 	int32 retcode = 6;
 }
-
-
-

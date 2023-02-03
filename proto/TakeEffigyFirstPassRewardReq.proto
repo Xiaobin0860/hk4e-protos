@@ -14,6 +14,3 @@ message TakeEffigyFirstPassRewardReq {
 
 	uint32 challengeId = 5;
 }
-
-
-

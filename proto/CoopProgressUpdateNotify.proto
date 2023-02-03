@@ -14,6 +14,3 @@ message CoopProgressUpdateNotify {
 	uint32 curCoopPoint = 5;
 	bool isHaveProgress = 1;
 }
-
-
-

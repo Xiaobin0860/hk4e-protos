@@ -17,6 +17,3 @@ message ActivityGetFriendGiftWishListRsp {
 	repeated ActivityFriendGiftWishData friendGiftWishList = 13;
 	int32 retcode = 15;
 }
-
-
-

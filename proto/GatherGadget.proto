@@ -6,6 +6,3 @@ message GatherGadget {
 	uint32 itemId = 1;
 	bool is_forbid_guest = 2;
 }
-
-
-

@@ -35,6 +35,3 @@ message EvtCreateGadgetNotify {
 	uint32 campType = 12;
 	repeated uint32 targetEntityIdList = 1591;
 }
-
-
-

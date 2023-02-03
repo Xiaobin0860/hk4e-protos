@@ -15,6 +15,3 @@ message IrodoriFillPoetryReq {
 	uint32 lineId = 13;
 	uint32 themeId = 2;
 }
-
-
-

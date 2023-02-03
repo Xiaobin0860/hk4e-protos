@@ -19,6 +19,3 @@ message GetActivityInfoRsp {
 	repeated uint32 activatedSaleIdList = 7;
 	int32 retcode = 14;
 }
-
-
-

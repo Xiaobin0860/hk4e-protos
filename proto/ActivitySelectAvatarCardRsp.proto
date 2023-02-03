@@ -15,6 +15,3 @@ message ActivitySelectAvatarCardRsp {
 	uint32 activityId = 1;
 	int32 retcode = 5;
 }
-
-
-

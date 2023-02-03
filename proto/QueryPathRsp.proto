@@ -24,6 +24,3 @@ message QueryPathRsp {
 	PathStatusType queryStatus = 6;
 	int32 queryId = 15;
 }
-
-
-

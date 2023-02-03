@@ -11,6 +11,3 @@ message BuoyantCombatGallerySettleInfo {
 	uint32 finalScore = 6;
 	uint32 Unk3300_KPCJBOOGEMG = 2;
 }
-
-
-

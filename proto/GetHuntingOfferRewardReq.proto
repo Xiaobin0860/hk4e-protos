@@ -17,6 +17,3 @@ message GetHuntingOfferRewardReq {
 	HuntingPair huntingPair = 14;
 	uint32 cityId = 13;
 }
-
-
-

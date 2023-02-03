@@ -14,6 +14,3 @@ message MechanicusCoinNotify {
 	uint32 mechanicusId = 8;
 	uint32 coin = 13;
 }
-
-
-

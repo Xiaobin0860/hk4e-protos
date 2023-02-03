@@ -7,6 +7,3 @@ enum PlaySoundType {
     PLAY_SOUND_START = 1;
     PLAY_SOUND_STOP  = 2;
 }
-
-
-

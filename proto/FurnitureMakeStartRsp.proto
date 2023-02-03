@@ -16,6 +16,3 @@ message FurnitureMakeStartRsp {
 	FurnitureMakeSlot furnitureMakeSlot = 11;
 	int32 retcode = 15;
 }
-
-
-

@@ -14,6 +14,3 @@ message TowerGetFloorStarRewardRsp {
 	int32 retcode = 11;
 	uint32 floorId = 12;
 }
-
-
-

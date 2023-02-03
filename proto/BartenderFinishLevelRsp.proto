@@ -14,6 +14,3 @@ message BartenderFinishLevelRsp {
 	int32 retcode = 14;
 	uint32 levelId = 6;
 }
-
-
-

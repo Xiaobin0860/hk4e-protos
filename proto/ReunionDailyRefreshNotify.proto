@@ -15,6 +15,3 @@ message ReunionDailyRefreshNotify {
 
 	ReunionBriefInfo reunionBriefInfo = 13;
 }
-
-
-

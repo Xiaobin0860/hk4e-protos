@@ -9,6 +9,3 @@ message ActivityScheduleInfo {
 	uint32 endTime = 9;
 	bool isOpen = 7;
 }
-
-
-

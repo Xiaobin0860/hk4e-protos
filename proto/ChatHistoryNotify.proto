@@ -16,6 +16,3 @@ message ChatHistoryNotify {
 	uint32 channelId = 14;
 	repeated ChatInfo chatInfo = 12;
 }
-
-
-

@@ -12,6 +12,3 @@ message InBattleMechanicusCardInfo {
 	uint32 Unk3300_KCIEINMEPDH = 8;
 	InBattleMechanicusCardChallengeState challengeState = 5;
 }
-
-
-

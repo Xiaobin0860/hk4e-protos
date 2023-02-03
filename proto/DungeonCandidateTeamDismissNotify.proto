@@ -16,6 +16,3 @@ message DungeonCandidateTeamDismissNotify {
 	uint32 playerUid = 3;
 	DungeonCandidateTeamPlayerDismissReason reason = 4;
 }
-
-
-

@@ -8,6 +8,3 @@ message ItemHint {
 	uint32 itemId = 13;
 	bool isNew = 14;
 }
-
-
-

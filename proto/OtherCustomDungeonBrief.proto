@@ -20,6 +20,3 @@ message OtherCustomDungeonBrief {
 	SocialDetail creatorDetail = 8;
 	bool isStored = 3;
 }
-
-
-

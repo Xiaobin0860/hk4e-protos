@@ -8,6 +8,3 @@ message RockBoardExploreStageData {
 	bool isOpen = 6;
 	uint32 openTime = 7;
 }
-
-
-

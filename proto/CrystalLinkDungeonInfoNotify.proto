@@ -21,6 +21,3 @@ message CrystalLinkDungeonInfoNotify {
 	uint32 levelId = 6;
 	repeated CrystalLinkBuffInfo buffInfoList = 2;
 }
-
-
-

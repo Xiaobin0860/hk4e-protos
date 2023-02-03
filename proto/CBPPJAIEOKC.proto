@@ -7,6 +7,3 @@ import "AnimatorParameterValueInfoPair.proto";
 message CBPPJAIEOKC {
 	AnimatorParameterValueInfoPair value = 2;
 }
-
-
-

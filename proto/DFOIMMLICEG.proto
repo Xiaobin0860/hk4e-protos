@@ -9,6 +9,3 @@ message DFOIMMLICEG {
 	Vector mjehpphliia = 12;
 	Vector rot = 9;
 }
-
-
-

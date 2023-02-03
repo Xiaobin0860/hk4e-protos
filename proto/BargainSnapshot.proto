@@ -8,6 +8,3 @@ message BargainSnapshot {
 	int32 curMood = 13;
 	uint32 Unk3300_KOCJELACJLM = 6;
 }
-
-
-

@@ -14,6 +14,3 @@ message CancelCoopTaskReq {
 
 	uint32 chapterId = 3;
 }
-
-
-

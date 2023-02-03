@@ -13,6 +13,3 @@ message QuestDelNotify {
 
 	uint32 questId = 15;
 }
-
-
-

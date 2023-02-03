@@ -33,6 +33,3 @@ message DungeonChallengeFinishNotify {
 		CustomDungeonResultInfo custom_dungeon_result_info = 41;
 	}
 }
-
-
-

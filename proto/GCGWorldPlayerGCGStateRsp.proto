@@ -14,6 +14,3 @@ message GCGWorldPlayerGCGStateRsp {
 	int32 retcode = 14;
 	bool isAgree = 10;
 }
-
-
-

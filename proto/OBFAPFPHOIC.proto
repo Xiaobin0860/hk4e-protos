@@ -18,6 +18,3 @@ message OBFAPFPHOIC {
 	string bhfcgolfbeg = 13;
 	string kbgbegffhhc = 14;
 }
-
-
-

@@ -13,6 +13,3 @@ message ExitFishingRsp {
 
 	int32 retcode = 12;
 }
-
-
-

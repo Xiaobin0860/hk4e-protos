@@ -19,6 +19,3 @@ message ObstacleInfo {
 	int32 obstacleId = 9;
 	MathQuaternion rotation = 2;
 }
-
-
-

@@ -15,6 +15,3 @@ message ActivityAcceptGiveGiftReq {
 	uint32 scheduleId = 2;
 	uint32 uid = 7;
 }
-
-
-

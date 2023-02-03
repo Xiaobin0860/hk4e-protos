@@ -16,6 +16,3 @@ message WeaponPromoteRsp {
 	int32 retcode = 14;
 	uint32 oldPromoteLevel = 10;
 }
-
-
-

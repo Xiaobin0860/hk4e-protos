@@ -16,6 +16,3 @@ message GCGResourceStateNotify {
 	int32 retcode = 2;
 	repeated GCGPlayerGCGState lolbinbndgc = 5;
 }
-
-
-

@@ -13,6 +13,3 @@ message ServerMessageNotify {
 
 	uint32 index = 6;
 }
-
-
-

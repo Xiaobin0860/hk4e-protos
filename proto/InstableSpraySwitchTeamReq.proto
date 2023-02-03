@@ -16,6 +16,3 @@ message InstableSpraySwitchTeamReq {
 
 	repeated InstableSprayAvatarInfo avatarInfoList = 11;
 }
-
-
-

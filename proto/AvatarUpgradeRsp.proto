@@ -18,6 +18,3 @@ message AvatarUpgradeRsp {
 	int32 retcode = 13;
 	uint32 curLevel = 6;
 }
-
-
-

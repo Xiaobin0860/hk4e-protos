@@ -15,6 +15,3 @@ message PrivateChatNotify {
 
 	ChatInfo chatInfo = 15;
 }
-
-
-

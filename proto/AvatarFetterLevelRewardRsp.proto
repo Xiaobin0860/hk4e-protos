@@ -16,6 +16,3 @@ message AvatarFetterLevelRewardRsp {
 	uint32 fetterLevel = 2;
 	uint64 avatarGuid = 6;
 }
-
-
-

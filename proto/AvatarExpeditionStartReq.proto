@@ -16,6 +16,3 @@ message AvatarExpeditionStartReq {
 	uint64 avatarGuid = 8;
 	uint32 expId = 14;
 }
-
-
-

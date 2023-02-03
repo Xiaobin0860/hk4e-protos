@@ -8,6 +8,3 @@ message FungusTrainingPoolPreviewDetail {
 	uint32 poolId = 10;
 	repeated FungusTrainingMonsterPreviewDetail monsterPreviewDetailList = 5;
 }
-
-
-

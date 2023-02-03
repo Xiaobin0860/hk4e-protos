@@ -17,6 +17,3 @@ message ChatChannelUpdateNotify {
 	ChatChannelInfo channelInfo = 6;
 	uint32 channelId = 12;
 }
-
-
-

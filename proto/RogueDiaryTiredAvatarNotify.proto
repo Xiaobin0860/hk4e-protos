@@ -19,6 +19,3 @@ message RogueDiaryTiredAvatarNotify {
 	uint32 Unk3300_DMEMBBPEIGK = 8;
 	repeated RogueDiaryAvatar optionalTiredAvatarList = 15;
 }
-
-
-

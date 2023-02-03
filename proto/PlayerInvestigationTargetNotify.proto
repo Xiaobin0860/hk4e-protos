@@ -15,6 +15,3 @@ message PlayerInvestigationTargetNotify {
 
 	repeated InvestigationTarget investigationTargetList = 12;
 }
-
-
-

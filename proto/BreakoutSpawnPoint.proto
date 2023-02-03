@@ -9,6 +9,3 @@ message BreakoutSpawnPoint {
 	uint32 jkjacakbdch = 2;
 	repeated BreakoutPhysicalObject clnllfklpjc = 3;
 }
-
-
-

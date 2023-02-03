@@ -16,6 +16,3 @@ message HomeResourceTakeFetterExpRsp {
 	HomeResource fetterExp = 12;
 	int32 retcode = 3;
 }
-
-
-

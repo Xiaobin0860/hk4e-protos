@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message JNNGCCMEBPP {
 	float jmiipakgola = 1;
 }
-
-
-

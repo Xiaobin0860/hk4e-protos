@@ -9,6 +9,3 @@ message FFJPPIJOJLI {
 	Vector spawnPos = 2;
 	Vector spawnRot = 3;
 }
-
-
-

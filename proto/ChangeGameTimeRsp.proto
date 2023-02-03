@@ -15,6 +15,3 @@ message ChangeGameTimeRsp {
 	uint32 extraDays = 5;
 	int32 retcode = 7;
 }
-
-
-

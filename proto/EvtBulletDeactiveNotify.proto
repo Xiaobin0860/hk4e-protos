@@ -19,6 +19,3 @@ message EvtBulletDeactiveNotify {
 	Vector disappearPos = 5;
 	ForwardType forwardType = 12;
 }
-
-
-

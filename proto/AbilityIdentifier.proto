@@ -10,6 +10,3 @@ message AbilityIdentifier {
 	int32 localId = 8;
 	uint32 instancedModifierId = 11;
 }
-
-
-

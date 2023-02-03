@@ -17,6 +17,3 @@ message GetCityReputationMapInfoRsp {
 	bool Unk3300_GJFNOPNMFNG = 7;
 	repeated uint32 rewardCityList = 1;
 }
-
-
-

@@ -16,6 +16,3 @@ message AvatarExpeditionCallBackRsp {
 	int32 retcode = 14;
 	map<uint64, AvatarExpeditionInfo> expeditionInfoMap = 7;
 }
-
-
-

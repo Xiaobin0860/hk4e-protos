@@ -18,6 +18,3 @@ message ReliquaryUpgradeReq {
 	uint64 targetReliquaryGuid = 14;
 	repeated ItemParam itemParamList = 8;
 }
-
-
-

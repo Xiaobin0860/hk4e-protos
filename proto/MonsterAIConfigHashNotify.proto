@@ -16,6 +16,3 @@ message MonsterAIConfigHashNotify {
 	uint32 entityId = 7;
 	uint32 jobId = 1;
 }
-
-
-

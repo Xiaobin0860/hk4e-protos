@@ -15,6 +15,3 @@ message AvatarSkillMaxChargeCountNotify {
 	uint64 avatarGuid = 7;
 	uint32 maxChargeCount = 1;
 }
-
-
-

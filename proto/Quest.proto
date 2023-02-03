@@ -18,6 +18,3 @@ message Quest {
 	repeated uint32 lackedPlaceList = 14;
 	map<uint32, uint32> lackedPlaceMap = 15;
 }
-
-
-

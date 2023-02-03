@@ -13,6 +13,3 @@ message GCGTCInviteReq {
 
 	repeated uint32 cardList = 3;
 }
-
-
-

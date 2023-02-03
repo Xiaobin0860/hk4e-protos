@@ -16,6 +16,3 @@ message HomeResourceTakeHomeCoinRsp {
 	HomeResource homeCoin = 15;
 	int32 retcode = 14;
 }
-
-
-

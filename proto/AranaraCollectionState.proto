@@ -8,6 +8,3 @@ enum AranaraCollectionState {
   ARANARA_COLLECTION_STATE_COLLECTED   = 2;
   ARANARA_COLLECTION_STATE_FINISHED    = 3;
 }
-
-
-

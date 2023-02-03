@@ -15,6 +15,3 @@ message SetFriendRemarkNameReq {
 	uint32 uid = 11;
 	string remarkName = 15;
 }
-
-
-

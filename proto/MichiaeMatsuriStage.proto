@@ -7,6 +7,3 @@ message MichiaeMatsuriStage {
 	uint32 stageId = 11;
 	uint32 openTime = 13;
 }
-
-
-

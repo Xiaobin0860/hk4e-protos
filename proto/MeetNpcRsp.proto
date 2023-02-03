@@ -14,6 +14,3 @@ message MeetNpcRsp {
 	uint32 npcFirstMetId = 12;
 	int32 retcode = 14;
 }
-
-
-

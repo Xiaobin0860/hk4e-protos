@@ -9,6 +9,3 @@ message IDGMFMNDIBC {
 	bool isForbidSkill = 4;
 	uint32 lifeNum = 5;
 }
-
-
-

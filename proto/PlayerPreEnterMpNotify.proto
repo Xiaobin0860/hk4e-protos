@@ -17,6 +17,3 @@ message PlayerPreEnterMpNotify {
 	uint32 uid = 10;
 	string nickname = 15;
 }
-
-
-

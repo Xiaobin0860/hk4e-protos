@@ -15,6 +15,3 @@ message ActivityGetCanGiveFriendGiftRsp {
 	map<uint32, uint32> giftNumMap = 4;
 	int32 retcode = 12;
 }
-
-
-

@@ -14,6 +14,3 @@ message HideAndSeekSelectAvatarReq {
 
 	uint32 avatarId = 4;
 }
-
-
-

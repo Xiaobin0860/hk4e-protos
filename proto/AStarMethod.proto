@@ -8,6 +8,3 @@ enum AStarMethod {
     Adaptive   = 2;
     Inflection = 3;
 }
-
-
-

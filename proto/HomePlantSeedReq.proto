@@ -16,6 +16,3 @@ message HomePlantSeedReq {
 	uint32 fieldGuid = 13;
 	repeated uint32 seedIdList = 10;
 }
-
-
-

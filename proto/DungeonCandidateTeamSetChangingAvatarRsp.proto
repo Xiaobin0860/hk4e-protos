@@ -13,6 +13,3 @@ message DungeonCandidateTeamSetChangingAvatarRsp {
 
 	int32 retcode = 10;
 }
-
-
-

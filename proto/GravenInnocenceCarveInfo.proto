@@ -9,6 +9,3 @@ message GravenInnocenceCarveInfo {
 	uint32 canEditCount = 15;
 	repeated GravenInnocenceCarveStageInfo stageInfoList = 4;
 }
-
-
-

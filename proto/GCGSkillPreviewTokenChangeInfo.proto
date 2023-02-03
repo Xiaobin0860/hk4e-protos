@@ -7,6 +7,3 @@ import "GCGSkillPreviewTokenInfo.proto";
 message GCGSkillPreviewTokenChangeInfo {
 	repeated GCGSkillPreviewTokenInfo tokenChangeList = 1;
 }
-
-
-

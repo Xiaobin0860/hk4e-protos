@@ -19,6 +19,3 @@ message OrderFinishNotify {
 	repeated ItemParam itemList = 8;
 	string productId = 13;
 }
-
-
-

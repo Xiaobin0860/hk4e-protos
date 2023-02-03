@@ -14,6 +14,3 @@ message TakeInvestigationRewardRsp {
 	uint32 id = 13;
 	int32 retcode = 15;
 }
-
-
-

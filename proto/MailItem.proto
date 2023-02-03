@@ -9,6 +9,3 @@ message MailItem {
 	EquipParam equipParam = 1;
 	MaterialDeleteInfo deleteInfo = 2;
 }
-
-
-

@@ -10,6 +10,3 @@ message SkyCrystalDetectorData {
 	uint32 configId = 8;
 	bool isHintValid = 3;
 }
-
-
-

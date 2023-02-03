@@ -13,6 +13,3 @@ message DeleteFriendNotify {
 
 	uint32 targetUid = 8;
 }
-
-
-

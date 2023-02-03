@@ -20,6 +20,3 @@ message HPPMAMEDOAD {
 		SyncAction sync_action = 12;
 	}
 }
-
-
-

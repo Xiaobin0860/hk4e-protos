@@ -13,6 +13,3 @@ message FindHilichurlFinishSecondQuestNotify {
 
 	uint32 dayIndex = 9;
 }
-
-
-

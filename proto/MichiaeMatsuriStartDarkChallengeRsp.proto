@@ -13,6 +13,3 @@ message MichiaeMatsuriStartDarkChallengeRsp {
 
 	int32 retcode = 1;
 }
-
-
-

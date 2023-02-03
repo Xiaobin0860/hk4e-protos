@@ -7,6 +7,3 @@ message BrickBreakerActivityStageInfo {
 	bool Unk3300_FFKIEDNGNGK = 12;
 	bool Unk3300_ALOGIKNHEIM = 5;
 }
-
-
-

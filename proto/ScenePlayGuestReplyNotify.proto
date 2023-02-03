@@ -15,6 +15,3 @@ message ScenePlayGuestReplyNotify {
 	uint32 playId = 12;
 	bool isAgree = 10;
 }
-
-
-

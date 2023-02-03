@@ -15,6 +15,3 @@ message PlayerInvestigationNotify {
 
 	repeated Investigation investigationList = 12;
 }
-
-
-

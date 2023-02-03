@@ -15,6 +15,3 @@ message FunitureMakeMakeInfoChangeNotify {
 
 	FurnitureMakeInfo ijdbngdlgdb = 8;
 }
-
-
-

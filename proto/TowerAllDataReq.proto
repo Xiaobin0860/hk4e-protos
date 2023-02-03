@@ -14,6 +14,3 @@ message TowerAllDataReq {
 
 	bool isInteract = 15;
 }
-
-
-

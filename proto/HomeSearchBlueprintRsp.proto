@@ -16,6 +16,3 @@ message HomeSearchBlueprintRsp {
 	HomeBlueprintSearchInfo searchInfo = 9;
 	int32 retcode = 3;
 }
-
-
-

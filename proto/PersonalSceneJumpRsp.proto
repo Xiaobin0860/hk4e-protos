@@ -17,6 +17,3 @@ message PersonalSceneJumpRsp {
 	Vector destPos = 2;
 	int32 retcode = 12;
 }
-
-
-

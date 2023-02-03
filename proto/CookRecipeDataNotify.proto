@@ -15,6 +15,3 @@ message CookRecipeDataNotify {
 
 	CookRecipeData recipeData = 6;
 }
-
-
-

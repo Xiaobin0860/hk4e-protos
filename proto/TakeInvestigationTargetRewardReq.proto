@@ -14,6 +14,3 @@ message TakeInvestigationTargetRewardReq {
 
 	uint32 questId = 11;
 }
-
-
-

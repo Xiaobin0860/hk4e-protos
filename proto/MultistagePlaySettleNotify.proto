@@ -23,6 +23,3 @@ message MultistagePlaySettleNotify {
 		IrodoriChessSettleInfo irodori_chess_settle_info = 96;
 	}
 }
-
-
-

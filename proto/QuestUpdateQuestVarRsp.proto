@@ -16,6 +16,3 @@ message QuestUpdateQuestVarRsp {
 	uint32 parentQuestId = 4;
 	uint32 questId = 9;
 }
-
-
-

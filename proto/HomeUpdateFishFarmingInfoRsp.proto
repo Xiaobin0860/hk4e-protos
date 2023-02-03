@@ -13,6 +13,3 @@ message HomeUpdateFishFarmingInfoRsp {
 
 	int32 retcode = 5;
 }
-
-
-

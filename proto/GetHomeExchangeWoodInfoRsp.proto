@@ -21,6 +21,3 @@ message GetHomeExchangeWoodInfoRsp {
 	repeated HomeExchangeWoodInfo woodInfoList = 11;
 	int32 retcode = 2;
 }
-
-
-

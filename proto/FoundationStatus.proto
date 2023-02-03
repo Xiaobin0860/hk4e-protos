@@ -8,6 +8,3 @@ enum FoundationStatus {
   FOUNDATION_STATUS_BUILDING = 2;
   FOUNDATION_STATUS_BUILT    = 3;
 }
-
-
-

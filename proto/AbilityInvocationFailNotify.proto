@@ -17,6 +17,3 @@ message AbilityInvocationFailNotify {
 	uint32 entityId = 13;
 	AbilityInvokeEntry invoke = 14;
 }
-
-
-

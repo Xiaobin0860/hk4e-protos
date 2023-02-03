@@ -26,6 +26,3 @@ message GCGPlayerField {
 	repeated GCGWaitingCharacter waitingList = 2;
 	bool isPassed = 13;
 }
-
-
-

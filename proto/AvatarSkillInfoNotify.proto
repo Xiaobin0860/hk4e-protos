@@ -16,6 +16,3 @@ message AvatarSkillInfoNotify {
 	map<uint32, AvatarSkillInfo> skillMap = 2;
 	uint64 guid = 4;
 }
-
-
-

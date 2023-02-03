@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message OfferingInfo {
 	uint32 offeringId = 1;
 }
-
-
-

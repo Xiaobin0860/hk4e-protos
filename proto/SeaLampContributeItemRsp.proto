@@ -16,6 +16,3 @@ message SeaLampContributeItemRsp {
 	int32 retcode = 12;
 	uint32 Unk3300_LPHALOGLGAL = 2;
 }
-
-
-

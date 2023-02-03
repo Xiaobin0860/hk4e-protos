@@ -14,6 +14,3 @@ message VehicleLocationInfo {
 	uint32 ownerUid = 9;
 	float maxHp = 6;
 }
-
-
-

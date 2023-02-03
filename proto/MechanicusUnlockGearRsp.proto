@@ -15,6 +15,3 @@ message MechanicusUnlockGearRsp {
 	uint32 gearId = 9;
 	uint32 mechanicusId = 13;
 }
-
-
-

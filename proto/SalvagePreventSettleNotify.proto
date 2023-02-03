@@ -16,6 +16,3 @@ message SalvagePreventSettleNotify {
 	uint32 galleryId = 5;
 	SalvagePreventSettleInfo settleInfo = 6;
 }
-
-
-

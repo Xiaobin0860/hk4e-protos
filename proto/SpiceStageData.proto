@@ -7,6 +7,3 @@ message SpiceStageData {
 	uint32 successTimes = 3;
 	uint32 stageId = 9;
 }
-
-
-

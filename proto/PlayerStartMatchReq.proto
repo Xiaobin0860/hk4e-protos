@@ -21,6 +21,3 @@ message PlayerStartMatchReq {
 	uint32 matchId = 11;
 	MatchType matchType = 13;
 }
-
-
-

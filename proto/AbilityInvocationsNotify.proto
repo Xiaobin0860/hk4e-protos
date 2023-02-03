@@ -16,6 +16,3 @@ message AbilityInvocationsNotify {
 
 	repeated AbilityInvokeEntry invokes = 11;
 }
-
-
-

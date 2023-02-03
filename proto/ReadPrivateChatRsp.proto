@@ -13,6 +13,3 @@ message ReadPrivateChatRsp {
 
 	int32 retcode = 7;
 }
-
-
-

@@ -13,6 +13,3 @@ message IrodoriMasterStartGalleryRsp {
 
 	int32 retcode = 10;
 }
-
-
-

@@ -14,6 +14,3 @@ message HomeSceneJumpRsp {
 	bool isEnterRoomScene = 1;
 	int32 retcode = 2;
 }
-
-
-

@@ -19,6 +19,3 @@ message EntityJumpNotify {
 	uint32 entityId = 11;
 	Type jumpType = 3;
 }
-
-
-

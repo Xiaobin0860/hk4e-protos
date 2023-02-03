@@ -18,6 +18,3 @@ message SealBattleBeginNotify {
 	uint32 sealEntityId = 15;
 	SealBattleType battleType = 4;
 }
-
-
-

@@ -16,6 +16,3 @@ message QueryCodexMonsterBeKilledNumRsp {
 	repeated uint32 codexIdList = 4;
 	repeated uint32 beCapturedNumList = 5;
 }
-
-
-

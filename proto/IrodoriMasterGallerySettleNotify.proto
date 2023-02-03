@@ -17,6 +17,3 @@ message IrodoriMasterGallerySettleNotify {
 	uint32 galleryId = 8;
 	IrodoriMasterGallerySettleInfo settleInfo = 4;
 }
-
-
-

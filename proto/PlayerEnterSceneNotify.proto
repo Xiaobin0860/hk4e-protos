@@ -31,6 +31,3 @@ message PlayerEnterSceneNotify {
 	uint64 sceneBeginTime = 15;
 	uint32 targetUid = 1;
 }
-
-
-

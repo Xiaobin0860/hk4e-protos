@@ -14,6 +14,3 @@ message UnlockCoopChapterRsp {
 	int32 retcode = 6;
 	uint32 chapterId = 15;
 }
-
-
-

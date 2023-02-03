@@ -13,6 +13,3 @@ message ServerTimeNotify {
 
 	uint64 serverTime = 12;
 }
-
-
-

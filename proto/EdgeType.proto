@@ -8,6 +8,3 @@ enum EdgeType {
     TILE_BOUND_UNCONNECT = 2;
     TILE_BOUND_OVERIDE   = 3;
 }
-
-
-

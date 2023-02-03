@@ -9,6 +9,3 @@ message MichiaeMatsuriChallengePositionInfo {
 	uint32 gadgetId = 14;
 	Vector pos = 13;
 }
-
-
-

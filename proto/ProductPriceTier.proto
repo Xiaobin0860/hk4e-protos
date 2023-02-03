@@ -6,6 +6,3 @@ message ProductPriceTier {
 	string productId = 10;
 	string priceTier = 6;
 }
-
-
-

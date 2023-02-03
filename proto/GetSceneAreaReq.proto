@@ -15,6 +15,3 @@ message GetSceneAreaReq {
 	uint32 sceneId = 6;
 	uint32 belongUid = 5;
 }
-
-
-

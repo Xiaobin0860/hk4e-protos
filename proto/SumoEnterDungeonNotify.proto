@@ -20,6 +20,3 @@ message SumoEnterDungeonNotify {
 	uint32 Unk3300_DJBJACGHGDM = 14;
 	repeated SumoDungeonTeam dungeonTeamList = 1;
 }
-
-
-

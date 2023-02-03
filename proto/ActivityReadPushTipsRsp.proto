@@ -13,6 +13,3 @@ message ActivityReadPushTipsRsp {
 
 	int32 retcode = 8;
 }
-
-
-

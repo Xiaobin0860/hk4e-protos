@@ -18,6 +18,3 @@ message GachaWishRsp {
 	int32 retcode = 9;
 	uint32 wishItemId = 5;
 }
-
-
-

@@ -16,6 +16,3 @@ message SelectEffigyChallengeConditionReq {
 	uint32 challengeId = 2;
 	repeated uint32 conditionIdList = 3;
 }
-
-
-

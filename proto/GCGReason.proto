@@ -17,6 +17,3 @@ enum GCGReason {
   GCG_REASON_EFFECT_HEAL      = 11;
   GCG_REASON_EFFECT_REVIVE    = 12;
 }
-
-
-

@@ -15,6 +15,3 @@ message StoreCustomDungeonReq {
 	bool isCancelStore = 5;
 	uint64 dungeonGuid = 2;
 }
-
-
-

@@ -13,6 +13,3 @@ message ShowClientTutorialNotify {
 
 	uint32 tutorialId = 10;
 }
-
-
-

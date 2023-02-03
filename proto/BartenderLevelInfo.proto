@@ -7,6 +7,3 @@ message BartenderLevelInfo {
 	uint32 maxScore = 12;
 	uint32 id = 10;
 }
-
-
-

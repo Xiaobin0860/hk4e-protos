@@ -16,6 +16,3 @@ message AchievementAllDataNotify {
 	repeated uint32 rewardTakenGoalIdList = 8;
 	repeated Achievement achievementList = 4;
 }
-
-
-

@@ -13,6 +13,3 @@ message TakeMaterialDeleteReturnRsp {
 
 	int32 retcode = 12;
 }
-
-
-

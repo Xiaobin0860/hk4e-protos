@@ -18,6 +18,3 @@ message GetCustomDungeonRsp {
 	int32 retcode = 8;
 	repeated CustomDungeonBrief briefList = 12;
 }
-
-
-

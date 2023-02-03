@@ -9,6 +9,3 @@ message GeneralMatchInfo {
 	uint32 matchId = 8;
 	repeated MatchPlayerInfo playerList = 13;
 }
-
-
-

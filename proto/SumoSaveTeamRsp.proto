@@ -19,6 +19,3 @@ message SumoSaveTeamRsp {
 	uint32 activityId = 3;
 	repeated SumoTeamData teamList = 8;
 }
-
-
-

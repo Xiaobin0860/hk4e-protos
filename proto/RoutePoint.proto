@@ -19,6 +19,3 @@ message RoutePoint {
 		MathQuaternion axis_speed = 23;
 	}
 }
-
-
-

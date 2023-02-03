@@ -26,6 +26,3 @@ message QueryPathReq {
 	uint32 sceneId = 7;
 	Vector sourcePos = 10;
 }
-
-
-

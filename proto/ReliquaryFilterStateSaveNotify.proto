@@ -14,6 +14,3 @@ message ReliquaryFilterStateSaveNotify {
 
 	map<uint32, uint32> reliquaryFilterStateMap = 3;
 }
-
-
-

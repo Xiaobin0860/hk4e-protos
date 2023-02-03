@@ -16,6 +16,3 @@ message AddRandTaskInfoNotify {
 	Vector pos = 6;
 	uint32 randTaskId = 2;
 }
-
-
-

@@ -18,6 +18,3 @@ message AvatarDieAnimationEndReq {
 	uint32 skillId = 4;
 	Vector rebornPos = 10;
 }
-
-
-

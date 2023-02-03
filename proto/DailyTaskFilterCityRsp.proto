@@ -13,6 +13,3 @@ message DailyTaskFilterCityRsp {
 
 	repeated uint32 cikenonelim = 15;
 }
-
-
-

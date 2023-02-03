@@ -16,6 +16,3 @@ message RegionSearchNotify {
 	uint32 uid = 1;
 	repeated RegionSearchInfo regionSearchList = 15;
 }
-
-
-

@@ -13,6 +13,3 @@ message ReliquaryFilterStateNotify {
 
 	map<uint32, uint32> reliquaryFilterStateMap = 11;
 }
-
-
-

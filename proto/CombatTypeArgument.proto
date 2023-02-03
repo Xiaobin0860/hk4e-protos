@@ -23,6 +23,3 @@ enum CombatTypeArgument {
   COMBAT_SKILL_ANCHOR_POSITION_NTF  = 17;
   COMBAT_GRAPPLING_HOOK_MOVE        = 18;
 }
-
-
-

@@ -15,6 +15,3 @@ message SaveMainCoopRsp {
 	int32 retcode = 10;
 	uint32 id = 9;
 }
-
-
-

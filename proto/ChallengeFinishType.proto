@@ -8,6 +8,3 @@ enum ChallengeFinishType {
   CHALLENGE_FINISH_TYPE_SUCC  = 2;
   CHALLENGE_FINISH_TYPE_PAUSE = 3;
 }
-
-
-

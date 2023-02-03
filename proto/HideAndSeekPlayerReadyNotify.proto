@@ -13,6 +13,3 @@ message HideAndSeekPlayerReadyNotify {
 
 	repeated uint32 uidList = 12;
 }
-
-
-

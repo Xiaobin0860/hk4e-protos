@@ -18,6 +18,3 @@ message GetAllMailRsp {
 	repeated MailData mailList = 7;
 	bool isTruncated = 8;
 }
-
-
-

@@ -7,6 +7,3 @@ import "PotionStageData.proto";
 message PotionActivityDetailInfo {
 	repeated PotionStageData stageList = 11;
 }
-
-
-

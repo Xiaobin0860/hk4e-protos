@@ -15,6 +15,3 @@ message TaskVarNotify {
 
 	repeated TaskVar taskVarList = 9;
 }
-
-
-

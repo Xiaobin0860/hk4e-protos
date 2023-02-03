@@ -16,6 +16,3 @@ message AvatarUnlockTalentNotify {
 	uint32 skillDepotId = 15;
 	uint32 entityId = 14;
 }
-
-
-

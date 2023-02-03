@@ -15,6 +15,3 @@ message ReunionPrivilegeChangeNotify {
 
 	ReunionPrivilegeInfo privilegeInfo = 13;
 }
-
-
-

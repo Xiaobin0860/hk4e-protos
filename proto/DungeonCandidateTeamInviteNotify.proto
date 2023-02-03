@@ -15,6 +15,3 @@ message DungeonCandidateTeamInviteNotify {
 	uint32 playerUid = 9;
 	uint32 validDeadlineTimeSec = 4;
 }
-
-
-

@@ -18,6 +18,3 @@ message GalleryFallCatchNotify {
 	bool isGround = 3;
 	map<uint32, uint32> ballCatchCountMap = 15;
 }
-
-
-

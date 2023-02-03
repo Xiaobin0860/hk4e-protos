@@ -16,6 +16,3 @@ message GadgetCustomTreeInfoNotify {
 	uint32 gadgetEntityId = 2;
 	CustomGadgetTreeInfo customGadgetTreeInfo = 9;
 }
-
-
-

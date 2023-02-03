@@ -17,6 +17,3 @@ message MarkEntityInMinMapNotify {
 	uint32 entityId = 3;
 	Vector position = 13;
 }
-
-
-

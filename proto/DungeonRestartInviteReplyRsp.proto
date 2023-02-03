@@ -15,6 +15,3 @@ message DungeonRestartInviteReplyRsp {
 	bool isAccept = 9;
 	int32 retcode = 5;
 }
-
-
-

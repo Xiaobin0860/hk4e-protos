@@ -17,6 +17,3 @@ message VintageMarketDeliverItemReq {
 	repeated ItemParam deliverItemList = 15;
 	uint32 traderId = 4;
 }
-
-
-

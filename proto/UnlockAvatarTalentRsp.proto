@@ -15,6 +15,3 @@ message UnlockAvatarTalentRsp {
 	uint64 avatarGuid = 13;
 	uint32 talentId = 2;
 }
-
-
-

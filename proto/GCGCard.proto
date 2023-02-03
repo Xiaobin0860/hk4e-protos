@@ -16,6 +16,3 @@ message GCGCard {
 	bool isShow = 13;
 	repeated GCGSkillLimitsInfo skillLimitsList = 12;
 }
-
-
-

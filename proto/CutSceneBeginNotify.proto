@@ -17,6 +17,3 @@ message CutSceneBeginNotify {
 	repeated CutSceneExtraParam extraParamList = 14;
 	uint32 cutsceneId = 2;
 }
-
-
-

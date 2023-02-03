@@ -15,6 +15,3 @@ message DungeonCandidateTeamCreateReq {
 	uint32 dungeonId = 8;
 	uint32 pointId = 12;
 }
-
-
-

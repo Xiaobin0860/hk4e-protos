@@ -10,6 +10,3 @@ message RegionSearch {
 	bool isEntered = 6;
 	uint32 progress = 8;
 }
-
-
-

@@ -19,6 +19,3 @@ message SceneEntityMoveRsp {
 	int32 retcode = 15;
 	MotionInfo failMotion = 6;
 }
-
-
-

@@ -17,6 +17,3 @@ message MaterialDeleteReturnNotify {
 	map<uint32, uint32> Unk3300_LAIHDKJAHAF = 10;
 	MaterialDeleteReturnType type = 11;
 }
-
-
-

@@ -13,6 +13,3 @@ message GCGDSCardFaceUnlockNotify {
 
 	uint32 faceType = 9;
 }
-
-
-

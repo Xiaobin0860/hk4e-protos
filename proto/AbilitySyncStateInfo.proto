@@ -15,6 +15,3 @@ message AbilitySyncStateInfo {
 	repeated AbilityMixinRecoverInfo mixinRecoverInfos = 5;
 	repeated AbilityScalarValueEntry sgvDynamicValueMap = 6;
 }
-
-
-

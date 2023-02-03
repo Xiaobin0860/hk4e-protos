@@ -13,6 +13,3 @@ message GCGCostReviseInfo {
 	repeated uint32 canUseHandCardIdList = 7;
 	repeated GCGPlayCardCostInfo playCardCostList = 15;
 }
-
-
-

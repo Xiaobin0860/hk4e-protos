@@ -9,6 +9,3 @@ message MPLevelEntityInfo {
 	uint32 entityId = 11;
 	uint32 authorityPeerId = 9;
 }
-
-
-

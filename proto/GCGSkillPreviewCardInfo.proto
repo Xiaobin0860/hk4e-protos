@@ -12,6 +12,3 @@ message GCGSkillPreviewCardInfo {
 	uint32 retcode = 10;
 	uint32 cardId = 5;
 }
-
-
-

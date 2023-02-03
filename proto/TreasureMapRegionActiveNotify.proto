@@ -13,6 +13,3 @@ message TreasureMapRegionActiveNotify {
 
 	uint32 activeRegionIndex = 14;
 }
-
-
-

@@ -16,6 +16,3 @@ message LuminanceStoneChallengeSettleNotify {
 	LuminanceStoneChallengeSettleInfo settleInfo = 1;
 	uint32 galleryId = 14;
 }
-
-
-

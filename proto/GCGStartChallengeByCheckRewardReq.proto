@@ -16,6 +16,3 @@ message GCGStartChallengeByCheckRewardReq {
 	uint32 levelId = 5;
 	int32 retcode = 14;
 }
-
-
-

@@ -15,6 +15,3 @@ message AvatarDieAnimationEndRsp {
 	uint32 skillId = 6;
 	int32 retcode = 5;
 }
-
-
-

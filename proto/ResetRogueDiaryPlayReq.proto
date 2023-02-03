@@ -14,6 +14,3 @@ message ResetRogueDiaryPlayReq {
 
 	uint32 stageId = 10;
 }
-
-
-

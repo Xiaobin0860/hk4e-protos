@@ -8,6 +8,3 @@ message SummerTimeV2DungeonStageInfo {
 	uint32 openTime = 13;
 	uint32 stageId = 6;
 }
-
-
-

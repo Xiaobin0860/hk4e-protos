@@ -13,6 +13,3 @@ message Unk3300_ICAGMOCOALO {
 
 	uint32 matchId = 10;
 }
-
-
-

@@ -12,6 +12,3 @@ message ChallnelerSlabInfo {
 	ChannelerSlabLoopDungeonStageInfo loopDungeonStageInfo = 4;
 	repeated ChannelerSlabChallengeStage stageList = 9;
 }
-
-
-

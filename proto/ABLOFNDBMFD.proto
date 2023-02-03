@@ -8,6 +8,3 @@ message ABLOFNDBMFD {
 	repeated AAJAAOKIJHF briefList = 1;
 	repeated string mohcaffojgh = 2;
 }
-
-
-

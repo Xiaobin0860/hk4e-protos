@@ -10,6 +10,3 @@ message AdjustTrackingInfo {
 	string Unk3300_KLKFLIIOFKK = 7;
 	string Unk3300_MHDOPAMDMPL = 13;
 }
-
-
-

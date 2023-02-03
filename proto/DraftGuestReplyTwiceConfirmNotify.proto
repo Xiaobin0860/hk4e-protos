@@ -15,6 +15,3 @@ message DraftGuestReplyTwiceConfirmNotify {
 	uint32 draftId = 6;
 	uint32 guestUid = 11;
 }
-
-
-

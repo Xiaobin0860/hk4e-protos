@@ -16,6 +16,3 @@ message GetStoreCustomDungeonRsp {
 	repeated OtherCustomDungeonBrief customDungeonList = 1;
 	int32 retcode = 10;
 }
-
-
-

@@ -19,6 +19,3 @@ message SumoSaveTeamReq {
 	uint32 stageId = 7;
 	uint32 activityId = 12;
 }
-
-
-

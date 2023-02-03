@@ -15,6 +15,3 @@ message TakePlayerLevelRewardRsp {
 	uint32 rewardId = 4;
 	int32 retcode = 5;
 }
-
-
-

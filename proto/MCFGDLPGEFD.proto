@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message MCFGDLPGEFD {
 	uint32 dnjogbbalgg = 15;
 }
-
-
-

@@ -18,6 +18,3 @@ message BartenderCompleteOrderRsp {
 	bool isNew = 14;
 	uint32 formulaId = 3;
 }
-
-
-

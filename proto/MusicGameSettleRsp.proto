@@ -17,6 +17,3 @@ message MusicGameSettleRsp {
 	uint32 musicBasicId = 4;
 	bool isNewRecord = 14;
 }
-
-
-

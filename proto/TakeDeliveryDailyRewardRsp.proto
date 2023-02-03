@@ -14,6 +14,3 @@ message TakeDeliveryDailyRewardRsp {
 	int32 retcode = 7;
 	uint32 scheduleId = 12;
 }
-
-
-

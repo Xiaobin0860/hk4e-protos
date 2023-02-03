@@ -16,6 +16,3 @@ message ReformFireworksReq {
 
 	FireworksReformData fireworksReformData = 8;
 }
-
-
-

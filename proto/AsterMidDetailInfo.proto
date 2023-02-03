@@ -10,6 +10,3 @@ message AsterMidDetailInfo {
 	uint32 beginTime = 13;
 	uint32 collectCount = 4;
 }
-
-
-

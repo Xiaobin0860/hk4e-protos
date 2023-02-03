@@ -15,6 +15,3 @@ message FungusCultivateRsp {
 	int32 retcode = 12;
 	bool isNewRecord = 2;
 }
-
-
-

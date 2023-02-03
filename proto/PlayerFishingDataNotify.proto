@@ -13,6 +13,3 @@ message PlayerFishingDataNotify {
 
 	uint32 lastFishRodId = 4;
 }
-
-
-

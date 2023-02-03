@@ -15,6 +15,3 @@ message UseWidgetRetractGadgetRsp {
 	int32 retcode = 11;
 	uint32 entityId = 4;
 }
-
-
-

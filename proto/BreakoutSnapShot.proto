@@ -30,6 +30,3 @@ message BreakoutSnapShot {
 	repeated uint32 idIndexList = 19;
 	int32 rawClientGameTime = 20;
 }
-
-
-

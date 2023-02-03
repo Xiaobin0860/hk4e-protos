@@ -15,6 +15,3 @@ message WearEquipReq {
 	uint64 equipGuid = 12;
 	uint64 avatarGuid = 1;
 }
-
-
-

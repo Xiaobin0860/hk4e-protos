@@ -8,6 +8,3 @@ message DraftInviteFailInfo {
 	DraftInviteFailReason reason = 9;
 	uint32 uid = 1;
 }
-
-
-

@@ -10,6 +10,3 @@ message HuntingOfferData {
 	uint32 cityId = 8;
 	HuntingPair huntingPair = 13;
 }
-
-
-

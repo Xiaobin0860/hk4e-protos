@@ -17,6 +17,3 @@ message SaveUgcRsp {
 	uint64 ugcGuid = 12;
 	UgcType ugcType = 15;
 }
-
-
-

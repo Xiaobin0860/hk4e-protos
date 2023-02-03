@@ -12,6 +12,3 @@ message LockedPersonallineData {
 		uint32 level = 13;
 	}
 }
-
-
-

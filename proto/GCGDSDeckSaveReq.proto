@@ -16,6 +16,3 @@ message GCGDSDeckSaveReq {
 	string createTime = 1;
 	uint32 rewardIndex = 5;
 }
-
-
-

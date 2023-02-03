@@ -7,6 +7,3 @@ message RogueAvatarInfo {
 	bool isAlive = 5;
 	bool egkmacmbgbe = 1;
 }
-
-
-

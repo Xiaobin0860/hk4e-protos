@@ -13,6 +13,3 @@ message PublishCustomDungeonRsp {
 
 	int32 retcode = 5;
 }
-
-
-

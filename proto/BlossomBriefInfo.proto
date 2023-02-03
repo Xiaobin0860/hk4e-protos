@@ -16,6 +16,3 @@ message BlossomBriefInfo {
 	uint32 monsterLevel = 15;
 	uint32 refreshId = 5;
 }
-
-
-

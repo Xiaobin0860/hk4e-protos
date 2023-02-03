@@ -18,6 +18,3 @@ message HomeLimitedShopBuyGoodsRsp {
 	uint32 buyCount = 11;
 	int32 retcode = 1;
 }
-
-
-

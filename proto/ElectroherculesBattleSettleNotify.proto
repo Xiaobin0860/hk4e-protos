@@ -13,6 +13,3 @@ message ElectroherculesBattleSettleNotify {
 
 	int32 retcode = 2;
 }
-
-
-

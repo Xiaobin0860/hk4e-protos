@@ -15,6 +15,3 @@ message MpPlayOwnerCheckReq {
 	bool isSkipMatch = 5;
 	uint32 mpPlayId = 13;
 }
-
-
-

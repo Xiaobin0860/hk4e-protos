@@ -13,6 +13,3 @@ message RestartEffigyChallengeRsp {
 
 	int32 retcode = 14;
 }
-
-
-

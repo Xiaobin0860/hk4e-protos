@@ -13,6 +13,3 @@ message CoopCgShowNotify {
 
 	repeated uint32 cgList = 8;
 }
-
-
-

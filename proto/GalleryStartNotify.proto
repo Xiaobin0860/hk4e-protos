@@ -24,6 +24,3 @@ message GalleryStartNotify {
 		ElectroherculesStartParam electrohercules_start_param = 7;
 	}
 }
-
-
-

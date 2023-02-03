@@ -13,6 +13,3 @@ message DungeonCandidateTeamRefuseNotify {
 
 	uint32 playerUid = 10;
 }
-
-
-

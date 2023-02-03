@@ -17,6 +17,3 @@ message PlantFlowerGetFriendFlowerWishListRsp {
 	uint32 scheduleId = 7;
 	repeated PlantFlowerFriendFlowerWishData friendFlowerWishList = 1;
 }
-
-
-

@@ -7,6 +7,3 @@ message HomeResource {
 	uint32 storeValue = 10;
 	uint32 nextRefreshTime = 1;
 }
-
-
-

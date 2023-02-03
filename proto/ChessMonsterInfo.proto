@@ -7,6 +7,3 @@ message ChessMonsterInfo {
 	uint32 level = 2;
 	repeated uint32 affixList = 3;
 }
-
-
-

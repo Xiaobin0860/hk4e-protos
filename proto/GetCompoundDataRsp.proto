@@ -17,6 +17,3 @@ message GetCompoundDataRsp {
 	repeated CompoundQueueData compoundQueueDataList = 6;
 	repeated uint32 unlockCompoundList = 14;
 }
-
-
-

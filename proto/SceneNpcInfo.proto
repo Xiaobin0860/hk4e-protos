@@ -8,6 +8,3 @@ message SceneNpcInfo {
 	uint32 parentQuestId = 3;
 	uint32 blockId = 4;
 }
-
-
-

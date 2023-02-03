@@ -15,6 +15,3 @@ message TreasureMapRegionInfo {
 	bool Unk3300_NIBJOAJLCJI = 2;
 	Vector regionCenterPos = 13;
 }
-
-
-

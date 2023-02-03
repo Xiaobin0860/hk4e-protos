@@ -6,6 +6,3 @@ message GCGBossChallengeData {
 	repeated uint32 lidokiohkmh = 1;
 	uint32 id = 5;
 }
-
-
-

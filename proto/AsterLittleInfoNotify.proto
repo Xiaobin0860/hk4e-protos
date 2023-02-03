@@ -15,6 +15,3 @@ message AsterLittleInfoNotify {
 
 	AsterLittleDetailInfo info = 7;
 }
-
-
-

@@ -17,6 +17,3 @@ message PlayerChatReq {
 	uint32 channelId = 5;
 	ChatInfo chatInfo = 12;
 }
-
-
-

@@ -14,6 +14,3 @@ message DungeonWayPointNotify {
 	repeated uint32 activeWayPointList = 15;
 	bool isAdd = 3;
 }
-
-
-

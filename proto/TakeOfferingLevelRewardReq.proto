@@ -15,6 +15,3 @@ message TakeOfferingLevelRewardReq {
 	uint32 level = 2;
 	uint32 offeringId = 8;
 }
-
-
-

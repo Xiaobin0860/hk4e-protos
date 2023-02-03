@@ -15,6 +15,3 @@ message ProudSkillUpgradeRsp {
 	uint64 avatarGuid = 11;
 	int32 retcode = 5;
 }
-
-
-

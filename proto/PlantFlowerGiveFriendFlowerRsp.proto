@@ -15,6 +15,3 @@ message PlantFlowerGiveFriendFlowerRsp {
 	int32 retcode = 1;
 	repeated uint32 limitFlowerList = 13;
 }
-
-
-

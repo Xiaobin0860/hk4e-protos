@@ -8,6 +8,3 @@ message PDKBCPLNAOJ {
 	uint32 elementType = 1;
 	uint32 bhgooledknh = 7;
 }
-
-
-

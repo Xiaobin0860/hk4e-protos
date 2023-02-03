@@ -19,6 +19,3 @@ message ParentQuest {
 	repeated InferencePageInfo inferencePageList = 5;
 	uint32 questVarSeq = 4;
 }
-
-
-

@@ -14,6 +14,3 @@ message ElectroherculesBattleSelectDifficultyRsp {
 
 	repeated uint64 meclfjmmlmh = 2;
 }
-
-
-

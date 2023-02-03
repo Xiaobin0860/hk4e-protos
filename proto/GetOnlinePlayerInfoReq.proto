@@ -19,6 +19,3 @@ message GetOnlinePlayerInfoReq {
 		string psn_id = 12;
 	}
 }
-
-
-

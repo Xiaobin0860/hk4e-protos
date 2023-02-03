@@ -18,6 +18,3 @@ message DungeonChallengeBeginNotify {
 	repeated uint32 uidList = 12;
 	repeated uint32 paramList = 14;
 }
-
-
-

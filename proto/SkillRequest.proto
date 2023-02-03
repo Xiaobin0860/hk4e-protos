@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message SkillRequest {
 	uint32 skillDepotId = 9;
 }
-
-
-

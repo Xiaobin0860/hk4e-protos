@@ -15,6 +15,3 @@ message PlantFlowerGetSeedInfoRsp {
 	uint32 scheduleId = 8;
 	int32 retcode = 11;
 }
-
-
-

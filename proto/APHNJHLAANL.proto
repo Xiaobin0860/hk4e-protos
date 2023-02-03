@@ -14,6 +14,3 @@ message APHNJHLAANL {
 	int32 retcode = 12;
 	repeated uint32 pbahnigkopb = 11;
 }
-
-
-

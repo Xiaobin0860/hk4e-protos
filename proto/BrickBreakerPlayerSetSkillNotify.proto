@@ -14,6 +14,3 @@ message BrickBreakerPlayerSetSkillNotify {
 	uint32 uid = 12;
 	repeated uint32 skillIdList = 5;
 }
-
-
-

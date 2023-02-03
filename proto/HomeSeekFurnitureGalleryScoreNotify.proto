@@ -18,6 +18,3 @@ message HomeSeekFurnitureGalleryScoreNotify {
 	GalleryStopReason reason = 9;
 	HomeSeekFurnitureOneRecord record = 7;
 }
-
-
-

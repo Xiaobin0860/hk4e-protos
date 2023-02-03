@@ -8,6 +8,3 @@ message DungeonEntryCond {
 	DungeonEntryBlockReason condReason = 14;
 	uint32 param1 = 12;
 }
-
-
-

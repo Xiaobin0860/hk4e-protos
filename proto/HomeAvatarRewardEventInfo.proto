@@ -9,6 +9,3 @@ message HomeAvatarRewardEventInfo {
 	uint32 guid = 5;
 	uint32 suiteId = 2;
 }
-
-
-

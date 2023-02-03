@@ -13,6 +13,3 @@ message FishChosenNotify {
 
 	uint32 fishId = 14;
 }
-
-
-

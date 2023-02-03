@@ -15,6 +15,3 @@ message SeaLampTakePhaseRewardReq {
 	uint32 activityId = 1;
 	uint32 phaseId = 4;
 }
-
-
-

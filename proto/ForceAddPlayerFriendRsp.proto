@@ -17,6 +17,3 @@ message ForceAddPlayerFriendRsp {
 	uint32 targetUid = 14;
 	int32 retcode = 11;
 }
-
-
-

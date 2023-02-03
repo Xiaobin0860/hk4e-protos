@@ -11,6 +11,3 @@ message BossChestInfo {
 	repeated uint32 qualifyUidList = 4;
 	map<uint32, WeeklyBossResinDiscountInfo> uidDiscountMap = 5;
 }
-
-
-

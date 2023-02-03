@@ -16,6 +16,3 @@ message GetDungeonEntryExploreConditionRsp {
 	int32 retcode = 14;
 	DungeonEntryCond dungeonEntryCond = 7;
 }
-
-
-

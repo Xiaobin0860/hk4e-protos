@@ -16,6 +16,3 @@ message SelectEffigyChallengeConditionRsp {
 	uint32 challengeId = 11;
 	uint32 difficultyId = 10;
 }
-
-
-

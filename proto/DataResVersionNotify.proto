@@ -24,6 +24,3 @@ message DataResVersionNotify {
 	DataResVersionOpType opType = 14;
 	string clientVersionSuffix = 8;
 }
-
-
-

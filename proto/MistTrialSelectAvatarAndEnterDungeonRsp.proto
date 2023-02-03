@@ -14,6 +14,3 @@ message MistTrialSelectAvatarAndEnterDungeonRsp {
 	uint32 trialId = 14;
 	int32 retcode = 1;
 }
-
-
-

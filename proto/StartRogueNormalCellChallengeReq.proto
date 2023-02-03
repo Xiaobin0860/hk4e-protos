@@ -15,6 +15,3 @@ message StartRogueNormalCellChallengeReq {
 	uint32 dungeonId = 7;
 	uint32 cellId = 12;
 }
-
-
-

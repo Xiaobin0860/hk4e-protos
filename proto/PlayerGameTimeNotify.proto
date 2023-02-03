@@ -16,6 +16,3 @@ message PlayerGameTimeNotify {
 	bool isHome = 3;
 	uint32 uid = 14;
 }
-
-
-

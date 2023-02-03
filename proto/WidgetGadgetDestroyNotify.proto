@@ -13,6 +13,3 @@ message WidgetGadgetDestroyNotify {
 
 	uint32 entityId = 3;
 }
-
-
-

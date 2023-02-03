@@ -16,6 +16,3 @@ message ExpeditionPathInfo {
 	uint32 Unk3300_AFGPGIIGAKA = 14;
 	float bonusProbability = 8;
 }
-
-
-

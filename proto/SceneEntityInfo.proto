@@ -39,6 +39,3 @@ message SceneEntityInfo {
     SceneGadgetInfo gadget = 13;
   }
 }
-
-
-

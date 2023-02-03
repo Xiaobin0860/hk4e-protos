@@ -10,6 +10,3 @@ message IrodoriChessLevelData {
 	IrodoriChessMapData Unk3300_BGINEMHBNAD = 14;
 	IrodoriChessMapData Unk3300_GCIGNCGOBML = 15;
 }
-
-
-

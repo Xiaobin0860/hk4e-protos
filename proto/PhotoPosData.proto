@@ -11,6 +11,3 @@ message PhotoPosData {
 	uint32 openTime = 1;
 	Vector center = 3;
 }
-
-
-

@@ -22,6 +22,3 @@ message BartenderCompleteOrderReq {
 	uint32 Unk3300_LONHKJFDOND = 15;
 	repeated uint32 optionalOrderList = 11;
 }
-
-
-

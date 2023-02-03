@@ -21,6 +21,3 @@ message GetCityHuntingOfferRsp {
 	repeated HuntingOfferData huntingOfferList = 11;
 	uint32 cityId = 9;
 }
-
-
-

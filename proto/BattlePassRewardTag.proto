@@ -9,6 +9,3 @@ message BattlePassRewardTag {
 	BattlePassUnlockStatus unlockStatus = 13;
 	uint32 rewardId = 15;
 }
-
-
-

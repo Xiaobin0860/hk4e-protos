@@ -16,6 +16,3 @@ message WatcherEventStageNotify {
 	uint32 watcherId = 13;
 	uint32 stage = 6;
 }
-
-
-

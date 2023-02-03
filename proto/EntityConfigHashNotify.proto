@@ -18,6 +18,3 @@ message EntityConfigHashNotify {
 	repeated EntityConfigHashEntry abilityEntryList = 7;
 	repeated EntityConfigHashEntry combatEntryList = 1;
 }
-
-
-

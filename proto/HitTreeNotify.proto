@@ -18,6 +18,3 @@ message HitTreeNotify {
 	Vector treePos = 4;
 	uint32 treeType = 5;
 }
-
-
-

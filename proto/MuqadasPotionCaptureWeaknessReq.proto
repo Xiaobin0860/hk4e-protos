@@ -15,6 +15,3 @@ message MuqadasPotionCaptureWeaknessReq {
 	uint32 levelId = 10;
 	uint32 captureWeaknessCount = 12;
 }
-
-
-

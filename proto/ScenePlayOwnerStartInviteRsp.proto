@@ -15,6 +15,3 @@ message ScenePlayOwnerStartInviteRsp {
 	uint32 playId = 7;
 	bool isSkipMatch = 11;
 }
-
-
-

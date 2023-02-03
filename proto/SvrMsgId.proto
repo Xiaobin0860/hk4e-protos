@@ -11,6 +11,3 @@ enum SvrMsgId {
   MSG_ROUTINE_TYPE_REWARD_MAX_NUM = 5;
   MSG_MECHANICUS_COIN_LIMIT       = 6;
 }
-
-
-

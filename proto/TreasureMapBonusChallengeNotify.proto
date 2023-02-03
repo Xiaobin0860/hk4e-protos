@@ -15,6 +15,3 @@ message TreasureMapBonusChallengeNotify {
 
 	TreasureMapBonusChallengeInfo info = 5;
 }
-
-
-

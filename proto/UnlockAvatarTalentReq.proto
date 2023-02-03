@@ -15,6 +15,3 @@ message UnlockAvatarTalentReq {
 	uint32 talentId = 9;
 	uint64 avatarGuid = 1;
 }
-
-
-

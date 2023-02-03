@@ -16,6 +16,3 @@ message QuestRenameAvatarRsp {
 	uint32 renameId = 13;
 	int32 retcode = 10;
 }
-
-
-

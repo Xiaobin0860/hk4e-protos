@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message LLPPPKBGMLN {
 	uint32 ijfdcpilpno = 14;
 }
-
-
-

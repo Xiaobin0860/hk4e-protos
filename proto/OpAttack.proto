@@ -6,6 +6,3 @@ message OpAttack {
 	uint32 skillId = 8;
 	repeated uint32 costDiceIndexList = 11;
 }
-
-
-

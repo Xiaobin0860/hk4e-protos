@@ -16,6 +16,3 @@ message TriggerCreateGadgetToEquipPartNotify {
 	uint32 gadgetEntityId = 4;
 	string equipPart = 7;
 }
-
-
-

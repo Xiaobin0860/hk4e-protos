@@ -15,6 +15,3 @@ message AvatarWearFlycloakRsp {
 	uint32 flycloakId = 1;
 	int32 retcode = 14;
 }
-
-
-

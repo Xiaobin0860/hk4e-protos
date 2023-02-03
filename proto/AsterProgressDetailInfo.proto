@@ -6,6 +6,3 @@ message AsterProgressDetailInfo {
 	uint32 lastAutoAddTime = 14;
 	uint32 count = 8;
 }
-
-
-

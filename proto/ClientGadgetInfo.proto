@@ -12,6 +12,3 @@ message ClientGadgetInfo {
 	bool isPeerIdFromPlayer = 7;
 	repeated uint32 targetEntityIdList = 8;
 }
-
-
-

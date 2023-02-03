@@ -13,6 +13,3 @@ message LanternRiteTakeSkinRewardRsp {
 
 	int32 retcode = 4;
 }
-
-
-

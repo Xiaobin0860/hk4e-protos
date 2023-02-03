@@ -16,6 +16,3 @@ message AddBlacklistRsp {
 	FriendBrief targetFriendBrief = 2;
 	int32 retcode = 7;
 }
-
-
-

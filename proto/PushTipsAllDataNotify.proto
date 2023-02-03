@@ -15,6 +15,3 @@ message PushTipsAllDataNotify {
 
 	repeated PushTipsData pushTipsList = 12;
 }
-
-
-

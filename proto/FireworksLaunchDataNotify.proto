@@ -16,6 +16,3 @@ message FireworksLaunchDataNotify {
 	uint32 lastUseSchemeId = 6;
 	repeated FireworksLaunchSchemeData schemeDataList = 2;
 }
-
-
-

@@ -20,6 +20,3 @@ message ForceDragAvatarNotify {
 	bool isFirstValid = 5;
 	uint32 sceneTime = 4;
 }
-
-
-

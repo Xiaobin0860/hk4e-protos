@@ -20,6 +20,3 @@ message PotionEnterDungeonReq {
 	repeated uint32 buffIdList = 11;
 	uint32 stageId = 1;
 }
-
-
-

@@ -18,6 +18,3 @@ message HomeBalloonGallerySettleNotify {
 	uint32 rank = 3;
 	bool isNewRecord = 13;
 }
-
-
-

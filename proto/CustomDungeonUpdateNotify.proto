@@ -15,6 +15,3 @@ message CustomDungeonUpdateNotify {
 
 	CustomDungeonBrief dungeonBrief = 14;
 }
-
-
-

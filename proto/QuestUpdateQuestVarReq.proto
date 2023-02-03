@@ -19,6 +19,3 @@ message QuestUpdateQuestVarReq {
 	repeated QuestVarOp questVarOpList = 4;
 	uint32 questId = 3;
 }
-
-
-

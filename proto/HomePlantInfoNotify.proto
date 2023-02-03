@@ -15,6 +15,3 @@ message HomePlantInfoNotify {
 
 	repeated HomePlantFieldData fieldList = 8;
 }
-
-
-

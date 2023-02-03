@@ -21,6 +21,3 @@ message AbilityInvocationFixedNotify {
 	AbilityInvokeEntry Unk3300_KFMHLLHECCJ = 15;
 	AbilityInvokeEntry Unk3300_GAFFBFFKDIC = 1;
 }
-
-
-

@@ -8,6 +8,3 @@ message GCGSkillPreviewHpInfo {
 	uint32 hpChangeValue = 1;
 	GCGSkillHpChangeType changeType = 9;
 }
-
-
-

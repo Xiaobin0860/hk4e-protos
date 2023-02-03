@@ -20,6 +20,3 @@ message FleurFairStageSettleNotify {
 		BossSettleInfo boss_settle_info = 8;
 	}
 }
-
-
-

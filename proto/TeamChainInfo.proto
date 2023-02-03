@@ -8,6 +8,3 @@ message TeamChainInfo {
 	repeated HCAMGIDEAFE stageDataList = 10;
 	bool jimipcpbhek = 11;
 }
-
-
-

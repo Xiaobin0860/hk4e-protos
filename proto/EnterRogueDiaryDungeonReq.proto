@@ -17,6 +17,3 @@ message EnterRogueDiaryDungeonReq {
 	repeated RogueDiaryAvatar chosenAvatarList = 5;
 	repeated uint32 chosenCardList = 2;
 }
-
-
-

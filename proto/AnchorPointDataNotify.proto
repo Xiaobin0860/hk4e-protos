@@ -16,6 +16,3 @@ message AnchorPointDataNotify {
 	uint32 nextUsableTime = 10;
 	repeated AnchorPointData anchorPointList = 11;
 }
-
-
-

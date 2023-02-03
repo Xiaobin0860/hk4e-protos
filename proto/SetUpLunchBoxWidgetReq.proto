@@ -16,6 +16,3 @@ message SetUpLunchBoxWidgetReq {
 
 	LunchBoxData lunchBoxData = 14;
 }
-
-
-

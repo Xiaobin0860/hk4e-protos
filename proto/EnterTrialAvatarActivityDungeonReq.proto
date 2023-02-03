@@ -16,6 +16,3 @@ message EnterTrialAvatarActivityDungeonReq {
 	uint32 enterPointId = 13;
 	uint32 trialAvatarIndexId = 4;
 }
-
-
-

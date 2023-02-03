@@ -15,6 +15,3 @@ message MpPlayGuestReplyNotify {
 	uint32 mpPlayId = 12;
 	uint32 uid = 6;
 }
-
-
-

@@ -19,6 +19,3 @@ message WorldPlayerInfoNotify {
 	repeated OnlinePlayerInfo playerInfoList = 12;
 	repeated PlayerWidgetInfo playerWidgetInfoList = 1;
 }
-
-
-

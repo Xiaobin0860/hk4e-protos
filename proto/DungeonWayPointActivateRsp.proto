@@ -14,6 +14,3 @@ message DungeonWayPointActivateRsp {
 	uint32 wayPointId = 10;
 	int32 retcode = 3;
 }
-
-
-

@@ -15,6 +15,3 @@ message StartBuoyantCombatGalleryReq {
 	uint32 galleryId = 11;
 	uint32 galleryLevel = 7;
 }
-
-
-

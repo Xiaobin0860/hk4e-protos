@@ -13,6 +13,3 @@ message PersonalLineNewUnlockNotify {
 
 	repeated uint32 personalLineIdList = 11;
 }
-
-
-

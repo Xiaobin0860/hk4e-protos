@@ -14,6 +14,3 @@ message SpringUseReq {
 
 	uint64 guid = 1;
 }
-
-
-

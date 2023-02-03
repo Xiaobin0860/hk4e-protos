@@ -22,6 +22,3 @@ message FurnitureMakeRsp {
 	repeated FurnitureMakeInfo makeInfoList = 8;
 	repeated FurnitureMakeBeHelpedData helpedDataList = 14;
 }
-
-
-

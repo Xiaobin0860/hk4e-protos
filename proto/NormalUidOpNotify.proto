@@ -16,6 +16,3 @@ message NormalUidOpNotify {
 	repeated uint32 paramUidList = 7;
 	uint32 paramIndex = 6;
 }
-
-
-

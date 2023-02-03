@@ -16,6 +16,3 @@ message AvatarCardChangeReq {
 	uint64 avatarGuid = 1;
 	uint32 count = 6;
 }
-
-
-

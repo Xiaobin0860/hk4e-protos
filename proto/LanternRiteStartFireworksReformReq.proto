@@ -15,6 +15,3 @@ message LanternRiteStartFireworksReformReq {
 	uint32 challengeId = 12;
 	uint32 stageId = 11;
 }
-
-
-

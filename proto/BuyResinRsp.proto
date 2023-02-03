@@ -15,6 +15,3 @@ message BuyResinRsp {
 	uint32 curValue = 15;
 	int32 retcode = 1;
 }
-
-
-

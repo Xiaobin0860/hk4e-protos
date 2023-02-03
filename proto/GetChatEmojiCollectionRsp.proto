@@ -16,6 +16,3 @@ message GetChatEmojiCollectionRsp {
 	int32 retcode = 4;
 	ChatEmojiCollectionData chatEmojiCollectionData = 12;
 }
-
-
-

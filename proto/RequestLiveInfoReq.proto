@@ -14,6 +14,3 @@ message RequestLiveInfoReq {
 
 	uint32 liveId = 10;
 }
-
-
-

@@ -14,6 +14,3 @@ message ActivitySaleChangeNotify {
 	uint32 saleId = 2;
 	bool isClose = 8;
 }
-
-
-

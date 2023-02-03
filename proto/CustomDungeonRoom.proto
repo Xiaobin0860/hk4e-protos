@@ -8,6 +8,3 @@ message CustomDungeonRoom {
 	repeated CustomDungeonBlock blockList = 7;
 	uint32 roomId = 3;
 }
-
-
-

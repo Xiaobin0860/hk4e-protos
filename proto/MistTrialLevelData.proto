@@ -12,6 +12,3 @@ message MistTrialLevelData {
 	MistTrialBestAvatar bestHitAvatar = 14;
 	repeated MistTrialBestAvatar bestAvatarList = 13;
 }
-
-
-

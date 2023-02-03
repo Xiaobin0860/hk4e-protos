@@ -16,6 +16,3 @@ message HomeGetArrangementInfoRsp {
 	int32 retcode = 3;
 	repeated HomeSceneArrangementInfo sceneArrangementInfoList = 10;
 }
-
-
-

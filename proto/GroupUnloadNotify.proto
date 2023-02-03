@@ -13,6 +13,3 @@ message GroupUnloadNotify {
 
 	repeated uint32 groupList = 6;
 }
-
-
-

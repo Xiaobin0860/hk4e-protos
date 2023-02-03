@@ -14,6 +14,3 @@ message MainCoopFailNotify {
 	string textmapId = 4;
 	uint32 chapterId = 13;
 }
-
-
-

@@ -14,6 +14,3 @@ message TryCustomDungeonRsp {
 	uint32 roomId = 13;
 	int32 retcode = 9;
 }
-
-
-

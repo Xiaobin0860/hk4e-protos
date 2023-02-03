@@ -15,6 +15,3 @@ message DailyTaskDataNotify {
 	uint32 finishedNum = 11;
 	uint32 scoreRewardId = 2;
 }
-
-
-

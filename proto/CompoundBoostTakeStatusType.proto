@@ -8,6 +8,3 @@ enum CompoundBoostTakeStatusType {
   COMPOUND_BOOST_TAKE_STATUS_BOOST_AND_TAKE = 2;
   COMPOUND_BOOST_TAKE_STATUS_BAG_FULL       = 3;
 }
-
-
-

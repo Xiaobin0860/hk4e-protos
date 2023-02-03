@@ -18,6 +18,3 @@ message PlayerStoreNotify {
 	uint32 weightLimit = 6;
 	StoreType storeType = 10;
 }
-
-
-

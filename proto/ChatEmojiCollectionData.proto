@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message ChatEmojiCollectionData {
 	repeated uint32 emojiIdList = 1;
 }
-
-
-

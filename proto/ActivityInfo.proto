@@ -169,6 +169,3 @@ message ActivityInfo {
 		GcgFestivalInfo gcg_festival_info = 71;
 	}
 }
-
-
-

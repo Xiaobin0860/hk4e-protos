@@ -15,6 +15,3 @@ message EntityMoveRoomNotify {
 	uint32 entityId = 2;
 	uint32 destRoomId = 5;
 }
-
-
-

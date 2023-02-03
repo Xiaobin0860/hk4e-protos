@@ -17,6 +17,3 @@ message GetHuntingOfferRewardRsp {
 	uint32 cityId = 6;
 	int32 retcode = 2;
 }
-
-
-

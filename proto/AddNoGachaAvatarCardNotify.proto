@@ -21,6 +21,3 @@ message AddNoGachaAvatarCardNotify {
 	uint32 Unk3300_GPBINALMFDF = 13;
 	uint32 avatarId = 4;
 }
-
-
-

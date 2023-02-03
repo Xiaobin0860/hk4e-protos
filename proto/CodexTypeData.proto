@@ -10,6 +10,3 @@ message CodexTypeData {
 	CodexType type = 14;
 	map<uint32, uint32> weaponMaxPromoteLevelMap = 3;
 }
-
-
-

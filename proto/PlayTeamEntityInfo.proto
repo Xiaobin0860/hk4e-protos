@@ -11,6 +11,3 @@ message PlayTeamEntityInfo {
 	uint32 gadgetConfigId = 5;
 	AbilitySyncStateInfo abilityInfo = 6;
 }
-
-
-

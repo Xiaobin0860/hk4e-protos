@@ -16,6 +16,3 @@ message PlayerChatNotify {
 	uint32 channelId = 14;
 	ChatInfo chatInfo = 6;
 }
-
-
-

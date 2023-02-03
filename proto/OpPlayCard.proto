@@ -8,6 +8,3 @@ message OpPlayCard {
 	uint32 cardGuid = 14;
 	repeated uint32 costDiceIndexList = 13;
 }
-
-
-

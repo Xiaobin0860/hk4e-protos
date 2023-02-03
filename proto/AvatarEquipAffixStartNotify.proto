@@ -16,6 +16,3 @@ message AvatarEquipAffixStartNotify {
 	AvatarEquipAffixInfo equipAffixInfo = 5;
 	uint64 avatarGuid = 15;
 }
-
-
-

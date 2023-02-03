@@ -17,6 +17,3 @@ message RogueFinishRepairReq {
 	repeated uint32 chosenCardList = 4;
 	repeated RogueDiaryAvatar chosenAvatarList = 13;
 }
-
-
-

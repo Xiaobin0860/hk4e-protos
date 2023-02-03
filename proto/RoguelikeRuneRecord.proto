@@ -7,6 +7,3 @@ message RoguelikeRuneRecord {
 	uint32 Unk3300_IGBOJLPPKON = 12;
 	uint32 runeId = 6;
 }
-
-
-

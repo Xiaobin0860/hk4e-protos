@@ -8,6 +8,3 @@ message ScenePlayInfo {
 	bool isOpen = 2;
 	uint32 playType = 12;
 }
-
-
-

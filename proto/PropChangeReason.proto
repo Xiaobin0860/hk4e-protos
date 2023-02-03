@@ -18,6 +18,3 @@ enum PropChangeReason {
   PROP_CHANGE_GM                        = 12;
   PROP_CHANGE_MANUAL_ADJUST_WORLD_LEVEL = 13;
 }
-
-
-

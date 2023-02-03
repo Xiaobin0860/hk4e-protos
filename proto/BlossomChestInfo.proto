@@ -10,6 +10,3 @@ message BlossomChestInfo {
 	uint32 blossomRefreshType = 5;
 	uint32 refreshId = 6;
 }
-
-
-

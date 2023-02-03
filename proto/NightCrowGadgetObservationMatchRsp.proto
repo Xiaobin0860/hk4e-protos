@@ -13,6 +13,3 @@ message NightCrowGadgetObservationMatchRsp {
 
 	int32 retcode = 12;
 }
-
-
-

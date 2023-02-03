@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message DeshretObeliskGadgetInfo {
 	repeated uint32 argumentList = 1;
 }
-
-
-

@@ -12,6 +12,3 @@ message ScenePlayerInfo {
 	bool isConnected = 7;
 	OnlinePlayerInfo onlinePlayerInfo = 2;
 }
-
-
-

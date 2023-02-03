@@ -15,6 +15,3 @@ message PlayerWorldSceneInfoListNotify {
 
 	repeated PlayerWorldSceneInfo infoList = 5;
 }
-
-
-

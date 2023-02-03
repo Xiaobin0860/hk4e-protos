@@ -18,6 +18,3 @@ message GCGOperationReq {
 	uint32 opSeq = 6;
 	GCGOperation op = 11;
 }
-
-
-

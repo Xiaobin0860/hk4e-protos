@@ -15,6 +15,3 @@ message SelectWorktopOptionRsp {
 	uint32 gadgetEntityId = 3;
 	uint32 optionId = 4;
 }
-
-
-

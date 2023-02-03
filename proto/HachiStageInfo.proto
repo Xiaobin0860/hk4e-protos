@@ -8,6 +8,3 @@ message HachiStageInfo {
 	uint32 stageId = 13;
 	bool isOpen = 3;
 }
-
-
-

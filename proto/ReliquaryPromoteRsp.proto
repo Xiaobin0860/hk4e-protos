@@ -18,6 +18,3 @@ message ReliquaryPromoteRsp {
 	uint32 oldPromoteLevel = 7;
 	uint32 curPromoteLevel = 15;
 }
-
-
-

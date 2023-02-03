@@ -15,6 +15,3 @@ message HomePictureFrameInfoNotify {
 
 	repeated HomePictureFrameInfo pictureFrameInfoList = 8;
 }
-
-
-

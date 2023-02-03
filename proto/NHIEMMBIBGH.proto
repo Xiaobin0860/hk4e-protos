@@ -11,6 +11,3 @@ message NHIEMMBIBGH {
 	Vector eknhofiihcl = 12;
 	float speed = 6;
 }
-
-
-

@@ -11,6 +11,3 @@ message BuildingInfo {
 	uint32 currentNum = 7;
 	uint32 maxNum = 8;
 }
-
-
-

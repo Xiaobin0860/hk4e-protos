@@ -16,6 +16,3 @@ message ReunionActivateNotify {
 	ReunionBriefInfo reunionBriefInfo = 7;
 	bool isActivate = 5;
 }
-
-
-

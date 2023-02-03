@@ -16,6 +16,3 @@ message WorldOwnerBlossomScheduleInfoNotify {
 
 	BlossomScheduleInfo scheduleInfo = 4;
 }
-
-
-

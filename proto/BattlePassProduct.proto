@@ -7,6 +7,3 @@ message BattlePassProduct {
 	string extraProductId = 14;
 	string upgradeProductId = 7;
 }
-
-
-

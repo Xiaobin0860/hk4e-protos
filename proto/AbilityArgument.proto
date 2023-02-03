@@ -9,6 +9,3 @@ message AbilityArgument {
 		string str_arg = 8;
 	}
 }
-
-
-

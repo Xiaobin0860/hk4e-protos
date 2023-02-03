@@ -13,6 +13,3 @@ message MuqadasPotionRestartDungeonRsp {
 
 	int32 retcode = 15;
 }
-
-
-

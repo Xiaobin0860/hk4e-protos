@@ -9,6 +9,3 @@ message GCGSkillPreviewElementReactionInfo {
 	repeated uint32 Unk3300_JOBNBDJHAPJ = 2;
 	repeated GCGSkillPreviewReactionInfo reactionList = 9;
 }
-
-
-

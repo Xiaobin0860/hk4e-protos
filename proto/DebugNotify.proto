@@ -23,6 +23,3 @@ message DebugNotify {
 	string name = 2;
 	CmdId retcode = 3;
 }
-
-
-

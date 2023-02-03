@@ -13,6 +13,3 @@ message LanV3BoatInterruptSettleStageRsp {
 
 	int32 retcode = 5;
 }
-
-
-

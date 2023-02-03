@@ -15,6 +15,3 @@ message PlayerQuitFromMpNotify {
 
 	QuitReason reason = 1;
 }
-
-
-

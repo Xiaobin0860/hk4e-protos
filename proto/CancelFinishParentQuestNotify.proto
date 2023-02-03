@@ -13,6 +13,3 @@ message CancelFinishParentQuestNotify {
 
 	uint32 parentQuestId = 10;
 }
-
-
-

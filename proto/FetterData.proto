@@ -7,6 +7,3 @@ message FetterData {
 	uint32 fetterState = 2;
 	repeated uint32 condIndexList = 3;
 }
-
-
-

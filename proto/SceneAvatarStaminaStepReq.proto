@@ -17,6 +17,3 @@ message SceneAvatarStaminaStepReq {
 	Vector rot = 4;
 	bool useClientRot = 9;
 }
-
-
-

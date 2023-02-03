@@ -9,6 +9,3 @@ message HNNNJJPLLFN {
 	Vector rot = 2;
 	Vector pos = 15;
 }
-
-
-

@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message GOMAOCCEFNM {
 	string dpinghecdgc = 1;
 }
-
-
-

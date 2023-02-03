@@ -13,6 +13,3 @@ message GCGDSDeckUpdateNotify {
 
 	uint32 rewardIndex = 12;
 }
-
-
-

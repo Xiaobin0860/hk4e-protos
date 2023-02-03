@@ -14,6 +14,3 @@ message ReadMailNotify {
 
 	repeated uint32 mailIdList = 15;
 }
-
-
-

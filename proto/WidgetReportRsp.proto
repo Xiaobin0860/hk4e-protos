@@ -14,6 +14,3 @@ message WidgetReportRsp {
 	uint32 materialId = 6;
 	int32 retcode = 4;
 }
-
-
-

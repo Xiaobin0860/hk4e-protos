@@ -17,6 +17,3 @@ message SingleStartBrickBreakerReq {
 	repeated uint32 chosenSkillList = 12;
 	repeated uint32 chosenAvatarList = 10;
 }
-
-
-

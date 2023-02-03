@@ -14,6 +14,3 @@ message GravenInnocencePhotoReminderNotify {
 	uint32 reminderId = 9;
 	uint32 groupBundleId = 11;
 }
-
-
-

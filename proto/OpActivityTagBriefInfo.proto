@@ -7,6 +7,3 @@ message OpActivityTagBriefInfo {
 	bool hasReward = 11;
 	uint32 opActivityType = 3;
 }
-
-
-

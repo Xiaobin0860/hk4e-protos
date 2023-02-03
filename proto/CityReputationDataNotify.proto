@@ -15,6 +15,3 @@ message CityReputationDataNotify {
 
 	repeated CityReputationSimpleInfo simpleInfoList = 8;
 }
-
-
-

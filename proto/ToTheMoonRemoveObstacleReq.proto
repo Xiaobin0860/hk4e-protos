@@ -16,6 +16,3 @@ message ToTheMoonRemoveObstacleReq {
 	int32 queryId = 13;
 	int32 handle = 9;
 }
-
-
-

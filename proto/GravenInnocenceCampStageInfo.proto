@@ -8,6 +8,3 @@ message GravenInnocenceCampStageInfo {
 	bool isFinished = 13;
 	uint32 levelId = 12;
 }
-
-
-

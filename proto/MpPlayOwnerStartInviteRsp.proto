@@ -15,6 +15,3 @@ message MpPlayOwnerStartInviteRsp {
 	bool isSkipMatch = 7;
 	int32 retcode = 8;
 }
-
-
-

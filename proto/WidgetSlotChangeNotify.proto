@@ -17,6 +17,3 @@ message WidgetSlotChangeNotify {
 	WidgetSlotOp op = 14;
 	WidgetSlotData slot = 2;
 }
-
-
-

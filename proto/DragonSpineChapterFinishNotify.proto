@@ -15,6 +15,3 @@ message DragonSpineChapterFinishNotify {
 	uint32 weaponEnhanceLevel = 2;
 	uint32 chapterId = 9;
 }
-
-
-

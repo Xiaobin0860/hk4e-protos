@@ -17,6 +17,3 @@ message ChannellerSlabLoopDungeonChallengeInfoNotify {
 	uint32 dungeonIndex = 3;
 	repeated uint32 gihlcdadndf = 8;
 }
-
-
-

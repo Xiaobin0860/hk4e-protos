@@ -15,6 +15,3 @@ message TreasureMapDetectorDataNotify {
 
 	TreasureMapDetectorData data = 6;
 }
-
-
-

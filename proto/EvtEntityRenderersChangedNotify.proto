@@ -20,6 +20,3 @@ message EvtEntityRenderersChangedNotify {
 	bool isServerCache = 8;
 	EntityRendererChangedInfo rendererChangedInfo = 13;
 }
-
-
-

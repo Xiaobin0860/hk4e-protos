@@ -8,6 +8,3 @@ message ReunionSignInInfo {
 	repeated uint32 rewardDayList = 5;
 	uint32 Unk3300_MNJELIDKMCF = 14;
 }
-
-
-

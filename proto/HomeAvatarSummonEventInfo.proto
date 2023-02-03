@@ -10,6 +10,3 @@ message HomeAvatarSummonEventInfo {
 	uint32 eventOverTime = 14;
 	uint32 guid = 1;
 }
-
-
-

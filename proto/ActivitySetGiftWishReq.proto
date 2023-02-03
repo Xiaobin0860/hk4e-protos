@@ -15,6 +15,3 @@ message ActivitySetGiftWishReq {
 	uint32 scheduleId = 2;
 	map<uint32, uint32> giftNumMap = 7;
 }
-
-
-

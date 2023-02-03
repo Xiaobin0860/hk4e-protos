@@ -9,6 +9,3 @@ enum BreakoutActionType {
     ACTION_TYPE_FALLING_OBJECT = 3;
     ACTION_TYPE_MISSILE        = 4;
 }
-
-
-

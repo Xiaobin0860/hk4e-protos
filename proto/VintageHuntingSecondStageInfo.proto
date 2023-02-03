@@ -7,6 +7,3 @@ message VintageHuntingSecondStageInfo {
 	uint32 captureAnimalNum = 11;
 	uint32 homaiophceb = 14;
 }
-
-
-

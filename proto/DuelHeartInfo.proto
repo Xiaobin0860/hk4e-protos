@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message DuelHeartInfo {
 	uint32 difficulty = 3;
 }
-
-
-

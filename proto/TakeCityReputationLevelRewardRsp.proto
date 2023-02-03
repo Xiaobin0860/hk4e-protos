@@ -18,6 +18,3 @@ message TakeCityReputationLevelRewardRsp {
 	uint32 cityId = 8;
 	uint32 level = 11;
 }
-
-
-

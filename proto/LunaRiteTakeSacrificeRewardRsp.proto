@@ -17,6 +17,3 @@ message LunaRiteTakeSacrificeRewardRsp {
 	uint32 index = 2;
 	repeated uint32 sacrificeRewardList = 14;
 }
-
-
-

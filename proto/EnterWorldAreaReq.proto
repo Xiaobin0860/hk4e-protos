@@ -15,6 +15,3 @@ message EnterWorldAreaReq {
 	uint32 areaId = 1;
 	uint32 areaType = 11;
 }
-
-
-

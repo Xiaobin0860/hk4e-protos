@@ -13,6 +13,3 @@ message HomeAvatarAllFinishRewardNotify {
 
 	repeated uint32 eventIdList = 1;
 }
-
-
-

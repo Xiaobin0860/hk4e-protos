@@ -7,6 +7,3 @@ message GravenInnocencePhotoStageInfo {
 	bool isFinished = 5;
 	bool isOpen = 13;
 }
-
-
-

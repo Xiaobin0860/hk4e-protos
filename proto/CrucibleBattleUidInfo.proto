@@ -11,6 +11,3 @@ message CrucibleBattleUidInfo {
 	ProfilePicture profilePicture = 11;
 	string onlineId = 6;
 }
-
-
-

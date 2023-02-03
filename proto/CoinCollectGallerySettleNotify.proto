@@ -18,6 +18,3 @@ message CoinCollectGallerySettleNotify {
 	uint32 levelId = 1;
 	uint32 Unk3300_DKBJMLJGLIB = 14;
 }
-
-
-

@@ -7,6 +7,3 @@ import "OMNAAMAIBOH.proto";
 message MEIDIANHEDD {
 	repeated OMNAAMAIBOH stageInfoList = 12;
 }
-
-
-

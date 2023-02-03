@@ -18,6 +18,3 @@ message WeaponAwakenRsp {
 	map<uint32, uint32> oldAffixLevelMap = 6;
 	map<uint32, uint32> curAffixLevelMap = 12;
 }
-
-
-

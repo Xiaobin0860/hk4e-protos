@@ -13,6 +13,3 @@ message HideAndSeekPlayerCapturedNotify {
 
 	uint32 ghostSkillId = 13;
 }
-
-
-

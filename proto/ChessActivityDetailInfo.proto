@@ -13,6 +13,3 @@ message ChessActivityDetailInfo {
 	repeated uint32 totalRound = 7;
 	bool leftMonsters = 15;
 }
-
-
-

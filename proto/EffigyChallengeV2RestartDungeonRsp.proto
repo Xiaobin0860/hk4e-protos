@@ -13,6 +13,3 @@ message EffigyChallengeV2RestartDungeonRsp {
 
 	int32 retcode = 3;
 }
-
-
-

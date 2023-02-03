@@ -16,6 +16,3 @@ message ChannellerSlabTakeoffBuffRsp {
 	uint32 buffId = 14;
 	int32 retcode = 3;
 }
-
-
-

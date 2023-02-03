@@ -16,6 +16,3 @@ message SyncTeamEntityNotify {
 	repeated TeamEntityInfo teamEntityInfoList = 14;
 	uint32 sceneId = 5;
 }
-
-
-

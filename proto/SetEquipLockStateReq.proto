@@ -15,6 +15,3 @@ message SetEquipLockStateReq {
 	uint64 targetEquipGuid = 10;
 	bool isLocked = 3;
 }
-
-
-

@@ -14,6 +14,3 @@ message AsterMiscInfoNotify {
 	uint32 Unk3300_KFDGFFPJGJC = 7;
 	uint32 Unk3300_DCHBFEJNBHP = 8;
 }
-
-
-

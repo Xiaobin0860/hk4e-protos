@@ -7,6 +7,3 @@ message IrodoriMasterInfo {
 	uint32 difficulty = 12;
 	uint32 levelId = 13;
 }
-
-
-

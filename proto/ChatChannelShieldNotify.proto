@@ -15,6 +15,3 @@ message ChatChannelShieldNotify {
 	uint32 channelId = 8;
 	bool isShield = 1;
 }
-
-
-

@@ -13,6 +13,3 @@ message LaunchFireworksRsp {
 
 	int32 retcode = 9;
 }
-
-
-

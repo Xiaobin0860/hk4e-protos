@@ -7,6 +7,3 @@ message IslandPartyStageData {
 	uint32 stageId = 2;
 	bool isOpen = 1;
 }
-
-
-

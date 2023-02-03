@@ -16,6 +16,3 @@ message TakeReunionMissionRewardReq {
 	uint32 rewardIndex = 15;
 	uint32 rewardId = 7;
 }
-
-
-

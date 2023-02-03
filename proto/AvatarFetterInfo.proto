@@ -12,6 +12,3 @@ message AvatarFetterInfo {
 	repeated uint32 rewardedFetterLevelList = 5;
 	repeated FetterData fetterList = 6;
 }
-
-
-

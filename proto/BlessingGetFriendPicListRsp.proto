@@ -16,6 +16,3 @@ message BlessingGetFriendPicListRsp {
 	repeated BlessingFriendPicData friendPicDataList = 12;
 	int32 retcode = 2;
 }
-
-
-

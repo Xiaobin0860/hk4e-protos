@@ -15,6 +15,3 @@ message ActivityReadPushTipsReq {
 	repeated uint32 activityPushTipsIdList = 11;
 	uint32 activityId = 14;
 }
-
-
-

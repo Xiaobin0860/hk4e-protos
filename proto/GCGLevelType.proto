@@ -7,6 +7,3 @@ message GCGLevelType {
 	uint32 scenePointId = 2;
 	uint32 id = 6;
 }
-
-
-

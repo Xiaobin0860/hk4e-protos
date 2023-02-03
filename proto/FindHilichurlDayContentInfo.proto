@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message FindHilichurlDayContentInfo {
 	uint32 startTime = 5;
 }
-
-
-

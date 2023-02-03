@@ -14,6 +14,3 @@ message RemoveBlacklistRsp {
 	uint32 targetUid = 7;
 	int32 retcode = 1;
 }
-
-
-

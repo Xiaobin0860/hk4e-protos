@@ -9,6 +9,3 @@ enum RecordUsage {
   UGC_RECORD_USAGE_TRIAL   = 3;
   UGC_RECORD_USAGE_COMPARE = 4;
 }
-
-
-

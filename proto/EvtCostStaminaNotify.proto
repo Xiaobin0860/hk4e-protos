@@ -15,6 +15,3 @@ message EvtCostStaminaNotify {
 	float costStamina = 8;
 	uint32 skillId = 14;
 }
-
-
-

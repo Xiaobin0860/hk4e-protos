@@ -15,6 +15,3 @@ message FungusFighterRuntimeDataNotify {
 
 	FungusTrainingProgressDetail progressDetail = 14;
 }
-
-
-

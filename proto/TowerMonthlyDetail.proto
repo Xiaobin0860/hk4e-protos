@@ -9,6 +9,3 @@ message TowerMonthlyDetail {
 	TowerMonthlyBrief monthlyBrief = 5;
 	TowerMonthlyCombatRecord monthlyCombatRecord = 1;
 }
-
-
-

@@ -13,6 +13,3 @@ message TeamChainDungeonInfoNotify {
 
 	int32 retcode = 2;
 }
-
-
-

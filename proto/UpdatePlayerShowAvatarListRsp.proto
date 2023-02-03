@@ -15,6 +15,3 @@ message UpdatePlayerShowAvatarListRsp {
 	bool isShowAvatar = 14;
 	int32 retcode = 10;
 }
-
-
-

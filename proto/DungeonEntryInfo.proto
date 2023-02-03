@@ -15,6 +15,3 @@ message DungeonEntryInfo {
 	bool isPassed = 2;
 	uint32 nextRefreshTime = 8;
 }
-
-
-

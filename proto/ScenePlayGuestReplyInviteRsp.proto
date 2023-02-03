@@ -15,6 +15,3 @@ message ScenePlayGuestReplyInviteRsp {
 	int32 retcode = 7;
 	uint32 playId = 6;
 }
-
-
-

@@ -7,6 +7,3 @@ enum FishEscapeReason {
   FISH_ESCAPE_SHOCKED = 1;
   FISH_ESCAPE_UNHOOK  = 2;
 }
-
-
-

@@ -7,6 +7,3 @@ message AddNoGachaAvatarCardTransferItem {
 	bool isNew = 11;
 	uint32 itemId = 12;
 }
-
-
-

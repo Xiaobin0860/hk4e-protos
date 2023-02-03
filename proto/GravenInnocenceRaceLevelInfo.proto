@@ -7,6 +7,3 @@ message GravenInnocenceRaceLevelInfo {
 	bool isOpen = 13;
 	uint32 maxScore = 15;
 }
-
-
-

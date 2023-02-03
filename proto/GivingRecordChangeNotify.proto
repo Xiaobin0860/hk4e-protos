@@ -16,6 +16,3 @@ message GivingRecordChangeNotify {
 	GivingRecord givingRecord = 8;
 	bool isDeactive = 4;
 }
-
-
-

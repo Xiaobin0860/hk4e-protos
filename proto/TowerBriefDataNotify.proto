@@ -19,6 +19,3 @@ message TowerBriefDataNotify {
 	uint32 nextScheduleChangeTime = 12;
 	uint32 lastFloorIndex = 14;
 }
-
-
-

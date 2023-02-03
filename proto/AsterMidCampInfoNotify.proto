@@ -15,6 +15,3 @@ message AsterMidCampInfoNotify {
 
 	repeated AsterMidCampInfo campList = 2;
 }
-
-
-

@@ -17,6 +17,3 @@ message StartEffigyChallengeReq {
 	uint32 pointId = 9;
 	uint32 challengeId = 15;
 }
-
-
-

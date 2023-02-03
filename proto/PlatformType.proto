@@ -19,6 +19,3 @@ enum PlatformType {
   CLOUD_THIRD_PARTY_MOBILE = 13;
   CLOUD_THIRD_PARTY_PC     = 14;
 }
-
-
-

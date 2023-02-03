@@ -14,6 +14,3 @@ message GachaActivityNextStageRsp {
 	uint32 stageId = 4;
 	int32 retcode = 12;
 }
-
-
-

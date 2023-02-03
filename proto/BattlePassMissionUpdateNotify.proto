@@ -15,6 +15,3 @@ message BattlePassMissionUpdateNotify {
 
 	repeated BattlePassMission missionList = 10;
 }
-
-
-

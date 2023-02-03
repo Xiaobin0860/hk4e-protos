@@ -18,6 +18,3 @@ message PlayerOfferingRsp {
 	PlayerOfferingData offeringData = 15;
 	repeated ItemParam itemList = 14;
 }
-
-
-

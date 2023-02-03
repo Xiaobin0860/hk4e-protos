@@ -14,6 +14,3 @@ message RefreshBackgroundAvatarRsp {
 	int32 retcode = 13;
 	map<uint64, uint32> hpFullTimeMap = 4;
 }
-
-
-

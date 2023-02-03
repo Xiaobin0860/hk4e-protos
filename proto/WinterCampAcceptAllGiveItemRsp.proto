@@ -16,6 +16,3 @@ message WinterCampAcceptAllGiveItemRsp {
 	repeated WinterCampAcceptItemResultInfo acceptItemResultInfo = 1;
 	int32 retcode = 6;
 }
-
-
-

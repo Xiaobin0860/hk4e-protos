@@ -16,6 +16,3 @@ message ChannellerSlabSaveAssistInfoRsp {
 	repeated ChannelerSlabAssistInfo assistInfoList = 6;
 	int32 retcode = 4;
 }
-
-
-

@@ -32,6 +32,3 @@ message GachaInfo {
 	uint32 wishProgress = 246;
 	uint32 endTime = 3;
 }
-
-
-

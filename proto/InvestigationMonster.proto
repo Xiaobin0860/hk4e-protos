@@ -25,6 +25,3 @@ message InvestigationMonster {
 	uint32 resin = 9;
 	bool isAlive = 14;
 }
-
-
-

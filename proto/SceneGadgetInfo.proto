@@ -72,6 +72,3 @@ message SceneGadgetInfo {
     CoinCollectOperatorInfo coin_collect_operator_info = 64;
   }
 }
-
-
-

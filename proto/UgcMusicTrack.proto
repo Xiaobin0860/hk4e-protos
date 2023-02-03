@@ -7,6 +7,3 @@ import "UgcMusicNote.proto";
 message UgcMusicTrack {
 	repeated UgcMusicNote musicNoteList = 13;
 }
-
-
-

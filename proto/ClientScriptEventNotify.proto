@@ -17,6 +17,3 @@ message ClientScriptEventNotify {
 	uint32 sourceEntityId = 4;
 	uint32 eventType = 10;
 }
-
-
-

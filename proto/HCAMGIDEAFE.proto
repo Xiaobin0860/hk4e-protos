@@ -7,6 +7,3 @@ message HCAMGIDEAFE {
 	bool isOpen = 1;
 	uint32 stageId = 2;
 }
-
-
-

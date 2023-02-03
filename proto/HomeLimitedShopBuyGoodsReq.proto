@@ -17,6 +17,3 @@ message HomeLimitedShopBuyGoodsReq {
 	HomeLimitedShopGoods goods = 1;
 	uint32 buyCount = 10;
 }
-
-
-

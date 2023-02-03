@@ -15,6 +15,3 @@ message FleurFairInfo {
 	uint32 ppjmalghkch = 1;
 	map<uint32, FleurFairDungeonSectionInfo> pnpcagimleg = 11;
 }
-
-
-

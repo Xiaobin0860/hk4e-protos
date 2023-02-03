@@ -17,6 +17,3 @@ message StoreItemChangeNotify {
 	repeated Item itemList = 13;
 	StoreType storeType = 5;
 }
-
-
-

@@ -13,6 +13,3 @@ message PlayerSignatureNotify {
 
 	string signature = 3;
 }
-
-
-

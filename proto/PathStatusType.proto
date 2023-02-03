@@ -7,6 +7,3 @@ enum PathStatusType {
     STATUS_SUCC    = 1;
     STATUS_PARTIAL = 2;
 }
-
-
-

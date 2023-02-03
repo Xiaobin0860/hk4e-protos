@@ -16,6 +16,3 @@ message SetUpAvatarTeamReq {
 	uint32 teamId = 4;
 	repeated uint64 avatarTeamGuidList = 15;
 }
-
-
-

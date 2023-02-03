@@ -15,6 +15,3 @@ message CoopPointUpdateNotify {
 
 	CoopPoint coopPoint = 11;
 }
-
-
-

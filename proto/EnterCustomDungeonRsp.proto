@@ -19,6 +19,3 @@ message EnterCustomDungeonRsp {
 	map<uint32, uint32> roomCostMap = 2;
 	CustomDungeon customDungeon = 7;
 }
-
-
-

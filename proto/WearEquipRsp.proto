@@ -15,6 +15,3 @@ message WearEquipRsp {
 	uint64 avatarGuid = 6;
 	uint64 equipGuid = 13;
 }
-
-
-

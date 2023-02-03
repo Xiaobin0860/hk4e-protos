@@ -13,6 +13,3 @@ message DuelHeartSelectDifficultyRsp {
 
 	int32 retcode = 8;
 }
-
-
-

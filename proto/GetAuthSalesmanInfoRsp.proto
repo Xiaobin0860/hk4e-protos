@@ -15,6 +15,3 @@ message GetAuthSalesmanInfoRsp {
 	int32 retcode = 6;
 	uint32 dayRewardId = 13;
 }
-
-
-

@@ -13,6 +13,3 @@ message ServerDisconnectClientNotify {
 
 	uint32 data = 10;
 }
-
-
-

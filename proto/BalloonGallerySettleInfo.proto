@@ -10,6 +10,3 @@ message BalloonGallerySettleInfo {
 	GalleryStopReason reason = 15;
 	uint32 score = 6;
 }
-
-
-

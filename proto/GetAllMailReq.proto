@@ -14,6 +14,3 @@ message GetAllMailReq {
 
 	bool isCollected = 8;
 }
-
-
-

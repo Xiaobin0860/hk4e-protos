@@ -17,6 +17,3 @@ message TowerLevelStarCondNotify {
 	uint32 levelIndex = 4;
 	repeated TowerLevelStarCondData condDataList = 15;
 }
-
-
-

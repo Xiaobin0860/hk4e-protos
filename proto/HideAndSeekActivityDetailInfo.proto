@@ -11,6 +11,3 @@ message HideAndSeekActivityDetailInfo {
 	repeated HideAndSeekMapInfo ebljifhneof = 4;
 	repeated uint32 noljhjhlkom = 8;
 }
-
-
-

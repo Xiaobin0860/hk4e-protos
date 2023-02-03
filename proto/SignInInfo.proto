@@ -15,6 +15,3 @@ message SignInInfo {
 	uint32 scheduleId = 1;
 	uint32 beginTime = 8;
 }
-
-
-

@@ -7,6 +7,3 @@ message FishPoolInfo {
 	repeated uint32 fishAreaList = 2;
 	uint32 todayFishNum = 3;
 }
-
-
-

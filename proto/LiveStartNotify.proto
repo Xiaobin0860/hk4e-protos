@@ -13,6 +13,3 @@ message LiveStartNotify {
 
 	uint32 liveId = 10;
 }
-
-
-

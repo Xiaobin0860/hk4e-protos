@@ -61,6 +61,3 @@ enum MotionState {
   MOTION_AIR_COMPENSATION         = 55;
   MOTION_NUM                      = 56;
 }
-
-
-

@@ -18,6 +18,3 @@ message CoopDataNotify {
 	repeated CoopChapter chapterList = 12;
 	uint32 curCoopPoint = 1;
 }
-
-
-

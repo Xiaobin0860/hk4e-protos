@@ -9,6 +9,3 @@ message VehicleInfo {
 	uint32 ownerUid = 2;
 	float curStamina = 3;
 }
-
-
-

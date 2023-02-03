@@ -9,6 +9,3 @@ message AbilityAttachedModifier {
 	bool isServerbuffModifier = 4;
 	int32 attachNameHash = 5;
 }
-
-
-

@@ -15,6 +15,3 @@ message ActivityTakeWatcherRewardBatchReq {
 	repeated uint32 watcherIdList = 13;
 	uint32 activityId = 2;
 }
-
-
-

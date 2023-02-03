@@ -17,6 +17,3 @@ message GCGStartChallengeRsp {
 	repeated GCGLevelType nojngpppded = 5;
 	GCGLevelType levelType = 12;
 }
-
-
-

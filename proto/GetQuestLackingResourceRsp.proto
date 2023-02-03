@@ -18,6 +18,3 @@ message GetQuestLackingResourceRsp {
 	uint32 questId = 6;
 	map<uint32, uint32> lackedPlaceMap = 1;
 }
-
-
-

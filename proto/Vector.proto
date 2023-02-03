@@ -7,6 +7,3 @@ message Vector {
 	float y = 2;
 	float z = 3;
 }
-
-
-

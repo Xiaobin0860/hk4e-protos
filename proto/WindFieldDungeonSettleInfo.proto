@@ -9,6 +9,3 @@ message WindFieldDungeonSettleInfo {
 	WindFieldDungeonFailReason failReason = 12;
 	repeated uint32 Unk3300_FJGFOJBGBKM = 3;
 }
-
-
-

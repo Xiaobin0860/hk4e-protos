@@ -15,6 +15,3 @@ message RestartCoinCollectPlaySingleModeReq {
 	uint32 levelId = 13;
 	uint32 multistagePlayIndex = 4;
 }
-
-
-

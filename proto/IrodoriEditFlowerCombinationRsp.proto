@@ -15,6 +15,3 @@ message IrodoriEditFlowerCombinationRsp {
 	bool Unk3300_IAPLHBKJLBF = 10;
 	bool Unk3300_DBBGPOMDKPK = 1;
 }
-
-
-

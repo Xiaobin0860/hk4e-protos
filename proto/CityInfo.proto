@@ -7,6 +7,3 @@ message CityInfo {
 	uint32 cityId = 6;
 	uint32 level = 11;
 }
-
-
-

@@ -15,6 +15,3 @@ message PlayerGeneralMatchConfirmNotify {
 	uint32 matchId = 14;
 	uint32 uid = 8;
 }
-
-
-

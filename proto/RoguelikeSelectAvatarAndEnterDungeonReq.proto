@@ -16,6 +16,3 @@ message RoguelikeSelectAvatarAndEnterDungeonReq {
 	uint32 stageId = 12;
 	repeated uint64 backstageAvatarGuidList = 1;
 }
-
-
-

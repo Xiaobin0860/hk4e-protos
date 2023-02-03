@@ -8,6 +8,3 @@ message FirstStageInfo {
 	uint32 Unk3300_IPAJLKOBDKC = 3;
 	uint32 Unk3300_NILGNHOPGLD = 1;
 }
-
-
-

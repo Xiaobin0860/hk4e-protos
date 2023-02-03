@@ -15,6 +15,3 @@ message EffigyChallengeV2ChooseSkillReq {
 	uint32 levelId = 15;
 	uint32 challengeModeSkillNo = 12;
 }
-
-
-

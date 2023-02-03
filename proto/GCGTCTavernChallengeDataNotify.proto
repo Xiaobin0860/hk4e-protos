@@ -15,6 +15,3 @@ message GCGTCTavernChallengeDataNotify {
 	uint32 levelId = 2;
 	uint32 caaaccpgkff = 3;
 }
-
-
-

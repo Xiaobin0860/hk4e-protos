@@ -18,6 +18,3 @@ message GadgetChangeLevelTagReq {
 	uint32 levelTagId = 13;
 	CustomGadgetTreeInfo combinationInfo = 10;
 }
-
-
-

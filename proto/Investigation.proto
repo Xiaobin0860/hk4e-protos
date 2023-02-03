@@ -10,6 +10,3 @@ message Investigation {
 	State state = 4;
 	uint32 totalProgress = 14;
 }
-
-
-

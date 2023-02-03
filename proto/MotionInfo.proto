@@ -16,6 +16,3 @@ message MotionInfo {
 	uint32 sceneTime = 8;
 	uint64 intervalVelocity = 9;
 }
-
-
-

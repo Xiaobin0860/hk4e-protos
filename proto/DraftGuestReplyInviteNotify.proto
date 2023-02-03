@@ -15,6 +15,3 @@ message DraftGuestReplyInviteNotify {
 	uint32 draftId = 15;
 	bool isAgree = 7;
 }
-
-
-

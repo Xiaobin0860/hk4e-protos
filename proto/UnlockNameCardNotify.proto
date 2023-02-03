@@ -13,6 +13,3 @@ message UnlockNameCardNotify {
 
 	uint32 nameCardId = 5;
 }
-
-
-

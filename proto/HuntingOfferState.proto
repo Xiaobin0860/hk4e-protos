@@ -8,6 +8,3 @@ enum HuntingOfferState {
   HUNTING_OFFER_STATE_UNSTARTED = 2;
   HUNTING_OFFER_STATE_SUCC      = 3;
 }
-
-
-

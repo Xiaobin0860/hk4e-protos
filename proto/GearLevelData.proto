@@ -10,6 +10,3 @@ message GearLevelData {
 	bool isFinished = 13;
 	bool isOpen = 9;
 }
-
-
-

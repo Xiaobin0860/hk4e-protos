@@ -9,6 +9,3 @@ message MsgParam {
 		string str_param = 15;
 	}
 }
-
-
-

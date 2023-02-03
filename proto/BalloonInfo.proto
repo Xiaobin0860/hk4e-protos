@@ -8,6 +8,3 @@ message BalloonInfo {
 	map<uint32, BalloonPlayerInfo> scenePlayerBalloonInfoMap = 13;
 	uint32 endTime = 7;
 }
-
-
-

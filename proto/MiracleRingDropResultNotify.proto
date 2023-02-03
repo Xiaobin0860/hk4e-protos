@@ -14,6 +14,3 @@ message MiracleRingDropResultNotify {
 	int32 dropResult = 6;
 	int32 lastTakeRewardTime = 9;
 }
-
-
-

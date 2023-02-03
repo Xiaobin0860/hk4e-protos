@@ -7,6 +7,3 @@ import "HomeSeekFurnitureOneRecord.proto";
 message HomeSeekFurnitureAllRecord {
 	repeated HomeSeekFurnitureOneRecord recordList = 5;
 }
-
-
-

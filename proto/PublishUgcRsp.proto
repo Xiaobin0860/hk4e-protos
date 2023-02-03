@@ -17,6 +17,3 @@ message PublishUgcRsp {
 	int32 retcode = 14;
 	uint64 ugcGuid = 4;
 }
-
-
-

@@ -15,6 +15,3 @@ message PlantFlowerSetFlowerWishReq {
 	map<uint32, uint32> flowerNumMap = 10;
 	uint32 scheduleId = 4;
 }
-
-
-

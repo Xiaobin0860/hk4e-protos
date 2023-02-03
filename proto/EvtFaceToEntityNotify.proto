@@ -18,6 +18,3 @@ message EvtFaceToEntityNotify {
 	uint32 faceEntityId = 4;
 	ForwardType forwardType = 10;
 }
-
-
-

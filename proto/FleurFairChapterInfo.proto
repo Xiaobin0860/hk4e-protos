@@ -6,6 +6,3 @@ message FleurFairChapterInfo {
 	uint32 openTime = 10;
 	uint32 chapterId = 14;
 }
-
-
-

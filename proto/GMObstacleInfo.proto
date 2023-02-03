@@ -21,6 +21,3 @@ message GMObstacleInfo {
 	MathQuaternion rotation = 4;
 	Vector3Int extents = 5;
 }
-
-
-

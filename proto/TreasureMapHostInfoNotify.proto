@@ -13,6 +13,3 @@ message TreasureMapHostInfoNotify {
 
 	repeated uint32 mpChallengeRegionList = 15;
 }
-
-
-

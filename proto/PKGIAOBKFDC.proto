@@ -20,6 +20,3 @@ enum PKGIAOBKFDC {
 	EACPLJEMGBP = 14;
 	JEGMFLFLJHO = 15;
 }
-
-
-

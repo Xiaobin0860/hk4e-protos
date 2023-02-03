@@ -9,6 +9,3 @@ message IrodoriChessMysteryInfo {
 	IrodoriChessEntranceDetailInfo ajcepcgbnfe = 8;
 	repeated uint32 fffmoldaadc = 2;
 }
-
-
-

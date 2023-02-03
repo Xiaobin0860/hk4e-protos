@@ -8,6 +8,3 @@ enum Operation {
     DEL = 2;
     GET = 3;
 }
-
-
-

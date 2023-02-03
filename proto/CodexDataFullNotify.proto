@@ -18,6 +18,3 @@ message CodexDataFullNotify {
 	uint32 lastReadPushtipsTypeId = 10;
 	repeated CodexTypeData typeDataList = 8;
 }
-
-
-

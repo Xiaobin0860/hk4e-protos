@@ -16,6 +16,3 @@ message DestroyMaterialReq {
 
 	repeated MaterialInfo materialList = 10;
 }
-
-
-

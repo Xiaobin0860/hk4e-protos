@@ -18,6 +18,3 @@ message BattlePassAllDataNotify {
 	BattlePassSchedule curSchedule = 15;
 	repeated BattlePassMission missionList = 3;
 }
-
-
-

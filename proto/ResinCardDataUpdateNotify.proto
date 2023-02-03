@@ -16,6 +16,3 @@ message ResinCardDataUpdateNotify {
 	uint32 todayStartTime = 15;
 	repeated ResinCardData cardDataList = 10;
 }
-
-
-

@@ -17,6 +17,3 @@ message TakeAchievementGoalRewardRsp {
 	repeated ItemParam itemList = 6;
 	repeated uint32 idList = 15;
 }
-
-
-

@@ -13,6 +13,3 @@ message SetIsAutoUnlockSpecificEquipRsp {
 
 	int32 retcode = 8;
 }
-
-
-

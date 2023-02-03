@@ -9,6 +9,3 @@ message AEIENHDOBGJ {
 	uint32 roomId = 6;
 	Vector rot = 15;
 }
-
-
-

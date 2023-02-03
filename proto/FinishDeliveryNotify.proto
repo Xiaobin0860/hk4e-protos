@@ -15,6 +15,3 @@ message FinishDeliveryNotify {
 	uint32 finishedQuestIndex = 4;
 	uint32 scheduleId = 8;
 }
-
-
-

@@ -15,6 +15,3 @@ message DoRoguelikeDungeonCardGachaRsp {
 	int32 retcode = 15;
 	repeated uint32 cardList = 8;
 }
-
-
-

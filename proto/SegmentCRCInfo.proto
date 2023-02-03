@@ -9,6 +9,3 @@ message SegmentCRCInfo {
 	uint32 module = 14;
 	uint32 size = 8;
 }
-
-
-

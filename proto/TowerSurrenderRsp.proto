@@ -13,6 +13,3 @@ message TowerSurrenderRsp {
 
 	int32 retcode = 2;
 }
-
-
-

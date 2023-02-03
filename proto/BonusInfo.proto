@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message BonusInfo {
 	uint32 leftBonusCount = 13;
 }
-
-
-

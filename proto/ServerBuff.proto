@@ -9,6 +9,3 @@ message ServerBuff {
 	uint32 instancedModifierId = 4;
 	bool isModifierAdded = 5;
 }
-
-
-

@@ -17,6 +17,3 @@ message SceneAvatarStaminaStepRsp {
 	bool useClientRot = 3;
 	Vector rot = 6;
 }
-
-
-

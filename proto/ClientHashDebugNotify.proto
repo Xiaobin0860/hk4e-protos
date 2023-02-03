@@ -13,6 +13,3 @@ message ClientHashDebugNotify {
 
 	uint32 jobId = 2;
 }
-
-
-

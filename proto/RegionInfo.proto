@@ -35,6 +35,3 @@ message RegionInfo {
     ResVersionConfig next_res_version_config = 35;
     string game_biz = 36;
 }
-
-
-

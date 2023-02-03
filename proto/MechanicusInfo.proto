@@ -13,6 +13,3 @@ message MechanicusInfo {
 	uint32 coin = 8;
 	uint32 punishOverTime = 10;
 }
-
-
-

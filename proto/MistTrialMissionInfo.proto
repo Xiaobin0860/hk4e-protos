@@ -6,6 +6,3 @@ message MistTrialMissionInfo {
 	uint32 watcherListId = 14;
 	uint32 param = 7;
 }
-
-
-

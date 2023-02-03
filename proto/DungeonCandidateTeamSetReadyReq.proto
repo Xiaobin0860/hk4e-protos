@@ -14,6 +14,3 @@ message DungeonCandidateTeamSetReadyReq {
 
 	bool isReady = 1;
 }
-
-
-

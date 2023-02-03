@@ -13,6 +13,3 @@ message DailyTaskScoreRewardNotify {
 
 	uint32 rewardId = 9;
 }
-
-
-

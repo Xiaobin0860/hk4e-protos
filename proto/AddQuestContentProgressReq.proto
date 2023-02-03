@@ -16,6 +16,3 @@ message AddQuestContentProgressReq {
 	uint32 param = 9;
 	uint32 contentType = 14;
 }
-
-
-

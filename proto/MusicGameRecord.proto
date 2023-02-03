@@ -7,6 +7,3 @@ message MusicGameRecord {
 	uint32 maxScore = 15;
 	uint32 maxCombo = 1;
 }
-
-
-

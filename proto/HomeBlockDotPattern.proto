@@ -7,6 +7,3 @@ message HomeBlockDotPattern {
 	bytes data = 14;
 	uint32 height = 8;
 }
-
-
-

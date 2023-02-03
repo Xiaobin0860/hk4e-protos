@@ -18,6 +18,3 @@ message FishBattleEndReq {
 	uint32 maxBonusTime = 10;
 	bool isAlwaysBonus = 5;
 }
-
-
-

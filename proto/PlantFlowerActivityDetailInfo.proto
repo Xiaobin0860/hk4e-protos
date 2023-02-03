@@ -10,6 +10,3 @@ message PlantFlowerActivityDetailInfo {
 	map<uint32, uint32> Unk3300_EPMKDFOBLFK = 11;
 	uint32 todaySeedRewardId = 4;
 }
-
-
-

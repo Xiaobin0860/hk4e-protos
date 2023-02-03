@@ -16,6 +16,3 @@ message ChessPickCardNotify {
 	ChessNormalCardInfo normalCardInfo = 7;
 	uint32 curseCardId = 5;
 }
-
-
-

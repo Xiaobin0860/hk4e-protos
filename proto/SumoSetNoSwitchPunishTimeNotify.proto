@@ -20,6 +20,3 @@ message SumoSetNoSwitchPunishTimeNotify {
 	uint32 activityId = 7;
 	uint32 Unk3300_DJBJACGHGDM = 2;
 }
-
-
-

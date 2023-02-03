@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message NBOJKBNKIJJ {
 	uint32 loemgoiedea = 4;
 }
-
-
-

@@ -17,6 +17,3 @@ message ForgeQueueManipulateReq {
 	uint32 forgeQueueId = 5;
 	ForgeQueueManipulateType manipulateType = 2;
 }
-
-
-

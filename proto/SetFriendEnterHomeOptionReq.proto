@@ -16,6 +16,3 @@ message SetFriendEnterHomeOptionReq {
 
 	FriendEnterHomeOption option = 12;
 }
-
-
-

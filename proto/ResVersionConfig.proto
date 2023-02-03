@@ -11,6 +11,3 @@ message ResVersionConfig {
 	string branch = 6;
 	string nextScriptVersion = 7;
 }
-
-
-

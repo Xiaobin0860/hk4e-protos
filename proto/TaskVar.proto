@@ -6,6 +6,3 @@ message TaskVar {
 	repeated int32 valueList = 15;
 	uint32 key = 8;
 }
-
-
-

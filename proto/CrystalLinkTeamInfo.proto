@@ -9,6 +9,3 @@ message CrystalLinkTeamInfo {
 	repeated CrystalLinkAvatarInfo avatarInfoList = 13;
 	repeated CrystalLinkBuffInfo buffInfoList = 10;
 }
-
-
-

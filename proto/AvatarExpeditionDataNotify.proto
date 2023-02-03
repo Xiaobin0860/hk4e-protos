@@ -15,6 +15,3 @@ message AvatarExpeditionDataNotify {
 
 	map<uint64, AvatarExpeditionInfo> expeditionInfoMap = 4;
 }
-
-
-

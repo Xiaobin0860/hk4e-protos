@@ -18,6 +18,3 @@ message AvatarSkillChangeNotify {
 	uint32 oldLevel = 6;
 	uint32 curLevel = 2;
 }
-
-
-

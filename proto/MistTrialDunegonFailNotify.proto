@@ -13,6 +13,3 @@ message MistTrialDunegonFailNotify {
 
 	int32 dungeonId = 9;
 }
-
-
-

@@ -11,6 +11,3 @@ message ForgeQueueData {
 	uint32 avatarId = 12;
 	uint32 nextFinishTimestamp = 2;
 }
-
-
-

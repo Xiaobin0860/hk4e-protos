@@ -14,6 +14,3 @@ message HideAndSeekSelectSkillReq {
 
 	repeated uint32 skillList = 6;
 }
-
-
-

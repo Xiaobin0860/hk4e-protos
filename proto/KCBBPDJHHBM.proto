@@ -8,6 +8,3 @@ message KCBBPDJHHBM {
 	Vector pos = 2;
 	Vector rot = 7;
 }
-
-
-

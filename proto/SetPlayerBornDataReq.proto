@@ -15,6 +15,3 @@ message SetPlayerBornDataReq {
 	string nickName = 10;
 	uint32 avatarId = 15;
 }
-
-
-

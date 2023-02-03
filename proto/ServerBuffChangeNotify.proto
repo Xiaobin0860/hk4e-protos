@@ -24,6 +24,3 @@ message ServerBuffChangeNotify {
 	repeated uint32 entityIdList = 1;
 	bool isCreatureBuff = 5;
 }
-
-
-

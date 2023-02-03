@@ -15,6 +15,3 @@ message BigTalentPointConvertReq {
 	repeated uint64 itemGuidList = 5;
 	uint64 avatarGuid = 3;
 }
-
-
-

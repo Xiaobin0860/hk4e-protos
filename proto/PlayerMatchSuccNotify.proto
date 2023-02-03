@@ -24,6 +24,3 @@ message PlayerMatchSuccNotify {
 	MatchType matchType = 12;
 	GCGMatchInfo gcgMatchInfo = 4;
 }
-
-
-

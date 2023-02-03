@@ -17,6 +17,3 @@ message DungeonRestartInviteNotify {
 	uint32 dungeonId = 7;
 	uint32 pointId = 14;
 }
-
-
-

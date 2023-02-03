@@ -11,6 +11,3 @@ message EDCGBLJECHI {
 	int32 faceAngleCompact = 3;
 	uint32 normalizedTimeCompact = 1;
 }
-
-
-

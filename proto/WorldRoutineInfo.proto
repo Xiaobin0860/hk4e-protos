@@ -8,6 +8,3 @@ message WorldRoutineInfo {
 	uint32 progress = 5;
 	uint32 routineId = 4;
 }
-
-
-

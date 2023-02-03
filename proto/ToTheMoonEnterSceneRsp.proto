@@ -13,6 +13,3 @@ message ToTheMoonEnterSceneRsp {
 
 	int32 retcode = 12;
 }
-
-
-

@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message KHLCBPCJNGE {
 	uint32 value = 1;
 }
-
-
-

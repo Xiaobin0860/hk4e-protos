@@ -11,6 +11,3 @@ message ChannelerSlabBuffInfo {
 	ChannelerSlabBuffSchemeInfo Unk3300_CDFLIONGKCH = 9;
 	repeated ChannelerSlabAssistInfo assistInfoList = 14;
 }
-
-
-

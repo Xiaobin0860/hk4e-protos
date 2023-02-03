@@ -9,6 +9,3 @@ message RegionSearchInfo {
 	repeated RegionSearch regionSearchList = 4;
 	bool isEntered = 14;
 }
-
-
-

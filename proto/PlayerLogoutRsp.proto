@@ -13,6 +13,3 @@ message PlayerLogoutRsp {
 
 	int32 retcode = 5;
 }
-
-
-

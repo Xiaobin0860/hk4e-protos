@@ -15,6 +15,3 @@ message BlitzRushParkourRestartRsp {
 	uint32 groupId = 15;
 	int32 retcode = 3;
 }
-
-
-

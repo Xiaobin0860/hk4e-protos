@@ -13,6 +13,3 @@ message PKIIPCCAGAH {
 	uint32 hnkkkglenlh = 8;
 	string agidilehddc = 9;
 }
-
-
-

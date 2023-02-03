@@ -13,6 +13,3 @@ message GCGDSDeleteDeckRsp {
 
 	uint32 rewardIndex = 7;
 }
-
-
-

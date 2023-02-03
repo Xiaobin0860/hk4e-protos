@@ -17,6 +17,3 @@ message GetOnlinePlayerListRsp {
 	uint32 param = 14;
 	repeated OnlinePlayerInfo playerInfoList = 9;
 }
-
-
-

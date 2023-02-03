@@ -7,6 +7,3 @@ import "HachiStageInfo.proto";
 message HachiInfo {
 	map<uint32, HachiStageInfo> stageMap = 9;
 }
-
-
-

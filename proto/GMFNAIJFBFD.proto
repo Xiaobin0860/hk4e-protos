@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message GMFNAIJFBFD {
 	uint32 applyEntityId = 6;
 }
-
-
-

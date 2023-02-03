@@ -15,6 +15,3 @@ message DeathZoneInfoNotify {
 
 	repeated DeathZoneInfo deathZoneInfoList = 3;
 }
-
-
-

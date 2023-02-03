@@ -17,6 +17,3 @@ message MuqadasPotionDungeonSettleNotify {
 	bool isSuccess = 3;
 	bool isNewRecord = 2;
 }
-
-
-

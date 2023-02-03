@@ -16,6 +16,3 @@ message HomeGetFishFarmingInfoRsp {
 	int32 retcode = 13;
 	repeated HomeFishFarmingInfo fishFarmingInfoList = 1;
 }
-
-
-

@@ -18,6 +18,3 @@ message HomeRacingGallerySettleNotify {
 	uint32 rank = 1;
 	bool isNewRecord = 5;
 }
-
-
-

@@ -20,6 +20,3 @@ message TakeFurnitureMakeRsp {
 	repeated ItemParam outputItemList = 1;
 	int32 retcode = 10;
 }
-
-
-

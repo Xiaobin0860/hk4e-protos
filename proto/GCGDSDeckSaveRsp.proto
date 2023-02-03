@@ -16,6 +16,3 @@ message GCGDSDeckSaveRsp {
 	uint32 rewardIndex = 14;
 	int32 retcode = 15;
 }
-
-
-

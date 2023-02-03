@@ -33,6 +33,3 @@ message DoGachaRsp {
 	uint32 wishMaxProgress = 1;
 	uint32 costItemId = 6;
 }
-
-
-

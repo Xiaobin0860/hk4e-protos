@@ -11,6 +11,3 @@ message AnchorPointData {
 	Vector pos = 12;
 	uint32 anchorPointId = 11;
 }
-
-
-

@@ -16,6 +16,3 @@ message HomeLimitedShopInfoNotify {
 
 	HomeLimitedShopInfo shopInfo = 13;
 }
-
-
-

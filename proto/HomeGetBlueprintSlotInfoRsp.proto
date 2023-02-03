@@ -17,6 +17,3 @@ message HomeGetBlueprintSlotInfoRsp {
 	repeated uint32 deleteSlotIdList = 6;
 	repeated HomeBlueprintSlotInfo slotInfoList = 11;
 }
-
-
-

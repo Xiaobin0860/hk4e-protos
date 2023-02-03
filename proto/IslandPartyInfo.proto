@@ -7,6 +7,3 @@ import "IslandPartyStageData.proto";
 message IslandPartyInfo {
 	repeated IslandPartyStageData stageDataList = 5;
 }
-
-
-

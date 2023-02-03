@@ -17,6 +17,3 @@ message GetBargainDataRsp {
 	BargainSnapshot snapshot = 13;
 	uint32 bargainId = 8;
 }
-
-
-

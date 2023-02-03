@@ -16,6 +16,3 @@ message TreasureMapInfo {
 	uint32 previewRewardId = 12;
 	uint32 treasureCloseTime = 5;
 }
-
-
-

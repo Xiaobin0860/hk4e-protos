@@ -13,6 +13,3 @@ message SeaLampCoinNotify {
 
 	uint32 seaLampCoin = 6;
 }
-
-
-

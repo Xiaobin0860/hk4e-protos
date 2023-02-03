@@ -9,6 +9,3 @@ message DMMAGIEOPDG {
 	repeated DKOBFHFONLM levelInfoList = 4;
 	bool isOpen = 11;
 }
-
-
-

@@ -7,6 +7,3 @@ message ParentQuestRandomInfo {
 	repeated uint32 factorList = 3;
 	uint32 templateId = 6;
 }
-
-
-

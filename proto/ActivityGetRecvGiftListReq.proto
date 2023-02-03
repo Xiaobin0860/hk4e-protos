@@ -14,6 +14,3 @@ message ActivityGetRecvGiftListReq {
 
 	uint32 scheduleId = 5;
 }
-
-
-

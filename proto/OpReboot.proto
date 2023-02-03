@@ -6,6 +6,3 @@ message OpReboot {
 	repeated uint32 costCardGuidList = 9;
 	repeated uint32 diceIndexList = 10;
 }
-
-
-

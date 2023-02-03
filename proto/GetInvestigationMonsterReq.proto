@@ -15,6 +15,3 @@ message GetInvestigationMonsterReq {
 	repeated uint32 cityIdList = 1;
 	bool isForMark = 4;
 }
-
-
-

@@ -10,6 +10,3 @@ message HomeNpcData {
 	uint32 avatarId = 5;
 	Vector spawnRot = 6;
 }
-
-
-

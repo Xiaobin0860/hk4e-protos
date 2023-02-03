@@ -17,6 +17,3 @@ message ReadNicknameAuditRsp {
 	uint32 nnnnclfpean = 9;
 	uint32 ejkmamgnbgj = 3;
 }
-
-
-

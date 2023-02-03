@@ -13,6 +13,3 @@ message ElectroherculesBattleSelectDifficultyReq {
 
 	int32 retcode = 2;
 }
-
-
-

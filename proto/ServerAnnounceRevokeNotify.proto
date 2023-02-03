@@ -13,6 +13,3 @@ message ServerAnnounceRevokeNotify {
 
 	repeated uint32 configIdList = 12;
 }
-
-
-

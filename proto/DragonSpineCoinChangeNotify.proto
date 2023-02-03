@@ -16,6 +16,3 @@ message DragonSpineCoinChangeNotify {
 	uint32 Unk3300_IMLKIJAOADF = 1;
 	uint32 Unk3300_NEOCMGJCEOJ = 5;
 }
-
-
-

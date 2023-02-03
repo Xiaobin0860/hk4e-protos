@@ -46,6 +46,3 @@ message GetPlayerTokenRsp {
 	string serverRandKey = 1420;
 	bool Unk3300_CFBHAHOHDKC = 1663;
 }
-
-
-

@@ -14,6 +14,3 @@ message BrickBreakerSetChangingReq {
 
 	bool isChanging = 13;
 }
-
-
-

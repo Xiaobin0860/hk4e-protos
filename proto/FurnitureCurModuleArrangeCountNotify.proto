@@ -15,6 +15,3 @@ message FurnitureCurModuleArrangeCountNotify {
 
 	repeated Uint32Pair furnitureArrangeCountList = 13;
 }
-
-
-

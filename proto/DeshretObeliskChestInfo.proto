@@ -10,6 +10,3 @@ message DeshretObeliskChestInfo {
 	uint32 groupId = 11;
 	Vector pos = 10;
 }
-
-
-

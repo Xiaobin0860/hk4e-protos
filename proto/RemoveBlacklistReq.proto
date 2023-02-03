@@ -14,6 +14,3 @@ message RemoveBlacklistReq {
 
 	uint32 targetUid = 11;
 }
-
-
-

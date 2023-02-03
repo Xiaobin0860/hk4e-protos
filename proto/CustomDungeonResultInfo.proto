@@ -15,6 +15,3 @@ message CustomDungeonResultInfo {
 	repeated ChallengeBrief childChallengeList = 3;
 	uint32 timeCost = 4;
 }
-
-
-

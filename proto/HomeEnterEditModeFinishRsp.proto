@@ -13,6 +13,3 @@ message HomeEnterEditModeFinishRsp {
 
 	int32 retcode = 15;
 }
-
-
-

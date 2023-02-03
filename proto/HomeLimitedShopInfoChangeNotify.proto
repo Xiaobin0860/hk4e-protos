@@ -15,6 +15,3 @@ message HomeLimitedShopInfoChangeNotify {
 
 	repeated HomeLimitedShopGoods goodsList = 1;
 }
-
-
-

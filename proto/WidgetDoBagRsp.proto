@@ -14,6 +14,3 @@ message WidgetDoBagRsp {
 	uint32 materialId = 6;
 	int32 retcode = 1;
 }
-
-
-

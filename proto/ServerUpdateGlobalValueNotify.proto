@@ -19,6 +19,3 @@ message ServerUpdateGlobalValueNotify {
 	uint32 entityId = 3;
 	float delta = 12;
 }
-
-
-

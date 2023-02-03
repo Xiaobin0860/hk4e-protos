@@ -13,6 +13,3 @@ message FungusCaptureSettleNotify {
 
 	bool isSuccess = 4;
 }
-
-
-

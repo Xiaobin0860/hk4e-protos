@@ -15,6 +15,3 @@ message ChessPickCardRsp {
 	uint32 cardId = 8;
 	int32 retcode = 7;
 }
-
-
-

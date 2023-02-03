@@ -15,6 +15,3 @@ message MainCoopUpdateNotify {
 
 	repeated MainCoop mainCoopList = 5;
 }
-
-
-

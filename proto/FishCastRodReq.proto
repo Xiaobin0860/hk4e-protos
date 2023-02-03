@@ -19,6 +19,3 @@ message FishCastRodReq {
 	uint32 Unk3300_ICALEIBJCDA = 15;
 	uint32 Unk3300_PJFHEDDFOBM = 8;
 }
-
-
-

@@ -13,6 +13,3 @@ message LanV3ShadowFinishLevelRsp {
 
 	int32 retcode = 14;
 }
-
-
-

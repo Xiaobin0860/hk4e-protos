@@ -13,6 +13,3 @@ message GetAllH5ActivityInfoReq {
 	// }
 
 }
-
-
-

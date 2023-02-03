@@ -16,6 +16,3 @@ message PlantFlowerGiveFriendFlowerReq {
 	map<uint32, uint32> flowerNumMap = 14;
 	uint32 scheduleId = 5;
 }
-
-
-

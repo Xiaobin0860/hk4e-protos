@@ -15,6 +15,3 @@ message GCGDSDataNotify {
 
 	CmdId mjjacnclhpf = 1;
 }
-
-
-

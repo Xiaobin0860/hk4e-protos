@@ -6,6 +6,3 @@ message ShortAbilityHashPair {
 	fixed32 abilityNameHash = 6;
 	fixed32 abilityConfigHash = 10;
 }
-
-
-

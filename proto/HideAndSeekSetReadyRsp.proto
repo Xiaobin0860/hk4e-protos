@@ -13,6 +13,3 @@ message HideAndSeekSetReadyRsp {
 
 	int32 retcode = 13;
 }
-
-
-

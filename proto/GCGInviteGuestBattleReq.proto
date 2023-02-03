@@ -14,6 +14,3 @@ message GCGInviteGuestBattleReq {
 
 	uint32 level = 8;
 }
-
-
-

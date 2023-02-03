@@ -14,6 +14,3 @@ message TakeResinCardDailyRewardReq {
 
 	uint32 productConfigId = 10;
 }
-
-
-

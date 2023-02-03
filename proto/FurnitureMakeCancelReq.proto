@@ -15,6 +15,3 @@ message FurnitureMakeCancelReq {
 	uint32 makeId = 5;
 	uint32 index = 12;
 }
-
-
-

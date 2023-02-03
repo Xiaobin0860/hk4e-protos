@@ -15,6 +15,3 @@ message VintageMarketStoreViewStrategyRsp {
 	uint32 strategyId = 15;
 	int32 retcode = 1;
 }
-
-
-

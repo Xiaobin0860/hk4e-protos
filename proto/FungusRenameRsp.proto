@@ -15,6 +15,3 @@ message FungusRenameRsp {
 	uint32 fungusId = 3;
 	uint32 nameId = 7;
 }
-
-
-

@@ -15,6 +15,3 @@ message FungusRenameReq {
 	uint32 nameId = 2;
 	uint32 fungusId = 5;
 }
-
-
-

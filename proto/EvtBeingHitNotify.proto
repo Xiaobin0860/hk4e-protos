@@ -18,6 +18,3 @@ message EvtBeingHitNotify {
 	ForwardType forwardType = 4;
 	EvtBeingHitInfo beingHitInfo = 15;
 }
-
-
-

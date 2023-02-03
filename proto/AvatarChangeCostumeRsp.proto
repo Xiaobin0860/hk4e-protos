@@ -15,6 +15,3 @@ message AvatarChangeCostumeRsp {
 	uint64 avatarGuid = 5;
 	int32 retcode = 7;
 }
-
-
-

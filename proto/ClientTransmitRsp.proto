@@ -16,6 +16,3 @@ message ClientTransmitRsp {
 	TransmitReason reason = 12;
 	int32 retcode = 7;
 }
-
-
-

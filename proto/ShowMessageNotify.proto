@@ -17,6 +17,3 @@ message ShowMessageNotify {
 	SvrMsgId msgId = 7;
 	repeated MsgParam params = 5;
 }
-
-
-

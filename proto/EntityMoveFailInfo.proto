@@ -11,6 +11,3 @@ message EntityMoveFailInfo {
 	uint32 entityId = 6;
 	uint32 reliableSeq = 4;
 }
-
-
-

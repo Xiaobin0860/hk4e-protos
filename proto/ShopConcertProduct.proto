@@ -11,6 +11,3 @@ message ShopConcertProduct {
 	uint32 endTime = 6;
 	uint32 buyTimes = 7;
 }
-
-
-

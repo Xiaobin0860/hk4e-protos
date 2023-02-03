@@ -15,6 +15,3 @@ message PlayerApplyEnterHomeResultReq {
 	uint32 applyUid = 5;
 	bool isAgreed = 4;
 }
-
-
-

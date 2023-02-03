@@ -13,6 +13,3 @@ message GroupSuiteNotify {
 
 	map<uint32, uint32> groupMap = 12;
 }
-
-
-

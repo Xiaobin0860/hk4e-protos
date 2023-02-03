@@ -75,6 +75,3 @@ message GCGMessage {
 		ReactionEnd reaction_end = 58;
 	}
 }
-
-
-

@@ -16,6 +16,3 @@ message HomeLimitedShopInfoRsp {
 	int32 retcode = 10;
 	HomeLimitedShopInfo shopInfo = 7;
 }
-
-
-

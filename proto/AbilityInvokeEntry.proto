@@ -17,6 +17,3 @@ message AbilityInvokeEntry {
 	double totalTickTime = 14;
 	bool isIgnoreAuth = 6;
 }
-
-
-

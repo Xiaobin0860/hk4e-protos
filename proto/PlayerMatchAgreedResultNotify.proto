@@ -18,6 +18,3 @@ message PlayerMatchAgreedResultNotify {
 	MatchType matchType = 12;
 	uint32 targetUid = 7;
 }
-
-
-

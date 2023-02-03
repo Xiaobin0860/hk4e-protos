@@ -14,6 +14,3 @@ message HomeChangeBgmReq {
 
 	uint32 bgmId = 12;
 }
-
-
-

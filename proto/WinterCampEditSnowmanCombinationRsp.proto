@@ -13,6 +13,3 @@ message WinterCampEditSnowmanCombinationRsp {
 
 	int32 retcode = 1;
 }
-
-
-

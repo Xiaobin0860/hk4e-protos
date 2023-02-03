@@ -8,6 +8,3 @@ message PLDKICHAHEB {
 	string createTime = 1;
 	HPAKAIEAKFI value = 2;
 }
-
-
-

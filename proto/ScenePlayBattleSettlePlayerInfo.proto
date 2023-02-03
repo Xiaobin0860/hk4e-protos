@@ -15,6 +15,3 @@ message ScenePlayBattleSettlePlayerInfo {
 	uint32 headImage = 4;
 	int64 param = 12;
 }
-
-
-

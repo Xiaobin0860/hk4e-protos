@@ -7,6 +7,3 @@ message SecondStageInfo {
 	uint32 totalNum = 14;
 	uint32 captureAnimalNum = 1;
 }
-
-
-

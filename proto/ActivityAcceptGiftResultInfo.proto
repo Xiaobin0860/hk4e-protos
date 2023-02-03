@@ -7,6 +7,3 @@ message ActivityAcceptGiftResultInfo {
 	uint32 uid = 11;
 	map<uint32, uint32> Unk3300_COCFNBJCFGP = 4;
 }
-
-
-

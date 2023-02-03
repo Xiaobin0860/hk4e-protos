@@ -12,6 +12,3 @@ message GroupLinkBundle {
 	bool isShowMark = 12;
 	uint32 bundleId = 9;
 }
-
-
-

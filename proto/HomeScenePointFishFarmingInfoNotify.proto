@@ -15,6 +15,3 @@ message HomeScenePointFishFarmingInfoNotify {
 
 	repeated HomeScenePointFishFarmingInfo fishFarmingInfoList = 9;
 }
-
-
-

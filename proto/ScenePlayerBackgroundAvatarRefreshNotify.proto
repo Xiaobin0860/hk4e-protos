@@ -18,6 +18,3 @@ message ScenePlayerBackgroundAvatarRefreshNotify {
 	repeated SceneEntityInfo entityList = 14;
 	VisionType appearType = 2;
 }
-
-
-

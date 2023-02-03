@@ -7,6 +7,3 @@ message PlantFlowerAcceptFlowerResultInfo {
 	uint32 uid = 10;
 	map<uint32, uint32> Unk3300_ILAADDCOPKE = 4;
 }
-
-
-

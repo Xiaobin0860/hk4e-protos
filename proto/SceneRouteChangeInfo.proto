@@ -10,6 +10,3 @@ message SceneRouteChangeInfo {
 	uint32 type = 11;
 	uint32 routeId = 6;
 }
-
-
-

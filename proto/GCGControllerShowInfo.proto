@@ -11,6 +11,3 @@ message GCGControllerShowInfo {
 	ProfilePicture profilePicture = 4;
 	string psnId = 10;
 }
-
-
-

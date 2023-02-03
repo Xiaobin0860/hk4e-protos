@@ -13,6 +13,3 @@ message HomeSceneInitFinishRsp {
 
 	int32 retcode = 9;
 }
-
-
-

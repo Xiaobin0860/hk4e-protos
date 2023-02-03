@@ -7,6 +7,3 @@ message GCGSkillPreviewTokenInfo {
 	uint32 Unk3300_IKICJMEFEON = 6;
 	uint32 tokenType = 8;
 }
-
-
-

@@ -7,6 +7,3 @@ message ActivityDungeonAvatar {
 	bool isTrial = 2;
 	uint32 costumeId = 3;
 }
-
-
-

@@ -9,6 +9,3 @@ message DiceRoll {
 	uint32 diceNum = 11;
 	repeated GCGDiceSideType diceSideList = 7;
 }
-
-
-

@@ -9,6 +9,3 @@ message FungusDetail {
 	uint32 fungusId = 6;
 	uint32 nameId = 4;
 }
-
-
-

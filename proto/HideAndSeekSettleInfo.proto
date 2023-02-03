@@ -13,6 +13,3 @@ message HideAndSeekSettleInfo {
 	string nickname = 9;
 	ProfilePicture profilePicture = 5;
 }
-
-
-

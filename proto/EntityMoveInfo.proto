@@ -11,6 +11,3 @@ message EntityMoveInfo {
 	uint32 reliableSeq = 4;
 	bool isReliable = 5;
 }
-
-
-

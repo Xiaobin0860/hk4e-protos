@@ -8,6 +8,3 @@ message ModifierProperty {
 	float value = 14;
 	AbilityString key = 8;
 }
-
-
-

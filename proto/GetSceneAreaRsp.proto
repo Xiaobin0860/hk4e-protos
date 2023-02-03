@@ -18,6 +18,3 @@ message GetSceneAreaRsp {
 	repeated CityInfo cityInfoList = 14;
 	uint32 sceneId = 2;
 }
-
-
-

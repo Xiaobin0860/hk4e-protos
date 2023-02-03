@@ -16,6 +16,3 @@ message SceneWeaponInfo {
 	map<uint32, uint32> affixMap = 8;
 	EntityRendererChangedInfo rendererChangedInfo = 9;
 }
-
-
-

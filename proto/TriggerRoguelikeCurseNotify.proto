@@ -16,6 +16,3 @@ message TriggerRoguelikeCurseNotify {
 	repeated uint32 effectParamList = 6;
 	uint32 Unk3300_LJHJIBDPBBC = 5;
 }
-
-
-

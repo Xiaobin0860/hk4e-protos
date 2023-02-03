@@ -13,6 +13,3 @@ message HomeAllUnlockedBgmIdListNotify {
 
 	repeated uint32 allUnlockedBgmIdList = 13;
 }
-
-
-

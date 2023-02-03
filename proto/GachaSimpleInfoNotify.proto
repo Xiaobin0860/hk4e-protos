@@ -13,6 +13,3 @@ message GachaSimpleInfoNotify {
 
 	bool isNew = 8;
 }
-
-
-

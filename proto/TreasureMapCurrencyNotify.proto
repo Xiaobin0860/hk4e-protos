@@ -13,6 +13,3 @@ message TreasureMapCurrencyNotify {
 
 	uint32 currencyNum = 13;
 }
-
-
-

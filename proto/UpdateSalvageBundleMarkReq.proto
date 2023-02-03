@@ -15,6 +15,3 @@ message UpdateSalvageBundleMarkReq {
 	uint32 stageId = 5;
 	uint32 challengeType = 4;
 }
-
-
-

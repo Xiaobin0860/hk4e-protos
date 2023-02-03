@@ -16,6 +16,3 @@ message GetExpeditionAssistInfoListRsp {
 	int32 retcode = 1;
 	repeated ExpeditionAssistInfo assistInfoList = 2;
 }
-
-
-

@@ -16,6 +16,3 @@ message PhotoActivityFinishReq {
 	uint32 checkRootId = 3;
 	uint32 posId = 5;
 }
-
-
-

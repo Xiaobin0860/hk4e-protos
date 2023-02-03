@@ -11,6 +11,3 @@ message ShapeBox {
 	Vector axis2 = 4;
 	Vector extents = 5;
 }
-
-
-

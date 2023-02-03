@@ -13,6 +13,3 @@ message ChessEscapedMonstersNotify {
 
 	uint32 escapedMonsters = 10;
 }
-
-
-

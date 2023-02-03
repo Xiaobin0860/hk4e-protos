@@ -9,6 +9,3 @@ message CoinCollectStageInfo {
 	uint32 playIndex = 12;
 	repeated CoinCollectPlayerInfo playerInfoList = 5;
 }
-
-
-

@@ -17,6 +17,3 @@ message GetActivityShopSheetInfoRsp {
 	repeated ActivityShopSheetInfo sheetInfoList = 10;
 	int32 retcode = 5;
 }
-
-
-

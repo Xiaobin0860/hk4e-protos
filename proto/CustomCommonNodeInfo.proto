@@ -7,6 +7,3 @@ message CustomCommonNodeInfo {
 	uint32 configId = 2;
 	string slotIdentifier = 3;
 }
-
-
-

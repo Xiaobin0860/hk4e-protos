@@ -16,6 +16,3 @@ message WinterCampGetCanGiveFriendItemRsp {
 	int32 retcode = 2;
 	repeated ItemParam itemList = 1;
 }
-
-
-

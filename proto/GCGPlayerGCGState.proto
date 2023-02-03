@@ -7,6 +7,3 @@ message GCGPlayerGCGState {
 	uint32 uid = 15;
 	bool pdjilolocgj = 11;
 }
-
-
-

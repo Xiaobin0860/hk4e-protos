@@ -15,6 +15,3 @@ message SceneInitFinishRsp {
 	uint32 enterSceneToken = 9;
 	int32 retcode = 8;
 }
-
-
-

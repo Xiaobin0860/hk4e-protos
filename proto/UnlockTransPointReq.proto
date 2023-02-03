@@ -15,6 +15,3 @@ message UnlockTransPointReq {
 	uint32 pointId = 4;
 	uint32 sceneId = 6;
 }
-
-
-

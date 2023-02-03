@@ -15,6 +15,3 @@ message SeaLampActivityInfo {
 	uint32 mechanicusId = 12;
 	uint32 seaLampCoin = 6;
 }
-
-
-

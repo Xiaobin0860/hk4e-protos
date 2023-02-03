@@ -15,6 +15,3 @@ message FlightActivityRestartRsp {
 	int32 retcode = 13;
 	uint32 groupId = 12;
 }
-
-
-

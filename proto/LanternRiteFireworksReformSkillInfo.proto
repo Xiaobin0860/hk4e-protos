@@ -8,6 +8,3 @@ message LanternRiteFireworksReformSkillInfo {
 	uint32 Unk3300_EDPPFFFLFGG = 11;
 	uint32 skillId = 3;
 }
-
-
-

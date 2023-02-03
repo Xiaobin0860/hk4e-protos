@@ -16,6 +16,3 @@ message EffigyChallengeResultNotify {
 	uint32 challengeScore = 5;
 	bool isSuccess = 4;
 }
-
-
-

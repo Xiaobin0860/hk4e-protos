@@ -12,6 +12,3 @@ message AddDice {
 	GCGReason reason = 9;
 	int32 changeCount = 10;
 }
-
-
-

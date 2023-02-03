@@ -24,6 +24,3 @@ message BreakoutPhysicalObject {
 	uint32 apiembahlab = 15;
 	int32 offset = 16;
 }
-
-
-

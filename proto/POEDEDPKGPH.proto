@@ -8,6 +8,3 @@ message POEDEDPKGPH {
 	repeated MGKFOCKHAHI blnaldeiekj = 1;
 	string createTime = 2;
 }
-
-
-

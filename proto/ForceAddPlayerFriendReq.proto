@@ -13,6 +13,3 @@ message ForceAddPlayerFriendReq {
 
 	uint32 targetUid = 7;
 }
-
-
-

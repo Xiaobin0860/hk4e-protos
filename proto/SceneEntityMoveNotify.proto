@@ -18,6 +18,3 @@ message SceneEntityMoveNotify {
 	uint32 sceneTime = 7;
 	uint32 reliableSeq = 12;
 }
-
-
-

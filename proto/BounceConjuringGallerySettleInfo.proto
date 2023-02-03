@@ -16,6 +16,3 @@ message BounceConjuringGallerySettleInfo {
 	map<uint32, uint32> gadgetCountMap = 3;
 	uint32 Unk3300_BJHCDKNFDFN = 4;
 }
-
-
-

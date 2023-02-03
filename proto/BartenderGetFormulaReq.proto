@@ -17,6 +17,3 @@ message BartenderGetFormulaReq {
 	repeated ItemParam itemList = 4;
 	uint32 questId = 6;
 }
-
-
-

@@ -16,6 +16,3 @@ message HomeLimitedShopGoodsListRsp {
 	HomeLimitedShop shop = 13;
 	int32 retcode = 9;
 }
-
-
-

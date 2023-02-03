@@ -17,6 +17,3 @@ message SpiceActivityFinishMakeSpiceReq {
 	repeated uint32 leftMaterialIdList = 1;
 	uint32 leftTurns = 4;
 }
-
-
-

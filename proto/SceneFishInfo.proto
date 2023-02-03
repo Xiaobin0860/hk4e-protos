@@ -11,6 +11,3 @@ message SceneFishInfo {
 	uint32 fishPoolGadgetId = 4;
 	uint32 lastShockTime = 5;
 }
-
-
-

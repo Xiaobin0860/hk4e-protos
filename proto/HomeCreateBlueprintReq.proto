@@ -19,6 +19,3 @@ message HomeCreateBlueprintReq {
 	string serverShareCode = 8;
 	uint32 genShareCodeCount = 1;
 }
-
-
-

@@ -16,6 +16,3 @@ message OfferingInteractRsp {
 	int32 retcode = 10;
 	PlayerOfferingData offeringData = 14;
 }
-
-
-

@@ -23,6 +23,3 @@ message CombineRsp {
 	repeated ItemParam costItemList = 2;
 	repeated ItemParam totalReturnItemList = 4;
 }
-
-
-

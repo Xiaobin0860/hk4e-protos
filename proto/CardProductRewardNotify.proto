@@ -15,6 +15,3 @@ message CardProductRewardNotify {
 	uint32 hcoin = 6;
 	uint32 remainDays = 7;
 }
-
-
-

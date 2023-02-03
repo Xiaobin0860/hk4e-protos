@@ -28,6 +28,3 @@ message ToTheMoonQueryPathReq {
 	bool Unk3300_BBLMBILIOGP = 2;
 	Vector destinationPos = 5;
 }
-
-
-

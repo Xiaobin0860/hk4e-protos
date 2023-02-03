@@ -17,6 +17,3 @@ message SummerTimeFloatSignalPositionNotify {
 	uint32 floatSignalId = 3;
 	Vector position = 10;
 }
-
-
-

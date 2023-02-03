@@ -18,6 +18,3 @@ message ServerLogNotify {
 	ServerLogLevel logLevel = 15;
 	ServerLogType logType = 9;
 }
-
-
-

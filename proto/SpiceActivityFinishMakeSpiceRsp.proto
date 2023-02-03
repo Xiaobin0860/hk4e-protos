@@ -15,6 +15,3 @@ message SpiceActivityFinishMakeSpiceRsp {
 	bool isSuccess = 4;
 	uint32 stageId = 1;
 }
-
-
-

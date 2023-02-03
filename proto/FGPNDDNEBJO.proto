@@ -10,6 +10,3 @@ message FGPNDDNEBJO {
 	uint32 djmnfklkcaf = 2;
 	Vector rot = 12;
 }
-
-
-

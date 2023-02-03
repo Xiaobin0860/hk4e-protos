@@ -17,6 +17,3 @@ message InBattleChessInfo {
 	repeated ChessCardInfo selectedCardInfoList = 1;
 	uint32 mechanicusId = 14;
 }
-
-
-

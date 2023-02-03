@@ -8,6 +8,3 @@ message NpcPositionInfo {
 	uint32 npcId = 1;
 	Vector pos = 2;
 }
-
-
-

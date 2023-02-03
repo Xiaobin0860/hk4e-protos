@@ -15,6 +15,3 @@ message GetWorldMpInfoRsp {
 	bool isInMpMode = 11;
 	uint32 quitMpValidTime = 15;
 }
-
-
-

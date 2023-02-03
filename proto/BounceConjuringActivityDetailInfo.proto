@@ -9,6 +9,3 @@ message BounceConjuringActivityDetailInfo {
 	bool leftMonsters = 6;
 	repeated BounceConjuringChapterInfo chapterInfoList = 7;
 }
-
-
-

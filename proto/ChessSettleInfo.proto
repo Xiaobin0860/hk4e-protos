@@ -13,6 +13,3 @@ message ChessSettleInfo {
 	uint32 Unk3300_IPGILJCBABK = 3;
 	uint32 Unk3300_EMNLLDJHMEI = 10;
 }
-
-
-

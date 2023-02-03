@@ -13,6 +13,3 @@ message AllWidgetBackgroundActiveStateNotify {
 
 	repeated uint32 backgroundActiveWidgetList = 11;
 }
-
-
-

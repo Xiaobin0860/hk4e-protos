@@ -18,6 +18,3 @@ message ReunionBriefInfo {
 	uint32 signInConfigId = 6;
 	bool Unk3300_OKGAAEDENEI = 2;
 }
-
-
-

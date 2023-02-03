@@ -19,6 +19,3 @@ message ChangeAvatarReq {
 	Vector movePos = 3;
 	uint32 skillId = 5;
 }
-
-
-

@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message GCGMsgPass {
 	uint32 controllerId = 12;
 }
-
-
-

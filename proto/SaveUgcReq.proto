@@ -20,6 +20,3 @@ message SaveUgcReq {
 		MusicRecord music_record = 15;
 	}
 }
-
-
-

@@ -17,6 +17,3 @@ message IrodoriScanEntityRsp {
 	IrodoriPoetryThemeData themeData = 8;
 	int32 retcode = 12;
 }
-
-
-

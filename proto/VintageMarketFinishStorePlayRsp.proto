@@ -22,6 +22,3 @@ message VintageMarketFinishStorePlayRsp {
 	repeated uint32 Unk3300_BDAIONEPKIK = 5;
 	repeated uint32 Unk3300_OCIMKEPJOOL = 9;
 }
-
-
-

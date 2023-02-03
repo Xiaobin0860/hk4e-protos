@@ -16,6 +16,3 @@ message ProudSkillExtraLevelNotify {
 	uint32 talentType = 5;
 	uint32 extraLevel = 13;
 }
-
-
-

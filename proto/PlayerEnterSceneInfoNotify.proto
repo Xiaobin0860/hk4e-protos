@@ -22,6 +22,3 @@ message PlayerEnterSceneInfoNotify {
 	uint32 enterSceneToken = 13;
 	repeated AvatarEnterSceneInfo avatarEnterInfo = 12;
 }
-
-
-

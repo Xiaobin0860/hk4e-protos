@@ -15,6 +15,3 @@ message ChessPickCardReq {
 	uint32 cardIndex = 9;
 	uint32 cardId = 3;
 }
-
-
-

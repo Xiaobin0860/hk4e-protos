@@ -21,6 +21,3 @@ message PlayerCookRsp {
 	uint32 cookCount = 12;
 	uint32 qteQuality = 4;
 }
-
-
-

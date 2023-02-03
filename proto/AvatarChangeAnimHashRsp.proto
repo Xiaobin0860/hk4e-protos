@@ -15,6 +15,3 @@ message AvatarChangeAnimHashRsp {
 	uint32 animHash = 9;
 	uint64 avatarGuid = 11;
 }
-
-
-

@@ -17,6 +17,3 @@ message FleurFairMusicGameSettleReq {
 	uint32 score = 7;
 	uint32 correctHit = 6;
 }
-
-
-

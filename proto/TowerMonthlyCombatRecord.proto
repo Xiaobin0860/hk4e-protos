@@ -12,6 +12,3 @@ message TowerMonthlyCombatRecord {
 	TowerFightRecordPair Unk3300_CCFHOFCIEPF = 4;
 	repeated TowerFightRecordPair mostRevealAvatarList = 7;
 }
-
-
-

@@ -18,6 +18,3 @@ message ArenaChallengeFinishNotify {
 	uint32 Unk3300_DBHAGHMMLAI = 15;
 	uint32 Unk3300_FDFNFLAKONG = 9;
 }
-
-
-

@@ -14,6 +14,3 @@ message InBattleMechanicusSettleInfo {
 	uint32 playIndex = 13;
 	repeated MultistageSettleWatcherInfo watcherList = 4;
 }
-
-
-

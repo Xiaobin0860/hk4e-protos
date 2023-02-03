@@ -15,6 +15,3 @@ message AvatarChangeCostumeReq {
 	uint64 avatarGuid = 4;
 	uint32 costumeId = 11;
 }
-
-
-

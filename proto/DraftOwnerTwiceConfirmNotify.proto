@@ -14,6 +14,3 @@ message DraftOwnerTwiceConfirmNotify {
 	uint32 draftId = 15;
 	uint32 twiceConfirmDeadlineTime = 7;
 }
-
-
-

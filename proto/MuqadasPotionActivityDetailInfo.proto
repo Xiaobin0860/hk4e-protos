@@ -7,6 +7,3 @@ import "MuqadasPotionLevelData.proto";
 message MuqadasPotionActivityDetailInfo {
 	repeated MuqadasPotionLevelData kmhabponajo = 10;
 }
-
-
-

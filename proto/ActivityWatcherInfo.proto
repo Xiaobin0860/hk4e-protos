@@ -8,6 +8,3 @@ message ActivityWatcherInfo {
 	uint32 totalProgress = 1;
 	uint32 watcherId = 10;
 }
-
-
-

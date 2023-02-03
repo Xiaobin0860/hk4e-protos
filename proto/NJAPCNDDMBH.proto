@@ -12,6 +12,3 @@ message NJAPCNDDMBH {
 		Duel duel = 5;
 	}
 }
-
-
-

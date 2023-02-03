@@ -17,6 +17,3 @@ message ForgeGetQueueDataRsp {
 	uint32 maxQueueNum = 7;
 	map<uint32, ForgeQueueData> forgeQueueMap = 4;
 }
-
-
-

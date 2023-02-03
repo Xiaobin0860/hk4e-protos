@@ -9,6 +9,3 @@ message PBNavMeshTile {
 	repeated PBNavMeshPoly polys = 11;
 	repeated Vector vecs = 1;
 }
-
-
-

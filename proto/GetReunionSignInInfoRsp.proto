@@ -16,6 +16,3 @@ message GetReunionSignInInfoRsp {
 	int32 retcode = 14;
 	ReunionSignInInfo signInInfo = 4;
 }
-
-
-

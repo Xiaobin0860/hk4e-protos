@@ -13,6 +13,3 @@ message ChessLeftMonstersNotify {
 
 	uint32 leftMonsters = 8;
 }
-
-
-

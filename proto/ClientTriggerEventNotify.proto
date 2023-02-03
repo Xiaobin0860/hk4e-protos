@@ -17,6 +17,3 @@ message ClientTriggerEventNotify {
 	uint32 forceId = 5;
 	EventTriggerType eventType = 1;
 }
-
-
-

@@ -15,6 +15,3 @@ message ActivityBannerClearReq {
 	uint32 scheduleId = 6;
 	uint32 activityId = 3;
 }
-
-
-

@@ -16,6 +16,3 @@ message BlossomBriefInfoNotify {
 
 	repeated BlossomBriefInfo briefInfoList = 9;
 }
-
-
-

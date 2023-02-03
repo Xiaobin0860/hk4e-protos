@@ -15,6 +15,3 @@ message MichiaeMatsuriStartBossChallengeReq {
 	uint32 gadgetEntityId = 1;
 	uint32 difficulty = 6;
 }
-
-
-

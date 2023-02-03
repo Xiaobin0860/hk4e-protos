@@ -12,6 +12,3 @@ message SummerTimeV2BoatGallerySettleInfo {
 	uint32 usedTime = 4;
 	uint32 param1 = 6;
 }
-
-
-

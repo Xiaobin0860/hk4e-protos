@@ -16,6 +16,3 @@ message QuestRenameAvatarReq {
 	uint32 renameId = 9;
 	string avatarName = 11;
 }
-
-
-

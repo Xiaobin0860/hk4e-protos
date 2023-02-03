@@ -16,6 +16,3 @@ message WorldDataNotify {
 
 	map<uint32, PropValue> worldPropMap = 3;
 }
-
-
-

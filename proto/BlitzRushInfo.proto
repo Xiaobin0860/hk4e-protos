@@ -11,6 +11,3 @@ message BlitzRushInfo {
 	repeated ParkourLevelInfo parkourLevelInfoList = 6;
 	bool leftMonsters = 5;
 }
-
-
-

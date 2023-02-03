@@ -18,6 +18,3 @@ message LevelupCityRsp {
 	uint32 areaId = 12;
 	uint32 sceneId = 3;
 }
-
-
-

@@ -19,6 +19,3 @@ message SceneEntityMoveReq {
 	uint32 entityId = 1;
 	uint32 sceneTime = 14;
 }
-
-
-

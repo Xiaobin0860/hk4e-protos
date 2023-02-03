@@ -19,6 +19,3 @@ message RoguelikeGiveUpRsp {
 		RoguelikeDungeonSettleInfo settle_info = 2;
 	}
 }
-
-
-

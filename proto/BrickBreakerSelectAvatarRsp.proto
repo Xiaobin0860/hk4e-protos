@@ -14,6 +14,3 @@ message BrickBreakerSelectAvatarRsp {
 	repeated uint32 avatarId = 13;
 	int32 retcode = 9;
 }
-
-
-

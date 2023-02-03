@@ -15,6 +15,3 @@ message SalesmanTakeRewardReq {
 	uint32 scheduleId = 7;
 	uint32 position = 10;
 }
-
-
-

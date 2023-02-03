@@ -15,6 +15,3 @@ message OpActivityUpdateNotify {
 
 	OpActivityInfo opActivityInfo = 15;
 }
-
-
-

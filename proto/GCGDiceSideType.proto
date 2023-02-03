@@ -13,6 +13,3 @@ enum GCGDiceSideType {
   GCG_DICE_SIDE_ANEMO   = 7;
   GCG_DICE_SIDE_PAIMON  = 8;
 }
-
-
-

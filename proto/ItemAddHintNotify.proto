@@ -23,6 +23,3 @@ message ItemAddHintNotify {
 	repeated ItemHint itemList = 8;
 	bool Unk3300_KIOMJNHFMDE = 11;
 }
-
-
-

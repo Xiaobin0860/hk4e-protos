@@ -9,6 +9,3 @@ message DigMarkPoint {
 	Vector pos = 2;
 	uint32 bundleId = 3;
 }
-
-
-

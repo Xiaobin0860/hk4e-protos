@@ -13,6 +13,3 @@ message InBattleMechanicusBuildingPointsNotify {
 
 	map<uint32, uint32> playerBuildingPointsMap = 7;
 }
-
-
-

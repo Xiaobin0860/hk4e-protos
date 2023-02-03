@@ -17,6 +17,3 @@ message ActivityUpdateWatcherNotify {
 	ActivityWatcherInfo watcherInfo = 11;
 	uint32 activityId = 3;
 }
-
-
-

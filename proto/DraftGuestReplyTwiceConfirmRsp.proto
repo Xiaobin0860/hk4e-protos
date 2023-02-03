@@ -15,6 +15,3 @@ message DraftGuestReplyTwiceConfirmRsp {
 	bool isAgree = 5;
 	uint32 draftId = 15;
 }
-
-
-

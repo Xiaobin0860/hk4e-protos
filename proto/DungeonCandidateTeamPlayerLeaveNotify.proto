@@ -16,6 +16,3 @@ message DungeonCandidateTeamPlayerLeaveNotify {
 	DungeonCandidateTeamPlayerLeaveReason reason = 2;
 	uint32 playerUid = 12;
 }
-
-
-

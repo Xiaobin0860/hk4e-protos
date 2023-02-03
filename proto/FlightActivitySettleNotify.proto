@@ -20,6 +20,3 @@ message FlightActivitySettleNotify {
 	uint32 score = 12;
 	uint32 leftTime = 5;
 }
-
-
-

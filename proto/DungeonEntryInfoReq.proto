@@ -18,6 +18,3 @@ message DungeonEntryInfoReq {
 	repeated Uint32Pair scenePointIdList = 12;
 	uint32 sceneId = 3;
 }
-
-
-

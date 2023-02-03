@@ -19,6 +19,3 @@ message EvtAvatarUpdateFocusNotify {
 	ForwardType forwardType = 15;
 	Vector focusForward = 3;
 }
-
-
-

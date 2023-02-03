@@ -18,6 +18,3 @@ message GadgetPlayUidOpNotify {
 	repeated uint32 paramList = 11;
 	uint32 entityId = 7;
 }
-
-
-

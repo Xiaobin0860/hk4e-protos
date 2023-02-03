@@ -9,6 +9,3 @@ message SummerTimeSprintBoatRecord {
 	uint32 bestScore = 2;
 	uint32 groupId = 14;
 }
-
-
-

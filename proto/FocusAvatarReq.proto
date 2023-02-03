@@ -15,6 +15,3 @@ message FocusAvatarReq {
 	bool isFocus = 15;
 	uint64 avatarGuid = 10;
 }
-
-
-

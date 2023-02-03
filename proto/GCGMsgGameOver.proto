@@ -8,6 +8,3 @@ message GCGMsgGameOver {
 	GCGEndReason endReason = 4;
 	uint32 winControllerId = 10;
 }
-
-
-

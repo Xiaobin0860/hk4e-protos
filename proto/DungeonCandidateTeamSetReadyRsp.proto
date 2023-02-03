@@ -13,6 +13,3 @@ message DungeonCandidateTeamSetReadyRsp {
 
 	int32 retcode = 2;
 }
-
-
-

@@ -6,6 +6,3 @@ message SumoAvatarInfo {
 	uint64 avatarId = 9;
 	bool isTrial = 2;
 }
-
-
-

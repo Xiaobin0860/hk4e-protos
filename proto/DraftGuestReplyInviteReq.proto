@@ -15,6 +15,3 @@ message DraftGuestReplyInviteReq {
 	bool isAgree = 13;
 	uint32 draftId = 10;
 }
-
-
-

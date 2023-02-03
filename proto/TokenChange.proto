@@ -11,6 +11,3 @@ message TokenChange {
 	uint32 tokenType = 8;
 	GCGReason reason = 12;
 }
-
-
-

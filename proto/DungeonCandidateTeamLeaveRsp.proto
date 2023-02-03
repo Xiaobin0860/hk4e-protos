@@ -13,6 +13,3 @@ message DungeonCandidateTeamLeaveRsp {
 
 	int32 retcode = 2;
 }
-
-
-

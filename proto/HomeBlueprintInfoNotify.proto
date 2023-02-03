@@ -13,6 +13,3 @@ message HomeBlueprintInfoNotify {
 
 	bool isAllowFriendCopy = 11;
 }
-
-
-

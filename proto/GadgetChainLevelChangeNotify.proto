@@ -13,6 +13,3 @@ message GadgetChainLevelChangeNotify {
 
 	map<uint32, uint32> gadgetChainLevelMap = 14;
 }
-
-
-

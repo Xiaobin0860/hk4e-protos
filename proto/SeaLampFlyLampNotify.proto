@@ -18,6 +18,3 @@ message SeaLampFlyLampNotify {
 	int32 param = 10;
 	uint32 itemId = 3;
 }
-
-
-

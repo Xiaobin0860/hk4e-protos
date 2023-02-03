@@ -9,6 +9,3 @@ message LanternRiteFireworksStageInfo {
 	repeated LanternRiteFireworksChallengeInfo exceededItemTypeList = 9;
 	uint32 stageId = 15;
 }
-
-
-

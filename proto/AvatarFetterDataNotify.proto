@@ -15,6 +15,3 @@ message AvatarFetterDataNotify {
 
 	map<uint64, AvatarFetterInfo> fetterInfoMap = 11;
 }
-
-
-

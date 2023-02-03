@@ -9,6 +9,3 @@ message PBNavMeshPoly {
 	int32 area = 5;
 	repeated int32 vects = 14;
 }
-
-
-

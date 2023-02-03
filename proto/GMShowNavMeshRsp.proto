@@ -16,6 +16,3 @@ message GMShowNavMeshRsp {
 	repeated PBNavMeshTile tiles = 9;
 	int32 retcode = 4;
 }
-
-
-

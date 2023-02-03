@@ -14,6 +14,3 @@ message FleurFairMusicGameStartReq {
 
 	uint32 musicBasicId = 8;
 }
-
-
-

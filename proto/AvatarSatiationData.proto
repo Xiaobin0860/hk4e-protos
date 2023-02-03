@@ -7,6 +7,3 @@ message AvatarSatiationData {
 	float finishTime = 15;
 	float penaltyFinishTime = 12;
 }
-
-
-

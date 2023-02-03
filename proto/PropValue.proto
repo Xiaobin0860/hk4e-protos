@@ -10,6 +10,3 @@ message PropValue {
 	}
 	int64 val = 4;
 }
-
-
-

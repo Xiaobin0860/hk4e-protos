@@ -18,6 +18,3 @@ message GetAuthkeyRsp {
 	int32 retcode = 14;
 	string authkey = 9;
 }
-
-
-

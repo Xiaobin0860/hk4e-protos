@@ -8,6 +8,3 @@ enum SettleReason {
     SETTLE_PLAYER_QUIT     = 2;
     SETTLE_LIFE_COUNT      = 3;
 }
-
-
-

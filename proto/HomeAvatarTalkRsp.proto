@@ -16,6 +16,3 @@ message HomeAvatarTalkRsp {
 	HomeAvatarTalkFinishInfo avatarTalkInfo = 5;
 	int32 retcode = 10;
 }
-
-
-

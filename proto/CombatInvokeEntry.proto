@@ -10,6 +10,3 @@ message CombatInvokeEntry {
 	CombatTypeArgument argumentType = 8;
 	ForwardType forwardType = 15;
 }
-
-
-

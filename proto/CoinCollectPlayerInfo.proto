@@ -11,6 +11,3 @@ message CoinCollectPlayerInfo {
 	string playerName = 4;
 	uint32 playerUid = 5;
 }
-
-
-

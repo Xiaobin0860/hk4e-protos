@@ -18,6 +18,3 @@ message PingReq {
 	float ueTime = 15;
 	uint32 clientTime = 8;
 }
-
-
-

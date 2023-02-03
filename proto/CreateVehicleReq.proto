@@ -19,6 +19,3 @@ message CreateVehicleReq {
 	uint32 vehicleId = 1;
 	uint32 scenePointId = 15;
 }
-
-
-

@@ -17,6 +17,3 @@ message TakeResinCardDailyRewardRsp {
 	uint32 productConfigId = 4;
 	int32 retcode = 9;
 }
-
-
-

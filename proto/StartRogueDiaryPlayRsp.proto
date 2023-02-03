@@ -18,6 +18,3 @@ message StartRogueDiaryPlayRsp {
 	repeated uint32 randCardList = 2;
 	repeated RogueDiaryAvatar avatarList = 13;
 }
-
-
-

@@ -11,6 +11,3 @@ message FurnitureMakeBeHelpedData {
 	fixed32 time = 4;
 	string playerName = 6;
 }
-
-
-

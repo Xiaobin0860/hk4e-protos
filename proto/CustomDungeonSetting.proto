@@ -11,6 +11,3 @@ message CustomDungeonSetting {
 	uint32 timeLimit = 2;
 	bool isArriveFinish = 14;
 }
-
-
-

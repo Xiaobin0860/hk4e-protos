@@ -15,6 +15,3 @@ message SceneTransToPointReq {
 	uint32 sceneId = 3;
 	uint32 pointId = 10;
 }
-
-
-

@@ -16,6 +16,3 @@ message ViewCodexReq {
 
 	repeated CodexTypeData typeDataList = 9;
 }
-
-
-

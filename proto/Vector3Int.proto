@@ -7,6 +7,3 @@ message Vector3Int {
 	int32 y = 2;
 	int32 z = 3;
 }
-
-
-

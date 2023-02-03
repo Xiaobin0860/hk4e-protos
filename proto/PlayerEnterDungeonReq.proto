@@ -18,6 +18,3 @@ message PlayerEnterDungeonReq {
 	uint32 pointId = 9;
 	DungeonEnterPosInfo enterPosInfo = 4;
 }
-
-
-

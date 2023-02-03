@@ -16,6 +16,3 @@ message PlayerApplyEnterHomeResultRsp {
 	int32 retcode = 15;
 	uint32 param = 6;
 }
-
-
-

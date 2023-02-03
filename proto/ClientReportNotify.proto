@@ -15,6 +15,3 @@ message ClientReportNotify {
 	string reportValue = 7;
 	string reportType = 12;
 }
-
-
-

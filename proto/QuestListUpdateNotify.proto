@@ -15,6 +15,3 @@ message QuestListUpdateNotify {
 
 	repeated Quest questList = 13;
 }
-
-
-

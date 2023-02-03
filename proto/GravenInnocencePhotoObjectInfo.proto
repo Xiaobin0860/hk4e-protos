@@ -7,6 +7,3 @@ message GravenInnocencePhotoObjectInfo {
 	uint32 finishTime = 10;
 	uint32 objectId = 1;
 }
-
-
-

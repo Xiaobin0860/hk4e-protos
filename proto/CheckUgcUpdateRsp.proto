@@ -17,6 +17,3 @@ message CheckUgcUpdateRsp {
 	UgcType ugcType = 6;
 	repeated uint64 updateUgcGuidList = 2;
 }
-
-
-

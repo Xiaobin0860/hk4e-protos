@@ -17,6 +17,3 @@ message PlayerApplyEnterMpNotify {
 	OnlinePlayerInfo srcPlayerInfo = 11;
 	uint32 srcAppId = 12;
 }
-
-
-

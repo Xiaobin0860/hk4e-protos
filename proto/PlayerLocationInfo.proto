@@ -9,6 +9,3 @@ message PlayerLocationInfo {
 	Vector pos = 4;
 	uint32 uid = 9;
 }
-
-
-

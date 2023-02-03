@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message ThunderBirdFeatherInfo {
 	repeated uint32 entityIdList = 12;
 }
-
-
-

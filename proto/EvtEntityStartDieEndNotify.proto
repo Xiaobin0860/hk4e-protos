@@ -19,6 +19,3 @@ message EvtEntityStartDieEndNotify {
 	ForwardType forwardType = 15;
 	uint32 dieStateFlag = 8;
 }
-
-
-

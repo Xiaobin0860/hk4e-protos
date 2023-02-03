@@ -10,6 +10,3 @@ message BJGDBMMEDNK {
 	uint32 entityId = 6;
 	Vector pos = 4;
 }
-
-
-

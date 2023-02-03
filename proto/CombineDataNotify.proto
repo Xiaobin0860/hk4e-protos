@@ -13,6 +13,3 @@ message CombineDataNotify {
 
 	repeated uint32 combineIdList = 4;
 }
-
-
-

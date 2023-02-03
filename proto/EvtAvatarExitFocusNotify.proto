@@ -19,6 +19,3 @@ message EvtAvatarExitFocusNotify {
 	uint32 entityId = 13;
 	ForwardType forwardType = 14;
 }
-
-
-

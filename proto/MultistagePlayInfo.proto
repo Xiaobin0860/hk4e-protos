@@ -32,6 +32,3 @@ message MultistagePlayInfo {
 		LanV3BoatInfo lan_v3boat_info = 424;
 	}
 }
-
-
-

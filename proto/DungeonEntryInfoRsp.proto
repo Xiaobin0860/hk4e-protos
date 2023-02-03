@@ -20,6 +20,3 @@ message DungeonEntryInfoRsp {
 	repeated DungeonEntryInfo dungeonEntryList = 1;
 	int32 retcode = 3;
 }
-
-
-

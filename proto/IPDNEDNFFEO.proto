@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message IPDNEDNFFEO {
 	float jmiipakgola = 7;
 }
-
-
-

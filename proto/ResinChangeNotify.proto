@@ -15,6 +15,3 @@ message ResinChangeNotify {
 	uint32 nextAddTimestamp = 4;
 	uint32 curBuyCount = 5;
 }
-
-
-

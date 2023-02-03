@@ -11,6 +11,3 @@ message DMIOGBOGIEG {
 	uint32 moduleId = 13;
 	uint32 version = 9;
 }
-
-
-

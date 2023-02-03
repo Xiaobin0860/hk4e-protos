@@ -15,6 +15,3 @@ message CreateMassiveEntityNotify {
 
 	repeated ServerMassiveEntity massiveEntityList = 8;
 }
-
-
-

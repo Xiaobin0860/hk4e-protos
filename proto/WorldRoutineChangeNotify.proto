@@ -16,6 +16,3 @@ message WorldRoutineChangeNotify {
 	uint32 routineType = 11;
 	WorldRoutineInfo routineInfo = 2;
 }
-
-
-

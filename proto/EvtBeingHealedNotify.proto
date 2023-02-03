@@ -16,6 +16,3 @@ message EvtBeingHealedNotify {
 	float healAmount = 11;
 	uint32 targetId = 8;
 }
-
-
-

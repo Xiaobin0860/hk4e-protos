@@ -12,6 +12,3 @@ message WinterCampStageInfo {
 	Vector pos = 6;
 	bool isFinished = 9;
 }
-
-
-

@@ -6,6 +6,3 @@ message PlayerRoutineInfo {
 	uint32 routineType = 2;
 	uint32 finishedNum = 13;
 }
-
-
-

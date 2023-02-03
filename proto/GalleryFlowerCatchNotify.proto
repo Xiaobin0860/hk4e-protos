@@ -15,6 +15,3 @@ message GalleryFlowerCatchNotify {
 	uint32 curScore = 8;
 	uint32 galleryId = 13;
 }
-
-
-

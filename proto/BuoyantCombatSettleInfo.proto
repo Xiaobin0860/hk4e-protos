@@ -8,6 +8,3 @@ message BuoyantCombatSettleInfo {
 	BuoyantCombatGallerySettleInfo settleInfo = 9;
 	bool isNewRecord = 1;
 }
-
-
-

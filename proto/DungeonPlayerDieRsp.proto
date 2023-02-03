@@ -13,6 +13,3 @@ message DungeonPlayerDieRsp {
 
 	int32 retcode = 14;
 }
-
-
-

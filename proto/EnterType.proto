@@ -16,6 +16,3 @@ enum EnterType {
   ENTER_OTHER_HOME     = 10;
   ENTER_GOTO_RECREATE  = 11;
 }
-
-
-

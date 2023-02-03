@@ -15,6 +15,3 @@ message MiracleRingTakeRewardReq {
 	uint32 gadgetEntityId = 1;
 	uint32 gadgetId = 11;
 }
-
-
-

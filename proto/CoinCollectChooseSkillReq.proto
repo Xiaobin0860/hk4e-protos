@@ -15,6 +15,3 @@ message CoinCollectChooseSkillReq {
 	uint32 levelId = 10;
 	uint32 chooseSkillNo = 7;
 }
-
-
-

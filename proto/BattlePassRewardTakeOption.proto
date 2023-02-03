@@ -8,6 +8,3 @@ message BattlePassRewardTakeOption {
 	BattlePassRewardTag tag = 15;
 	uint32 optionIdx = 14;
 }
-
-
-

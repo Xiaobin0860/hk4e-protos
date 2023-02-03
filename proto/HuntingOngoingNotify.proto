@@ -21,6 +21,3 @@ message HuntingOngoingNotify {
 	Vector nextPosition = 14;
 	bool isFinal = 11;
 }
-
-
-

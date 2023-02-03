@@ -10,6 +10,3 @@ message PlantFlowerFriendFlowerWishData {
 	uint32 uid = 6;
 	map<uint32, uint32> flowerNumMap = 7;
 }
-
-
-

@@ -13,6 +13,3 @@ message DragonSpineInfo {
 	repeated DragonSpineChapterInfo chapterInfoList = 9;
 	uint32 weaponEnhanceLevel = 15;
 }
-
-
-

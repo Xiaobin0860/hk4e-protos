@@ -7,6 +7,3 @@ message AbilityGadgetInfo {
   	uint32 camp_target_type = 2;
   	uint32 target_entity_id = 3;
 }
-
-
-

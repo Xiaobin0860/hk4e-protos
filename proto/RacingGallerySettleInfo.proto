@@ -9,6 +9,3 @@ message RacingGallerySettleInfo {
 	GalleryStopReason reason = 3;
 	uint32 winnerUid = 10;
 }
-
-
-

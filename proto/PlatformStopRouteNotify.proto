@@ -17,6 +17,3 @@ message PlatformStopRouteNotify {
 	PlatformInfo platform = 6;
 	uint32 sceneTime = 3;
 }
-
-
-

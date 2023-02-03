@@ -16,6 +16,3 @@ message InBattleMechanicusConfirmCardRsp {
 	uint32 playIndex = 11;
 	uint32 cardId = 6;
 }
-
-
-

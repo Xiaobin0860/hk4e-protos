@@ -15,6 +15,3 @@ message ActivityTakeWatcherRewardReq {
 	uint32 activityId = 11;
 	uint32 watcherId = 6;
 }
-
-
-

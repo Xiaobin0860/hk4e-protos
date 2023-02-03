@@ -13,6 +13,3 @@ message GCGInitFinishRsp {
 
 	int32 retcode = 3;
 }
-
-
-

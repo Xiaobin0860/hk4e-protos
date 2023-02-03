@@ -7,6 +7,3 @@ import "GCGMsgPVEIntention.proto";
 message PveIntentionInfo {
 	map<uint32, GCGMsgPVEIntention> intentionMap = 15;
 }
-
-
-

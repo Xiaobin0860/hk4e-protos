@@ -12,6 +12,3 @@ message LuminanceStoneChallengeGallerySettleInfo {
 	uint32 killSpecialMonsterCount = 4;
 	uint32 finalScore = 5;
 }
-
-
-

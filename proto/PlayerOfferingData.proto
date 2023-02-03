@@ -9,6 +9,3 @@ message PlayerOfferingData {
 	repeated uint32 takenLevelRewardList = 7;
 	uint32 level = 1;
 }
-
-
-

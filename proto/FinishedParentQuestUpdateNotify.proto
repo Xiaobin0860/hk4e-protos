@@ -15,6 +15,3 @@ message FinishedParentQuestUpdateNotify {
 
 	repeated ParentQuest parentQuestList = 15;
 }
-
-
-

@@ -18,6 +18,3 @@ message GalleryWillStartCountdownNotify {
 	GalleryStartSource startSource = 13;
 	uint32 endTime = 9;
 }
-
-
-

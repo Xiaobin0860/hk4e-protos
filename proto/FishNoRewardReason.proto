@@ -8,6 +8,3 @@ enum FishNoRewardReason {
     FISH_NO_REWARD_BAG_LIMIT      = 2;
     FISH_NO_REWARD_POOL_LIMIT     = 3;
 }
-
-
-

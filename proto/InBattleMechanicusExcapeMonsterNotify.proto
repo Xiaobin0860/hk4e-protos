@@ -13,6 +13,3 @@ message InBattleMechanicusExcapeMonsterNotify {
 
 	uint32 coin = 2;
 }
-
-
-

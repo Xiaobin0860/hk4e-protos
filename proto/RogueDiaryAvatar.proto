@@ -11,6 +11,3 @@ message RogueDiaryAvatar {
 	uint32 tiredRound = 9;
 	ActivityDungeonAvatar avatar = 6;
 }
-
-
-

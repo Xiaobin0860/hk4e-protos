@@ -17,6 +17,3 @@ message ActivityAcceptAllGiveGiftRsp {
 	int32 retcode = 11;
 	repeated ActivityAcceptGiftResultInfo acceptGiftResultInfoList = 14;
 }
-
-
-

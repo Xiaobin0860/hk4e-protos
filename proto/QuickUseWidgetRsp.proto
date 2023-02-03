@@ -23,6 +23,3 @@ message QuickUseWidgetRsp {
 		SkyCrystalDetectorQuickUseResult sky_crystal_detector_quick_use_result = 139827;
 	}
 }
-
-
-

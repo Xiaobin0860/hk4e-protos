@@ -16,6 +16,3 @@ message ChatChannelDataNotify {
 	repeated uint32 channelList = 12;
 	repeated ChatChannelInfo channelInfoList = 7;
 }
-
-
-

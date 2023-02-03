@@ -13,6 +13,3 @@ message PlayerSetPauseRsp {
 
 	int32 retcode = 4;
 }
-
-
-

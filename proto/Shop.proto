@@ -17,6 +17,3 @@ message Shop {
 	uint32 shopType = 5;
 	repeated ShopGoods goodsList = 15;
 }
-
-
-

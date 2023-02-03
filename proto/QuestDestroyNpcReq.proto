@@ -15,6 +15,3 @@ message QuestDestroyNpcReq {
 	uint32 parentQuestId = 4;
 	uint32 npcId = 7;
 }
-
-
-

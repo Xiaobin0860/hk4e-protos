@@ -21,6 +21,3 @@ message IslandPartySettleNotify {
 	uint32 timeRemain = 2;
 	GalleryStopReason reason = 13;
 }
-
-
-

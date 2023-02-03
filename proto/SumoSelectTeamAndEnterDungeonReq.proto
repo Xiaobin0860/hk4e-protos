@@ -19,6 +19,3 @@ message SumoSelectTeamAndEnterDungeonReq {
 	uint32 stageId = 15;
 	uint32 difficultyId = 12;
 }
-
-
-

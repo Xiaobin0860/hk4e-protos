@@ -7,6 +7,3 @@ enum GalleryStageType {
   GALLERY_PRESTART = 1;
   GALLERY_START    = 2;
 }
-
-
-

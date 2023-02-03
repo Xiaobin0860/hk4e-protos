@@ -14,6 +14,3 @@ message SetPlayerNameRsp {
 	int32 retcode = 11;
 	string nickName = 13;
 }
-
-
-

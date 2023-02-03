@@ -13,6 +13,3 @@ message MichiaeMatsuriInteractStatueRsp {
 
 	int32 retcode = 4;
 }
-
-
-

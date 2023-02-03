@@ -15,6 +15,3 @@ message HomeComfortInfoNotify {
 
 	repeated HomeModuleComfortInfo moduleInfoList = 11;
 }
-
-
-

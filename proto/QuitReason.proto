@@ -11,6 +11,3 @@ enum QuitReason {
     BY_MUIP           = 5;
     CUR_MODULE_CLOSED = 6;
 }
-
-
-

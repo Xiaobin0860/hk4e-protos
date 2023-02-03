@@ -7,6 +7,3 @@ message SelectOnStageByEffect {
 	uint32 cardGuid = 2;
 	uint32 controllerId = 13;
 }
-
-
-

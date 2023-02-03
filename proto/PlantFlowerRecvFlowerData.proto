@@ -10,6 +10,3 @@ message PlantFlowerRecvFlowerData {
 	ProfilePicture profilePicture = 3;
 	map<uint32, uint32> flowerNumMap = 9;
 }
-
-
-

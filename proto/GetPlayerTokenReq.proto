@@ -33,6 +33,3 @@ message GetPlayerTokenReq {
 	uint32 channelId = 3;
 	uint32 lang = 904;
 }
-
-
-

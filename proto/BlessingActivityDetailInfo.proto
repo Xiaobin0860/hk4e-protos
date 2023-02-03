@@ -12,6 +12,3 @@ message BlessingActivityDetailInfo {
 	uint32 nextRefreshTime = 14;
 	bool isActivated = 8;
 }
-
-
-

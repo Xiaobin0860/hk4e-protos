@@ -13,6 +13,3 @@ message LiveEndNotify {
 
 	uint32 liveId = 7;
 }
-
-
-

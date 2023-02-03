@@ -15,6 +15,3 @@ message HideAndSeekPlayerSetAvatarNotify {
 	uint32 uid = 2;
 	uint32 avatarId = 10;
 }
-
-
-

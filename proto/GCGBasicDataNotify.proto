@@ -16,6 +16,3 @@ message GCGBasicDataNotify {
 
 	GCGTavernNpcInfo option = 13;
 }
-
-
-

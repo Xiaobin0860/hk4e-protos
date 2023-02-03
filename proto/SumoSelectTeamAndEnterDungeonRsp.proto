@@ -19,6 +19,3 @@ message SumoSelectTeamAndEnterDungeonRsp {
 	repeated SumoTeamData teamList = 2;
 	uint32 stageId = 10;
 }
-
-
-

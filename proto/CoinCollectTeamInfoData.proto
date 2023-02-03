@@ -10,6 +10,3 @@ message CoinCollectTeamInfoData {
 	repeated uint32 eodeindkpal = 6;
 	repeated uint32 avatarIdList = 2;
 }
-
-
-

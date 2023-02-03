@@ -14,6 +14,3 @@ message InstableSprayEnterDungeonRsp {
 	uint32 levelId = 8;
 	int32 retcode = 14;
 }
-
-
-

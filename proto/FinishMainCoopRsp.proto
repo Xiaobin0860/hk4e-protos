@@ -15,6 +15,3 @@ message FinishMainCoopRsp {
 	uint32 endingSavePointId = 4;
 	int32 retcode = 14;
 }
-
-
-

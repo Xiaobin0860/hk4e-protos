@@ -19,6 +19,3 @@ message SceneCreateEntityReq {
 	CreateEntityInfo entity = 9;
 	CreateReason reason = 1;
 }
-
-
-

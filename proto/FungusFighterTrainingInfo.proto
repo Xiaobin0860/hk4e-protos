@@ -11,6 +11,3 @@ message FungusFighterTrainingInfo {
 	uint32 Unk3300_EDHANEGNMJM = 3;
 	uint32 Unk3300_HGPGNCMNDJN = 6;
 }
-
-
-

@@ -18,6 +18,3 @@ message TakeCityReputationExploreRewardRsp {
 	int32 retcode = 12;
 	repeated ItemParam itemList = 11;
 }
-
-
-

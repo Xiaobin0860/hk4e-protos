@@ -17,6 +17,3 @@ message InstableSprayLevelFinishNotify {
 	uint32 levelId = 9;
 	bool Unk3300_AMEBAPIPLGL = 6;
 }
-
-
-

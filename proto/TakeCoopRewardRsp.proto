@@ -14,6 +14,3 @@ message TakeCoopRewardRsp {
 	uint32 rewardConfigId = 8;
 	int32 retcode = 4;
 }
-
-
-

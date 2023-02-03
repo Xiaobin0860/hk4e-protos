@@ -11,6 +11,3 @@ message PotionStageData {
 	repeated PotionLevelData levelList = 1;
 	bool isOpen = 15;
 }
-
-
-

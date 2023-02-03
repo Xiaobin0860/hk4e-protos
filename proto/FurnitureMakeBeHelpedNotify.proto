@@ -17,6 +17,3 @@ message FurnitureMakeBeHelpedNotify {
 	FurnitureMakeSlot furnitureMakeSlot = 2;
 	FurnitureMakeBeHelpedData furnitureMakeHelpedData = 12;
 }
-
-
-

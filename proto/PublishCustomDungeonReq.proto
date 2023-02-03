@@ -15,6 +15,3 @@ message PublishCustomDungeonReq {
 	uint64 dungeonGuid = 10;
 	repeated uint32 tagList = 1;
 }
-
-
-

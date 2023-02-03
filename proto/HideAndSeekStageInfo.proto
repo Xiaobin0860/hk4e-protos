@@ -13,6 +13,3 @@ message HideAndSeekStageInfo {
 	uint32 mapId = 8;
 	HideAndSeekStageType stageType = 1;
 }
-
-
-

@@ -9,6 +9,3 @@ enum BrickBreakerStageType {
   BRICK_BREAKER_STAGE_PLAY    = 3;
   BRICK_BREAKER_STAGE_SETTLE  = 4;
 }
-
-
-

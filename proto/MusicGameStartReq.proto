@@ -16,6 +16,3 @@ message MusicGameStartReq {
 	uint32 musicBasicId = 7;
 	bool isSaveScore = 15;
 }
-
-
-

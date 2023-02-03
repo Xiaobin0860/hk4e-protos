@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message OpRedraw {
 	repeated uint32 cardList = 12;
 }
-
-
-

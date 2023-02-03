@@ -21,6 +21,3 @@ message MiracleRingDeliverItemReq {
 	repeated ItemParam itemParamList = 5;
 	uint32 gadgetEntityId = 6;
 }
-
-
-

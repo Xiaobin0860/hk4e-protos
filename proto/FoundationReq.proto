@@ -19,6 +19,3 @@ message FoundationReq {
 	uint32 buildingId = 13;
 	uint32 gadgetEntityId = 4;
 }
-
-
-

@@ -9,6 +9,3 @@ message ChannellerSlabLoopDungeonResultInfo {
 	uint32 challengeScore = 1;
 	uint32 dungeonIndex = 3;
 }
-
-
-

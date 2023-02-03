@@ -13,6 +13,3 @@ message BoxInfo {
 	Vector forward = 6;
 	Vector right = 7;
 }
-
-
-

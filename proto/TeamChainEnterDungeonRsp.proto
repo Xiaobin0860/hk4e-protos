@@ -18,6 +18,3 @@ message TeamChainEnterDungeonRsp {
 	uint32 stageId = 13;
 	uint32 difficulty = 2;
 }
-
-
-

@@ -13,6 +13,3 @@ message MuqadasPotionCaptureWeaknessRsp {
 
 	int32 retcode = 4;
 }
-
-
-

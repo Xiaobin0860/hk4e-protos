@@ -14,6 +14,3 @@ message GachaActivityTakeRewardReq {
 
 	map<uint32, uint32> robotNumMap = 1;
 }
-
-
-

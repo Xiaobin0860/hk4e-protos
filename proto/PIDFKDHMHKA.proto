@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message PIDFKDHMHKA {
 	uint32 lfphpeioogl = 1;
 }
-
-
-

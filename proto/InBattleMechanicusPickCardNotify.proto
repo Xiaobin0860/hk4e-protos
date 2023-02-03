@@ -16,6 +16,3 @@ message InBattleMechanicusPickCardNotify {
 	uint32 playerUid = 9;
 	uint32 cardId = 8;
 }
-
-
-

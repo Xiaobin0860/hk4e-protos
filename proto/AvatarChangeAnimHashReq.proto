@@ -15,6 +15,3 @@ message AvatarChangeAnimHashReq {
 	uint64 avatarGuid = 2;
 	uint32 animHash = 12;
 }
-
-
-

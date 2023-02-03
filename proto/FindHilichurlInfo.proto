@@ -13,6 +13,3 @@ message FindHilichurlInfo {
 	uint32 minOpenPlayerLevel = 4;
 	uint32 playerDayIndex = 10;
 }
-
-
-

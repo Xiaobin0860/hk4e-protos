@@ -15,6 +15,3 @@ message GravenInnocencePhotoFinishRsp {
 	uint32 objectId = 5;
 	uint32 param = 11;
 }
-
-
-

@@ -18,6 +18,3 @@ message ScenePlayerLocationNotify {
 	repeated VehicleLocationInfo vehicleLocList = 3;
 	repeated PlayerLocationInfo playerLocList = 12;
 }
-
-
-

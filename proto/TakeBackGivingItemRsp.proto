@@ -15,6 +15,3 @@ message TakeBackGivingItemRsp {
 
 	ContentAuditInfo info = 13;
 }
-
-
-

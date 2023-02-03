@@ -10,6 +10,3 @@ message InstableSprayStageInfo {
 	bool isFinished = 13;
 	uint32 stageId = 8;
 }
-
-
-

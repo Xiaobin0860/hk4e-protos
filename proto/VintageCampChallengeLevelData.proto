@@ -8,6 +8,3 @@ message VintageCampChallengeLevelData {
 	uint32 stageId = 8;
 	uint32 levelId = 9;
 }
-
-
-

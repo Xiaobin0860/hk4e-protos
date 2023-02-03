@@ -14,6 +14,3 @@ message TeamChainTakeCostumeRewardReq {
 	repeated uint32 ehbfihcdoli = 12;
 	uint32 stageId = 11;
 }
-
-
-

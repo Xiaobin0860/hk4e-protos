@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message GalleryFlowerStartParam {
 	uint32 targetScore = 8;
 }
-
-
-

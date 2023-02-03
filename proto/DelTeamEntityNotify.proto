@@ -14,6 +14,3 @@ message DelTeamEntityNotify {
 	uint32 sceneId = 15;
 	repeated uint32 delEntityIdList = 1;
 }
-
-
-

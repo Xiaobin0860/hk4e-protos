@@ -14,6 +14,3 @@ message MarkNewNotify {
 	repeated uint32 idList = 1;
 	uint32 markNewType = 15;
 }
-
-
-

@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message FungusFighterCaptureInfo {
 	bool isHideProgress = 3;
 }
-
-
-

@@ -8,6 +8,3 @@ message IrodoriMasterLevelInfo {
 	uint32 levelId = 1;
 	repeated IrodoriMasterLevelDetailInfo detailInfo = 14;
 }
-
-
-

@@ -6,6 +6,3 @@ message BreakoutBrickInfo {
 	uint32 cpoenmafigh = 1;
 	uint32 elementType = 2;
 }
-
-
-

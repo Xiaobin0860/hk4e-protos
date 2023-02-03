@@ -13,6 +13,3 @@ message HitCollision {
 	float attackeeHitForceAngle = 15;
 	HitColliderType hitColliderType = 9;
 }
-
-
-

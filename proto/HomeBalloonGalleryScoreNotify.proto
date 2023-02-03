@@ -16,6 +16,3 @@ message HomeBalloonGalleryScoreNotify {
 	uint32 addScore = 10;
 	uint32 galleryId = 14;
 }
-
-
-

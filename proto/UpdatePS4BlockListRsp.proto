@@ -13,6 +13,3 @@ message UpdatePS4BlockListRsp {
 
 	int32 retcode = 14;
 }
-
-
-

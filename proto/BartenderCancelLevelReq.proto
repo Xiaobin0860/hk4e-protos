@@ -14,6 +14,3 @@ message BartenderCancelLevelReq {
 
 	uint32 levelId = 4;
 }
-
-
-

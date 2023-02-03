@@ -20,6 +20,3 @@ message DungeonCandidateTeamInfoNotify {
 	uint32 matchType = 2;
 	map<uint32, DungeonCandidateTeamPlayerState> playerStateMap = 15;
 }
-
-
-

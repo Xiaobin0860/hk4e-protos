@@ -7,6 +7,3 @@ enum AuditState {
   AUDIT_WAITING = 1;
   AUDIT_FAILED  = 2;
 }
-
-
-

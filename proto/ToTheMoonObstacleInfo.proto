@@ -19,6 +19,3 @@ message ToTheMoonObstacleInfo {
 	Vector halfExtents = 9;
 	ShapeType type = 1;
 }
-
-
-

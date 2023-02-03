@@ -6,6 +6,3 @@ message BreakoutElementReactionCounter {
 	uint32 aknhdghiblg = 1;
 	uint32 count = 2;
 }
-
-
-

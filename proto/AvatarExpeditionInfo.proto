@@ -11,6 +11,3 @@ message AvatarExpeditionInfo {
 	uint32 startTime = 4;
 	float shortenRatio = 5;
 }
-
-
-

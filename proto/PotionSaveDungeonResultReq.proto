@@ -15,6 +15,3 @@ message PotionSaveDungeonResultReq {
 	uint32 stageId = 14;
 	uint32 levelId = 5;
 }
-
-
-

@@ -11,6 +11,3 @@ message TrackingIOInfo {
 	string Unk3300_DJHKHEFPCDK = 9;
 	string Unk3300_CNPIGDOEJPB = 3;
 }
-
-
-

@@ -15,6 +15,3 @@ message VintageMarketStoreChooseStrategyRsp {
 	uint32 storeId = 15;
 	int32 retcode = 8;
 }
-
-
-

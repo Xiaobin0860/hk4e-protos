@@ -15,6 +15,3 @@ message CancelCityReputationRequestRsp {
 	int32 retcode = 12;
 	uint32 cityId = 14;
 }
-
-
-

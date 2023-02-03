@@ -15,6 +15,3 @@ message EffigyChallengeV2ChooseSkillRsp {
 	uint32 levelId = 14;
 	uint32 challengeModeSkillNo = 13;
 }
-
-
-

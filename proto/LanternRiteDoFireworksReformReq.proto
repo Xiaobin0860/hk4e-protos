@@ -17,6 +17,3 @@ message LanternRiteDoFireworksReformReq {
 	uint32 factorId = 15;
 	uint32 skillId = 9;
 }
-
-
-

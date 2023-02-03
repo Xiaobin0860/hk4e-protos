@@ -6,6 +6,3 @@ message ModifierDurability {
 	float reduceRatio = 1;
 	float remainingDurability = 2;
 }
-
-
-

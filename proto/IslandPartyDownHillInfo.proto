@@ -10,6 +10,3 @@ message IslandPartyDownHillInfo {
 	uint32 coin = 1;
 	uint32 totalKillMonsterCount = 7;
 }
-
-
-

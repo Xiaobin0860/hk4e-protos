@@ -10,6 +10,3 @@ message CustomDungeonBlock {
 	Vector pos = 11;
 	uint32 guid = 1;
 }
-
-
-

@@ -8,6 +8,3 @@ message RoguelikeGadgetInfo {
 	uint32 cellState = 3;
 	uint32 cellId = 4;
 }
-
-
-

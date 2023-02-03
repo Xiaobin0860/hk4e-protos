@@ -15,6 +15,3 @@ message StartRogueEliteCellChallengeRsp {
 	uint32 cellId = 5;
 	int32 retcode = 15;
 }
-
-
-

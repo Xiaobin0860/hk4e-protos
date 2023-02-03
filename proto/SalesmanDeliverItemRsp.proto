@@ -14,6 +14,3 @@ message SalesmanDeliverItemRsp {
 	uint32 scheduleId = 1;
 	int32 retcode = 10;
 }
-
-
-

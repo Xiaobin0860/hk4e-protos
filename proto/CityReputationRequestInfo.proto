@@ -12,6 +12,3 @@ message CityReputationRequestInfo {
 	bool isOpen = 1;
 	repeated RequestInfo requestInfoList = 2;
 }
-
-
-

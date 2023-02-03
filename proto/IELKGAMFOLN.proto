@@ -13,6 +13,3 @@ message IELKGAMFOLN {
 	string onlineId = 2;
 	uint32 headImage = 15;
 }
-
-
-

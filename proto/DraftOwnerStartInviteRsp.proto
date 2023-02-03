@@ -19,6 +19,3 @@ message DraftOwnerStartInviteRsp {
 	uint32 draftId = 9;
 	uint32 wrongUid = 15;
 }
-
-
-

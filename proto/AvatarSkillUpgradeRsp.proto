@@ -17,6 +17,3 @@ message AvatarSkillUpgradeRsp {
 	uint64 avatarGuid = 7;
 	uint32 oldLevel = 1;
 }
-
-
-

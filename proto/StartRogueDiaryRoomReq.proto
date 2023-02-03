@@ -15,6 +15,3 @@ message StartRogueDiaryRoomReq {
 	bool isSelectHard = 4;
 	uint32 roomDifficulty = 1;
 }
-
-
-

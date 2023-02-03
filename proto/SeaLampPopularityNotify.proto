@@ -13,6 +13,3 @@ message SeaLampPopularityNotify {
 
 	uint32 popularity = 2;
 }
-
-
-

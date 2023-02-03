@@ -16,6 +16,3 @@ message PullPrivateChatRsp {
 	repeated ChatInfo chatInfo = 9;
 	int32 retcode = 11;
 }
-
-
-

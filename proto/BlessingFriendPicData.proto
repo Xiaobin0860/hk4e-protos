@@ -13,6 +13,3 @@ message BlessingFriendPicData {
 	string remarkName = 3;
 	uint32 uid = 9;
 }
-
-
-

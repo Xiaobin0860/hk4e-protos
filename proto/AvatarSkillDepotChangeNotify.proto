@@ -20,6 +20,3 @@ message AvatarSkillDepotChangeNotify {
 	map<uint32, uint32> skillLevelMap = 13;
 	uint64 avatarGuid = 12;
 }
-
-
-

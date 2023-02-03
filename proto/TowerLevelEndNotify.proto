@@ -25,6 +25,3 @@ message TowerLevelEndNotify {
 	repeated ItemParam rewardItemList = 8;
 	uint32 continueState = 6;
 }
-
-
-

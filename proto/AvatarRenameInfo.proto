@@ -6,6 +6,3 @@ message AvatarRenameInfo {
 	uint32 avatarId = 1;
 	string avatarName = 8;
 }
-
-
-

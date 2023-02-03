@@ -16,6 +16,3 @@ message WatcherEventTypeNotify {
 	uint32 addProgress = 13;
 	uint32 watcherTriggerType = 7;
 }
-
-
-

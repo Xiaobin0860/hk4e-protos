@@ -6,6 +6,3 @@ enum ItemGivingType {
     QUEST  = 0;
     GADGET = 1;
 }
-
-
-

@@ -20,6 +20,3 @@ message InBattleMechanicusCardResultNotify {
 	uint32 groupId = 15;
 	uint32 waitSeconds = 9;
 }
-
-
-

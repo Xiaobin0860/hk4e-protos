@@ -17,6 +17,3 @@ message HomePreviewBlueprintRsp {
 	int32 retcode = 4;
 	HomeSceneArrangementInfo sceneArrangementInfo = 15;
 }
-
-
-

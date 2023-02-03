@@ -15,6 +15,3 @@ message TriggerRoguelikeRuneRsp {
 	uint32 runeId = 2;
 	int32 retcode = 7;
 }
-
-
-

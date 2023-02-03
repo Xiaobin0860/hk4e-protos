@@ -14,6 +14,3 @@ message GetBlossomBriefInfoListReq {
 
 	repeated uint32 cityIdList = 5;
 }
-
-
-

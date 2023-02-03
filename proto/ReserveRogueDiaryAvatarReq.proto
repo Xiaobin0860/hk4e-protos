@@ -16,6 +16,3 @@ message ReserveRogueDiaryAvatarReq {
 
 	repeated RogueDiaryAvatar reserveAvatarList = 1;
 }
-
-
-

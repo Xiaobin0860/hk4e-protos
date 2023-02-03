@@ -15,6 +15,3 @@ message GetQuestTalkHistoryRsp {
 	uint32 parentQuestId = 13;
 	repeated uint32 talkIdList = 7;
 }
-
-
-

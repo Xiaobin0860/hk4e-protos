@@ -16,6 +16,3 @@ message GetDailyDungeonEntryInfoRsp {
 	int32 retcode = 3;
 	repeated DailyDungeonEntryInfo dailyDungeonInfoList = 8;
 }
-
-
-

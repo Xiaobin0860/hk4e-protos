@@ -12,6 +12,3 @@ message HomeFurnitureData {
 	uint32 guid = 14;
 	uint32 furnitureId = 11;
 }
-
-
-

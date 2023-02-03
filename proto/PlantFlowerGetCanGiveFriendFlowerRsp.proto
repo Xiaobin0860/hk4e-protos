@@ -15,6 +15,3 @@ message PlantFlowerGetCanGiveFriendFlowerRsp {
 	map<uint32, uint32> flowerNumMap = 10;
 	int32 retcode = 1;
 }
-
-
-

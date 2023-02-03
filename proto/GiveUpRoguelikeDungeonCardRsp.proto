@@ -13,6 +13,3 @@ message GiveUpRoguelikeDungeonCardRsp {
 
 	int32 retcode = 9;
 }
-
-
-

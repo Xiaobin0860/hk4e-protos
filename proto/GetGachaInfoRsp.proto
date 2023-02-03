@@ -20,6 +20,3 @@ message GetGachaInfoRsp {
 	bool Unk3300_HBILIAEIHNK = 13;
 	repeated GachaInfo gachaInfoList = 3;
 }
-
-
-

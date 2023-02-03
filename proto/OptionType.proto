@@ -7,6 +7,3 @@ enum OptionType {
     OPTION_NORMAL       = 1;
     OPTION_FIRST_CAN_GO = 2;
 }
-
-
-

@@ -7,6 +7,3 @@ import "Vector.proto";
 message EntityClientExtraInfo {
 	Vector skillAnchorPosition = 1;
 }
-
-
-

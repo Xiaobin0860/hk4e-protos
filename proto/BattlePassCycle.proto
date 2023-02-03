@@ -7,6 +7,3 @@ message BattlePassCycle {
 	uint32 beginTime = 2;
 	uint32 endTime = 11;
 }
-
-
-

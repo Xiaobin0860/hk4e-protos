@@ -13,6 +13,3 @@ message AvatarDelNotify {
 
 	repeated uint64 avatarGuidList = 1;
 }
-
-
-

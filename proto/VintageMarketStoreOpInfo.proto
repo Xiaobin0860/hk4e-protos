@@ -9,6 +9,3 @@ message VintageMarketStoreOpInfo {
 	uint32 storeId = 2;
 	repeated uint32 strategyList = 4;
 }
-
-
-

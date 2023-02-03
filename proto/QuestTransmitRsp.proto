@@ -15,6 +15,3 @@ message QuestTransmitRsp {
 	int32 retcode = 7;
 	uint32 questId = 5;
 }
-
-
-

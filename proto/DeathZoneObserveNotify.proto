@@ -15,6 +15,3 @@ message DeathZoneObserveNotify {
 	uint32 sourceEntityId = 5;
 	uint32 targetEntityId = 7;
 }
-
-
-

@@ -7,6 +7,3 @@ message ChannelerSlabBuffSchemeInfo {
 	uint32 Unk3300_NCMDDAFNENO = 1;
 	uint32 Unk3300_CKMNFOCNMGL = 10;
 }
-
-
-

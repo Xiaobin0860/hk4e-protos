@@ -14,6 +14,3 @@ message RoguelikeCardGachaNotify {
 	bool isCanRefresh = 9;
 	repeated uint32 cardList = 5;
 }
-
-
-

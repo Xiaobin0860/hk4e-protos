@@ -16,6 +16,3 @@ message EffigyChallengeV2EnterDungeonReq {
 	uint32 challengeModeSkillNo = 12;
 	uint32 challengeModeDifficulty = 8;
 }
-
-
-

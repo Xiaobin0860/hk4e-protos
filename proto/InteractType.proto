@@ -21,6 +21,3 @@ enum InteractType {
   INTERACT_UI_INTERACT     = 15;
   INTERACT_DESHRET_OBELISK = 16;
 }
-
-
-

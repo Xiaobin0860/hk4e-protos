@@ -13,6 +13,3 @@ message ResumeRogueDiaryDungeonRsp {
 
 	int32 retcode = 5;
 }
-
-
-

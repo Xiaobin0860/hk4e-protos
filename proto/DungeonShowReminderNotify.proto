@@ -13,6 +13,3 @@ message DungeonShowReminderNotify {
 
 	uint32 reminderId = 5;
 }
-
-
-

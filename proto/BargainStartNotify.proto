@@ -16,6 +16,3 @@ message BargainStartNotify {
 	uint32 bargainId = 12;
 	BargainSnapshot snapshot = 2;
 }
-
-
-

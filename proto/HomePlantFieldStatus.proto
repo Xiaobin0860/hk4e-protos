@@ -8,6 +8,3 @@ enum HomePlantFieldStatus {
   HOME_FIELD_STATUE_SPROUT = 2;
   HOME_FIELD_STATUE_GATHER = 3;
 }
-
-
-

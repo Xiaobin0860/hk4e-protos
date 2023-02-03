@@ -7,6 +7,3 @@ message ChannelerSlabAssistInfo {
 	uint32 avatarId = 15;
 	uint32 avatarLevel = 3;
 }
-
-
-

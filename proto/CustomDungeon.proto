@@ -11,6 +11,3 @@ message CustomDungeon {
 	CustomDungeonSetting setting = 1;
 	uint32 dungeonId = 4;
 }
-
-
-

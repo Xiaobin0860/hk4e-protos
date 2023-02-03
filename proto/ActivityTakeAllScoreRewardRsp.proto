@@ -15,6 +15,3 @@ message ActivityTakeAllScoreRewardRsp {
 	repeated uint32 rewardConfigList = 7;
 	int32 retcode = 4;
 }
-
-
-

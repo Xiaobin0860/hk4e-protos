@@ -15,6 +15,3 @@ message AcceptCityReputationRequestRsp {
 	int32 retcode = 3;
 	uint32 requestId = 9;
 }
-
-
-

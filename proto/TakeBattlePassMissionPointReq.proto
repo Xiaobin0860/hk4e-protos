@@ -14,6 +14,3 @@ message TakeBattlePassMissionPointReq {
 
 	repeated uint32 missionIdList = 5;
 }
-
-
-

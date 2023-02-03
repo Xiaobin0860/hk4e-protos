@@ -24,6 +24,3 @@ message LanternRiteStartFireworksReformRsp {
 	int32 retcode = 10;
 	repeated LanternRiteFireworksReformSkillInfo skillInfoList = 15;
 }
-
-
-

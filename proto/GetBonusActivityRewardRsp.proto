@@ -16,6 +16,3 @@ message GetBonusActivityRewardRsp {
 	BonusActivityInfo bonusActivityInfoList = 9;
 	int32 retcode = 15;
 }
-
-
-

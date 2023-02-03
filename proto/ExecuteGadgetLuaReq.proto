@@ -17,6 +17,3 @@ message ExecuteGadgetLuaReq {
 	uint32 sourceEntityId = 6;
 	int32 param1 = 14;
 }
-
-
-

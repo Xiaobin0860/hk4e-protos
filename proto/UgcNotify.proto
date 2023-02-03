@@ -15,6 +15,3 @@ message UgcNotify {
 	bool Unk3300_KPABJPMLHCD = 5;
 	bool isUgcFeatureClosed = 10;
 }
-
-
-

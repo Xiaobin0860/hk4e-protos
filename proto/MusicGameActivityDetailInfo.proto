@@ -10,6 +10,3 @@ message MusicGameActivityDetailInfo {
 	repeated MusicBriefInfo Unk3300_OKHAACGHMAP = 6;
 	map<uint32, MusicGameRecord> musicGameRecordMap = 8;
 }
-
-
-

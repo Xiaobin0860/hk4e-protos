@@ -15,6 +15,3 @@ message BrickBreakerPlayerSetAvatarNotify {
 	uint32 uid = 3;
 	repeated uint32 avatarIdList = 13;
 }
-
-
-

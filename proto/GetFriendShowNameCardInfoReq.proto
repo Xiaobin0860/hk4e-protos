@@ -14,6 +14,3 @@ message GetFriendShowNameCardInfoReq {
 
 	uint32 uid = 1;
 }
-
-
-

@@ -7,6 +7,3 @@ enum StoreType {
   STORE_PACK  = 1;
   STORE_DEPOT = 2;
 }
-
-
-

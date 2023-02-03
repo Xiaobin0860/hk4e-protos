@@ -16,6 +16,3 @@ message HomeUpdatePictureFrameInfoReq {
 
 	HomePictureFrameInfo pictureFrameInfo = 9;
 }
-
-
-

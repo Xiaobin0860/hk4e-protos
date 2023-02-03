@@ -15,6 +15,3 @@ message CataLogNewFinishedGlobalWatcherNotify {
 
 	repeated CataLogGlobalWatcherFinishedData newFinishedGlobalWatcherDataList = 13;
 }
-
-
-

@@ -17,6 +17,3 @@ message MarkTargetInvestigationMonsterNotify {
 	uint32 sceneId = 14;
 	uint32 investigationMonsterId = 2;
 }
-
-
-

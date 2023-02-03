@@ -17,6 +17,3 @@ message PlayerCookReq {
 	uint32 qteQuality = 13;
 	uint32 cookCount = 3;
 }
-
-
-

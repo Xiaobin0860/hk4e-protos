@@ -15,6 +15,3 @@ message ScenePlayGuestReplyInviteReq {
 	uint32 playId = 9;
 	bool isAgree = 1;
 }
-
-
-

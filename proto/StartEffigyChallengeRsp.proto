@@ -17,6 +17,3 @@ message StartEffigyChallengeRsp {
 	uint32 challengeId = 4;
 	int32 retcode = 1;
 }
-
-
-

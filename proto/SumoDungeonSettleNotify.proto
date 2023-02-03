@@ -18,6 +18,3 @@ message SumoDungeonSettleNotify {
 	uint32 difficultyId = 2;
 	uint32 finalScore = 11;
 }
-
-
-

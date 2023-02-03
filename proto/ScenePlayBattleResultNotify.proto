@@ -21,6 +21,3 @@ message ScenePlayBattleResultNotify {
 	uint32 playType = 13;
 	bool isWin = 12;
 }
-
-
-

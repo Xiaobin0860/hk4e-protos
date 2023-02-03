@@ -9,6 +9,3 @@ message MichiaeMatsuriChestPositionInfo {
 	Vector pos = 13;
 	uint32 configId = 2;
 }
-
-
-

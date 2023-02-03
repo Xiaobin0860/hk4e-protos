@@ -16,6 +16,3 @@ message SelectAsterMidDifficultyReq {
 	uint32 scheduleId = 2;
 	uint32 difficultyId = 14;
 }
-
-
-

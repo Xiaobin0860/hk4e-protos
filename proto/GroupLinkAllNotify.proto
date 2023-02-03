@@ -15,6 +15,3 @@ message GroupLinkAllNotify {
 
 	repeated GroupLinkBundle bundleList = 15;
 }
-
-
-

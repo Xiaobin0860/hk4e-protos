@@ -15,6 +15,3 @@ message GetAllUnlockNameCardRsp {
 	int32 retcode = 15;
 	repeated uint32 nameCardList = 12;
 }
-
-
-

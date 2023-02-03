@@ -8,6 +8,3 @@ message LuminanceStoneChallengeInfo {
 	uint32 killMonsterCount = 4;
 	uint32 cleanMudCount = 13;
 }
-
-
-

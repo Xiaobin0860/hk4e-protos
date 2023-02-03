@@ -14,6 +14,3 @@ message ClientNewMailNotify {
 	uint32 notReadNum = 3;
 	uint32 notGotAttachmentNum = 11;
 }
-
-
-

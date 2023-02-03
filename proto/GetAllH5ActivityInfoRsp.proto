@@ -17,6 +17,3 @@ message GetAllH5ActivityInfoRsp {
 	repeated H5ActivityInfo h5ActivityInfoList = 6;
 	int32 retcode = 14;
 }
-
-
-

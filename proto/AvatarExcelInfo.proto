@@ -9,6 +9,3 @@ message AvatarExcelInfo {
 	uint64 controllerPathRemoteHash = 4;
 	uint64 combatConfigHash = 5;
 }
-
-
-

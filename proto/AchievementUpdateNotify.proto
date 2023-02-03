@@ -15,6 +15,3 @@ message AchievementUpdateNotify {
 
 	repeated Achievement achievementList = 4;
 }
-
-
-

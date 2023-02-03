@@ -18,6 +18,3 @@ message RogueSwitchAvatarRsp {
 	int32 retcode = 15;
 	uint32 dungeonId = 7;
 }
-
-
-

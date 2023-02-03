@@ -11,6 +11,3 @@ message SummerTimeInfo {
 	map<uint32, SummerTimeStageInfo> stageMap = 2;
 	bool leftMonsters = 9;
 }
-
-
-

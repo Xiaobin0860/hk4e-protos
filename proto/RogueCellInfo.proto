@@ -11,6 +11,3 @@ message RogueCellInfo {
 	uint32 cellType = 3;
 	uint32 dungeonId = 1;
 }
-
-
-

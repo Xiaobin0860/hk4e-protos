@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message HomeBalloonInfo {
 	uint32 score = 10;
 }
-
-
-

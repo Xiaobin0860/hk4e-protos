@@ -8,6 +8,3 @@ message AvatarTeamResonanceInfo {
 	uint32 entityId = 15;
 	repeated uint32 addTeamResonanceIdList = 2;
 }
-
-
-

@@ -13,6 +13,3 @@ message MonsterForceAlertNotify {
 
 	uint32 monsterEntityId = 5;
 }
-
-
-

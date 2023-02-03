@@ -17,6 +17,3 @@ message GetUgcBriefInfoReq {
 	UgcType ugcType = 10;
 	uint64 ugcGuid = 11;
 }
-
-
-

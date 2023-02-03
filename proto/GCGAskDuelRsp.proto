@@ -16,6 +16,3 @@ message GCGAskDuelRsp {
 	Duel duel = 5;
 	int32 retcode = 7;
 }
-
-
-

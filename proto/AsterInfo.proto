@@ -18,6 +18,3 @@ message AsterInfo {
 	AsterProgressDetailInfo asterProgress = 7;
 	bool leftMonsters = 15;
 }
-
-
-

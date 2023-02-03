@@ -17,6 +17,3 @@ message HomeAvatarRewardEventGetRsp {
 	repeated ItemParam itemList = 2;
 	uint32 eventId = 6;
 }
-
-
-

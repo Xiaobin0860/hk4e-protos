@@ -18,6 +18,3 @@ message EvtBeingHitsCombineNotify {
 	ForwardType forwardType = 3;
 	repeated EvtBeingHitInfo evtBeingHitInfoList = 4;
 }
-
-
-

@@ -10,6 +10,3 @@ message InBattleIrodoriChessSettleInfo {
 	uint32 settleScore = 15;
 	bool isPerfect = 5;
 }
-
-
-

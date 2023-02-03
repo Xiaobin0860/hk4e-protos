@@ -18,6 +18,3 @@ message SaveMainCoopReq {
 	map<uint32, int32> tempVarMap = 10;
 	uint32 selfConfidence = 1;
 }
-
-
-

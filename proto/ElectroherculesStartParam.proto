@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message ElectroherculesStartParam {
 	uint32 difficulty = 5;
 }
-
-
-

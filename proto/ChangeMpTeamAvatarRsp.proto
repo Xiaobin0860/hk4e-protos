@@ -15,6 +15,3 @@ message ChangeMpTeamAvatarRsp {
 	repeated uint64 avatarGuidList = 10;
 	int32 retcode = 1;
 }
-
-
-

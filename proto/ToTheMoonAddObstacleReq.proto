@@ -19,6 +19,3 @@ message ToTheMoonAddObstacleReq {
 	int32 queryId = 5;
 	bool useEdge = 15;
 }
-
-
-

@@ -15,6 +15,3 @@ message ActivityTakeScoreRewardRsp {
 	uint32 activityId = 14;
 	int32 retcode = 15;
 }
-
-
-

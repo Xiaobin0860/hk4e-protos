@@ -15,6 +15,3 @@ message PlayerCookArgsReq {
 	uint32 recipeId = 5;
 	uint32 assistAvatar = 9;
 }
-
-
-

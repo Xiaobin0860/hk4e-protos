@@ -33,6 +33,3 @@ message WindSeedClientNotify {
 		AreaNotify area_notify = 2;
 	}
 }
-
-
-

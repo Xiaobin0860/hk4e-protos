@@ -16,6 +16,3 @@ message WinterCampGetFriendWishListRsp {
 	int32 retcode = 6;
 	repeated WinterCampFriendWishData wishDataList = 14;
 }
-
-
-

@@ -9,6 +9,3 @@ message ElementReliquaryResponse {
 	repeated GameplayRecommendationReliquaryMainPropData nbbpegfkpac = 3;
 	uint32 equipType = 7;
 }
-
-
-

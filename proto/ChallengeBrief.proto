@@ -8,6 +8,3 @@ message ChallengeBrief {
 	uint32 challengeIndex = 15;
 	uint32 challengeId = 2;
 }
-
-
-

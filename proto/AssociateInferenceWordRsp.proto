@@ -16,6 +16,3 @@ message AssociateInferenceWordRsp {
 	uint32 pageId = 11;
 	int32 retcode = 13;
 }
-
-
-

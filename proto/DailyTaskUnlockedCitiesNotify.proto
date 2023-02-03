@@ -13,6 +13,3 @@ message DailyTaskUnlockedCitiesNotify {
 
 	repeated uint32 unlockedCityList = 6;
 }
-
-
-

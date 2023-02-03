@@ -19,6 +19,3 @@ message TakeReunionMissionRewardRsp {
 	int32 retcode = 4;
 	uint32 rewardId = 11;
 }
-
-
-

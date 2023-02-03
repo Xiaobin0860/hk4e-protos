@@ -16,6 +16,3 @@ message GCGGameBriefDataNotify {
 	GCGGameBriefData gcgBriefData = 4;
 	bool isNewGame = 12;
 }
-
-
-

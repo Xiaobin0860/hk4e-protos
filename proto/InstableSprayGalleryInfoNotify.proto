@@ -13,6 +13,3 @@ message InstableSprayGalleryInfoNotify {
 
 	uint32 score = 8;
 }
-
-
-

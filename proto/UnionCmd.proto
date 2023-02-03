@@ -6,6 +6,3 @@ message UnionCmd {
 	uint32 messageId = 3;
 	bytes body = 5;
 }
-
-
-

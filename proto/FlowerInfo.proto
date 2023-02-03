@@ -7,6 +7,3 @@ message FlowerInfo {
 	uint32 targetScore = 6;
 	uint32 endTime = 8;
 }
-
-
-

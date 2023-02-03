@@ -8,6 +8,3 @@ enum DungeonCandidateTeamPlayerLeaveReason {
   DUNGEON_CANDIDATE_TPLR_BE_KICK = 2;
   DUNGEON_CANDIDATE_DISCONNECT   = 3;
 }
-
-
-

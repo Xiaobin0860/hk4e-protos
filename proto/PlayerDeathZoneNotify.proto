@@ -13,6 +13,3 @@ message PlayerDeathZoneNotify {
 
 	uint32 curDeathZoneId = 11;
 }
-
-
-

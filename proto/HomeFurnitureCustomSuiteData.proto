@@ -9,6 +9,3 @@ message HomeFurnitureCustomSuiteData {
 	repeated int32 includedFurnitureIndexList = 5;
 	Vector spawnPos = 6;
 }
-
-
-

@@ -16,6 +16,3 @@ message MailChangeNotify {
 	repeated uint32 delMailIdList = 4;
 	repeated MailData mailList = 5;
 }
-
-
-

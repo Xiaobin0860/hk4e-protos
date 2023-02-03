@@ -15,6 +15,3 @@ message McoinExchangeHcoinReq {
 	uint32 mcoinCost = 15;
 	uint32 hcoin = 13;
 }
-
-
-

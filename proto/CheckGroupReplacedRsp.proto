@@ -14,6 +14,3 @@ message CheckGroupReplacedRsp {
 	int32 retcode = 3;
 	repeated uint32 replacedGroupIdList = 6;
 }
-
-
-

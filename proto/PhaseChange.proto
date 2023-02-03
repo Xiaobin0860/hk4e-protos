@@ -10,6 +10,3 @@ message PhaseChange {
 	GCGPhaseType afterPhase = 13;
 	GCGPhaseType beforePhase = 8;
 }
-
-
-

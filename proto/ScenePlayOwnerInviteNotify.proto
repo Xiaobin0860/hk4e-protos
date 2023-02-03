@@ -15,6 +15,3 @@ message ScenePlayOwnerInviteNotify {
 	uint32 inviteCd = 3;
 	uint32 playId = 10;
 }
-
-
-

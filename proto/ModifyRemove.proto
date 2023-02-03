@@ -10,6 +10,3 @@ message ModifyRemove {
 	GCGReason reason = 1;
 	uint32 ownerCardGuid = 2;
 }
-
-
-

@@ -13,6 +13,3 @@ message InBattleMechanicusLeftMonsterNotify {
 
 	uint32 leftMonsterNum = 6;
 }
-
-
-

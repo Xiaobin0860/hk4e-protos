@@ -7,6 +7,3 @@ message AbilityGadget {
 	uint32 olefgkameoj = 2;
 	uint32 targetEntityId = 3;
 }
-
-
-

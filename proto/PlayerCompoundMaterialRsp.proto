@@ -16,6 +16,3 @@ message PlayerCompoundMaterialRsp {
 	CompoundQueueData compoundQueueData = 8;
 	int32 retcode = 15;
 }
-
-
-

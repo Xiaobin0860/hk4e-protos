@@ -15,6 +15,3 @@ message EnterFungusFighterPlotDungeonRsp {
 	repeated uint32 fungusIdList = 13;
 	uint32 dungeonId = 4;
 }
-
-
-

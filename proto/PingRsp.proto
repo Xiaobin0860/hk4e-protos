@@ -15,6 +15,3 @@ message PingRsp {
 	int32 retcode = 11;
 	uint32 clientTime = 1;
 }
-
-
-

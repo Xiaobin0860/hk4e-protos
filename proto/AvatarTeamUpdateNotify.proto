@@ -16,6 +16,3 @@ message AvatarTeamUpdateNotify {
 	map<uint32, AvatarTeam> avatarTeamMap = 6;
 	repeated uint64 tempAvatarGuidList = 8;
 }
-
-
-

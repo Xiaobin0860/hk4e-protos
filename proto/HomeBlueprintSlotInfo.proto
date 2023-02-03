@@ -11,6 +11,3 @@ message HomeBlueprintSlotInfo {
 	uint32 moduleId = 1;
 	string shareCode = 4;
 }
-
-
-

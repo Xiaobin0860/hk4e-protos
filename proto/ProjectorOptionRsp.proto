@@ -15,6 +15,3 @@ message ProjectorOptionRsp {
 	uint32 entityId = 10;
 	uint32 opType = 3;
 }
-
-
-

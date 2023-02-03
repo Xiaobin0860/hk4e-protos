@@ -13,6 +13,3 @@ message PathfindingEnterSceneRsp {
 
 	int32 retcode = 9;
 }
-
-
-

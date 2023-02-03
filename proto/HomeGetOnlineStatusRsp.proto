@@ -16,6 +16,3 @@ message HomeGetOnlineStatusRsp {
 	int32 retcode = 5;
 	repeated OnlinePlayerInfo playerInfoList = 9;
 }
-
-
-

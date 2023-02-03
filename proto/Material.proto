@@ -8,6 +8,3 @@ message Material {
 	uint32 count = 1;
 	MaterialDeleteInfo deleteInfo = 2;
 }
-
-
-

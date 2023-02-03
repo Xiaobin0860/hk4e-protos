@@ -18,6 +18,3 @@ message TakeBattlePassRewardRsp {
 	int32 retcode = 5;
 	repeated BattlePassRewardTakeOption takeOptionList = 13;
 }
-
-
-

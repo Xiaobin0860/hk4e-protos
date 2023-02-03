@@ -17,6 +17,3 @@ message SaveCustomDungeonRoomRsp {
 	int32 retcode = 8;
 	uint32 roomId = 9;
 }
-
-
-

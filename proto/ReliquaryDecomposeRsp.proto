@@ -15,6 +15,3 @@ message ReliquaryDecomposeRsp {
 	int32 retcode = 13;
 	repeated uint64 guidList = 12;
 }
-
-
-

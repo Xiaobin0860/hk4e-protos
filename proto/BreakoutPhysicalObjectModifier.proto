@@ -20,6 +20,3 @@ message BreakoutPhysicalObjectModifier {
 	uint32 level = 15;
 	uint32 nfheenapfmf = 16;
 }
-
-
-

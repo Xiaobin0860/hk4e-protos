@@ -7,6 +7,3 @@ message PlayerWorldSceneInfo {
 	bool isLocked = 5;
 	uint32 sceneId = 11;
 }
-
-
-

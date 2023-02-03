@@ -14,6 +14,3 @@ message RefreshRoguelikeDungeonCardRsp {
 	int32 retcode = 9;
 	repeated uint32 resCardList = 12;
 }
-
-
-

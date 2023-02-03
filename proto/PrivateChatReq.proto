@@ -18,6 +18,3 @@ message PrivateChatReq {
 		uint32 icon = 9;
 	}
 }
-
-
-

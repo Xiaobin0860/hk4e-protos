@@ -17,6 +17,3 @@ message TakeAchievementRewardRsp {
 	repeated uint32 idList = 4;
 	int32 retcode = 13;
 }
-
-
-

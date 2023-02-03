@@ -19,6 +19,3 @@ message FoundationRsp {
 	FoundationOpType opType = 15;
 	uint32 buildingId = 8;
 }
-
-
-

@@ -16,6 +16,3 @@ message SetUpLunchBoxWidgetRsp {
 	LunchBoxData lunchBoxData = 15;
 	int32 retcode = 3;
 }
-
-
-

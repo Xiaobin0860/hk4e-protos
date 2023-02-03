@@ -19,6 +19,3 @@ message BuyGoodsRsp {
 	int32 retcode = 5;
 	uint32 shopType = 14;
 }
-
-
-

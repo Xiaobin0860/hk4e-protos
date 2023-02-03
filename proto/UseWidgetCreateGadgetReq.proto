@@ -18,6 +18,3 @@ message UseWidgetCreateGadgetReq {
 	uint32 materialId = 7;
 	Vector pos = 2;
 }
-
-
-

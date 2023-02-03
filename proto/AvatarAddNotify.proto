@@ -16,6 +16,3 @@ message AvatarAddNotify {
 	AvatarInfo avatar = 8;
 	bool isInTeam = 14;
 }
-
-
-

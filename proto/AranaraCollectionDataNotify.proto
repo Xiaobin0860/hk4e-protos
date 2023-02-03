@@ -15,6 +15,3 @@ message AranaraCollectionDataNotify {
 
 	repeated AranaraCollectionSuite collectionSuiteList = 7;
 }
-
-
-

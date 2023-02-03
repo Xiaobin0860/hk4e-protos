@@ -13,6 +13,3 @@ message TowerTeamSelectRsp {
 
 	int32 retcode = 6;
 }
-
-
-

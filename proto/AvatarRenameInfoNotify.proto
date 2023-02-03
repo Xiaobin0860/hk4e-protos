@@ -15,6 +15,3 @@ message AvatarRenameInfoNotify {
 
 	repeated AvatarRenameInfo avatarRenameList = 12;
 }
-
-
-

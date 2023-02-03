@@ -10,6 +10,3 @@ message NGHLNABNDEJ {
 	uint32 keoilfncimn = 6;
 	repeated uint32 mpooncgnhaa = 11;
 }
-
-
-

@@ -26,6 +26,3 @@ message EvtBulletHitNotify {
 	HitColliderType hitColliderType = 8;
 	Vector hitPoint = 1;
 }
-
-
-

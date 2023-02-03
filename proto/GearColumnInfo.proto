@@ -9,6 +9,3 @@ message GearColumnInfo {
 	uint32 Unk3300_GHIBPOIAIGF = 11;
 	uint32 Unk3300_EDLLMBGNDEH = 15;
 }
-
-
-

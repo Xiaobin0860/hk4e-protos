@@ -7,6 +7,3 @@ message SegmentInfo {
 	uint32 offset = 9;
 	uint32 module = 12;
 }
-
-
-

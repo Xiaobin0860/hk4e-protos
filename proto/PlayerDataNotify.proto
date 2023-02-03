@@ -19,6 +19,3 @@ message PlayerDataNotify {
 	bool isFirstLoginToday = 7;
 	map<uint32, PropValue> propMap = 5;
 }
-
-
-

@@ -24,6 +24,3 @@ message QuickUseWidgetReq {
 		ThunderBirdFeatherInfo thunder_bird_feather_info = 1365;
 	}
 }
-
-
-

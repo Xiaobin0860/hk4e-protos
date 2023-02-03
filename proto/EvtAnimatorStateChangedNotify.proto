@@ -18,6 +18,3 @@ message EvtAnimatorStateChangedNotify {
 	ForwardType forwardType = 6;
 	EvtAnimatorStateChangedInfo evtAnimatorStateChangedInfo = 8;
 }
-
-
-

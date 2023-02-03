@@ -15,6 +15,3 @@ message QuestTransmitReq {
 	uint32 questId = 10;
 	uint32 pointId = 3;
 }
-
-
-

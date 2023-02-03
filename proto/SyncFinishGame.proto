@@ -7,6 +7,3 @@ message SyncFinishGame {
 	uint64 serverGameTime = 5;
 	bool chbjiolfkil = 8;
 }
-
-
-

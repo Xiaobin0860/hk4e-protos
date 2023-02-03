@@ -15,6 +15,3 @@ message TakeRegionSearchRewardRsp {
 	uint32 searchId = 14;
 	int32 retcode = 3;
 }
-
-
-

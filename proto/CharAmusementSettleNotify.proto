@@ -15,6 +15,3 @@ message CharAmusementSettleNotify {
 	bool isNewRecord = 11;
 	bool isSucc = 13;
 }
-
-
-

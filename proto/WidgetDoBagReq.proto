@@ -21,6 +21,3 @@ message WidgetDoBagReq {
 		CreatorInfo widget_creator_info = 362;
 	}
 }
-
-
-

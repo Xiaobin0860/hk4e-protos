@@ -9,6 +9,3 @@ message RogueDiaryStageInfo {
 	RogueDiaryDungeonRecord bestRecord = 4;
 	bool isHaveTry = 9;
 }
-
-
-

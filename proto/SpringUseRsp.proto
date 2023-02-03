@@ -14,6 +14,3 @@ message SpringUseRsp {
 	uint64 guid = 13;
 	int32 retcode = 15;
 }
-
-
-

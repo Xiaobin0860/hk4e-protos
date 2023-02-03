@@ -16,6 +16,3 @@ message OpActivityStateNotify {
 	repeated uint32 finishedBonusActivityIdList = 11;
 	repeated OpActivityTagBriefInfo openedOpActivityInfoList = 3;
 }
-
-
-

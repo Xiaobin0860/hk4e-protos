@@ -30,6 +30,3 @@ message PlayerEyePointStateNotify {
 		PolygonSize polygon_size = 1996;
 	}
 }
-
-
-

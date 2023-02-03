@@ -15,6 +15,3 @@ message GachaOpenWishNotify {
 	uint32 gachaType = 1;
 	uint32 gachaScheduleId = 13;
 }
-
-
-

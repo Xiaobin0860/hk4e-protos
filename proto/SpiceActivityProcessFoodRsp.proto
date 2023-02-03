@@ -17,6 +17,3 @@ message SpiceActivityProcessFoodRsp {
 	repeated ItemParam normalFoodList = 10;
 	int32 retcode = 7;
 }
-
-
-

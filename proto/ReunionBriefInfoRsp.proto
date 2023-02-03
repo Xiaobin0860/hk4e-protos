@@ -17,6 +17,3 @@ message ReunionBriefInfoRsp {
 	bool isActivate = 11;
 	ReunionBriefInfo reunionBriefInfo = 8;
 }
-
-
-

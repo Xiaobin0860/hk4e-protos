@@ -16,6 +16,3 @@ message BlossomChestInfoNotify {
 	BlossomChestInfo blossomChestInfo = 5;
 	uint32 entityId = 13;
 }
-
-
-

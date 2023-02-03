@@ -6,6 +6,3 @@ message KHIBIMBJOBK {
 	string createTime = 1;
 	string llbgpfoagln = 2;
 }
-
-
-

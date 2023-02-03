@@ -14,6 +14,3 @@ message ChangeWidgetBackgroundActiveStateRsp {
 	int32 retcode = 7;
 	uint32 materialId = 13;
 }
-
-
-

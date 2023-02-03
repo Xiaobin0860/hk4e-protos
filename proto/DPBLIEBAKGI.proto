@@ -11,6 +11,3 @@ message DPBLIEBAKGI {
 	bool docgilpleod = 7;
 	repeated IDOELHBANCP kcllbppiboo = 999;
 }
-
-
-

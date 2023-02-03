@@ -31,6 +31,3 @@ message SceneAvatarInfo {
 	AvatarExcelInfo excelInfo = 21;
 	uint32 animHash = 22;
 }
-
-
-

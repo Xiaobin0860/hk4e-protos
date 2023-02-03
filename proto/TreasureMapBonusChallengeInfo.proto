@@ -9,6 +9,3 @@ message TreasureMapBonusChallengeInfo {
 	bool isDone = 2;
 	uint32 configId = 9;
 }
-
-
-

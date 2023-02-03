@@ -17,6 +17,3 @@ message SceneEntityDisappearNotify {
 	uint32 param = 10;
 	VisionType disappearType = 7;
 }
-
-
-

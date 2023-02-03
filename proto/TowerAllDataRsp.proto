@@ -33,6 +33,3 @@ message TowerAllDataRsp {
 	TowerMonthlyBrief monthlyBrief = 13;
 	int32 retcode = 4;
 }
-
-
-

@@ -14,6 +14,3 @@ message BlessingScanReq {
 
 	uint32 entityId = 13;
 }
-
-
-

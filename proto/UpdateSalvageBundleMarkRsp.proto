@@ -15,6 +15,3 @@ message UpdateSalvageBundleMarkRsp {
 	uint32 stageId = 10;
 	int32 retcode = 1;
 }
-
-
-

@@ -16,6 +16,3 @@ message AreaPlayInfoNotify {
 	uint32 detailPlayType = 12;
 	AreaPlayType areaPlayType = 9;
 }
-
-
-

@@ -21,6 +21,3 @@ message GCGSkillPreviewNotify {
 	repeated GCGSkillPreviewPlayCardInfo playCardList = 9;
 	uint32 onstageCardGuid = 10;
 }
-
-
-

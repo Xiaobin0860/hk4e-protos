@@ -16,6 +16,3 @@ message TakeFurnitureMakeReq {
 	bool isFastFinish = 15;
 	uint32 makeId = 9;
 }
-
-
-

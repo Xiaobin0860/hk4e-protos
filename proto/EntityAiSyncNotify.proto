@@ -17,6 +17,3 @@ message EntityAiSyncNotify {
 	repeated uint32 localAvatarAlertedMonsterList = 8;
 	repeated AiSyncInfo infoList = 10;
 }
-
-
-

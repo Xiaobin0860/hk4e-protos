@@ -9,6 +9,3 @@ message GearInfo {
 	repeated GearLevelData gearLevelDataList = 9;
 	JigsawPictureData jigsawPictureData = 13;
 }
-
-
-

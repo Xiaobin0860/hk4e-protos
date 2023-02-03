@@ -13,6 +13,3 @@ message GCGGameBriefData {
 	uint32 Unk3300_NCLDOGNCHGF = 6;
 	uint32 platformType = 13;
 }
-
-
-

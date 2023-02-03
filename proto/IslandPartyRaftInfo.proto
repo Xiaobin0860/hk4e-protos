@@ -12,6 +12,3 @@ message IslandPartyRaftInfo {
 	uint32 Unk3300_FBACMOFGPGJ = 7;
 	GalleryStartSource startSource = 15;
 }
-
-
-

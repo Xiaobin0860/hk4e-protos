@@ -13,6 +13,3 @@ message MiracleRingDestroyNotify {
 
 	uint32 entityId = 7;
 }
-
-
-

@@ -18,6 +18,3 @@ message BargainOfferPriceRsp {
 	int32 curMood = 7;
 	uint32 resultParam = 11;
 }
-
-
-

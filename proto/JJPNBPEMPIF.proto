@@ -20,6 +20,3 @@ message JJPNBPEMPIF {
 	uint32 clientVersion = 12;
 	PlatformType platformType = 13;
 }
-
-
-

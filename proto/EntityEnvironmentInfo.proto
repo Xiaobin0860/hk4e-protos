@@ -6,6 +6,3 @@ message EntityEnvironmentInfo {
 	uint32 jsonClimateType = 1;
 	uint32 climateAreaId = 2;
 }
-
-
-

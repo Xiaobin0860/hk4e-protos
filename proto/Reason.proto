@@ -13,6 +13,3 @@ enum Reason {
     HOST_IN_EDIT_MODE           = 7;
     PRIOR_CHECK                 = 8;
 }
-
-
-

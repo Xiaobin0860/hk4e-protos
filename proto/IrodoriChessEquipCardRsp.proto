@@ -16,6 +16,3 @@ message IrodoriChessEquipCardRsp {
 	int32 retcode = 9;
 	uint32 cardId = 14;
 }
-
-
-

@@ -14,6 +14,3 @@ message ReceivedTrialAvatarActivityRewardReq {
 
 	uint32 trialAvatarIndexId = 3;
 }
-
-
-

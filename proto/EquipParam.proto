@@ -8,6 +8,3 @@ message EquipParam {
 	uint32 itemLevel = 3;
 	uint32 promoteLevel = 4;
 }
-
-
-

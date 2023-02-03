@@ -13,6 +13,3 @@ message ExecuteGadgetLuaRsp {
 
 	int32 retcode = 13;
 }
-
-
-

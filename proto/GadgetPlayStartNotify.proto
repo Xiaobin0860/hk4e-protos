@@ -15,6 +15,3 @@ message GadgetPlayStartNotify {
 	uint32 entityId = 13;
 	uint32 startTime = 9;
 }
-
-
-

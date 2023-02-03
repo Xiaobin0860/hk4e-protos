@@ -8,6 +8,3 @@ message ShapeSphere {
 	Vector center = 1;
 	float radius = 2;
 }
-
-
-

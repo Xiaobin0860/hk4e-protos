@@ -16,6 +16,3 @@ message PlayerCancelMatchRsp {
 	MatchType matchType = 1;
 	int32 retcode = 15;
 }
-
-
-

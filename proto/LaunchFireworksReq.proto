@@ -16,6 +16,3 @@ message LaunchFireworksReq {
 
 	FireworksLaunchSchemeData schemeData = 1;
 }
-
-
-

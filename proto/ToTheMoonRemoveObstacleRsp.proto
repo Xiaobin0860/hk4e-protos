@@ -17,6 +17,3 @@ message ToTheMoonRemoveObstacleRsp {
 	DynamicNodes dynamicNodes = 8;
 	int32 retcode = 3;
 }
-
-
-

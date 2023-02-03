@@ -15,6 +15,3 @@ message MistTrialFloorLevelNotify {
 	uint32 dungeonSceneId = 9;
 	uint32 floorLevel = 11;
 }
-
-
-

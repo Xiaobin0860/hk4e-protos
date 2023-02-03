@@ -13,6 +13,3 @@ message ChannellerSlabCheckEnterLoopDungeonRsp {
 
 	int32 retcode = 8;
 }
-
-
-

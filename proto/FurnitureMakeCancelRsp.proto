@@ -17,6 +17,3 @@ message FurnitureMakeCancelRsp {
 	FurnitureMakeSlot furnitureMakeSlot = 14;
 	uint32 makeId = 10;
 }
-
-
-

@@ -15,6 +15,3 @@ message VintageMarketNpcEventFinishNotify {
 	uint32 coinA = 12;
 	uint32 coinC = 8;
 }
-
-
-

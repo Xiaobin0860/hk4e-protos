@@ -15,6 +15,3 @@ message QuestUpdateQuestVarNotify {
 	uint32 parentQuestVarSeq = 14;
 	repeated int32 questVar = 7;
 }
-
-
-

@@ -16,6 +16,3 @@ message ChannellerSlabWearBuffRsp {
 	bool fhableimdgl = 9;
 	int32 retcode = 12;
 }
-
-
-

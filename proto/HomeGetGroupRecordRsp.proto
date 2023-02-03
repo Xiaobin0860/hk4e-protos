@@ -17,6 +17,3 @@ message HomeGetGroupRecordRsp {
 	int32 retcode = 7;
 	HomeGroupRecord groupRecord = 13;
 }
-
-
-

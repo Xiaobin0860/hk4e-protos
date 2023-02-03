@@ -16,6 +16,3 @@ message ActivityDisableTransferPointInteractionNotify {
 	bool isDisable = 15;
 	Uint32Pair scenePointPair = 8;
 }
-
-
-

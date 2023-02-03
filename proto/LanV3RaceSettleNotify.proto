@@ -20,6 +20,3 @@ message LanV3RaceSettleNotify {
 	uint32 Unk3300_IPGJKKFDPJJ = 11;
 	uint32 remainTime = 5;
 }
-
-
-

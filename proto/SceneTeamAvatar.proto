@@ -27,6 +27,3 @@ message SceneTeamAvatar {
 	uint32 playerUid = 11;
 	AbilitySyncStateInfo avatarAbilityInfo = 12;
 }
-
-
-

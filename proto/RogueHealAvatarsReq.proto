@@ -15,6 +15,3 @@ message RogueHealAvatarsReq {
 	uint32 dungeonId = 12;
 	uint32 cellId = 11;
 }
-
-
-

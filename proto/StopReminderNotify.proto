@@ -14,6 +14,3 @@ message StopReminderNotify {
 
 	uint32 reminderId = 12;
 }
-
-
-

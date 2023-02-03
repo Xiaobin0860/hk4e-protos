@@ -11,6 +11,3 @@ message BrickBreakerInfo {
 	repeated BrickBreakerLevelInfo worldLevelInfoList = 3;
 	map<uint32, uint32> skillInfoMap = 8;
 }
-
-
-

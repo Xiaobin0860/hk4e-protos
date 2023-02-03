@@ -13,6 +13,3 @@ message ClosedItemNotify {
 
 	repeated uint32 itemIdList = 6;
 }
-
-
-

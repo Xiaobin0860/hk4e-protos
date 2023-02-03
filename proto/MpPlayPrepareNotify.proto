@@ -14,6 +14,3 @@ message MpPlayPrepareNotify {
 	uint32 prepareEndTime = 2;
 	uint32 mpPlayId = 1;
 }
-
-
-

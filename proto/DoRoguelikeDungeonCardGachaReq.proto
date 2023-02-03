@@ -15,6 +15,3 @@ message DoRoguelikeDungeonCardGachaReq {
 	uint32 cellId = 13;
 	uint32 dungeonId = 6;
 }
-
-
-

@@ -15,6 +15,3 @@ message AbilityScalarValueEntry {
 		uint32 uint_value = 6;
 	}
 }
-
-
-

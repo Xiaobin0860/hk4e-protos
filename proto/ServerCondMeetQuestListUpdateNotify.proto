@@ -14,6 +14,3 @@ message ServerCondMeetQuestListUpdateNotify {
 	repeated uint32 addQuestIdList = 2;
 	repeated uint32 delQuestIdList = 7;
 }
-
-
-

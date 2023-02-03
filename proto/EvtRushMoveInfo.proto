@@ -14,6 +14,3 @@ message EvtRushMoveInfo {
 	Vector Unk3300_NEBMDDGPBON = 8;
 	int32 stateNameHash = 7;
 }
-
-
-

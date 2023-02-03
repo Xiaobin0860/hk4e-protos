@@ -17,6 +17,3 @@ message BatchBuyGoodsReq {
 	repeated BuyGoodsParam buyGoodsList = 5;
 	uint32 shopType = 3;
 }
-
-
-

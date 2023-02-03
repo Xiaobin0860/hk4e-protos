@@ -14,6 +14,3 @@ message RefreshEntityAuthNotify {
 
 	repeated uint32 entityIdList = 11;
 }
-
-
-

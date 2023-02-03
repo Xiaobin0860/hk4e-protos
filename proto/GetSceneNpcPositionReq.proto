@@ -15,6 +15,3 @@ message GetSceneNpcPositionReq {
 	uint32 sceneId = 8;
 	repeated uint32 npcIdList = 1;
 }
-
-
-

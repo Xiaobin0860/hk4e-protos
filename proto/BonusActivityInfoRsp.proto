@@ -16,6 +16,3 @@ message BonusActivityInfoRsp {
 	repeated BonusActivityInfo bonusActivityInfoList = 13;
 	int32 retcode = 12;
 }
-
-
-

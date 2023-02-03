@@ -32,6 +32,3 @@ message AllWidgetDataNotify {
 	repeated DetectorData oneoffGatherPointDetectorDataList = 8;
 	LunchBoxData lunchBoxData = 1;
 }
-
-
-

@@ -18,6 +18,3 @@ message IslandPartySailInfoNotify {
 	uint32 killMonsterCount = 9;
 	IslandPartySailStage stage = 2;
 }
-
-
-

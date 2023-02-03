@@ -11,6 +11,3 @@ message HomeFurnitureSuiteData {
 	bool isAllowSummon = 14;
 	Vector spawnPos = 10;
 }
-
-
-

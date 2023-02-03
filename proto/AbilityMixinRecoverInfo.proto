@@ -16,6 +16,3 @@ message AbilityMixinRecoverInfo {
 	repeated MassivePropSyncInfo massivePropList = 6;
 	BreakoutSnapShot breakoutSnapShot = 7;
 }
-
-
-

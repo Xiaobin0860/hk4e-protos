@@ -11,6 +11,3 @@ message FleurFairBossSettleInfo {
 	uint32 costTime = 2;
 	bool isSuccess = 6;
 }
-
-
-

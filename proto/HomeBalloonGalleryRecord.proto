@@ -10,6 +10,3 @@ message HomeBalloonGalleryRecord {
 	HomeGroupPlayerInfo playerInfo = 11;
 	uint32 timestamp = 13;
 }
-
-
-

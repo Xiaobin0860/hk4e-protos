@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message BDFNLKLGIBI {
 	uint64 value = 1;
 }
-
-
-

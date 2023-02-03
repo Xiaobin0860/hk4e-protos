@@ -16,6 +16,3 @@ message AvatarExpeditionStartRsp {
 	map<uint64, AvatarExpeditionInfo> expeditionInfoMap = 7;
 	int32 retcode = 10;
 }
-
-
-

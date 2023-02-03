@@ -13,6 +13,3 @@ message StartRogueDiaryRoomRsp {
 
 	int32 retcode = 2;
 }
-
-
-

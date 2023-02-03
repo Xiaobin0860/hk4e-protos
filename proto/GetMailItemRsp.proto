@@ -17,6 +17,3 @@ message GetMailItemRsp {
 	repeated uint32 mailIdList = 6;
 	int32 retcode = 12;
 }
-
-
-

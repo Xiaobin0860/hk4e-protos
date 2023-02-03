@@ -14,6 +14,3 @@ message DungeonCandidateTeamSetChangingAvatarReq {
 
 	bool isChangingAvatar = 4;
 }
-
-
-

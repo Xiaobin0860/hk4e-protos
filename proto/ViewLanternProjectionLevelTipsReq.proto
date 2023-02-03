@@ -14,6 +14,3 @@ message ViewLanternProjectionLevelTipsReq {
 
 	uint32 levelId = 14;
 }
-
-
-

@@ -24,6 +24,3 @@ message MistTrialSelectAvatarAndEnterDungeonReq {
 	repeated SelectAvatarIndex selectAvatarIndexList = 6;
 	repeated uint32 selectTrialAvatarIdList = 9;
 }
-
-
-

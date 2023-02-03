@@ -12,6 +12,3 @@ message TowerCurLevelRecord {
 	bool isEmpty = 7;
 	uint32 curFloorId = 9;
 }
-
-
-

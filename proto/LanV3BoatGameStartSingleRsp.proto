@@ -13,6 +13,3 @@ message LanV3BoatGameStartSingleRsp {
 
 	int32 retcode = 5;
 }
-
-
-

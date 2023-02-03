@@ -11,6 +11,3 @@ message EffigyDailyInfo {
 	uint32 beginTime = 7;
 	uint32 Unk3300_NNHICCGELHP = 12;
 }
-
-
-

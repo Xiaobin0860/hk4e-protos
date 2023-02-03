@@ -15,6 +15,3 @@ message BlessingAcceptAllGivePicRsp {
 	repeated uint32 acceptIndexList = 3;
 	int32 retcode = 11;
 }
-
-
-

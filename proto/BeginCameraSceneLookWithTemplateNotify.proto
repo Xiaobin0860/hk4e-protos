@@ -21,6 +21,3 @@ message BeginCameraSceneLookWithTemplateNotify {
 	uint32 entityId = 14;
 	Vector Unk3300_PPCIDICMIEN = 7;
 }
-
-
-

@@ -7,6 +7,3 @@ import "MatchPlayerInfo.proto";
 message GCGMatchInfo {
 	repeated MatchPlayerInfo playerList = 5;
 }
-
-
-

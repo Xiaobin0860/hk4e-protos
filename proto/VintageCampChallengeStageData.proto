@@ -12,6 +12,3 @@ message VintageCampChallengeStageData {
 	uint32 stageId = 9;
 	uint32 openTime = 10;
 }
-
-
-

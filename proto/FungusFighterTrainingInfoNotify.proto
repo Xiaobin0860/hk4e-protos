@@ -19,6 +19,3 @@ message FungusFighterTrainingInfoNotify {
 	uint32 buffId = 6;
 	uint32 Unk3300_HGPGNCMNDJN = 13;
 }
-
-
-

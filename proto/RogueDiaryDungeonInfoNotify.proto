@@ -25,6 +25,3 @@ message RogueDiaryDungeonInfoNotify {
 	uint32 dungeonId = 15;
 	uint32 curRoom = 1;
 }
-
-
-

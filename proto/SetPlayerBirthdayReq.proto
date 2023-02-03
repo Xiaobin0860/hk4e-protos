@@ -16,6 +16,3 @@ message SetPlayerBirthdayReq {
 
 	Birthday birthday = 15;
 }
-
-
-

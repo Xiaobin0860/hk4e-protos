@@ -10,6 +10,3 @@ message PlayerHomeCompInfo {
 	repeated uint32 unlockedModuleIdList = 10;
 	repeated uint32 levelupRewardGotLevelList = 12;
 }
-
-
-

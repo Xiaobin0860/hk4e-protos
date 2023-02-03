@@ -8,6 +8,3 @@ message SkyCrystalDetectorQuickUseResult {
 	SkyCrystalDetectorData skyCrystalDetectorData = 14;
 	int32 retcode = 7;
 }
-
-
-

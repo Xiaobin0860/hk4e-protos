@@ -24,6 +24,3 @@ message GravenInnocenceRaceSettleNotify {
 	uint32 Unk3300_BOIPHOPMHJM = 3;
 	uint32 levelId = 2;
 }
-
-
-

@@ -15,6 +15,3 @@ message PSNBlackListNotify {
 
 	repeated FriendBrief psnBlacklist = 10;
 }
-
-
-

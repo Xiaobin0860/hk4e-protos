@@ -7,6 +7,3 @@ message CityReputationHuntInfo {
 	bool hasReward = 4;
 	bool isOpen = 10;
 }
-
-
-

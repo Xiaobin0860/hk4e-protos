@@ -15,6 +15,3 @@ message BlessingGiveFriendPicReq {
 	uint32 uid = 9;
 	uint32 picId = 8;
 }
-
-
-

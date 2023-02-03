@@ -15,6 +15,3 @@ message SkyCrystalDetectorDataUpdateNotify {
 
 	SkyCrystalDetectorData skyCrystalDetectorData = 12;
 }
-
-
-

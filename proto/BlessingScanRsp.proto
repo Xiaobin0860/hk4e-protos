@@ -15,6 +15,3 @@ message BlessingScanRsp {
 	uint32 curDayScanNum = 4;
 	uint32 scanPicId = 9;
 }
-
-
-

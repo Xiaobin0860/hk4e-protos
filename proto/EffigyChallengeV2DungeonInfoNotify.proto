@@ -15,6 +15,3 @@ message EffigyChallengeV2DungeonInfoNotify {
 	uint32 challengeModeDifficulty = 4;
 	uint32 skillNo = 10;
 }
-
-
-

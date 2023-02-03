@@ -9,6 +9,3 @@ message HomeAnimalData {
 	uint32 furnitureId = 10;
 	Vector spawnPos = 4;
 }
-
-
-

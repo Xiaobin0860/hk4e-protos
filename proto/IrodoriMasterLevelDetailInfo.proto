@@ -8,6 +8,3 @@ message IrodoriMasterLevelDetailInfo {
 	uint32 minFinishTime = 14;
 	uint32 difficulty = 3;
 }
-
-
-

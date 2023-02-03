@@ -9,6 +9,3 @@ message AbilityMetaAddOrGetAbilityAndTrigger {
 	float triggerArgument = 15;
 	AbilityString abilityName = 6;
 }
-
-
-

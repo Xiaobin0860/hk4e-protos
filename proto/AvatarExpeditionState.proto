@@ -9,6 +9,3 @@ enum AvatarExpeditionState {
   AVATAR_EXPEDITION_CALLBACK_WAIT_REWARD = 3;
   AVATAR_EXPEDITION_LOCKED               = 4;
 }
-
-
-

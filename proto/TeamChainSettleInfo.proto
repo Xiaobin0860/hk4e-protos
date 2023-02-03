@@ -9,6 +9,3 @@ message TeamChainSettleInfo {
 	uint32 difficulty = 15;
 	repeated uint32 scoreList = 9;
 }
-
-
-

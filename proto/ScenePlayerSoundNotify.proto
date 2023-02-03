@@ -18,6 +18,3 @@ message ScenePlayerSoundNotify {
 	Vector playPos = 6;
 	PlaySoundType playType = 10;
 }
-
-
-

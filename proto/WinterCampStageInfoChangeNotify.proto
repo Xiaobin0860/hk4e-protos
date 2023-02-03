@@ -16,6 +16,3 @@ message WinterCampStageInfoChangeNotify {
 	WinterCampStageInfo battleInfo = 15;
 	WinterCampStageInfo exploreInfo = 3;
 }
-
-
-

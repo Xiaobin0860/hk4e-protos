@@ -15,6 +15,3 @@ message CancelCityReputationRequestReq {
 	uint32 cityId = 4;
 	uint32 requestId = 3;
 }
-
-
-

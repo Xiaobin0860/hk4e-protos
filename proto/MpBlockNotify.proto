@@ -13,6 +13,3 @@ message MpBlockNotify {
 
 	uint32 endTime = 13;
 }
-
-
-

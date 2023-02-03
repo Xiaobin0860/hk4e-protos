@@ -14,6 +14,3 @@ message WinterCampSetWishListRsp {
 	int32 retcode = 6;
 	repeated uint32 itemIdList = 3;
 }
-
-
-

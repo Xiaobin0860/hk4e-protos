@@ -8,6 +8,3 @@ message RogueDiaryDungeonRecord {
 	bool isFinish = 7;
 	uint32 difficulty = 13;
 }
-
-
-

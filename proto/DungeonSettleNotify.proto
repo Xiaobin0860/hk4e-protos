@@ -50,6 +50,3 @@ message DungeonSettleNotify {
 		TeamChainSettleInfo team_chain_settle_info = 1320;
 	}
 }
-
-
-

@@ -85,6 +85,3 @@ message SceneGalleryInfo {
 	uint32 playerCount = 11;
 	repeated SceneGalleryProgressInfo progressInfoList = 12;
 }
-
-
-

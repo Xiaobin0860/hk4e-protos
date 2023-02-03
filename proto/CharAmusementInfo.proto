@@ -11,6 +11,3 @@ message CharAmusementInfo {
 	uint32 stageId = 8;
 	uint32 inllhgjoaco = 5;
 }
-
-
-

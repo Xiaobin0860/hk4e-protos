@@ -32,6 +32,3 @@ message FriendBrief {
 	bool isPsnSource = 26;
 	PlatformType platformType = 27;
 }
-
-
-

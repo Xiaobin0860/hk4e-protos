@@ -15,6 +15,3 @@ message HomeSetBlueprintSlotOptionReq {
 	uint32 slotId = 11;
 	bool isAllowCopy = 10;
 }
-
-
-

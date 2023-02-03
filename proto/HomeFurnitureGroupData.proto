@@ -8,6 +8,3 @@ message HomeFurnitureGroupData {
 	repeated HomeFurnitureData virtualFurnitureList = 12;
 	uint32 groupFurnitureIndex = 4;
 }
-
-
-

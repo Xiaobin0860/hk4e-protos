@@ -11,6 +11,3 @@ message SumoStageData {
 	repeated SumoTeamData teamList = 13;
 	bool isOpen = 15;
 }
-
-
-

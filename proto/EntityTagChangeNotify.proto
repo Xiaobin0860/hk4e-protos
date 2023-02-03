@@ -15,6 +15,3 @@ message EntityTagChangeNotify {
 	uint32 entityId = 11;
 	bool isAdd = 1;
 }
-
-
-

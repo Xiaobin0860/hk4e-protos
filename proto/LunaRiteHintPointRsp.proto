@@ -20,6 +20,3 @@ message LunaRiteHintPointRsp {
 	LunaRiteHintStatusType hintStatus = 3;
 	repeated LunaRiteHintPoint hintPoint = 12;
 }
-
-
-

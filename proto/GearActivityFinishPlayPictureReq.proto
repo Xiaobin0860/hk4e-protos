@@ -14,6 +14,3 @@ message GearActivityFinishPlayPictureReq {
 
 	bool isSuccess = 3;
 }
-
-
-

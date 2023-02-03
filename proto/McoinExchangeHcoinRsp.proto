@@ -15,6 +15,3 @@ message McoinExchangeHcoinRsp {
 	uint32 mcoinCost = 11;
 	uint32 hcoin = 15;
 }
-
-
-

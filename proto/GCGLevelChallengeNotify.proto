@@ -16,6 +16,3 @@ message GCGLevelChallengeNotify {
 	uint32 unlockWorldChallengeList = 11;
 	uint32 configId = 13;
 }
-
-
-

@@ -13,6 +13,3 @@ message FishBaitGoneNotify {
 
 	uint32 uid = 8;
 }
-
-
-

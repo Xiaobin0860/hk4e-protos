@@ -15,6 +15,3 @@ message GCGStartChallengeReq {
 	uint32 exp = 11;
 	uint32 level = 1;
 }
-
-
-

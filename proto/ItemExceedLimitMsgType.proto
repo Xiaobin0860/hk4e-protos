@@ -8,6 +8,3 @@ enum ItemExceedLimitMsgType {
     ITEM_EXCEED_LIMIT_MSG_DIALOG          = 2;
     ITEM_EXCEED_LIMIT_MSG_DIALOG_NONBLOCK = 3;
 }
-
-
-

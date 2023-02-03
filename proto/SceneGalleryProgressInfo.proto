@@ -8,6 +8,3 @@ message SceneGalleryProgressInfo {
 	uint32 progress = 13;
 	uint32 uiForm = 2;
 }
-
-
-

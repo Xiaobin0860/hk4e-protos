@@ -16,6 +16,3 @@ message SearchCustomDungeonRsp {
 	OtherCustomDungeonBrief customDungeonBrief = 6;
 	int32 retcode = 5;
 }
-
-
-

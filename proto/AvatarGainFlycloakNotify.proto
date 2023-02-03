@@ -13,6 +13,3 @@ message AvatarGainFlycloakNotify {
 
 	uint32 flycloakId = 15;
 }
-
-
-

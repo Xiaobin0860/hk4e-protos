@@ -16,6 +16,3 @@ message SetUpAvatarTeamRsp {
 	uint64 curAvatarGuid = 2;
 	int32 retcode = 3;
 }
-
-
-

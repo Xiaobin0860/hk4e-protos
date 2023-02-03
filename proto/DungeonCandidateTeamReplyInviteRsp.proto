@@ -14,6 +14,3 @@ message DungeonCandidateTeamReplyInviteRsp {
 	bool isTransPoint = 2;
 	int32 retcode = 1;
 }
-
-
-

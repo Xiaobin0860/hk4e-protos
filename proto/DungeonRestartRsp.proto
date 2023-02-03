@@ -15,6 +15,3 @@ message DungeonRestartRsp {
 	int32 retcode = 4;
 	uint32 pointId = 1;
 }
-
-
-

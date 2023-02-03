@@ -11,6 +11,3 @@ message LunaRiteAreaInfo {
 	LunaRiteHintStatusType hintStatus = 3;
 	uint32 areaId = 12;
 }
-
-
-

@@ -16,6 +16,3 @@ message BFIEOJNAJCA {
 	PKGIAOBKFDC lang = 1;
 	uint32 timestamp = 13;
 }
-
-
-

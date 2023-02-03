@@ -13,6 +13,3 @@ message GCGDSCardNumChangeNotify {
 
 	uint32 ccdlgbcdpbp = 8;
 }
-
-
-

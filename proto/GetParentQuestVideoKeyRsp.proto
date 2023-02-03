@@ -15,6 +15,3 @@ message GetParentQuestVideoKeyRsp {
 	int32 retcode = 9;
 	uint32 parentQuestId = 11;
 }
-
-
-

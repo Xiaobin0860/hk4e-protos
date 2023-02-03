@@ -16,6 +16,3 @@ message GetDungeonEntryExploreConditionReq {
 	uint32 sceneId = 13;
 	uint32 dungeonEntryConfigId = 5;
 }
-
-
-

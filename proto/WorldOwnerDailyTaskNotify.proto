@@ -18,6 +18,3 @@ message WorldOwnerDailyTaskNotify {
 	repeated DailyTaskInfo taskList = 9;
 	uint32 filterCityId = 15;
 }
-
-
-

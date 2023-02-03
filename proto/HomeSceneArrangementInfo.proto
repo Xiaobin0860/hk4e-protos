@@ -20,6 +20,3 @@ message HomeSceneArrangementInfo {
 	repeated HomeBlockArrangementInfo blockArrangementInfoList = 3;
 	uint32 bgmId = 12;
 }
-
-
-

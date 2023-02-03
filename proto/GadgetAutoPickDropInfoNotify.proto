@@ -15,6 +15,3 @@ message GadgetAutoPickDropInfoNotify {
 
 	repeated Item itemList = 15;
 }
-
-
-

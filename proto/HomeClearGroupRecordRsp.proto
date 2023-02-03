@@ -14,6 +14,3 @@ message HomeClearGroupRecordRsp {
 	int32 retcode = 6;
 	uint32 groupId = 7;
 }
-
-
-

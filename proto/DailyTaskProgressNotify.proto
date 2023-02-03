@@ -15,6 +15,3 @@ message DailyTaskProgressNotify {
 
 	DailyTaskInfo info = 12;
 }
-
-
-

@@ -14,6 +14,3 @@ message ExitSceneWeatherAreaNotify {
 
 	uint32 weatherGadgetId = 15;
 }
-
-
-

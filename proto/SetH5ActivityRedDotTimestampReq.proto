@@ -13,6 +13,3 @@ message SetH5ActivityRedDotTimestampReq {
 
 	uint32 clientRedDotTimestamp = 10;
 }
-
-
-

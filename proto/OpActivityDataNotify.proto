@@ -15,6 +15,3 @@ message OpActivityDataNotify {
 
 	repeated OpActivityInfo opActivityInfoList = 13;
 }
-
-
-

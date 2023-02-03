@@ -7,6 +7,3 @@ message EntityConfigHashEntry {
 	uint32 jobId = 12;
 	int32 hashValue = 6;
 }
-
-
-

@@ -12,6 +12,3 @@ message HomeLimitedShopGoods {
 	uint32 boughtNum = 7;
 	uint32 buyLimit = 13;
 }
-
-
-

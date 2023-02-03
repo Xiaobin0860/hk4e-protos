@@ -10,6 +10,3 @@ enum MatchType {
   MATCH_TYPE_GENERAL    = 4;
   MATCH_TYPE_GCG        = 5;
 }
-
-
-

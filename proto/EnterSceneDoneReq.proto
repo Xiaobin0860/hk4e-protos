@@ -14,6 +14,3 @@ message EnterSceneDoneReq {
 
 	uint32 enterSceneToken = 14;
 }
-
-
-

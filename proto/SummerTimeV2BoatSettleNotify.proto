@@ -18,6 +18,3 @@ message SummerTimeV2BoatSettleNotify {
 	uint32 galleryId = 10;
 	bool isNewRecord = 12;
 }
-
-
-

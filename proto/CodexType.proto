@@ -13,6 +13,3 @@ enum CodexType {
   CODEX_VIEW      = 7;
   CODEX_RELIQUARY = 8;
 }
-
-
-

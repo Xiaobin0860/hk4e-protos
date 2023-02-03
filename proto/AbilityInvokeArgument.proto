@@ -66,6 +66,3 @@ enum AbilityInvokeArgument {
   ABILITY_MIXIN_ERASE_BRICK_ACTIVITY                                = 121;
   ABILITY_MIXIN_BREAKOUT                                            = 122;
 }
-
-
-

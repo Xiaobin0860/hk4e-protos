@@ -18,6 +18,3 @@ message AddAranaraCollectionNotify {
 	uint32 collectionId = 1;
 	uint32 collectionType = 5;
 }
-
-
-

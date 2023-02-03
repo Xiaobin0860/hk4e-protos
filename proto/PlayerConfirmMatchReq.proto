@@ -17,6 +17,3 @@ message PlayerConfirmMatchReq {
 	MatchType matchType = 12;
 	bool isAgreed = 13;
 }
-
-
-

@@ -17,6 +17,3 @@ message ChannellerSlabEnterLoopDungeonReq {
 	uint32 pointId = 3;
 	repeated uint32 conditionIdList = 2;
 }
-
-
-

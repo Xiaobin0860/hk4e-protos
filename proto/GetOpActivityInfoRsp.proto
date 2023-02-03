@@ -16,6 +16,3 @@ message GetOpActivityInfoRsp {
 	repeated OpActivityInfo opActivityInfoList = 11;
 	int32 retcode = 14;
 }
-
-
-

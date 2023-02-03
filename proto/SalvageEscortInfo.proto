@@ -8,6 +8,3 @@ message SalvageEscortInfo {
 	uint32 maxMonsterCount = 4;
 	uint32 monsterCount = 1;
 }
-
-
-

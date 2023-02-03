@@ -16,6 +16,3 @@ message TakeBattlePassRewardReq {
 
 	repeated BattlePassRewardTakeOption takeOptionList = 1;
 }
-
-
-

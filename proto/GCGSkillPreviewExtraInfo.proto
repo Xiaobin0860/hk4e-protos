@@ -8,6 +8,3 @@ message GCGSkillPreviewExtraInfo {
 	repeated GCGSkillPreviewCardInfo Unk3300_KIFFJGFDNKA = 6;
 	repeated GCGSkillPreviewCardInfo Unk3300_GMEMMDJKCGN = 11;
 }
-
-
-

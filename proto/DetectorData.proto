@@ -13,6 +13,3 @@ message DetectorData {
 	uint32 groupId = 14;
 	uint32 hintRadius = 5;
 }
-
-
-

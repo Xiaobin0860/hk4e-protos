@@ -20,6 +20,3 @@ message ItemGivingReq {
 	repeated ItemParam itemParamList = 9;
 	ItemGivingType itemGivingType = 8;
 }
-
-
-

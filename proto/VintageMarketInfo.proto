@@ -29,6 +29,3 @@ message VintageMarketInfo {
 	uint32 Unk3300_ACJLANLBCGK = 458;
 	bool Unk3300_NBNOJJBNJPB = 1190;
 }
-
-
-

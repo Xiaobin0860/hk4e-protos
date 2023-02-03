@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message AJDBLJCEGMM {
 	repeated string embnkjlnook = 1;
 }
-
-
-

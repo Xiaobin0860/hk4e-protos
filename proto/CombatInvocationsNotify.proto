@@ -16,6 +16,3 @@ message CombatInvocationsNotify {
 
 	repeated CombatInvokeEntry invokeList = 11;
 }
-
-
-

@@ -8,6 +8,3 @@ message ResinCardData {
 	uint32 expireTime = 5;
 	uint32 lastDailyRewardTime = 7;
 }
-
-
-

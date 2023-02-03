@@ -16,6 +16,3 @@ message SubmitInferenceWordRsp {
 	uint32 wordId = 6;
 	int32 retcode = 8;
 }
-
-
-

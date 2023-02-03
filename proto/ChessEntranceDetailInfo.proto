@@ -7,6 +7,3 @@ import "ChessEntranceInfo.proto";
 message ChessEntranceDetailInfo {
 	repeated ChessEntranceInfo infoList = 6;
 }
-
-
-

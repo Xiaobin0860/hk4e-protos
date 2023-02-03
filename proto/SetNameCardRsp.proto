@@ -15,6 +15,3 @@ message SetNameCardRsp {
 	uint32 nameCardId = 14;
 	int32 retcode = 7;
 }
-
-
-

@@ -17,6 +17,3 @@ message GCGMsgSkillResult {
 	uint32 skillId = 4;
 	uint32 Unk3300_LPGLOCDDPCL = 14;
 }
-
-
-

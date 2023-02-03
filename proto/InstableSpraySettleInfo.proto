@@ -8,6 +8,3 @@ message InstableSpraySettleInfo {
 	uint32 difficulty = 15;
 	repeated uint32 scoreList = 10;
 }
-
-
-

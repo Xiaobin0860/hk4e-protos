@@ -13,6 +13,3 @@ message ChessManualRefreshCardsRsp {
 
 	int32 retcode = 1;
 }
-
-
-

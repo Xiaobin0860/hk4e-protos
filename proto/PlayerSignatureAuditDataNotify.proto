@@ -15,6 +15,3 @@ message PlayerSignatureAuditDataNotify {
 
 	ContentAuditInfo info = 4;
 }
-
-
-

@@ -17,6 +17,3 @@ message ActivityScheduleInfoNotify {
 	repeated ActivityScheduleInfo activityScheduleList = 5;
 	uint32 remainFlySeaLampNum = 11;
 }
-
-
-

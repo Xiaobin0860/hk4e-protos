@@ -15,6 +15,3 @@ message SetOpenStateReq {
 	uint32 value = 14;
 	uint32 key = 7;
 }
-
-
-

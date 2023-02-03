@@ -16,6 +16,3 @@ message MonsterPointArrayRouteUpdateNotify {
 	uint32 entityId = 12;
 	MonsterRoute monsterRoute = 2;
 }
-
-
-

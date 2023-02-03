@@ -15,6 +15,3 @@ message GadgetStateNotify {
 	uint32 gadgetEntityId = 7;
 	bool isEnableInteract = 15;
 }
-
-
-

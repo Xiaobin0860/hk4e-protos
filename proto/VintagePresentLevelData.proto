@@ -8,6 +8,3 @@ message VintagePresentLevelData {
 	uint32 presentId = 5;
 	bool isFinish = 3;
 }
-
-
-

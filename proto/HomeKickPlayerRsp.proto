@@ -15,6 +15,3 @@ message HomeKickPlayerRsp {
 	uint32 targetUid = 5;
 	int32 retcode = 2;
 }
-
-
-

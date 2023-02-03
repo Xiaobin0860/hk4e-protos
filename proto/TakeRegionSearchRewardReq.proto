@@ -15,6 +15,3 @@ message TakeRegionSearchRewardReq {
 	uint32 id = 13;
 	uint32 searchId = 14;
 }
-
-
-

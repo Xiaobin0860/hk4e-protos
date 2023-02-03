@@ -15,6 +15,3 @@ message ClientCollectorDataNotify {
 
 	repeated ClientCollectorData clientCollectorDataList = 9;
 }
-
-
-

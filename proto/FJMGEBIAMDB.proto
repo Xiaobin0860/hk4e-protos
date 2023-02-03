@@ -7,6 +7,3 @@ import "IDOELHBANCP.proto";
 message FJMGEBIAMDB {
 	repeated IDOELHBANCP kcllbppiboo = 999;
 }
-
-
-

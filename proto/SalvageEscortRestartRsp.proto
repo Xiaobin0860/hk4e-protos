@@ -14,6 +14,3 @@ message SalvageEscortRestartRsp {
 	uint32 galleryId = 6;
 	int32 retcode = 12;
 }
-
-
-

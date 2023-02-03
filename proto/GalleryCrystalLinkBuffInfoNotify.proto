@@ -15,6 +15,3 @@ message GalleryCrystalLinkBuffInfoNotify {
 	uint32 galleryId = 6;
 	uint32 buffId = 2;
 }
-
-
-

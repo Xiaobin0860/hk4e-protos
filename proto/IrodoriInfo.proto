@@ -13,6 +13,3 @@ message IrodoriInfo {
 	IrodoriChessData chessData = 10;
 	repeated IrodoriMasterLevelInfo masterLevelList = 15;
 }
-
-
-

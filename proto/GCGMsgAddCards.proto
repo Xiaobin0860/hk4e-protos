@@ -12,6 +12,3 @@ message GCGMsgAddCards {
 	GCGZoneType zone = 9;
 	repeated uint32 cardGuidList = 5;
 }
-
-
-

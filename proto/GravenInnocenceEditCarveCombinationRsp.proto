@@ -13,6 +13,3 @@ message GravenInnocenceEditCarveCombinationRsp {
 
 	int32 retcode = 1;
 }
-
-
-

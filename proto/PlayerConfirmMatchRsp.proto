@@ -18,6 +18,3 @@ message PlayerConfirmMatchRsp {
 	uint32 matchId = 3;
 	int32 retcode = 1;
 }
-
-
-

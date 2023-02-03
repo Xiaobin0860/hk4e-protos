@@ -8,6 +8,3 @@ message JigsawPictureData {
 	bool isOpen = 4;
 	bool isFinished = 8;
 }
-
-
-

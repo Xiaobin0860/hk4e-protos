@@ -13,6 +13,3 @@ message VintagePresentFinishNoify {
 
 	uint32 presentId = 7;
 }
-
-
-

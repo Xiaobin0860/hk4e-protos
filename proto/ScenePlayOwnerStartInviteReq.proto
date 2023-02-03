@@ -15,6 +15,3 @@ message ScenePlayOwnerStartInviteReq {
 	bool isSkipMatch = 11;
 	uint32 playId = 7;
 }
-
-
-

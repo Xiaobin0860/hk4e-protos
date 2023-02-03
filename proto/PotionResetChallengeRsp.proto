@@ -16,6 +16,3 @@ message PotionResetChallengeRsp {
 	PotionStageData stageData = 7;
 	int32 retcode = 13;
 }
-
-
-

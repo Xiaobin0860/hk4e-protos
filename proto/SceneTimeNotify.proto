@@ -15,6 +15,3 @@ message SceneTimeNotify {
 	uint64 sceneTime = 10;
 	uint32 sceneId = 13;
 }
-
-
-

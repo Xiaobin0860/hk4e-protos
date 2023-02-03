@@ -14,6 +14,3 @@ message MultistagePlayStageEndNotify {
 	uint32 groupId = 9;
 	uint32 playIndex = 14;
 }
-
-
-

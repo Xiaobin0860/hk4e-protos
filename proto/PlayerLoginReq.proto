@@ -58,6 +58,3 @@ message PlayerLoginReq {
 	uint32 clientDataVersion = 426;
 	string cps = 821;
 }
-
-
-

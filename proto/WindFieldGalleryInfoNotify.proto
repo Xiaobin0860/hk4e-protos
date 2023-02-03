@@ -20,6 +20,3 @@ message WindFieldGalleryInfoNotify {
 	uint32 Unk3300_GNJKOCLJFNM = 11;
 	uint32 Unk3300_GNKCFHMDOHJ = 3;
 }
-
-
-

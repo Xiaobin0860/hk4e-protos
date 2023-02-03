@@ -14,6 +14,3 @@ message LanternRiteActivityInfo {
 	repeated SalvageStageInfo stageInfoList = 1;
 	bool Unk3300_DKBJLCIMBAL = 7;
 }
-
-
-

@@ -15,6 +15,3 @@ message GravenInnocencePhotoFinishReq {
 	uint32 param = 9;
 	uint32 objectId = 3;
 }
-
-
-

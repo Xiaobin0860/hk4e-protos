@@ -52,6 +52,3 @@ message PlayerLoginRsp {
 	int32 abilityHashCode = 13;
 	string nextResourceUrl = 1095;
 }
-
-
-

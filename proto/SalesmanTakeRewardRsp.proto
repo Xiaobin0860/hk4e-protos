@@ -16,6 +16,3 @@ message SalesmanTakeRewardRsp {
 	int32 retcode = 7;
 	uint32 position = 6;
 }
-
-
-

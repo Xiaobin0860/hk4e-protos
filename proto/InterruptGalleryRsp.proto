@@ -15,6 +15,3 @@ message InterruptGalleryRsp {
 	int32 retcode = 15;
 	uint32 galleryId = 9;
 }
-
-
-

@@ -8,6 +8,3 @@ message InBattleMechanicusBuildingInfo {
 	uint32 knajgcafgjo = 14;
 	uint32 costPoints = 4;
 }
-
-
-

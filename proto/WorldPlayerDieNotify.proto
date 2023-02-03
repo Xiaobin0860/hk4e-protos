@@ -20,6 +20,3 @@ message WorldPlayerDieNotify {
 		uint32 gadget_id = 4;
 	}
 }
-
-
-

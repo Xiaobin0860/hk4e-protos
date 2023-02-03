@@ -13,6 +13,3 @@ message PlayerRandomCookRsp {
 
 	int32 retcode = 13;
 }
-
-
-

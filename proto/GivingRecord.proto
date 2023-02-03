@@ -11,6 +11,3 @@ message GivingRecord {
 	bool isFinished = 1;
 	map<uint32, uint32> materialCountMap = 10;
 }
-
-
-

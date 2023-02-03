@@ -16,6 +16,3 @@ message HomeExchangeWoodRsp {
 	uint32 exchangedCount = 2;
 	uint32 woodCount = 5;
 }
-
-
-

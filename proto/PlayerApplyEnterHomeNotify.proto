@@ -16,6 +16,3 @@ message PlayerApplyEnterHomeNotify {
 	OnlinePlayerInfo srcPlayerInfo = 7;
 	uint32 srcAppId = 13;
 }
-
-
-

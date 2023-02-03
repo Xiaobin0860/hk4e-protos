@@ -8,6 +8,3 @@ enum GCGClientPerformType {
   GCG_PERFORM_FIRST_HAND    = 2;
   GCG_PERFORM_REROLL        = 3;
 }
-
-
-

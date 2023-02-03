@@ -16,6 +16,3 @@ message UnionCmdNotify {
 
 	repeated UnionCmd cmdList = 11;
 }
-
-
-

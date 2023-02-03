@@ -16,6 +16,3 @@ message FungusFighterDetailInfo {
 	repeated FungusPlotStageDetail plotStageDetailList = 6;
 	repeated FungusTrainingDungeonDetail trainingDungeonDetailList = 12;
 }
-
-
-

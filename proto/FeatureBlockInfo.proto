@@ -6,6 +6,3 @@ message FeatureBlockInfo {
 	uint32 featureType = 1;
 	uint32 endTime = 2;
 }
-
-
-

@@ -6,6 +6,3 @@ enum UgcType {
   UGC_TYPE_NONE       = 0;
   UGC_TYPE_MUSIC_GAME = 1;
 }
-
-
-

@@ -15,6 +15,3 @@ message GalleryBounceConjuringHitNotify {
 	uint32 galleryId = 7;
 	uint32 addScore = 14;
 }
-
-
-

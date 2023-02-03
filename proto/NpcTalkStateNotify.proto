@@ -13,6 +13,3 @@ message NpcTalkStateNotify {
 
 	bool isBan = 1;
 }
-
-
-

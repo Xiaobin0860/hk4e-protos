@@ -14,6 +14,3 @@ message AvatarFlycloakChangeNotify {
 	uint32 flycloakId = 4;
 	uint64 avatarGuid = 12;
 }
-
-
-

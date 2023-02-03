@@ -6,6 +6,3 @@ message MMJFCJAIBBG {
 	string createTime = 1;
 	string value = 2;
 }
-
-
-

@@ -15,6 +15,3 @@ message PlayerRoutineDataNotify {
 
 	repeated PlayerRoutineInfo routineInfoList = 12;
 }
-
-
-

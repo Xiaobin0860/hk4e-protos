@@ -8,6 +8,3 @@ message ClientPerform {
 	GCGClientPerformType performType = 2;
 	repeated uint32 paramList = 5;
 }
-
-
-

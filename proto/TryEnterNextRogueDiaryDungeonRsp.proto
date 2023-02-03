@@ -13,6 +13,3 @@ message TryEnterNextRogueDiaryDungeonRsp {
 
 	int32 retcode = 13;
 }
-
-
-

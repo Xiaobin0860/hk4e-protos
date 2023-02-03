@@ -9,6 +9,3 @@ message JKJCMOIMBCH {
 	string transaction = 5;
 	GalleryStopReason reason = 13;
 }
-
-
-

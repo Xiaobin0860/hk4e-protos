@@ -18,6 +18,3 @@ message InstableSprayEnterDungeonReq {
 	repeated InstableSprayAvatarInfo avatarInfoList = 8;
 	uint32 difficulty = 1;
 }
-
-
-

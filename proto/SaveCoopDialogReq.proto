@@ -15,6 +15,3 @@ message SaveCoopDialogReq {
 	uint32 Unk3300_AMKDDJEPAKM = 1;
 	uint32 Unk3300_KMBGNIICNAF = 6;
 }
-
-
-

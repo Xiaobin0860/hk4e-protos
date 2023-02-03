@@ -22,6 +22,3 @@ message PlayerStartMatchRsp {
 	uint32 mpPlayId = 9;
 	uint32 mechanicusDifficultLevel = 12;
 }
-
-
-

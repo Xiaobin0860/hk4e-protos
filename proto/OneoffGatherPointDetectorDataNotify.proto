@@ -15,6 +15,3 @@ message OneoffGatherPointDetectorDataNotify {
 
 	repeated DetectorData oneoffGatherPointDetectorDataList = 10;
 }
-
-
-

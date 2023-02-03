@@ -15,6 +15,3 @@ message FungusFighterTrainingSelectFungusReq {
 	repeated uint32 backupFungusIdList = 5;
 	repeated uint32 fightFungusIdList = 2;
 }
-
-
-

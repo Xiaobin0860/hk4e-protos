@@ -11,6 +11,3 @@ message IrodoriMasterGallerySettleInfo {
 	uint32 finishTime = 15;
 	uint32 levelId = 7;
 }
-
-
-

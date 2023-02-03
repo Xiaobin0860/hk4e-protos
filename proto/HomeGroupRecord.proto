@@ -16,6 +16,3 @@ message HomeGroupRecord {
 		SeekFurnitureGalleryInfo seek_furniture_gallery_info = 1801;
 	}
 }
-
-
-

@@ -35,6 +35,3 @@ message GCGDuel {
 	uint32 gameId = 9;
 	uint32 Unk3300_JBBMBKGOONO = 13;
 }
-
-
-

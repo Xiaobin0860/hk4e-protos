@@ -7,6 +7,3 @@ enum LunaRiteHintStatusType {
   LUNA_RITE_HINT_STATUS_NO_COUNT = 1;
   LUNA_RITE_HINT_STATUS_FINISH   = 2;
 }
-
-
-

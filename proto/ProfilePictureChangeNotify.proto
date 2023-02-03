@@ -16,6 +16,3 @@ message ProfilePictureChangeNotify {
 
 	ProfilePicture profilePicture = 13;
 }
-
-
-

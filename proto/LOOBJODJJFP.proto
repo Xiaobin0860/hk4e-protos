@@ -8,6 +8,3 @@ message LOOBJODJJFP {
 	Vector spawnPos = 15;
 	uint32 guid = 8;
 }
-
-
-

@@ -17,6 +17,3 @@ message ForgeDataNotify {
 	map<uint32, ForgeQueueData> forgeQueueMap = 14;
 	repeated uint32 forgeIdList = 4;
 }
-
-
-

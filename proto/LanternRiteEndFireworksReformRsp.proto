@@ -21,6 +21,3 @@ message LanternRiteEndFireworksReformRsp {
 	bool Unk3300_CGJNBGAKFAD = 11;
 	bool isNewRecord = 12;
 }
-
-
-

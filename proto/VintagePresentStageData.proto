@@ -11,6 +11,3 @@ message VintagePresentStageData {
 	map<uint32, VintagePresentLevelData> presentLevelMap = 7;
 	uint32 stageId = 15;
 }
-
-
-

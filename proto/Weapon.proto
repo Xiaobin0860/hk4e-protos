@@ -8,6 +8,3 @@ message Weapon {
 	uint32 promoteLevel = 3;
 	map<uint32, uint32> affixMap = 4;
 }
-
-
-

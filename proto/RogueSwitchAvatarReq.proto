@@ -17,6 +17,3 @@ message RogueSwitchAvatarReq {
 	uint32 cellId = 8;
 	uint32 dungeonId = 1;
 }
-
-
-

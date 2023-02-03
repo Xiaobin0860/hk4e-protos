@@ -13,6 +13,3 @@ message EnterRogueDiaryDungeonRsp {
 
 	int32 retcode = 2;
 }
-
-
-

@@ -8,6 +8,3 @@ message PlayerWorldLocationInfo {
 	uint32 sceneId = 4;
 	PlayerLocationInfo playerLoc = 1;
 }
-
-
-

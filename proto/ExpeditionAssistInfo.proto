@@ -9,6 +9,3 @@ message ExpeditionAssistInfo {
 	uint32 costumeId = 15;
 	string onlineId = 13;
 }
-
-
-

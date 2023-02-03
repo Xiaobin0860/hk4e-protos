@@ -16,6 +16,3 @@ message FleurFairMusicGameSettleRsp {
 	bool isUnlockNextLevel = 7;
 	int32 retcode = 3;
 }
-
-
-

@@ -15,6 +15,3 @@ message AntiAddictNotify {
 	string level = 14;
 	int32 msgType = 13;
 }
-
-
-

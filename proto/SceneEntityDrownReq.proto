@@ -14,6 +14,3 @@ message SceneEntityDrownReq {
 
 	uint32 entityId = 14;
 }
-
-
-

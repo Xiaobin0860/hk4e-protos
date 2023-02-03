@@ -8,6 +8,3 @@ message ELFNDEIADMP {
 	Vector rot = 10;
 	Vector pos = 14;
 }
-
-
-

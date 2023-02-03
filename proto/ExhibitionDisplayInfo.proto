@@ -7,6 +7,3 @@ message ExhibitionDisplayInfo {
 	uint32 param = 2;
 	uint32 detailParam = 3;
 }
-
-
-

@@ -22,6 +22,3 @@ message AvatarEquipChangeNotify {
 	uint64 avatarGuid = 15;
 	SceneWeaponInfo weapon = 10;
 }
-
-
-

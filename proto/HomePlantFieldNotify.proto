@@ -15,6 +15,3 @@ message HomePlantFieldNotify {
 
 	HomePlantFieldData field = 4;
 }
-
-
-

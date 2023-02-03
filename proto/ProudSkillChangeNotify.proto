@@ -16,6 +16,3 @@ message ProudSkillChangeNotify {
 	repeated uint32 proudSkillList = 10;
 	uint32 skillDepotId = 15;
 }
-
-
-

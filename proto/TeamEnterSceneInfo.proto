@@ -10,6 +10,3 @@ message TeamEnterSceneInfo {
 	AbilityControlBlock abilityControlBlock = 12;
 	AbilitySyncStateInfo teamAbilityInfo = 10;
 }
-
-
-

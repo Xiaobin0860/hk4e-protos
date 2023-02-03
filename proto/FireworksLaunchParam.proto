@@ -8,6 +8,3 @@ message FireworksLaunchParam {
 	FireworksLaunchParamType type = 5;
 	int32 value = 14;
 }
-
-
-

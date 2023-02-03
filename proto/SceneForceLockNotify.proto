@@ -13,6 +13,3 @@ message SceneForceLockNotify {
 
 	repeated uint32 forceIdList = 6;
 }
-
-
-

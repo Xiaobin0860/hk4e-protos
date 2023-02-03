@@ -12,6 +12,3 @@ message SummerTimeV2Info {
 	uint32 Unk3300_JHBCHFHAGFO = 14;
 	repeated SummerTimeV2DungeonStageInfo dungeonStageInfoList = 11;
 }
-
-
-

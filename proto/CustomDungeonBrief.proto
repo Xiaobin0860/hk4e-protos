@@ -19,6 +19,3 @@ message CustomDungeonBrief {
 	uint32 battleMinCostTime = 2;
 	uint32 dungeonId = 6;
 }
-
-
-

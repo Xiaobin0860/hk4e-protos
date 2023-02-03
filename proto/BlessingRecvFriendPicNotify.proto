@@ -14,6 +14,3 @@ message BlessingRecvFriendPicNotify {
 	uint32 uid = 15;
 	uint32 picId = 14;
 }
-
-
-

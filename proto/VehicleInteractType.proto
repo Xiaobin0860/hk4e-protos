@@ -7,6 +7,3 @@ enum VehicleInteractType {
   VEHICLE_INTERACT_IN   = 1;
   VEHICLE_INTERACT_OUT  = 2;
 }
-
-
-

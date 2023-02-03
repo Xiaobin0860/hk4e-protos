@@ -18,6 +18,3 @@ message ChatInfo {
 	uint32 sequence = 2;
 	uint32 time = 11;
 }
-
-
-

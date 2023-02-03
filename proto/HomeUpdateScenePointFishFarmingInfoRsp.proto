@@ -13,6 +13,3 @@ message HomeUpdateScenePointFishFarmingInfoRsp {
 
 	int32 retcode = 15;
 }
-
-
-

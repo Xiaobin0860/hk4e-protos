@@ -16,6 +16,3 @@ message HomeUpdateScenePointFishFarmingInfoReq {
 
 	HomeScenePointFishFarmingInfo fishFarmingInfo = 10;
 }
-
-
-

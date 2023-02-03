@@ -15,6 +15,3 @@ message SelectWorktopOptionReq {
 	uint32 optionId = 1;
 	uint32 gadgetEntityId = 15;
 }
-
-
-

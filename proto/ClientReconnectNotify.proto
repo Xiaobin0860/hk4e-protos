@@ -15,6 +15,3 @@ message ClientReconnectNotify {
 
 	ClientReconnectReason reason = 1;
 }
-
-
-

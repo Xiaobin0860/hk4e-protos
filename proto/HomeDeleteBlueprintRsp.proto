@@ -14,6 +14,3 @@ message HomeDeleteBlueprintRsp {
 	int32 retcode = 9;
 	uint32 slotId = 10;
 }
-
-
-

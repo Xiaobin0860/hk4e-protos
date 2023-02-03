@@ -13,6 +13,3 @@ message DungeonGetStatueDropRsp {
 
 	int32 retcode = 14;
 }
-
-
-

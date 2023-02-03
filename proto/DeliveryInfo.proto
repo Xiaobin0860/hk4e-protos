@@ -7,6 +7,3 @@ message DeliveryInfo {
 	repeated uint32 finishedDeliveryQuestIndex = 7;
 	bool isTakenReward = 4;
 }
-
-
-

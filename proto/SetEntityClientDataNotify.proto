@@ -17,6 +17,3 @@ message SetEntityClientDataNotify {
 	uint32 entityId = 15;
 	EntityClientData entityClientData = 13;
 }
-
-
-

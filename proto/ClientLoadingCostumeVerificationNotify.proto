@@ -16,6 +16,3 @@ message ClientLoadingCostumeVerificationNotify {
 	uint32 costumeId = 8;
 	uint64 guid = 13;
 }
-
-
-

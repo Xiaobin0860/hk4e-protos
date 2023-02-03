@@ -16,6 +16,3 @@ message LuaEnvironmentEffectNotify {
 	string effectAlias = 13;
 	repeated int32 intParamList = 1;
 }
-
-
-

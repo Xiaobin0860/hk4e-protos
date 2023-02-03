@@ -19,6 +19,3 @@ message PotionEnterDungeonNotify {
 	uint32 levelId = 14;
 	uint32 modeId = 6;
 }
-
-
-

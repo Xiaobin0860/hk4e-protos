@@ -19,6 +19,3 @@ message TakeCityReputationParentQuestRsp {
 	uint32 cityId = 13;
 	repeated ItemParam itemList = 11;
 }
-
-
-

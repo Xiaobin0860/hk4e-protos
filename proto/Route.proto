@@ -8,6 +8,3 @@ message Route {
 	repeated RoutePoint routePoints = 1;
 	uint32 routeType = 2;
 }
-
-
-

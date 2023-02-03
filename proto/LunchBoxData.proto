@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message LunchBoxData {
 	map<uint32, uint32> slotMaterialMap = 6;
 }
-
-
-

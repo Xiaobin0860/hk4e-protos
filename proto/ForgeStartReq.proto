@@ -16,6 +16,3 @@ message ForgeStartReq {
 	uint32 forgeCount = 6;
 	uint32 forgeId = 3;
 }
-
-
-

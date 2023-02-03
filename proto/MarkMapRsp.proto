@@ -16,6 +16,3 @@ message MarkMapRsp {
 	int32 retcode = 1;
 	repeated MapMarkPoint markList = 5;
 }
-
-
-

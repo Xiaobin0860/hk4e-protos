@@ -11,6 +11,3 @@ message SeaLampV3Info {
 	MEIDIANHEDD campInfo = 11;
 	FKJCFGLHNPM jpegcngalgi = 3;
 }
-
-
-

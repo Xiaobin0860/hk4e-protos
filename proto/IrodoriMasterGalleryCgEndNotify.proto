@@ -15,6 +15,3 @@ message IrodoriMasterGalleryCgEndNotify {
 	uint32 galleryId = 5;
 	uint32 levelId = 1;
 }
-
-
-

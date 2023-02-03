@@ -13,6 +13,3 @@ message MichiaeMatsuriStartBossChallengeRsp {
 
 	int32 retcode = 15;
 }
-
-
-

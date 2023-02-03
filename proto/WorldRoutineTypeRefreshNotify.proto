@@ -15,6 +15,3 @@ message WorldRoutineTypeRefreshNotify {
 
 	WorldRoutineTypeInfo worldRoutineType = 15;
 }
-
-
-

@@ -14,6 +14,3 @@ message RoguelikeGiveUpReq {
 
 	uint32 stageId = 14;
 }
-
-
-

@@ -10,6 +10,3 @@ message SalvagePreventGallerySettleInfo {
 	SalvagePreventStopReason reason = 2;
 	uint32 monsterCount = 3;
 }
-
-
-

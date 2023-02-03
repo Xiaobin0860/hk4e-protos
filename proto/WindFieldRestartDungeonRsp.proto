@@ -13,6 +13,3 @@ message WindFieldRestartDungeonRsp {
 
 	int32 retcode = 3;
 }
-
-
-

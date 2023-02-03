@@ -13,6 +13,3 @@ message VintageCampGroupBundleRegisterNotify {
 
 	uint32 groupBundleId = 5;
 }
-
-
-

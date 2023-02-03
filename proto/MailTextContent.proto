@@ -7,6 +7,3 @@ message MailTextContent {
 	string content = 2;
 	string sender = 3;
 }
-
-
-

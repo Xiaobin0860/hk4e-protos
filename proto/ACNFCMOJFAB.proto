@@ -7,6 +7,3 @@ import "BOIPHJCFLBK.proto";
 message ACNFCMOJFAB {
 	repeated BOIPHJCFLBK ecpfngapbhc = 14;
 }
-
-
-

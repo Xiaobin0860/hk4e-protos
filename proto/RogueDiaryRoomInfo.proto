@@ -9,6 +9,3 @@ message RogueDiaryRoomInfo {
 	bool isBoss = 4;
 	uint32 configId = 14;
 }
-
-
-

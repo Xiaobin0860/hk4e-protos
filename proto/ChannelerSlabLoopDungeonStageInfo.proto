@@ -11,6 +11,3 @@ message ChannelerSlabLoopDungeonStageInfo {
 	bool isOpen = 8;
 	repeated uint32 takenRewardIndexList = 9;
 }
-
-
-

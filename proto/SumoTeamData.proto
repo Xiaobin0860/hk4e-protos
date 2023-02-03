@@ -8,6 +8,3 @@ message SumoTeamData {
 	repeated SumoAvatarInfo avatarInfoList = 10;
 	repeated uint32 skillIdList = 8;
 }
-
-
-

@@ -15,6 +15,3 @@ message MechanicusLevelupGearReq {
 	uint32 mechanicusId = 6;
 	uint32 gearId = 10;
 }
-
-
-

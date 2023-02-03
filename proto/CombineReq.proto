@@ -16,6 +16,3 @@ message CombineReq {
 	uint32 combineId = 8;
 	uint64 avatarGuid = 15;
 }
-
-
-

@@ -13,6 +13,3 @@ message PotionEnterDungeonRsp {
 
 	int32 retcode = 12;
 }
-
-
-

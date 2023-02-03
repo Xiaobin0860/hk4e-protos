@@ -10,6 +10,3 @@ message ArenaChallengeActivityDetailInfo {
 	repeated ArenaChallengeMonsterLevel levelList = 7;
 	bool isFinishAnyLevel = 5;
 }
-
-
-

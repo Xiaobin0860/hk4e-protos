@@ -11,6 +11,3 @@ message GCGMsgRemoveCards {
 	uint32 controllerId = 4;
 	GCGReason reason = 6;
 }
-
-
-

@@ -15,6 +15,3 @@ message IrodoriMasterStartGalleryReq {
 	uint32 levelId = 3;
 	uint32 difficulty = 5;
 }
-
-
-

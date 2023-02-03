@@ -18,6 +18,3 @@ message BuyGoodsReq {
 	uint32 shopType = 5;
 	ShopGoods goods = 3;
 }
-
-
-

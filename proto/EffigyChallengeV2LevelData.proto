@@ -10,6 +10,3 @@ message EffigyChallengeV2LevelData {
 	uint32 acjpagacphl = 7;
 	uint32 lhhbbgpaiin = 9;
 }
-
-
-

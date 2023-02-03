@@ -14,6 +14,3 @@ message GetGameplayRecommendationRsp {
 
 	uint32 givingId = 10;
 }
-
-
-

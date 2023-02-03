@@ -8,6 +8,3 @@ message ChallengeRecord {
 	uint32 challengeId = 3;
 	uint32 challengeRecordType = 5;
 }
-
-
-

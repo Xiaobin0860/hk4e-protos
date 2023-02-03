@@ -15,6 +15,3 @@ message PlayerPropNotify {
 
 	map<uint32, PropValue> propMap = 5;
 }
-
-
-

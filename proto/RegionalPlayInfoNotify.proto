@@ -19,6 +19,3 @@ message RegionalPlayInfoNotify {
 	bool isEnabled = 2;
 	bool isInRegion = 7;
 }
-
-
-

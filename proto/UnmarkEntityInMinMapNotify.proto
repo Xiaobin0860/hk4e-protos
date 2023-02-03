@@ -13,6 +13,3 @@ message UnmarkEntityInMinMapNotify {
 
 	uint32 entityId = 2;
 }
-
-
-

@@ -7,6 +7,3 @@ import "HomeStakePlayRecord.proto";
 message StakePlayInfo {
 	repeated HomeStakePlayRecord recordList = 14;
 }
-
-
-

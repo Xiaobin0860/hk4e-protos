@@ -9,6 +9,3 @@ message SummerTimeDungeonInfo {
 	uint32 Unk3300_GMKMNHIBPEP = 4;
 	uint32 Unk3300_EGGFJCICOBD = 13;
 }
-
-
-

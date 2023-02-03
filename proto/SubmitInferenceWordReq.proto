@@ -15,6 +15,3 @@ message SubmitInferenceWordReq {
 	uint32 pageId = 13;
 	uint32 wordId = 9;
 }
-
-
-

@@ -16,6 +16,3 @@ message LuaSetOptionNotify {
 	string luaSetParam = 4;
 	LuaOptionType optionType = 14;
 }
-
-
-

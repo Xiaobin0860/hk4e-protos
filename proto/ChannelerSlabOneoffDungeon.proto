@@ -7,6 +7,3 @@ message ChannelerSlabOneoffDungeon {
 	uint32 rewardId = 12;
 	uint32 dungeonId = 15;
 }
-
-
-

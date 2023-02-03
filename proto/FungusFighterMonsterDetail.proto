@@ -7,6 +7,3 @@ message FungusFighterMonsterDetail {
 	uint32 fungusId = 10;
 	bool isAlive = 12;
 }
-
-
-

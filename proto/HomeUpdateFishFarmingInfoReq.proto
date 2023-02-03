@@ -16,6 +16,3 @@ message HomeUpdateFishFarmingInfoReq {
 
 	HomeFishFarmingInfo fishFarmingInfo = 3;
 }
-
-
-

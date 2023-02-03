@@ -13,6 +13,3 @@ message MetNpcIdListNotify {
 
 	repeated uint32 npcFirstMetIdList = 9;
 }
-
-
-

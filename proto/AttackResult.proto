@@ -39,6 +39,3 @@ message AttackResult {
 	float elementAmplifyRate = 1858;
 	uint32 Unk3300_ABJJNNNKGBB = 888;
 }
-
-
-

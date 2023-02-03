@@ -18,6 +18,3 @@ message UnlockPersonalLineRsp {
 		uint32 chapter_id = 14;
 	}
 }
-
-
-

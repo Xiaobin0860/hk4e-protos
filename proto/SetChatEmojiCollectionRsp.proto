@@ -13,6 +13,3 @@ message SetChatEmojiCollectionRsp {
 
 	int32 retcode = 12;
 }
-
-
-

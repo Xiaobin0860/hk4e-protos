@@ -19,6 +19,3 @@ message BatchBuyGoodsRsp {
 	uint32 shopType = 14;
 	repeated BuyGoodsParam buyGoodsList = 3;
 }
-
-
-

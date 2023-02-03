@@ -15,6 +15,3 @@ message HomeSetBlueprintSlotOptionRsp {
 	uint32 slotId = 2;
 	bool isAllowCopy = 1;
 }
-
-
-

@@ -6,6 +6,3 @@ message FurnitureMakeHelpData {
 	uint32 times = 2;
 	uint32 uid = 6;
 }
-
-
-

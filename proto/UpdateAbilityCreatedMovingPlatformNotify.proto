@@ -17,6 +17,3 @@ message UpdateAbilityCreatedMovingPlatformNotify {
 	uint32 entityId = 4;
 	OpType opType = 6;
 }
-
-
-

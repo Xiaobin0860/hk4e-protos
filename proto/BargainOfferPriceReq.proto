@@ -15,6 +15,3 @@ message BargainOfferPriceReq {
 	uint32 bargainId = 12;
 	uint32 price = 7;
 }
-
-
-

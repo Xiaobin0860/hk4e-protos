@@ -15,6 +15,3 @@ message NightCrowGadgetObservationMatchReq {
 	uint32 gadgetEntityId = 7;
 	uint32 targetGadgetState = 9;
 }
-
-
-

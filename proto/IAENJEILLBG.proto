@@ -6,6 +6,3 @@ message IAENJEILLBG {
 	uint32 controllerId = 7;
 	repeated uint32 cardIdList = 9;
 }
-
-
-

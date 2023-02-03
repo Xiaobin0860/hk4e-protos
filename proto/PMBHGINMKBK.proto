@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message PMBHGINMKBK {
 	float lahjfbdcfko = 1;
 }
-
-
-

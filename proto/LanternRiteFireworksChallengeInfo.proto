@@ -7,6 +7,3 @@ message LanternRiteFireworksChallengeInfo {
 	uint32 bestScore = 14;
 	uint32 challengeId = 15;
 }
-
-
-

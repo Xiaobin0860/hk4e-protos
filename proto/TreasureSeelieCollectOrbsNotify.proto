@@ -14,6 +14,3 @@ message TreasureSeelieCollectOrbsNotify {
 	uint32 currentNum = 1;
 	uint32 totalNum = 9;
 }
-
-
-

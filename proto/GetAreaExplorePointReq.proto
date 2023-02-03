@@ -14,6 +14,3 @@ message GetAreaExplorePointReq {
 
 	repeated uint32 areaIdList = 5;
 }
-
-
-

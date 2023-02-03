@@ -20,6 +20,3 @@ message CustomDungeonRecoverNotify {
 	repeated uint32 officialBlackCoinList = 14;
 	CustomDungeon customDungeon = 3;
 }
-
-
-

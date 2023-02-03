@@ -16,6 +16,3 @@ message HomeAvatarSummonEventReq {
 	uint32 avatarId = 11;
 	uint32 suitId = 2;
 }
-
-
-

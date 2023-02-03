@@ -16,6 +16,3 @@ message GetPlayerSocialDetailRsp {
 	SocialDetail detailData = 15;
 	int32 retcode = 14;
 }
-
-
-

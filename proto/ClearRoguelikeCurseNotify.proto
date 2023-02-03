@@ -16,6 +16,3 @@ message ClearRoguelikeCurseNotify {
 	map<uint32, uint32> clearCurseMap = 12;
 	uint32 cardId = 6;
 }
-
-
-

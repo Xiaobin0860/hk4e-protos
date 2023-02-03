@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message AGEEAJGINIF {
 	bytes value = 1;
 }
-
-
-

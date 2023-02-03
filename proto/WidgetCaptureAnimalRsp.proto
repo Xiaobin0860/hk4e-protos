@@ -18,6 +18,3 @@ message WidgetCaptureAnimalRsp {
 	Vector pos = 12;
 	int32 retcode = 3;
 }
-
-
-

@@ -12,6 +12,3 @@ message HomeMarkPointSceneData {
 	Vector safePointPos = 10;
 	Vector teapotSpiritPos = 8;
 }
-
-
-

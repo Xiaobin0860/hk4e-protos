@@ -14,6 +14,3 @@ message ClientPauseNotify {
 
 	bool isOpen = 10;
 }
-
-
-

@@ -13,6 +13,3 @@ message EvtLocalGadgetOwnerLeaveSceneNotify {
 
 	uint32 entityId = 11;
 }
-
-
-

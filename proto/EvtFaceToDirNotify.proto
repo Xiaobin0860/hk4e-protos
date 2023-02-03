@@ -18,6 +18,3 @@ message EvtFaceToDirNotify {
 	ForwardType forwardType = 14;
 	EvtFaceToDirInfo evtFaceToDirInfo = 2;
 }
-
-
-

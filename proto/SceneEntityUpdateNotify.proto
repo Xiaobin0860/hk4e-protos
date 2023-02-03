@@ -18,6 +18,3 @@ message SceneEntityUpdateNotify {
 	uint32 param = 2;
 	repeated SceneEntityInfo entityList = 7;
 }
-
-
-

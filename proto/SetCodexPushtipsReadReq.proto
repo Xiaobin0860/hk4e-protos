@@ -15,6 +15,3 @@ message SetCodexPushtipsReadReq {
 	uint32 typeId = 10;
 	uint32 codexId = 2;
 }
-
-
-

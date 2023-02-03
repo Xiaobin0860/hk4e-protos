@@ -8,6 +8,3 @@ message SignInData {
 	uint32 dayCount = 3;
 	repeated ItemParam rewardItemList = 1;
 }
-
-
-

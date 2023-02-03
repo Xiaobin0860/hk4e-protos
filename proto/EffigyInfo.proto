@@ -10,6 +10,3 @@ message EffigyInfo {
 	uint32 curScore = 5;
 	uint32 lastDifficultyId = 10;
 }
-
-
-

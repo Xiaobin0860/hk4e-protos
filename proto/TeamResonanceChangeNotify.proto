@@ -15,6 +15,3 @@ message TeamResonanceChangeNotify {
 
 	repeated AvatarTeamResonanceInfo infoList = 3;
 }
-
-
-

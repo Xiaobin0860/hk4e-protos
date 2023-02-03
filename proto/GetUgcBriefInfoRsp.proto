@@ -21,6 +21,3 @@ message GetUgcBriefInfoRsp {
 		MusicBriefInfo music_brief_info = 8;
 	}
 }
-
-
-

@@ -6,6 +6,3 @@ message CookRecipeData {
 	uint32 proficiency = 1;
 	uint32 recipeId = 6;
 }
-
-
-

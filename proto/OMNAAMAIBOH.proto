@@ -8,6 +8,3 @@ message OMNAAMAIBOH {
 	uint32 stageId = 12;
 	uint32 levelId = 5;
 }
-
-
-

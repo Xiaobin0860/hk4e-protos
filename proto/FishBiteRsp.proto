@@ -13,6 +13,3 @@ message FishBiteRsp {
 
 	int32 retcode = 14;
 }
-
-
-

@@ -11,6 +11,3 @@ message IrodoriPoetryThemeData {
 	uint32 themeId = 1;
 	uint32 Unk3300_HFMKPNOBPDK = 15;
 }
-
-
-

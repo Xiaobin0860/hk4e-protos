@@ -9,6 +9,3 @@ message FallPlayerInfo {
 	uint32 curScore = 11;
 	bool isGround = 15;
 }
-
-
-

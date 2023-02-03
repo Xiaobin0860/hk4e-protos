@@ -13,6 +13,3 @@ message MpPlayPrepareInterruptNotify {
 
 	uint32 mpPlayId = 10;
 }
-
-
-

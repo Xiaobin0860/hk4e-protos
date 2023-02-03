@@ -19,6 +19,3 @@ message HuntingRevealClueNotify {
 	Vector cluePosition = 5;
 	HuntingPair huntingPair = 4;
 }
-
-
-

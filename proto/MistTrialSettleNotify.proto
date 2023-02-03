@@ -21,6 +21,3 @@ message MistTrialSettleNotify {
 	uint32 dungeonSceneId = 14;
 	map<uint32, uint32> Unk3300_GMPEELLANLI = 11;
 }
-
-
-

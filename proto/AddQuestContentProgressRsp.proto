@@ -14,6 +14,3 @@ message AddQuestContentProgressRsp {
 	uint32 contentType = 13;
 	int32 retcode = 8;
 }
-
-
-

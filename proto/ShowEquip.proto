@@ -12,6 +12,3 @@ message ShowEquip {
 		Weapon weapon = 3;
 	}
 }
-
-
-

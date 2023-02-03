@@ -7,6 +7,3 @@ message FungusTrainingDungeonDetail {
 	uint32 bestScore = 7;
 	uint32 dungeonId = 6;
 }
-
-
-

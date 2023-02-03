@@ -8,6 +8,3 @@ message HandballInfo {
 	PlaceInfo ballPlaceInfo = 11;
 	bool isHaveBall = 7;
 }
-
-
-

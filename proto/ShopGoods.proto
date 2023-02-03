@@ -26,6 +26,3 @@ message ShopGoods {
 	uint32 disableType = 9;
 	uint32 mcoin = 5;
 }
-
-
-

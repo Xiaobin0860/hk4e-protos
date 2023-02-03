@@ -18,6 +18,3 @@ message SceneAudioNotify {
 	uint32 sourceUid = 5;
 	repeated uint32 param1 = 9;
 }
-
-
-

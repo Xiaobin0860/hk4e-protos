@@ -14,6 +14,3 @@ message RoguelikeEffectViewRsp {
 
 	int32 retcode = 1;
 }
-
-
-

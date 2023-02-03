@@ -15,6 +15,3 @@ message SaveCoopDialogRsp {
 	uint32 Unk3300_KMBGNIICNAF = 2;
 	uint32 Unk3300_AMKDDJEPAKM = 14;
 }
-
-
-

@@ -15,6 +15,3 @@ message ClientAIStateNotify {
 	uint32 entityId = 6;
 	uint32 curTactic = 10;
 }
-
-
-

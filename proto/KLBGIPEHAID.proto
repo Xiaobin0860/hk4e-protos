@@ -10,6 +10,3 @@ message KLBGIPEHAID {
 	uint32 entityId = 14;
 	Vector pos = 9;
 }
-
-
-

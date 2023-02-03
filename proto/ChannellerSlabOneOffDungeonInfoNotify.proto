@@ -13,6 +13,3 @@ message ChannellerSlabOneOffDungeonInfoNotify {
 
 	repeated uint32 gihlcdadndf = 9;
 }
-
-
-

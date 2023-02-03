@@ -18,6 +18,3 @@ message StartRogueEliteCellChallengeReq {
 	RogueEliteCellDifficultyType difficulty = 7;
 	uint32 dungeonId = 2;
 }
-
-
-

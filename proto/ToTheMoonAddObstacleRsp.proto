@@ -17,6 +17,3 @@ message ToTheMoonAddObstacleRsp {
 	int32 queryId = 8;
 	DynamicNodes dynamicNodes = 4;
 }
-
-
-

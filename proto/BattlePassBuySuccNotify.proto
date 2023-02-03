@@ -18,6 +18,3 @@ message BattlePassBuySuccNotify {
 	uint32 scheduleId = 14;
 	repeated ItemParam itemList = 2;
 }
-
-
-

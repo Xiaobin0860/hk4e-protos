@@ -17,6 +17,3 @@ message ScenePlayOwnerCheckRsp {
 	uint32 playId = 8;
 	uint32 wrongUid = 6;
 }
-
-
-

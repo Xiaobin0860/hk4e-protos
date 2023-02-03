@@ -8,6 +8,3 @@ enum DungeonEntryBlockReason {
   DUNGEON_ENTRY_REASON_QUEST   = 2;
   DUNGEON_ENTRY_REASON_MULIPLE = 3;
 }
-
-
-

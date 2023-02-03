@@ -15,6 +15,3 @@ message AvatarWearFlycloakReq {
 	uint64 avatarGuid = 13;
 	uint32 flycloakId = 14;
 }
-
-
-

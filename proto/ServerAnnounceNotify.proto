@@ -15,6 +15,3 @@ message ServerAnnounceNotify {
 
 	repeated AnnounceData announceDataList = 1;
 }
-
-
-

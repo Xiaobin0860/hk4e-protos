@@ -12,6 +12,3 @@ message ChannelerSlabChallengeStage {
 	uint32 stageId = 13;
 	bool isOpen = 1;
 }
-
-
-

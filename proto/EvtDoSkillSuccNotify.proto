@@ -20,6 +20,3 @@ message EvtDoSkillSuccNotify {
 	uint32 casterId = 2;
 	Vector forward = 14;
 }
-
-
-

@@ -14,6 +14,3 @@ message HomeChangeModuleRsp {
 	uint32 targetModuleId = 11;
 	int32 retcode = 13;
 }
-
-
-

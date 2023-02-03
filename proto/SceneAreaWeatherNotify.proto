@@ -17,6 +17,3 @@ message SceneAreaWeatherNotify {
 	map<uint32, string> weatherValueMap = 7;
 	uint32 weatherAreaId = 13;
 }
-
-
-

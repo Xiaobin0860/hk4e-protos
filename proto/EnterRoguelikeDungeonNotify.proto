@@ -31,6 +31,3 @@ message EnterRoguelikeDungeonNotify {
 	uint32 Unk3300_IIIJDDNJEBB = 13;
 	bool Unk3300_PKPOKOAAOKF = 379;
 }
-
-
-

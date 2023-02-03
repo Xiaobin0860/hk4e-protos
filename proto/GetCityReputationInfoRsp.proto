@@ -17,6 +17,3 @@ message GetCityReputationInfoRsp {
 	uint32 cityId = 6;
 	CityReputationInfo cityReputationInfo = 5;
 }
-
-
-

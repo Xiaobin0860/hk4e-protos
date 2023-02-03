@@ -8,6 +8,3 @@ message LuminanceStoneChallengeActivityDetailInfo {
 	bool leftMonsters = 4;
 	uint32 bkcaehmieec = 11;
 }
-
-
-

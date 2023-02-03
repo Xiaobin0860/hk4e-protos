@@ -10,6 +10,3 @@ message WinterCampFriendWishData {
 	string nickname = 7;
 	ProfilePicture profilePicture = 9;
 }
-
-
-

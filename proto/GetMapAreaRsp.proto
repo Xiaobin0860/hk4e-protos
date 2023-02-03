@@ -16,6 +16,3 @@ message GetMapAreaRsp {
 	repeated MapAreaInfo mapAreaInfoList = 3;
 	int32 retcode = 2;
 }
-
-
-

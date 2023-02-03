@@ -13,6 +13,3 @@ message GadgetPlayUidInfo {
 	uint32 icon = 9;
 	string nickname = 15;
 }
-
-
-

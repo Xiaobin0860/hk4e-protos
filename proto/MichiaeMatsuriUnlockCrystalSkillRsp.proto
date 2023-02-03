@@ -14,6 +14,3 @@ message MichiaeMatsuriUnlockCrystalSkillRsp {
 	uint32 crystalSkillId = 1;
 	int32 retcode = 13;
 }
-
-
-

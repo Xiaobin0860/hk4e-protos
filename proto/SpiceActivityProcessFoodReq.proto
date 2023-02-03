@@ -16,6 +16,3 @@ message SpiceActivityProcessFoodReq {
 
 	repeated ItemParam normalFoodList = 7;
 }
-
-
-

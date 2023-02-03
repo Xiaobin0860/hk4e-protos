@@ -7,6 +7,3 @@ message FungusTrainingMonsterPreviewDetail {
 	uint32 level = 5;
 	repeated uint32 affixList = 11;
 }
-
-
-

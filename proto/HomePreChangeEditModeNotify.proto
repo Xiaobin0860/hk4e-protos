@@ -13,6 +13,3 @@ message HomePreChangeEditModeNotify {
 
 	bool isEnterEditMode = 3;
 }
-
-
-

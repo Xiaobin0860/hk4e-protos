@@ -15,6 +15,3 @@ message QuestProgressUpdateNotify {
 	repeated uint32 failProgressList = 11;
 	repeated uint32 finishProgressList = 1;
 }
-
-
-

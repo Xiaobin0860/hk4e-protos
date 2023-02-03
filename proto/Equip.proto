@@ -12,6 +12,3 @@ message Equip {
 	}
 	bool isLocked = 3;
 }
-
-
-

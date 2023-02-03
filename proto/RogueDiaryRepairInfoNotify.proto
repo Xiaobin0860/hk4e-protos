@@ -24,6 +24,3 @@ message RogueDiaryRepairInfoNotify {
 	repeated RogueDiaryAvatar trialAvatarList = 3;
 	repeated RogueDiaryRoomInfo roomList = 5;
 }
-
-
-

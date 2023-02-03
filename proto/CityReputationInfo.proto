@@ -18,6 +18,3 @@ message CityReputationInfo {
 	CityReputationRequestInfo requestInfo = 2;
 	uint32 nextRefreshTime = 14;
 }
-
-
-

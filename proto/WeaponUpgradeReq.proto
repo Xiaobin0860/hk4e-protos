@@ -18,6 +18,3 @@ message WeaponUpgradeReq {
 	uint64 targetWeaponGuid = 11;
 	repeated uint64 foodWeaponGuidList = 7;
 }
-
-
-

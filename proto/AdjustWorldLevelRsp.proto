@@ -15,6 +15,3 @@ message AdjustWorldLevelRsp {
 	uint32 afterWorldLevel = 15;
 	int32 retcode = 14;
 }
-
-
-

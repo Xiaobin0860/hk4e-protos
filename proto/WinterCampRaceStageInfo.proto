@@ -10,6 +10,3 @@ message WinterCampRaceStageInfo {
 	uint32 openTime = 11;
 	uint32 id = 15;
 }
-
-
-

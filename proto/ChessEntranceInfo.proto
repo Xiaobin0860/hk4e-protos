@@ -9,6 +9,3 @@ message ChessEntranceInfo {
 	uint32 dfpedbghhma = 6;
 	uint32 lfemigkpkdd = 9;
 }
-
-
-

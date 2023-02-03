@@ -18,6 +18,3 @@ message UseMiracleRingReq {
 	Vector rot = 2;
 	uint32 miracleRingOpType = 1;
 }
-
-
-

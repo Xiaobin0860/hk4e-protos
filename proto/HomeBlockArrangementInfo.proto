@@ -27,6 +27,3 @@ message HomeBlockArrangementInfo {
 	uint32 blockId = 2;
 	repeated HomeAnimalData deployAnimalList = 14;
 }
-
-
-

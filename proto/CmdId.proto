@@ -10,6 +10,3 @@ enum CmdId {
     ENET_IS_RELIABLE   = 1;
     IS_ALLOW_CLIENT    = 1;
 }
-
-
-

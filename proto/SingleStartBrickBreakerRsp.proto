@@ -15,6 +15,3 @@ message SingleStartBrickBreakerRsp {
 	uint32 levelId = 11;
 	int32 retcode = 3;
 }
-
-
-

@@ -15,6 +15,3 @@ message GetFriendShowNameCardInfoRsp {
 	uint32 uid = 2;
 	repeated uint32 showNameCardIdList = 15;
 }
-
-
-

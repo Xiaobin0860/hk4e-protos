@@ -9,6 +9,3 @@ message GCGSkillPreviewPlayCardInfo {
 	uint32 targetCardGuid = 9;
 	uint32 handCardGuid = 2;
 }
-
-
-

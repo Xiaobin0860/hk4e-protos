@@ -13,6 +13,3 @@ message ExecuteGroupTriggerRsp {
 
 	int32 retcode = 13;
 }
-
-
-

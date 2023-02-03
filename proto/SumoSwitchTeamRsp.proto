@@ -20,6 +20,3 @@ message SumoSwitchTeamRsp {
 	uint32 Unk3300_DJBJACGHGDM = 13;
 	repeated SumoDungeonTeam dungeonTeamList = 5;
 }
-
-
-

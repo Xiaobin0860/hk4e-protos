@@ -20,6 +20,3 @@ message ActivityCondStateChangeNotify {
 	repeated Uint32Pair disableTransferPointInteractionList = 8;
 	repeated uint32 meetCondList = 13;
 }
-
-
-

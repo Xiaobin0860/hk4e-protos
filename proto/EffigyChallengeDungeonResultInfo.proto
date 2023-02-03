@@ -9,6 +9,3 @@ message EffigyChallengeDungeonResultInfo {
 	bool isSuccess = 2;
 	uint32 challengeId = 10;
 }
-
-
-

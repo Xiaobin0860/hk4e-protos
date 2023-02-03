@@ -7,6 +7,3 @@ message MGKFOCKHAHI {
 	string content = 2;
 	uint32 hkaefdkoeji = 3;
 }
-
-
-

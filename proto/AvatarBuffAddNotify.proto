@@ -15,6 +15,3 @@ message AvatarBuffAddNotify {
 	uint32 buffId = 15;
 	uint64 avatarGuid = 7;
 }
-
-
-

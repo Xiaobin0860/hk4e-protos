@@ -16,6 +16,3 @@ message TakeMaterialDeleteReturnReq {
 
 	MaterialDeleteReturnType type = 6;
 }
-
-
-

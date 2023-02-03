@@ -13,6 +13,3 @@ message LanV3BoatGameTransferFinishNotify {
 
 	bool bllclajlijb = 14;
 }
-
-
-

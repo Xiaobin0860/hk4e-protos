@@ -16,6 +16,3 @@ message DungeonInterruptChallengeRsp {
 	uint32 challengeIndex = 3;
 	int32 retcode = 13;
 }
-
-
-

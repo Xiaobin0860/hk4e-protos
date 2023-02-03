@@ -16,6 +16,3 @@ message ActivityGiveFriendGiftReq {
 	map<uint32, uint32> giftNumMap = 9;
 	uint32 scheduleId = 13;
 }
-
-
-

@@ -16,6 +16,3 @@ message MechanicusLevelupGearRsp {
 	uint32 gearId = 10;
 	uint32 afterGearLevel = 9;
 }
-
-
-

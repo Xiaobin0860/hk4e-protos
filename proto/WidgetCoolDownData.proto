@@ -7,6 +7,3 @@ message WidgetCoolDownData {
 	uint64 coolDownTime = 15;
 	bool isSuccess = 12;
 }
-
-
-

@@ -16,6 +16,3 @@ message Unk3300_DGBNCDEIIFC {
 	repeated uint32 monsterIdList = 8;
 	repeated PlatformType pgnajgkggih = 3;
 }
-
-
-

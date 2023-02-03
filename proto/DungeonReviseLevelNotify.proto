@@ -16,6 +16,3 @@ message DungeonReviseLevelNotify {
 	uint32 sceneLevel = 13;
 	uint32 dungeonId = 12;
 }
-
-
-

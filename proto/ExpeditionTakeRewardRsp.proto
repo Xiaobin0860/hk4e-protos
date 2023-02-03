@@ -16,6 +16,3 @@ message ExpeditionTakeRewardRsp {
 	int32 retcode = 8;
 	bool isBonus = 13;
 }
-
-
-

@@ -16,6 +16,3 @@ message GCGDSChangeCurDeckRsp {
 	bool pofiiedegjn = 11;
 	int32 retcode = 3;
 }
-
-
-

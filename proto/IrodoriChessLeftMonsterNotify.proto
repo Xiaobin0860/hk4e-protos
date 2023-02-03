@@ -13,6 +13,3 @@ message IrodoriChessLeftMonsterNotify {
 
 	uint32 leftMonsters = 6;
 }
-
-
-

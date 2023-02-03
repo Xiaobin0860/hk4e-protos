@@ -11,6 +11,3 @@ message ActivityFriendGiftWishData {
 	string nickname = 9;
 	ProfilePicture profilePicture = 3;
 }
-
-
-

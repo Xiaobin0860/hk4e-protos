@@ -17,6 +17,3 @@ message CalcWeaponUpgradeReturnItemsRsp {
 	uint64 targetWeaponGuid = 9;
 	repeated ItemParam itemParamList = 7;
 }
-
-
-

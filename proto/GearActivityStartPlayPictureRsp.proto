@@ -13,6 +13,3 @@ message GearActivityStartPlayPictureRsp {
 
 	int32 retcode = 2;
 }
-
-
-

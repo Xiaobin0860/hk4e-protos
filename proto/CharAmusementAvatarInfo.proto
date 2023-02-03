@@ -7,6 +7,3 @@ message CharAmusementAvatarInfo {
 	repeated uint32 avatarIdList = 11;
 	uint32 pmahgkplcgi = 1;
 }
-
-
-

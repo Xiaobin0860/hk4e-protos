@@ -8,6 +8,3 @@ message MassivePropSyncInfo {
 	int64 id = 1;
 	repeated MassivePropParam propList = 2;
 }
-
-
-

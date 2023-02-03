@@ -8,6 +8,3 @@ message InferencePageInfo {
 	uint32 pageId = 6;
 	repeated InferenceWordInfo unlockWordList = 8;
 }
-
-
-

@@ -17,6 +17,3 @@ message GetActivityScheduleRsp {
 	int32 retcode = 9;
 	repeated ActivityScheduleInfo activityScheduleList = 12;
 }
-
-
-

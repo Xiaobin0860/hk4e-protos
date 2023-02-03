@@ -15,6 +15,3 @@ message ScenePlayBattleInterruptNotify {
 	uint32 interruptState = 12;
 	uint32 playId = 14;
 }
-
-
-

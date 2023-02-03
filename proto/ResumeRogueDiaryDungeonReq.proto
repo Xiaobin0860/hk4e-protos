@@ -14,6 +14,3 @@ message ResumeRogueDiaryDungeonReq {
 
 	uint32 stageId = 11;
 }
-
-
-

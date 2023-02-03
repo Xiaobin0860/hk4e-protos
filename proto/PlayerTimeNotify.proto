@@ -15,6 +15,3 @@ message PlayerTimeNotify {
 	uint64 serverTime = 15;
 	bool isPaused = 7;
 }
-
-
-

@@ -7,6 +7,3 @@ message ClientCollectorData {
 	uint32 currPoints = 2;
 	uint32 materialId = 13;
 }
-
-
-

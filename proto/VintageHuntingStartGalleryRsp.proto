@@ -13,6 +13,3 @@ message VintageHuntingStartGalleryRsp {
 
 	int32 retcode = 11;
 }
-
-
-

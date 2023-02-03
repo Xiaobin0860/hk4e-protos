@@ -17,6 +17,3 @@ message HomePlantInfoRsp {
 	repeated HomePlantFieldData fieldList = 8;
 	int32 retcode = 10;
 }
-
-
-

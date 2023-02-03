@@ -17,6 +17,3 @@ message DungeonDieOptionReq {
 	PlayerDieOption dieOption = 3;
 	bool isQuitImmediately = 11;
 }
-
-
-

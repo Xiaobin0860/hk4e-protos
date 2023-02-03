@@ -16,6 +16,3 @@ message WidgetQuickHitTreeReq {
 
 	repeated HitTreeInfo hitTreeInfoList = 2;
 }
-
-
-

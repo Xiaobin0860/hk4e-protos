@@ -31,6 +31,3 @@ message MusicGameSettleReq {
 	uint32 Unk3300_AHAGHAHGPLD = 3;
 	uint32 Unk3300_HEPJNCAOEMP = 8;
 }
-
-
-

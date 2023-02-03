@@ -16,6 +16,3 @@ message WeaponAwakenReq {
 	uint64 itemGuid = 2;
 	uint64 targetWeaponGuid = 9;
 }
-
-
-

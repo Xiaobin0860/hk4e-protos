@@ -19,6 +19,3 @@ message SetWidgetSlotReq {
 	WidgetSlotOp op = 3;
 	uint32 materialId = 4;
 }
-
-
-

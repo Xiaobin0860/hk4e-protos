@@ -15,6 +15,3 @@ message ItemRenameAvatarReq {
 	string avatarName = 4;
 	uint32 renameId = 14;
 }
-
-
-

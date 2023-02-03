@@ -13,6 +13,3 @@ message AvatarChangeElementTypeRsp {
 
 	int32 retcode = 15;
 }
-
-
-

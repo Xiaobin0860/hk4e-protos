@@ -8,6 +8,3 @@ enum TryCustomDungeonType {
   TRY_CUSTOM_DUNGEON_ALL           = 2;
   TRY_CUSTOM_DUNGEON_OFFICIAL_PLAY = 3;
 }
-
-
-

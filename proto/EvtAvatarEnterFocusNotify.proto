@@ -29,6 +29,3 @@ message EvtAvatarEnterFocusNotify {
 	uint32 entityId = 2;
 	bool Unk3300_OOOPPHEJKDI = 3;
 }
-
-
-

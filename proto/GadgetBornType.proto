@@ -11,6 +11,3 @@ enum GadgetBornType {
   GADGET_BORN_GADGET      = 5;
   GADGET_BORN_GROUND      = 6;
 }
-
-
-

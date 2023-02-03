@@ -7,6 +7,3 @@ enum BargainResultType {
   BARGAIN_SINGLE_FAIL   = 1;
   BARGAIN_COMPLETE_FAIL = 2;
 }
-
-
-

@@ -17,6 +17,3 @@ message GetBlossomBriefInfoListRsp {
 	int32 retcode = 2;
 	repeated BlossomBriefInfo briefInfoList = 4;
 }
-
-
-

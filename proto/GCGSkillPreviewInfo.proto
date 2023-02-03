@@ -19,6 +19,3 @@ message GCGSkillPreviewInfo {
 	uint32 skillId = 2;
 	repeated GCGSkillPreviewCardInfo Unk3300_DAJFJEDNLKK = 15;
 }
-
-
-

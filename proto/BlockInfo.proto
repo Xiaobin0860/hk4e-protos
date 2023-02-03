@@ -8,6 +8,3 @@ message BlockInfo {
 	bytes binData = 3;
 	bool isDirty = 4;
 }
-
-
-

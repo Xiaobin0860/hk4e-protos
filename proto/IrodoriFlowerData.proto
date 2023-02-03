@@ -8,6 +8,3 @@ message IrodoriFlowerData {
 	repeated uint32 finishedThemeList = 5;
 	repeated ItemParam usedFlowerList = 12;
 }
-
-
-

@@ -9,6 +9,3 @@ message CoopPoint {
 	State state = 5;
 	uint32 selfConfidence = 15;
 }
-
-
-

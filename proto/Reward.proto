@@ -8,6 +8,3 @@ message Reward {
 	uint32 rewardId = 1;
 	repeated ItemParam itemList = 2;
 }
-
-
-

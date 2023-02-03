@@ -8,6 +8,3 @@ enum ChapterState {
   CHAPTER_STATE_BEGIN           = 2;
   CHAPTER_STATE_END             = 3;
 }
-
-
-

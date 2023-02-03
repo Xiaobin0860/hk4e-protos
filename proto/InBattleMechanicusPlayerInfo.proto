@@ -11,6 +11,3 @@ message InBattleMechanicusPlayerInfo {
 	bool kjckjdpeflc = 9;
 	uint32 buildingPoints = 3;
 }
-
-
-

@@ -7,6 +7,3 @@ message SumoDungeonAvatar {
 	bool isTrial = 5;
 	uint64 avatarGuid = 3;
 }
-
-
-

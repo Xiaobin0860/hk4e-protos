@@ -15,6 +15,3 @@ message AvatarEnterSceneInfo {
 	AbilitySyncStateInfo weaponAbilityInfo = 11;
 	uint64 weaponGuid = 14;
 }
-
-
-

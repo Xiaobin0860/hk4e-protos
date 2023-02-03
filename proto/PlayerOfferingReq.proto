@@ -14,6 +14,3 @@ message PlayerOfferingReq {
 
 	uint32 offeringId = 9;
 }
-
-
-

@@ -17,6 +17,3 @@ message PlantFlowerAcceptGiveFlowerRsp {
 	int32 retcode = 12;
 	PlantFlowerAcceptFlowerResultInfo acceptFlowerResultInfo = 14;
 }
-
-
-

@@ -15,6 +15,3 @@ message CoinCollectChooseSkillRsp {
 	int32 retcode = 7;
 	uint32 chooseSkillNo = 1;
 }
-
-
-

@@ -14,6 +14,3 @@ message GCGSettleOptionRsp {
 	int32 retcode = 14;
 	uint32 closeTime = 7;
 }
-
-
-

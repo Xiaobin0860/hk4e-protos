@@ -15,6 +15,3 @@ message PlayerReportRsp {
 	uint32 cdTime = 13;
 	uint32 targetUid = 4;
 }
-
-
-

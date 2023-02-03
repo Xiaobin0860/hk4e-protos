@@ -11,6 +11,3 @@ message AbilityInvokeEntryHead {
 	bool isServerbuffModifier = 10;
 	int32 modifierConfigLocalId = 8;
 }
-
-
-

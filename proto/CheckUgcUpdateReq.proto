@@ -16,6 +16,3 @@ message CheckUgcUpdateReq {
 
 	UgcType ugcType = 3;
 }
-
-
-

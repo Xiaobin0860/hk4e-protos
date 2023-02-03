@@ -16,6 +16,3 @@ message HomeMarkPointFurnitureData {
 		SuiteData suite_data = 7;
 	}
 }
-
-
-

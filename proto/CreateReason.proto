@@ -7,6 +7,3 @@ enum CreateReason {
   CREATE_QUEST  = 1;
   CREATE_ENERGY = 2;
 }
-
-
-

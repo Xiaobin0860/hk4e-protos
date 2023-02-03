@@ -7,6 +7,3 @@ import "CustomCommonNodeInfo.proto";
 message CustomGadgetTreeInfo {
 	repeated CustomCommonNodeInfo nodeList = 1;
 }
-
-
-

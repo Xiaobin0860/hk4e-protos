@@ -19,6 +19,3 @@ message ExecuteGroupTriggerReq {
 	uint32 targetEntityId = 3;
 	string sourceName = 5;
 }
-
-
-

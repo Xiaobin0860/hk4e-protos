@@ -7,6 +7,3 @@ message IBBGEJCNPEI {
 	string gameBiz = 2;
 	string mnlpmamhoem = 3;
 }
-
-
-

@@ -15,6 +15,3 @@ message GCGTCTavernInfoNotify {
 	uint32 cardId = 14;
 	uint32 rewardIndex = 12;
 }
-
-
-

@@ -18,6 +18,3 @@ message EntityForceSyncRsp {
 	uint32 entityId = 6;
 	uint32 sceneTime = 2;
 }
-
-
-

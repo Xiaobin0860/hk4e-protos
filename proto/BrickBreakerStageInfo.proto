@@ -10,6 +10,3 @@ message BrickBreakerStageInfo {
 	BrickBreakerStageType stageType = 7;
 	repeated BrickBreakerPlayerBattleInfo battleInfoList = 2;
 }
-
-
-

@@ -16,6 +16,3 @@ message EBBEHKPKPFK {
 	uint32 difficulty = 1;
 	uint32 stageId = 10;
 }
-
-
-

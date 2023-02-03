@@ -14,6 +14,3 @@ message PlayerCookArgsRsp {
 	int32 retcode = 15;
 	float qteRangeRatio = 6;
 }
-
-
-

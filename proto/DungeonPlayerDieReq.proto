@@ -17,6 +17,3 @@ message DungeonPlayerDieReq {
 	uint32 dungeonId = 14;
 	PlayerDieType dieType = 1;
 }
-
-
-

@@ -9,6 +9,3 @@ message TanukiTravelActivityInfo {
 	bool leftMonsters = 2;
 	repeated TanukiTravelLevelData tanukiTravelLevelDataList = 6;
 }
-
-
-

@@ -16,6 +16,3 @@ message InBattleMechanicusConfirmCardNotify {
 	uint32 playIndex = 7;
 	uint32 groupId = 12;
 }
-
-
-

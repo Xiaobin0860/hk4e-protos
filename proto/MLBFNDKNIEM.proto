@@ -7,6 +7,3 @@ message MLBFNDKNIEM {
 	uint32 levelId = 5;
 	uint32 maxScore = 14;
 }
-
-
-

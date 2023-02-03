@@ -14,6 +14,3 @@ message CoinCollectInterruptPlayReq {
 
 	uint32 galleryId = 9;
 }
-
-
-

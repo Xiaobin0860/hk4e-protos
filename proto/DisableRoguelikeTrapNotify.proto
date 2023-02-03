@@ -13,6 +13,3 @@ message DisableRoguelikeTrapNotify {
 
 	uint32 cardId = 8;
 }
-
-
-

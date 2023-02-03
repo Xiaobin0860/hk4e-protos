@@ -11,6 +11,3 @@ message DPLPLLGGJJC {
 	MEIDIANHEDD campInfo = 11;
 	FKJCFGLHNPM jpegcngalgi = 3;
 }
-
-
-

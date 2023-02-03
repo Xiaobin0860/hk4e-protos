@@ -8,6 +8,3 @@ message SummerTimeV2BoatInfo {
 	uint32 param1 = 4;
 	uint32 param2 = 5;
 }
-
-
-

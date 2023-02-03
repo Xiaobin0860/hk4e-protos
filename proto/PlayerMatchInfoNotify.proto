@@ -23,6 +23,3 @@ message PlayerMatchInfoNotify {
 	uint32 matchId = 8;
 	uint32 dungeonId = 7;
 }
-
-
-

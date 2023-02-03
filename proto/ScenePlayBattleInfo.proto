@@ -14,6 +14,3 @@ message ScenePlayBattleInfo {
 	uint32 state = 4;
 	uint32 playId = 10;
 }
-
-
-

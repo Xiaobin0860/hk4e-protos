@@ -16,6 +16,3 @@ message AvatarUpgradeReq {
 	uint32 count = 9;
 	uint64 avatarGuid = 12;
 }
-
-
-

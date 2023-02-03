@@ -19,6 +19,3 @@ message SeaLampFlyLampReq {
 	uint32 itemNum = 1;
 	int32 param = 15;
 }
-
-
-

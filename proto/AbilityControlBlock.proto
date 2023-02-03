@@ -7,6 +7,3 @@ import "AbilityEmbryo.proto";
 message AbilityControlBlock {
 	repeated AbilityEmbryo abilityEmbryoList = 1;
 }
-
-
-

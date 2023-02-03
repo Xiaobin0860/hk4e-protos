@@ -9,6 +9,3 @@ message SalvageStageInfo {
 	uint32 stageId = 15;
 	repeated SalvageChallengeInfo exceededItemTypeList = 6;
 }
-
-
-

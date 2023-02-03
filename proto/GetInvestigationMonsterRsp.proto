@@ -18,6 +18,3 @@ message GetInvestigationMonsterRsp {
 	repeated InvestigationMonster monster_list = 2;
 	bool isForMark = 11;
 }
-
-
-

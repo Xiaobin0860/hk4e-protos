@@ -9,6 +9,3 @@ message DiceReroll {
 	repeated GCGDiceSideType diceSideList = 7;
 	repeated uint32 selectDiceIndexList = 13;
 }
-
-
-

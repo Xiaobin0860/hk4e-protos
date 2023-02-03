@@ -14,6 +14,3 @@ message QuestUpdateQuestTimeVarNotify {
 	uint32 parentQuestId = 5;
 	map<uint32, uint32> timeVarMap = 8;
 }
-
-
-

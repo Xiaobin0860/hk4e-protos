@@ -15,6 +15,3 @@ message GetSignInRewardReq {
 	uint32 scheduleId = 13;
 	uint32 rewardDay = 8;
 }
-
-
-

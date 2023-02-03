@@ -11,6 +11,3 @@ message AAJAAOKIJHF {
 	bool isAllowCopy = 6;
 	uint32 createTime = 7;
 }
-
-
-

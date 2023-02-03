@@ -7,6 +7,3 @@ message SumoInfo {
 	uint32 killNormalMonsterNum = 5;
 	uint32 score = 4;
 }
-
-
-

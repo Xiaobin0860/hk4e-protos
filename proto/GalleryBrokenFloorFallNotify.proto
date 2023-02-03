@@ -14,6 +14,3 @@ message GalleryBrokenFloorFallNotify {
 	uint32 fallCount = 2;
 	uint32 galleryId = 6;
 }
-
-
-

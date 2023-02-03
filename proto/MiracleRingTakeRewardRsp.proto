@@ -13,6 +13,3 @@ message MiracleRingTakeRewardRsp {
 
 	int32 retcode = 3;
 }
-
-
-

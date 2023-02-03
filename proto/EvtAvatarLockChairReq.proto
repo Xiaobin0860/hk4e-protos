@@ -17,6 +17,3 @@ message EvtAvatarLockChairReq {
 	uint64 chairId = 3;
 	Vector position = 14;
 }
-
-
-

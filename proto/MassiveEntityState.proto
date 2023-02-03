@@ -7,6 +7,3 @@ message MassiveEntityState {
 	int64 objId = 2;
 	uint32 elementState = 3;
 }
-
-
-

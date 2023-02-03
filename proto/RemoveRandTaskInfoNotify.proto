@@ -17,6 +17,3 @@ message RemoveRandTaskInfoNotify {
 	bool isSucc = 7;
 	FinishReason reason = 2;
 }
-
-
-

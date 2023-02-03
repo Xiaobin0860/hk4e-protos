@@ -11,6 +11,3 @@ message InBattleIrodoriChessInfo {
 	uint32 settleScore = 8;
 	uint32 buildingPoints = 6;
 }
-
-
-

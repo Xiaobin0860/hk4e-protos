@@ -14,6 +14,3 @@ message SeeMonsterReq {
 
 	uint32 monsterId = 9;
 }
-
-
-

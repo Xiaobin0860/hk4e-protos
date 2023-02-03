@@ -8,6 +8,3 @@ message IrodoriChessData {
 	repeated IrodoriChessLevelData levelDataList = 9;
 	bool isOpen = 7;
 }
-
-
-

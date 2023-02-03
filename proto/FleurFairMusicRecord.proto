@@ -7,6 +7,3 @@ message FleurFairMusicRecord {
 	bool isUnlock = 7;
 	uint32 maxScore = 8;
 }
-
-
-

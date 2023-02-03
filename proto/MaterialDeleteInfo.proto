@@ -23,6 +23,3 @@ message MaterialDeleteInfo {
 		DelayWeekCountDownDelete delay_week_count_down_delete = 4;
 	}
 }
-
-
-

@@ -16,6 +16,3 @@ message PlayerCancelMatchReq {
 
 	MatchType matchType = 1;
 }
-
-
-

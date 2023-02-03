@@ -15,6 +15,3 @@ message ChangeTeamNameReq {
 	string teamName = 8;
 	int32 teamId = 1;
 }
-
-
-

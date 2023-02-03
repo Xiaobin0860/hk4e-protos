@@ -10,6 +10,3 @@ message IrodoriChessMapData {
 	repeated uint32 becodaoleil = 4;
 	IrodoriChessEntranceDetailInfo ajcepcgbnfe = 5;
 }
-
-
-

@@ -5,6 +5,3 @@ option go_package = "./;proto";
 message OpReroll {
 	repeated uint32 diceIndexList = 3;
 }
-
-
-

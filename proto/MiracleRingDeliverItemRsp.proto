@@ -20,6 +20,3 @@ message MiracleRingDeliverItemRsp {
 	uint32 gadgetId = 4;
 	InterOpType opType = 15;
 }
-
-
-

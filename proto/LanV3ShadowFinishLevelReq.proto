@@ -15,6 +15,3 @@ message LanV3ShadowFinishLevelReq {
 	uint32 finishTime = 7;
 	uint32 levelId = 6;
 }
-
-
-

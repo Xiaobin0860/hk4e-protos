@@ -15,6 +15,3 @@ message AvatarChangeCostumeNotify {
 
 	SceneEntityInfo entityInfo = 13;
 }
-
-
-

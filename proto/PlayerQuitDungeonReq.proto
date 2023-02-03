@@ -15,6 +15,3 @@ message PlayerQuitDungeonReq {
 	uint32 pointId = 6;
 	bool isQuitImmediately = 5;
 }
-
-
-

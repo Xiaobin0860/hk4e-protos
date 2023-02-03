@@ -21,6 +21,3 @@ message ToTheMoonQueryPathRsp {
 	repeated Vector corners = 3;
 	repeated int32 level = 13;
 }
-
-
-
