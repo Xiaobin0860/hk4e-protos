@@ -2,11 +2,15 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: CABODJPEHAN
 message BrickBreakerLevelInfo {
-	repeated uint32 chosenSkillList = 12;
-	uint32 levelId = 2;
-	bool isFinish = 11;
-	bool isCanStart = 1;
-	uint32 maxScore = 6;
-	repeated uint32 chosenAvatarList = 4;
+    uint32 max_score = 14;
+    bool is_can_start = 1;
+    uint32 level_id = 11;
+    repeated uint32 chosen_avatar_list = 9;
+    repeated uint32 chosen_skill_list = 15;
+    bool is_finish = 6;
 }
+
+

@@ -2,7 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: MNALIFFMFOG
 message CoopCg {
-	bool isUnlock = 15;
-	uint32 id = 5;
+    bool is_unlock = 8;
+    uint32 id = 12;
 }
+
+

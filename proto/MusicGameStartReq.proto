@@ -2,17 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MusicGameStartReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8536;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint64 ugcGuid = 5;
-	uint32 musicBasicId = 7;
-	bool isSaveScore = 15;
+// Name: KIECLHFBINF
+// CmdId: 8103
+message MusicGameStartReq {
+    uint64 ugc_guid = 13;
+    bool is_save_score = 7;
+    uint32 music_basic_id = 4;
 }
+
+

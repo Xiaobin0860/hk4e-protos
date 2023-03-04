@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message UpgradeRoguelikeShikigamiRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8113;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 curLevel = 4;
-	uint32 shikigamiGroupId = 5;
-	int32 retcode = 9;
+// Name: JJGODOPCBHD
+// CmdId: 8493
+message UpgradeRoguelikeShikigamiRsp {
+    uint32 CAGAJANMNOP = 15;
+    uint32 cur_level = 14;
+    int32 retcode = 1;
 }
+
+

@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "FurnitureMakeSlot.proto";
 
+// Name: DKOOCDJGEMJ
+// CmdId: 4825
 message FurnitureMakeCancelRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4561;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	int32 retcode = 4;
-	FurnitureMakeSlot furnitureMakeSlot = 14;
-	uint32 makeId = 10;
+    FurnitureMakeSlot furniture_make_slot = 11;
+    int32 retcode = 13;
+    uint32 make_id = 1;
 }
+
+

@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message PlayerQuitDungeonRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 974;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 pointId = 11;
-	int32 retcode = 9;
+// Name: HPNPOAEEEFL
+// CmdId: 934
+message PlayerQuitDungeonRsp {
+    int32 retcode = 8;
+    uint32 point_id = 15;
 }
+
+

@@ -2,20 +2,17 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message TowerBriefDataNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2405;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool isFinishedEntranceFloor = 2;
-	uint32 totalStarNum = 5;
-	uint32 towerScheduleId = 3;
-	uint32 lastLevelIndex = 4;
-	uint32 scheduleStartTime = 13;
-	uint32 nextScheduleChangeTime = 12;
-	uint32 lastFloorIndex = 14;
+// Name: LMHCKGGFINK
+// CmdId: 2467
+message TowerBriefDataNotify {
+    uint32 EIHCBIOKMPI = 6;
+    uint32 AMFOBDDCIHK = 11;
+    uint32 IOOHBFIGKHH = 1;
+    uint32 DMBGOBMKGBM = 3;
+    uint32 NKKIMHIMIBL = 4;
+    uint32 CFEHKIFIKFB = 9;
+    bool is_finished_entrance_floor = 12;
 }
+
+

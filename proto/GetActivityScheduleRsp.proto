@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "ActivityScheduleInfo.proto";
 
+// Name: PPNHKLGJMMG
+// CmdId: 2032
 message GetActivityScheduleRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2015;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 remainFlySeaLampNum = 10;
-	int32 retcode = 9;
-	repeated ActivityScheduleInfo activityScheduleList = 12;
+    repeated ActivityScheduleInfo activity_schedule_list = 3;
+    int32 retcode = 9;
+    uint32 remain_fly_sea_lamp_num = 7;
 }
+
+

@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MultistagePlayEndNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5393;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 groupId = 2;
-	uint32 playIndex = 3;
+// Name: IBCFGADCGMG
+// CmdId: 5312
+message MultistagePlayEndNotify {
+    uint32 play_index = 11;
+    uint32 group_id = 10;
 }
+
+

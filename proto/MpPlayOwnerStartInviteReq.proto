@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MpPlayOwnerStartInviteReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1815;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	bool isSkipMatch = 13;
-	uint32 mpPlayId = 10;
+// Name: KNCJBBMCDJG
+// CmdId: 1812
+message MpPlayOwnerStartInviteReq {
+    bool is_skip_match = 4;
+    uint32 mp_play_id = 1;
 }
+
+

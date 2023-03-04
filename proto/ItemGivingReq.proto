@@ -2,21 +2,21 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "ItemGivingType.proto";
 import "ItemParam.proto";
 
+// Name: OEFLPBMLBLP
+// CmdId: 108
 message ItemGivingReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 101;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
+    // Name: APMBCGPCHGK
+    enum ItemGivingType {
+    QUEST  = 0;
+    GADGET = 1;
+    }
 
-	map<uint64, uint32> itemGuidCountMap = 13;
-	uint32 givingId = 7;
-	repeated ItemParam itemParamList = 9;
-	ItemGivingType itemGivingType = 8;
+    map<uint64, uint32> item_guid_count_map = 10;
+    repeated ItemParam item_param_list = 15;
+    ItemGivingType item_giving_type = 1;
+    uint32 giving_id = 2;
 }
+
+

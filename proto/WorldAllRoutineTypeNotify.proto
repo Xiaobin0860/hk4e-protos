@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "WorldRoutineTypeInfo.proto";
 
+// Name: BELOADNGNEK
+// CmdId: 3543
 message WorldAllRoutineTypeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3545;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated WorldRoutineTypeInfo worldRoutineTypeList = 4;
+    repeated WorldRoutineTypeInfo world_routine_type_list = 11;
 }
+
+

@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "ChessPlayerInfo.proto";
 
+// Name: JBGMDJCBNJL
+// CmdId: 5392
 message ChessPlayerInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5326;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	ChessPlayerInfo playerInfo = 15;
+    ChessPlayerInfo player_info = 2;
 }
+
+

@@ -4,8 +4,11 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: LPOPNCBABHN
 message DynamicSVONode {
-	int32 area = 13;
-	int64 index = 11;
-	Vector referPos = 9;
+    int64 index = 15;
+    int32 area = 7;
+    Vector refer_pos = 8;
 }
+
+

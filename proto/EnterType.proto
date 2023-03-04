@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: FNGKDKJDKHM
 enum EnterType {
   ENTER_NONE           = 0;
   ENTER_SELF           = 1;
@@ -16,3 +18,5 @@ enum EnterType {
   ENTER_OTHER_HOME     = 10;
   ENTER_GOTO_RECREATE  = 11;
 }
+
+

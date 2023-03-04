@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message DigActivityChangeGadgetStateRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8810;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 5;
-	uint32 entityId = 14;
+// Name: CBGAOFJDFCG
+// CmdId: 8656
+message DigActivityChangeGadgetStateRsp {
+    uint32 entity_id = 8;
+    int32 retcode = 15;
 }
+
+

@@ -4,11 +4,14 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: ILEIPGLHFAP
 message HomeLimitedShopInfo {
-	fixed32 nextGuestOpenTime = 14;
-	uint32 uid = 4;
-	Vector djinnRot = 12;
-	fixed32 nextCloseTime = 2;
-	Vector djinnPos = 6;
-	fixed32 nextOpenTime = 15;
+    uint32 CLCPIJBAOEA = 12;
+    uint32 PGENOLMDFEM = 11;
+    Vector CKJKPEEKOGG = 1;
+    uint32 NIDABDPMHHF = 6;
+    uint32 uid = 14;
+    Vector GMPJFCODOLK = 9;
 }
+
+

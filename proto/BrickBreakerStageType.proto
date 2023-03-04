@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: KNECANABDCO
 enum BrickBreakerStageType {
   BRICK_BREAKER_STAGE_PREPARE = 0;
   BRICK_BREAKER_STAGE_PICK    = 1;
@@ -9,3 +11,5 @@ enum BrickBreakerStageType {
   BRICK_BREAKER_STAGE_PLAY    = 3;
   BRICK_BREAKER_STAGE_SETTLE  = 4;
 }
+
+

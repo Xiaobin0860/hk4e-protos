@@ -4,6 +4,9 @@ option go_package = "./;proto";
 
 import "DynamicLayerNodes.proto";
 
+// Name: AAPBIOOIMNP
 message DynamicNodes {
-	repeated DynamicLayerNodes nodes = 8;
+    repeated DynamicLayerNodes nodes = 11;
 }
+
+

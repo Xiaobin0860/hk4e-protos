@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ChangeWorldToSingleModeRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3197;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 quitMpValidTime = 13;
-	int32 retcode = 3;
+// Name: DMJMJIBJKHF
+// CmdId: 3271
+message ChangeWorldToSingleModeRsp {
+    int32 retcode = 11;
+    uint32 quit_mp_valid_time = 3;
 }
+
+

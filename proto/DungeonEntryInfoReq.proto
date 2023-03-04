@@ -4,17 +4,12 @@ option go_package = "./;proto";
 
 import "Uint32Pair.proto";
 
+// Name: ICEGEEIBAEK
+// CmdId: 967
 message DungeonEntryInfoReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 905;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 pointId = 14;
-	repeated Uint32Pair scenePointIdList = 12;
-	uint32 sceneId = 3;
+    repeated Uint32Pair scene_point_id_list = 3;
+    uint32 point_id = 11;
+    uint32 scene_id = 6;
 }
+
+

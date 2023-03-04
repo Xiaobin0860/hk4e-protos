@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "LunchBoxData.proto";
 
+// Name: BHEMFHAADAI
+// CmdId: 4289
 message SetUpLunchBoxWidgetRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4266;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	LunchBoxData lunchBoxData = 15;
-	int32 retcode = 3;
+    int32 retcode = 13;
+    LunchBoxData lunch_box_data = 7;
 }
+
+

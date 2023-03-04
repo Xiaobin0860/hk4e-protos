@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "CustomGadgetTreeInfo.proto";
 
+// Name: DOKILHABPNG
+// CmdId: 24190
 message GravenInnocenceEditCarveCombinationReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 23125;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	CustomGadgetTreeInfo combinationInfo = 15;
-	uint32 entityId = 5;
+    CustomGadgetTreeInfo combination_info = 14;
+    uint32 entity_id = 10;
 }
+
+

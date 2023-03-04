@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SingleRestartBrickBreakerRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 22641;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool isDungeon = 4;
-	int32 retcode = 6;
-	uint32 levelId = 10;
+// Name: EINAAPKOFMD
+// CmdId: 20965
+message SingleRestartBrickBreakerRsp {
+    uint32 level_id = 7;
+    int32 retcode = 1;
+    bool is_dungeon = 9;
 }
+
+

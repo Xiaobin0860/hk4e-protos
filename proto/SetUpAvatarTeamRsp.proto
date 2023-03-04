@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SetUpAvatarTeamRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1745;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 teamId = 5;
-	repeated uint64 avatarTeamGuidList = 6;
-	uint64 curAvatarGuid = 2;
-	int32 retcode = 3;
+// Name: AJCMGPIOHPH
+// CmdId: 1628
+message SetUpAvatarTeamRsp {
+    uint32 team_id = 4;
+    int32 retcode = 9;
+    repeated uint64 avatar_team_guid_list = 10;
+    uint64 cur_avatar_guid = 7;
 }
+
+

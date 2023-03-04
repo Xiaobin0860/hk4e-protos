@@ -2,17 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "ChannelerSlabAssistInfo.proto";
+import "ChannellerSlabAssistInfo.proto";
 
+// Name: FMEFPPMPJIA
+// CmdId: 8269
 message ChannellerSlabSaveAssistInfoRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8443;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated ChannelerSlabAssistInfo assistInfoList = 6;
-	int32 retcode = 4;
+    repeated ChannellerSlabAssistInfo assist_info_list = 2;
+    int32 retcode = 6;
 }
+
+

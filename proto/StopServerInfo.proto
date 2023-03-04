@@ -2,9 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: HJLECMBBPOF
 message StopServerInfo {
-	uint32 stopBeginTime = 1;
-	uint32 stopEndTime = 2;
-	string url = 3;
-	string contentMsg = 4;
+    uint32 stop_begin_time = 1;
+    uint32 stop_end_time = 2;
+    string url = 3;
+    string content_msg = 4;
 }
+
+

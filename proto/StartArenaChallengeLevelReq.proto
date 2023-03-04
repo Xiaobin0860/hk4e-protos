@@ -2,17 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message StartArenaChallengeLevelReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2033;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 Unk3300_FDFNFLAKONG = 4;
-	uint32 Unk3300_DBHAGHMMLAI = 5;
-	uint32 gadgetEntityId = 7;
+// Name: IPFOOFKDIFH
+// CmdId: 2194
+message StartArenaChallengeLevelReq {
+    uint32 BCHEDLFFNKC = 15;
+    uint32 NEFKFHIPLHG = 13;
+    uint32 gadget_entity_id = 1;
 }
+
+

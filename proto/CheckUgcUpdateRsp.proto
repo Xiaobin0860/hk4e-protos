@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "UgcType.proto";
 
+// Name: CPCDDAMLFFF
+// CmdId: 6321
 message CheckUgcUpdateRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6340;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	int32 retcode = 14;
-	UgcType ugcType = 6;
-	repeated uint64 updateUgcGuidList = 2;
+    UgcType ugc_type = 1;
+    repeated uint64 update_ugc_guid_list = 3;
+    int32 retcode = 8;
 }
+
+

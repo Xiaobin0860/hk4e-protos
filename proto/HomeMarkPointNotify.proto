@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "HomeMarkPointSceneData.proto";
 
+// Name: DNHKDNNINEI
+// CmdId: 4697
 message HomeMarkPointNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4832;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated HomeMarkPointSceneData markPointDataList = 11;
+    repeated HomeMarkPointSceneData mark_point_data_list = 6;
 }
+
+

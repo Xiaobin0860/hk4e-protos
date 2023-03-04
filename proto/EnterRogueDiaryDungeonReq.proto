@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "RogueDiaryAvatar.proto";
 
+// Name: OGDCGLMJODF
+// CmdId: 8388
 message EnterRogueDiaryDungeonReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8647;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	repeated RogueDiaryAvatar chosenAvatarList = 5;
-	repeated uint32 chosenCardList = 2;
+    repeated RogueDiaryAvatar chosen_avatar_list = 13;
+    repeated uint32 chosen_card_list = 14;
 }
+
+

@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message AvatarFightPropNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1220;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	map<uint32, float> fightPropMap = 13;
-	uint64 avatarGuid = 12;
+// Name: FPOOPDKEANO
+// CmdId: 1214
+message AvatarFightPropNotify {
+    map<uint32, float> fight_prop_map = 5;
+    uint64 avatar_guid = 8;
 }
+
+

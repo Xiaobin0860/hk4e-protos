@@ -2,22 +2,18 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message FungusCultivateReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 22123;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 cultivateId = 15;
-	uint32 time = 12;
-	uint32 Unk3300_MBPLICBFAGL = 5;
-	uint32 Unk3300_PGJKEICFKLL = 3;
-	uint32 Unk3300_DJEGJDACDEF = 7;
-	uint32 Unk3300_AEGCNHLOPEP = 8;
-	uint32 Unk3300_IMEGFNOLDCE = 13;
-	uint32 Unk3300_IOANLJBMBAI = 2;
+// Name: BGKFONJDBCL
+// CmdId: 20945
+message FungusCultivateReq {
+    uint32 cultivate_id = 15;
+    uint32 PEMEEBICACO = 13;
+    uint32 DALIOFECCHH = 8;
+    uint32 MDEFDDPPPFJ = 10;
+    uint32 ONNAFGONBKP = 5;
+    uint32 time = 14;
+    uint32 GOEOLKBNFFE = 12;
+    uint32 LIMHENMOOKA = 1;
 }
+
+

@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message HideAndSeekPlayerCapturedNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5551;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 ghostSkillId = 13;
+// Name: OGGJCHBGMKC
+// CmdId: 5526
+message HideAndSeekPlayerCapturedNotify {
+    uint32 ghost_skill_id = 14;
 }
+
+

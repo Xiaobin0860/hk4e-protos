@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message PlantFlowerAcceptAllGiveFlowerReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8195;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 scheduleId = 10;
+// Name: GBICADPFHKK
+// CmdId: 8807
+message PlantFlowerAcceptAllGiveFlowerReq {
+    uint32 schedule_id = 1;
 }
+
+

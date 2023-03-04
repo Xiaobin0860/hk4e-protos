@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message IrodoriChessEquipCardRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8312;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 levelId = 15;
-	bool isHardMap = 8;
-	int32 retcode = 9;
-	uint32 cardId = 14;
+// Name: NFNLEIPBPFE
+// CmdId: 8145
+message IrodoriChessEquipCardRsp {
+    uint32 level_id = 6;
+    bool is_hard_map = 11;
+    int32 retcode = 10;
+    uint32 card_id = 9;
 }
+
+

@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "HomePictureFrameInfo.proto";
 
+// Name: LAHNBCKAGEN
+// CmdId: 4895
 message HomePictureFrameInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4677;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated HomePictureFrameInfo pictureFrameInfoList = 8;
+    repeated HomePictureFrameInfo picture_frame_info_list = 10;
 }
+
+

@@ -4,9 +4,12 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: LINIENJBJIL
 message WinterCampRaceStageInfo {
-	Vector pos = 10;
-	uint32 maxScore = 14;
-	uint32 openTime = 11;
-	uint32 id = 15;
+    Vector pos = 2;
+    uint32 open_time = 13;
+    uint32 id = 12;
+    uint32 max_score = 15;
 }
+
+

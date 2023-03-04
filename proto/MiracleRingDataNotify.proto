@@ -2,18 +2,15 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MiracleRingDataNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5246;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool isGadgetCreated = 2;
-	uint32 miracleRingCd = 8;
-	uint32 lastDeliverItemTime = 4;
-	uint32 lastTakeRewardTime = 13;
-	uint32 gadgetEntityId = 6;
+// Name: KEDDPGCOJDB
+// CmdId: 5209
+message MiracleRingDataNotify {
+    uint32 JCFKODDCBIH = 7;
+    uint32 CNFPOAJGGDN = 3;
+    uint32 gadget_entity_id = 11;
+    bool is_gadget_created = 9;
+    uint32 AHPNKIDCOKC = 6;
 }
+
+

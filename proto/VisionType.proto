@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: GCJAHMGAAGM
 enum VisionType {
   VISION_NONE              = 0;
   VISION_MEET              = 1;
@@ -24,3 +26,5 @@ enum VisionType {
   VISION_FISH_QTE_SUCC     = 18;
   VISION_CAPTURE_DISAPPEAR = 19;
 }
+
+

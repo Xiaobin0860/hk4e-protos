@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "PENJFODAGGI.proto";
+
+// Name: ABAMJKJOMHJ
+// CmdId: 7765
+message ABAMJKJOMHJ {
+    repeated uint32 MFJPHFOJKEF = 8;
+    repeated PENJFODAGGI GGGHONFOAKP = 13;
+}
+
+

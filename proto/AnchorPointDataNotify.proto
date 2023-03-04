@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "AnchorPointData.proto";
 
+// Name: NJIPFBKJBLI
+// CmdId: 4298
 message AnchorPointDataNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4288;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 nextUsableTime = 10;
-	repeated AnchorPointData anchorPointList = 11;
+    repeated AnchorPointData anchor_point_list = 15;
+    uint32 next_usable_time = 7;
 }
+
+

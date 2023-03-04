@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message EchoShellUpdateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8560;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 shellId = 12;
+// Name: NKEEJIALJLK
+// CmdId: 8377
+message EchoShellUpdateNotify {
+    uint32 shell_id = 12;
 }
+
+

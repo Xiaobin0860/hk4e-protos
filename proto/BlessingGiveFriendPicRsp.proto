@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message BlessingGiveFriendPicRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2082;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 uid = 5;
-	uint32 picId = 15;
-	int32 retcode = 11;
+// Name: HPIAGOCCCCA
+// CmdId: 2053
+message BlessingGiveFriendPicRsp {
+    uint32 uid = 6;
+    uint32 pic_id = 8;
+    int32 retcode = 2;
 }
+
+

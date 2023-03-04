@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "SegmentInfo.proto";
 
+// Name: BAGMHNFGMNB
+// CmdId: 56
 message CheckSegmentCRCNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 46;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated SegmentInfo infoList = 9;
+    repeated SegmentInfo info_list = 5;
 }
+
+

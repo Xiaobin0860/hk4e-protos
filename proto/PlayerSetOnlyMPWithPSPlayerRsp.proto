@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message PlayerSetOnlyMPWithPSPlayerRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1840;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool isOnly = 10;
-	int32 retcode = 2;
+// Name: FJOBAJGGBCO
+// CmdId: 1821
+message PlayerSetOnlyMPWithPSPlayerRsp {
+    bool is_only = 4;
+    int32 retcode = 13;
 }
+
+

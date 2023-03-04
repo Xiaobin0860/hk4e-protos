@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "MainCoop.proto";
 
+// Name: DOBLPKBHILE
+// CmdId: 1998
 message AllCoopInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1988;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated MainCoop mainCoopList = 14;
+    repeated MainCoop main_coop_list = 4;
 }
+
+

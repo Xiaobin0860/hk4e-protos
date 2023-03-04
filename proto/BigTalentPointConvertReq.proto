@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message BigTalentPointConvertReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1020;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	repeated uint64 itemGuidList = 5;
-	uint64 avatarGuid = 3;
+// Name: NJDGBCDHEIP
+// CmdId: 1014
+message BigTalentPointConvertReq {
+    repeated uint64 item_guid_list = 15;
+    uint64 avatar_guid = 10;
 }
+
+

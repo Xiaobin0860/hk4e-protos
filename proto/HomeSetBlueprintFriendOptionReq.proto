@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message HomeSetBlueprintFriendOptionReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4590;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	bool isAllowFriendCopy = 10;
+// Name: NHOOLBPOGLC
+// CmdId: 4490
+message HomeSetBlueprintFriendOptionReq {
+    bool is_allow_friend_copy = 14;
 }
+
+

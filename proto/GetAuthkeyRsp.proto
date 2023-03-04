@@ -2,19 +2,16 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GetAuthkeyRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1462;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	string gameBiz = 1;
-	uint32 signType = 3;
-	string authAppid = 11;
-	uint32 authkeyVer = 7;
-	int32 retcode = 14;
-	string authkey = 9;
+// Name: MGGIDNNDFCP
+// CmdId: 1465
+message GetAuthkeyRsp {
+    uint32 BILPDHGPPPO = 1;
+    int32 retcode = 7;
+    string authkey = 2;
+    string auth_appid = 15;
+    string game_biz = 3;
+    uint32 FHPGCOBFIOE = 13;
 }
+
+

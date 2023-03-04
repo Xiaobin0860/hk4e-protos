@@ -2,19 +2,15 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "VehicleLocationInfo.proto";
 import "PlayerLocationInfo.proto";
+import "VehicleLocationInfo.proto";
 
+// Name: EGCBDDHMNGD
+// CmdId: 291
 message ScenePlayerLocationNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 278;
-	// 	ENET_CHANNEL_ID = 1;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 sceneId = 1;
-	repeated VehicleLocationInfo vehicleLocList = 3;
-	repeated PlayerLocationInfo playerLocList = 12;
+    repeated VehicleLocationInfo vehicle_loc_list = 7;
+    repeated PlayerLocationInfo player_loc_list = 15;
+    uint32 scene_id = 12;
 }
+
+

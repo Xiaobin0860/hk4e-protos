@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message EffigyChallengeV2ChooseSkillReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 22489;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 levelId = 15;
-	uint32 challengeModeSkillNo = 12;
+// Name: KIANENJEHAF
+// CmdId: 22701
+message EffigyChallengeV2ChooseSkillReq {
+    uint32 level_id = 15;
+    uint32 challenge_mode_skill_no = 5;
 }
+
+

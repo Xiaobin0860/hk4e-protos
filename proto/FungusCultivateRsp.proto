@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message FungusCultivateRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 23930;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 cultivateId = 13;
-	int32 retcode = 12;
-	bool isNewRecord = 2;
+// Name: LBPCOLIEKJL
+// CmdId: 20453
+message FungusCultivateRsp {
+    bool is_new_record = 15;
+    int32 retcode = 13;
+    uint32 cultivate_id = 7;
 }
+
+

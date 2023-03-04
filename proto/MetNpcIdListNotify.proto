@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MetNpcIdListNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 574;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	repeated uint32 npcFirstMetIdList = 9;
+// Name: LPGDFGNDIJE
+// CmdId: 534
+message MetNpcIdListNotify {
+    repeated uint32 npc_first_met_id_list = 13;
 }
+
+

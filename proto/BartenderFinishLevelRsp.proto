@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message BartenderFinishLevelRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8364;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 14;
-	uint32 levelId = 6;
+// Name: LAMLOIIIGDP
+// CmdId: 8044
+message BartenderFinishLevelRsp {
+    int32 retcode = 7;
+    uint32 level_id = 2;
 }
+
+

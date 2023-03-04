@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "HomeBlueprintSlotInfo.proto";
 
+// Name: GGMMABALCCN
+// CmdId: 4519
 message HomeCreateBlueprintRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4765;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	HomeBlueprintSlotInfo slotInfo = 4;
-	int32 retcode = 13;
+    HomeBlueprintSlotInfo slot_info = 13;
+    int32 retcode = 12;
 }
+
+

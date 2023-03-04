@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-option go_package = "./;proto";
-
-message GCGSkillPreviewReactionInfo {
-	uint32 Unk3300_AENPLEDPMJH = 9;
-	uint32 Unk3300_PDEHPHJFAKD = 10;
-}

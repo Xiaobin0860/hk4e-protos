@@ -4,18 +4,14 @@ option go_package = "./;proto";
 
 import "RoguelikeDungeonSettleInfo.proto";
 
+// Name: IIODPLPFGPP
+// CmdId: 8868
 message RoguelikeGiveUpRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8799;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 stageId = 10;
-	int32 retcode = 14;
-	oneof info {
-		RoguelikeDungeonSettleInfo settle_info = 2;
-	}
+    int32 retcode = 14;
+    uint32 stage_id = 5;
+    oneof info {
+        RoguelikeDungeonSettleInfo settle_info = 3;
+    }
 }
+
+

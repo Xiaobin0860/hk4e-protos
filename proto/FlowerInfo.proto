@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option go_package = "./;proto";
-
-message FlowerInfo {
-	uint32 curScore = 7;
-	uint32 targetScore = 6;
-	uint32 endTime = 8;
-}

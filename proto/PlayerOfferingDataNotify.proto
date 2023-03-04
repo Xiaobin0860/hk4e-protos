@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "PlayerOfferingData.proto";
 
+// Name: PCJOJLBIOGF
+// CmdId: 2925
 message PlayerOfferingDataNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2915;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated PlayerOfferingData offeringDataList = 8;
+    repeated PlayerOfferingData offering_data_list = 9;
 }
+
+

@@ -2,22 +2,17 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "LocationInfo.proto";
-import "CreatorInfo.proto";
+import "WidgetCreateLocationInfo.proto";
+import "WidgetCreatorInfo.proto";
 
+// Name: ECBPKIEBPLJ
+// CmdId: 4299
 message WidgetDoBagReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4255;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 materialId = 12;
-	oneof op_info {
-		LocationInfo location_info = 135;
-		CreatorInfo widget_creator_info = 362;
-	}
+    uint32 material_id = 9;
+    oneof op_info {
+        WidgetCreateLocationInfo location_info = 1340;
+        WidgetCreatorInfo widget_creator_info = 1743;
+    }
 }
+
+

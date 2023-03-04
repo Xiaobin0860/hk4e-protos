@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message PlantFlowerHaveRecvFlowerNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8405;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 scheduleId = 12;
+// Name: CLABNPLNACA
+// CmdId: 8729
+message PlantFlowerHaveRecvFlowerNotify {
+    uint32 schedule_id = 2;
 }
+
+

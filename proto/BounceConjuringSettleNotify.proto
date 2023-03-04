@@ -4,17 +4,13 @@ option go_package = "./;proto";
 
 import "BounceConjuringGallerySettleInfo.proto";
 
+// Name: MOIHGLFJHHP
+// CmdId: 8434
 message BounceConjuringSettleNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8552;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	bool isNewRecord = 6;
-	map<uint32, BounceConjuringGallerySettleInfo> settleInfoMap = 7;
-	uint32 chapterId = 11;
-	uint32 totalScore = 4;
+    uint32 chapter_id = 2;
+    bool is_new_record = 3;
+    map<uint32, BounceConjuringGallerySettleInfo> settle_info_map = 6;
+    uint32 total_score = 9;
 }
+
+

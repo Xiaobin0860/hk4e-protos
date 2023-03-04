@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: GNNLENFEFKP
 enum GCGEndReason {
   GCG_END_REASON_DEFAULT      = 0;
   GCG_END_REASON_DIE          = 1;
@@ -14,11 +16,5 @@ enum GCGEndReason {
   GCG_END_REASON_INIT_TIMEOUT = 8;
   GCG_END_REASON_EFFECT       = 9;
 }
-
-
-
-
-
-
 
 

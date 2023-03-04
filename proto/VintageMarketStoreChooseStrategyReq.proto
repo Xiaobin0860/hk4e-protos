@@ -4,17 +4,12 @@ option go_package = "./;proto";
 
 import "VintageMarketStoreOpInfo.proto";
 
+// Name: OLEFELEOAHG
+// CmdId: 20628
 message VintageMarketStoreChooseStrategyReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 20971;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 storeId = 10;
-	repeated uint32 strategyList = 2;
-	repeated VintageMarketStoreOpInfo storeOpList = 15;
+    repeated VintageMarketStoreOpInfo store_op_list = 9;
+    uint32 store_id = 8;
+    repeated uint32 strategy_list = 3;
 }
+
+

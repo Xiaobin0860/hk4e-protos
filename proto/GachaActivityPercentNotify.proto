@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GachaActivityPercentNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8200;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	map<uint32, uint32> targetNumMap = 5;
-	uint32 Unk3300_GHHIGKFDONE = 13;
-	uint32 Unk3300_IOLPAJKDEEA = 14;
-	uint32 Unk3300_EOPJBPHFDEE = 15;
+// Name: LKNJAJALDIA
+// CmdId: 8469
+message GachaActivityPercentNotify {
+    uint32 JBOFEKDGMIO = 6;
+    map<uint32, uint32> target_num_map = 9;
+    uint32 IMBCNJFONIC = 5;
+    uint32 BOPLNMEHANO = 14;
 }
+
+

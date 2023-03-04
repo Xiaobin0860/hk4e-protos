@@ -2,9 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "InferenceWordInfo.proto";
+import "InfernceWordInfo.proto";
 
+// Name: FNKNODGIEOH
 message InferencePageInfo {
-	uint32 pageId = 6;
-	repeated InferenceWordInfo unlockWordList = 8;
+    repeated InfernceWordInfo unlock_word_list = 8;
+    uint32 page_id = 5;
 }
+
+

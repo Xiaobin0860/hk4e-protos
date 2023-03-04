@@ -4,17 +4,13 @@ option go_package = "./;proto";
 
 import "ItemParam.proto";
 
+// Name: BIMEDMCFMDE
+// CmdId: 2023
 message ActivityTakeWatcherRewardBatchRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2186;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 activityId = 12;
-	repeated uint32 watcherIdList = 9;
-	repeated ItemParam itemList = 8;
-	int32 retcode = 15;
+    repeated ItemParam item_list = 12;
+    repeated uint32 watcher_id_list = 15;
+    uint32 activity_id = 2;
+    int32 retcode = 11;
 }
+
+

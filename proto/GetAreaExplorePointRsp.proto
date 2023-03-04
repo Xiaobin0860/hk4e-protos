@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GetAreaExplorePointRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 252;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	repeated uint32 areaIdList = 13;
-	int32 retcode = 14;
-	repeated uint32 explorePointList = 3;
+// Name: EFFPDFDNBKF
+// CmdId: 205
+message GetAreaExplorePointRsp {
+    repeated uint32 explore_point_list = 14;
+    int32 retcode = 3;
+    repeated uint32 area_id_list = 9;
 }
+
+

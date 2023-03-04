@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SpringUseRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1677;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint64 guid = 13;
-	int32 retcode = 15;
+// Name: FDPOKCFIIJK
+// CmdId: 1737
+message SpringUseRsp {
+    int32 retcode = 12;
+    uint64 guid = 10;
 }
+
+

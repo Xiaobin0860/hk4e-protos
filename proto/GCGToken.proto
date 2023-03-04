@@ -2,7 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: PALOPENLFFM
 message GCGToken {
-	uint32 key = 9;
-	uint32 value = 5;
+    uint32 value = 6;
+    uint32 key = 13;
 }
+
+

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MBIEJKBJKCH
+message MBIEJKBJKCH {
+    string name = 1;
+    string value = 2;
+}
+
+

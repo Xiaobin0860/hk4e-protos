@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message AvatarEnterElementViewNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 351;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	bool isTriggered = 6;
-	uint32 avatarEntityId = 1;
+// Name: IHJMPNKIAJG
+// CmdId: 326
+message AvatarEnterElementViewNotify {
+    bool is_triggerd = 7;
+    uint32 avatar_entity_id = 8;
 }
+
+

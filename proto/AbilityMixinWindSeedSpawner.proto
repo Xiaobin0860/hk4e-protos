@@ -4,19 +4,27 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: AEAIOCLFFDH
 message AbilityMixinWindSeedSpawner {
-	message AddSignal {
-	}
-	message RefreshSeed {
-		repeated Vector lfglcalgdac = 1;
-	}
-	message CatchSeed {
-		uint32 entityId = 5;
-	}
+    // Name: DDMMEHCNOMB
+    message AddSignal {
+    }
 
-	oneof EMKLHFDNJMA {
-		AddSignal add_signal = 13;
-		RefreshSeed refresh_seed = 3;
-		CatchSeed catch_seed = 4;
-	}
+    // Name: KNKFILHLMBC
+    message RefreshSeed {
+        repeated Vector pos_list = 3;
+    }
+
+    // Name: LPGDOODMMFB
+    message CatchSeed {
+        uint32 entity_id = 2;
+    }
+
+    oneof cmd {
+        AddSignal add_signal = 13;
+        RefreshSeed refresh_seed = 5;
+        CatchSeed catch_seed = 4;
+    }
 }
+
+

@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "ItemParam.proto";
 
+// Name: OCFIEICFEEP
+// CmdId: 8500
 message BartenderGetFormulaReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8258;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	repeated ItemParam itemList = 4;
-	uint32 questId = 6;
+    repeated ItemParam item_list = 12;
+    uint32 quest_id = 9;
 }
+
+

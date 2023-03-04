@@ -2,15 +2,20 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GetGameplayRecommendationRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 144;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
+import "GameplayRecommendationElementReliquaryResponse.proto";
+import "GameplayRecommendationReliquaryResponse.proto";
+import "GameplayRecommendationSkillResponse.proto";
 
-	uint32 givingId = 10;
+// Name: OPIKDPBOILF
+// CmdId: 135
+message GetGameplayRecommendationRsp {
+    int32 retcode = 8;
+    uint32 avatar_id = 1;
+    oneof detail {
+        GameplayRecommendationSkillResponse skill_response = 824;
+        GameplayRecommendationReliquaryResponse reliquary_response = 1103;
+        GameplayRecommendationElementReliquaryResponse element_reliquary_response = 1186;
+    }
 }
+
+

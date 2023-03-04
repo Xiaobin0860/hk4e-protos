@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "SalvageEscortSettleInfo.proto";
 
+// Name: MGGLFLCOMFO
+// CmdId: 8353
 message SalvageEscortSettleNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8967;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 galleryId = 5;
-	SalvageEscortSettleInfo settleInfo = 2;
+    uint32 gallery_id = 2;
+    SalvageEscortSettleInfo settle_info = 3;
 }
+
+

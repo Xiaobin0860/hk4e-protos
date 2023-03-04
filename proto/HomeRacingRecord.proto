@@ -4,6 +4,9 @@ option go_package = "./;proto";
 
 import "HomeRacingGalleryRecord.proto";
 
+// Name: ICPGKGIADBI
 message HomeRacingRecord {
-	repeated HomeRacingGalleryRecord recordList = 2;
+    repeated HomeRacingGalleryRecord record_list = 10;
 }
+
+

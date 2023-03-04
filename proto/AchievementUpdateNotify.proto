@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "Achievement.proto";
 
+// Name: PFKCLOLEDDE
+// CmdId: 2693
 message AchievementUpdateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2695;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated Achievement achievementList = 4;
+    repeated Achievement achievement_list = 2;
 }
+
+

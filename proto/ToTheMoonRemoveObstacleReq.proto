@@ -2,17 +2,19 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ToTheMoonRemoveObstacleReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6170;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 sceneId = 2;
-	int32 queryId = 13;
-	int32 handle = 9;
+// Name: OCLFPKFMGBE
+// CmdId: 6182
+message ToTheMoonRemoveObstacleReq {
+    // Name: CFNHLMAPIOJ
+    enum CFNHLMAPIOJ {
+        CFNHLMAPIOJ_IIGFIDPJPDF = 0;
+        CFNHLMAPIOJ_HNBGNEFHJOA = 1;
+    }
+
+    int32 query_id = 6;
+    int32 handle = 1;
+    uint32 scene_id = 3;
 }
+
+

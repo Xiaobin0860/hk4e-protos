@@ -2,18 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "HomeAvatarRewardEventInfo.proto";
+import "DLIGBJOALKN.proto";
 
+// Name: BADOLJHDMLB
+// CmdId: 4682
 message HomeAvatarRewardEventNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4461;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	bool isEventTrigger = 1;
-	HomeAvatarRewardEventInfo rewardEvent = 12;
-	repeated HomeAvatarRewardEventInfo pendingList = 15;
+    DLIGBJOALKN BJNGIKEIDDH = 5;
+    repeated DLIGBJOALKN GLKMELEOCHP = 11;
+    bool is_event_trigger = 10;
 }
+
+

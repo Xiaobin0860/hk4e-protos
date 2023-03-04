@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message StartRogueDiaryPlayReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8484;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 stageId = 8;
-	uint32 difficulty = 12;
+// Name: EMMMHDIMBNP
+// CmdId: 8804
+message StartRogueDiaryPlayReq {
+    uint32 stage_id = 2;
+    uint32 difficulty = 6;
 }
+
+

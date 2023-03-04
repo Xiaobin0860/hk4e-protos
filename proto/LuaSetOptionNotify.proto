@@ -2,17 +2,18 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "LuaOptionType.proto";
 
+// Name: FGFHDCEEKIH
+// CmdId: 343
 message LuaSetOptionNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 395;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
+    // Name: MNCLPFLPPFD
+    enum LuaOptionType {
+    LUA_OPTION_NONE         = 0;
+    LUA_OPTION_PLAYER_INPUT = 1;
+    }
 
-	string luaSetParam = 4;
-	LuaOptionType optionType = 14;
+    LuaOptionType option_type = 3;
+    string lua_set_param = 9;
 }
+
+

@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MpPlayOwnerCheckReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1842;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	bool isSkipMatch = 5;
-	uint32 mpPlayId = 13;
+// Name: BAJOKHOELIA
+// CmdId: 1817
+message MpPlayOwnerCheckReq {
+    bool is_skip_match = 14;
+    uint32 mp_play_id = 15;
 }
+
+

@@ -4,10 +4,13 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: ABLOLDAEFJD
 message ShapeBox {
-	Vector center = 1;
-	Vector axis0 = 2;
-	Vector axis1 = 3;
-	Vector axis2 = 4;
-	Vector extents = 5;
+    Vector center = 1;
+    Vector axis0 = 2;
+    Vector axis1 = 3;
+    Vector axis2 = 4;
+    Vector extents = 5;
 }
+
+

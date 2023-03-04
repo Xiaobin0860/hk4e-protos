@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: EILHMHEJAPN
 enum PlatformType {
   EDITOR                   = 0;
   IOS                      = 1;
@@ -19,3 +21,5 @@ enum PlatformType {
   CLOUD_THIRD_PARTY_MOBILE = 13;
   CLOUD_THIRD_PARTY_PC     = 14;
 }
+
+

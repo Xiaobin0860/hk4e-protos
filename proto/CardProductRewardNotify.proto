@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message CardProductRewardNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4141;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	string productId = 9;
-	uint32 hcoin = 6;
-	uint32 remainDays = 7;
+// Name: PKOMPHLMLED
+// CmdId: 4146
+message CardProductRewardNotify {
+    uint32 MIBMBPJHBBM = 2;
+    uint32 LLBAKMPCPGI = 6;
+    string product_id = 15;
 }
+
+

@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message TowerDailyRewardProgressChangeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2498;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 Unk3300_OHCHCJGJIDK = 4;
-	uint32 Unk3300_JBACKENDHDG = 3;
+// Name: KIAAEPKLOEN
+// CmdId: 2464
+message TowerDailyRewardProgressChangeNotify {
+    uint32 CKCFIIGKHMJ = 1;
+    uint32 AKANNMFELNA = 5;
 }
+
+

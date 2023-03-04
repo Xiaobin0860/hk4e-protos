@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MistTrialGetDungeonExhibitionDataRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8208;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 trialId = 10;
-	int32 retcode = 13;
+// Name: MHNKLABAELD
+// CmdId: 8058
+message MistTrialGetDungeonExhibitionDataRsp {
+    int32 retcode = 8;
+    uint32 trial_id = 7;
 }
+
+

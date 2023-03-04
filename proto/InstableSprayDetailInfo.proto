@@ -4,6 +4,9 @@ option go_package = "./;proto";
 
 import "InstableSprayStageInfo.proto";
 
+// Name: IDIGJCADDCJ
 message InstableSprayDetailInfo {
-	repeated InstableSprayStageInfo stageInfoList = 9;
+    repeated InstableSprayStageInfo stage_info_list = 14;
 }
+
+

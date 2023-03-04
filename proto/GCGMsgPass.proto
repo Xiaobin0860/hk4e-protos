@@ -2,6 +2,10 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: LAGIGNHGMNG
 message GCGMsgPass {
-	uint32 controllerId = 12;
+    uint32 controller_id = 6;
 }
+
+

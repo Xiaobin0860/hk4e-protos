@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message BlossomChestCreateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2774;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 circleCampId = 9;
-	uint32 refreshId = 1;
+// Name: BAEHNMNEKLG
+// CmdId: 2734
+message BlossomChestCreateNotify {
+    uint32 refresh_id = 1;
+    uint32 circle_camp_id = 9;
 }
+
+

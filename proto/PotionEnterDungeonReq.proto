@@ -4,19 +4,14 @@ option go_package = "./;proto";
 
 import "PotionAvatarInfo.proto";
 
+// Name: DFLDHLOHEEI
+// CmdId: 8630
 message PotionEnterDungeonReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8571;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 modeId = 14;
-	repeated PotionAvatarInfo avatarInfoList = 8;
-	uint32 levelId = 6;
-	repeated uint32 buffIdList = 11;
-	uint32 stageId = 1;
+    repeated PotionAvatarInfo avatar_info_list = 5;
+    uint32 level_id = 8;
+    repeated uint32 buff_id_list = 12;
+    uint32 stage_id = 6;
+    uint32 mode_id = 14;
 }
+
+

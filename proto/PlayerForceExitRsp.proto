@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message PlayerForceExitRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 165;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 13;
+// Name: MGJOAEHDAIC
+// CmdId: 190
+message PlayerForceExitRsp {
+    int32 retcode = 12;
 }
+
+

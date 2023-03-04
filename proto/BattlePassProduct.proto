@@ -2,8 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: KKAGAEDPGGK
 message BattlePassProduct {
-	string normalProductId = 4;
-	string extraProductId = 14;
-	string upgradeProductId = 7;
+    string normal_product_id = 1; //HBCIEPELAKP
+    string extra_product_id = 2; //PFDENLGHKKG 
+    string upgrade_product_id = 9; //JIIPGPJDHEA 
 }
+
+

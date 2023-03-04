@@ -2,19 +2,15 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "OnlinePlayerInfo.proto";
 import "MatchType.proto";
+import "OnlinePlayerInfo.proto";
 
+// Name: BAGAKCIOLPE
+// CmdId: 4171
 message PlayerApplyEnterMpAfterMatchAgreedNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4190;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 matchserverId = 9;
-	OnlinePlayerInfo srcPlayerInfo = 8;
-	MatchType matchType = 2;
+    MatchType match_type = 9;
+    uint32 matchserver_id = 3;
+    OnlinePlayerInfo src_player_info = 2;
 }
+
+

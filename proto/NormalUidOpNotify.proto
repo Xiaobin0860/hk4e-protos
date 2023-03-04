@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message NormalUidOpNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5738;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 duration = 1;
-	repeated uint32 paramList = 12;
-	repeated uint32 paramUidList = 7;
-	uint32 paramIndex = 6;
+// Name: AEGMNGGJBEB
+// CmdId: 5748
+message NormalUidOpNotify {
+    uint32 duration = 7;
+    repeated uint32 param_list = 13;
+    uint32 param_index = 11;
+    repeated uint32 param_uid_list = 14;
 }
+
+

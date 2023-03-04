@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MechanicusCoinNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3998;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 mechanicusId = 8;
-	uint32 coin = 13;
+// Name: KHJMCOBIELE
+// CmdId: 3964
+message MechanicusCoinNotify {
+    uint32 mechanicus_id = 12;
+    uint32 coin = 1;
 }
+
+

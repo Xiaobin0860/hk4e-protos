@@ -2,19 +2,15 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message WidgetReportReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4287;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	bool Unk3300_BCAIBKDIHHF = 15;
-	bool isClearSkyCrystalHint = 9;
-	uint32 weatherWizardShieldValue = 12;
-	uint32 materialId = 5;
-	bool Unk3300_APDFKKNKIJJ = 7;
+// Name: FPCJFEFBLOH
+// CmdId: 4251
+message WidgetReportReq {
+    bool OFONAJDKBBL = 12;
+    uint32 material_id = 8;
+    bool JMDHGCHDAGG = 14;
+    uint32 weather_wizard_shield_value = 4;
+    bool NEKKCPDCEFD = 5;
 }
+
+

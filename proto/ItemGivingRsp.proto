@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ItemGivingRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 137;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 givingId = 2;
-	int32 retcode = 13;
-	uint32 givingGroupId = 8;
+// Name: LKOBNFEHAFB
+// CmdId: 179
+message ItemGivingRsp {
+    uint32 giving_group_id = 12;
+    int32 retcode = 6;
+    uint32 giving_id = 7;
 }
+
+

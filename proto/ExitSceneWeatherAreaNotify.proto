@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ExitSceneWeatherAreaNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 294;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 weatherGadgetId = 15;
+// Name: GKKLNEFJELP
+// CmdId: 249
+message ExitSceneWeatherAreaNotify {
+    uint32 weather_gadget_id = 6;
 }
+
+

@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GetQuestTalkHistoryRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 462;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 8;
-	uint32 parentQuestId = 13;
-	repeated uint32 talkIdList = 7;
+// Name: MMOIOJJOHGJ
+// CmdId: 465
+message GetQuestTalkHistoryRsp {
+    int32 retcode = 14;
+    uint32 parent_quest_id = 9;
+    repeated uint32 talk_id_list = 5;
 }
+
+

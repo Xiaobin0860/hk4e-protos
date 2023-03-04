@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-option go_package = "./;proto";
-
-message UseSkillEnd {
-	uint32 skillId = 5;
-	uint32 cardGuid = 13;
-}

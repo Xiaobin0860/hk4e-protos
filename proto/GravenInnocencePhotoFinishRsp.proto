@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GravenInnocencePhotoFinishRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 22592;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 2;
-	uint32 objectId = 5;
-	uint32 param = 11;
+// Name: KEHDDOMEPEJ
+// CmdId: 23629
+message GravenInnocencePhotoFinishRsp {
+    int32 retcode = 14;
+    uint32 param = 3;
+    uint32 object_id = 12;
 }
+
+

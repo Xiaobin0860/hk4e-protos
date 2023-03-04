@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "FurnitureMakeSlot.proto";
 
+// Name: LKGNOGMFCAJ
+// CmdId: 4487
 message FurnitureMakeStartRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4756;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	FurnitureMakeSlot furnitureMakeSlot = 11;
-	int32 retcode = 15;
+    FurnitureMakeSlot furniture_make_slot = 13;
+    int32 retcode = 6;
 }
+
+

@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message WinterCampSetWishListReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8363;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	repeated uint32 itemIdList = 7;
+// Name: BNPEGHDMBII
+// CmdId: 8405
+message WinterCampSetWishListReq {
+    repeated uint32 item_id_list = 6;
 }
+
+

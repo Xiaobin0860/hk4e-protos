@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option go_package = "./;proto";
-
-enum FilterType {
-    All   = 0;
-    Air   = 1;
-    Water = 2;
-}

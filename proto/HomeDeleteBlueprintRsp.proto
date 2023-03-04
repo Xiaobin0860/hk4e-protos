@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message HomeDeleteBlueprintRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4564;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 9;
-	uint32 slotId = 10;
+// Name: DDNGIMPMEGA
+// CmdId: 4586
+message HomeDeleteBlueprintRsp {
+    uint32 slot_id = 11;
+    int32 retcode = 6;
 }
+
+

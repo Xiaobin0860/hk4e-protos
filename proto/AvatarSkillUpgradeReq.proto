@@ -2,17 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message AvatarSkillUpgradeReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1029;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 avatarSkillId = 10;
-	uint64 avatarGuid = 2;
-	uint32 oldLevel = 12;
+// Name: HDNOGHLJFHJ
+// CmdId: 1007
+message AvatarSkillUpgradeReq {
+    uint32 avatar_skill_id = 8;
+    uint32 old_level = 4;
+    uint64 avatar_guid = 9;
 }
+
+

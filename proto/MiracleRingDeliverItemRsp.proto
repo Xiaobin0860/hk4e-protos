@@ -5,18 +5,14 @@ option go_package = "./;proto";
 import "InteractType.proto";
 import "InterOpType.proto";
 
+// Name: PDCEJKGIPPA
+// CmdId: 5232
 message MiracleRingDeliverItemRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5235;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 gadgetEntityId = 14;
-	int32 retcode = 5;
-	InteractType interactType = 7;
-	uint32 gadgetId = 4;
-	InterOpType opType = 15;
+    uint32 gadget_entity_id = 2;
+    uint32 gadget_id = 6;
+    InterOpType op_type = 8;
+    InteractType interact_type = 7;
+    int32 retcode = 13;
 }
+
+

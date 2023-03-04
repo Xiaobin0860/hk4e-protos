@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: ILEGGBKJDDK
 enum PropChangeReason {
   PROP_CHANGE_NONE                      = 0;
   PROP_CHANGE_STATUE_RECOVER            = 1;
@@ -18,3 +20,5 @@ enum PropChangeReason {
   PROP_CHANGE_GM                        = 12;
   PROP_CHANGE_MANUAL_ADJUST_WORLD_LEVEL = 13;
 }
+
+

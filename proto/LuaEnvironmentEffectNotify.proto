@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message LuaEnvironmentEffectNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3240;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 type = 14;
-	repeated float floatParamList = 12;
-	string effectAlias = 13;
-	repeated int32 intParamList = 1;
+// Name: DMLFDBIMHCE
+// CmdId: 3136
+message LuaEnvironmentEffectNotify {
+    repeated int32 int_param_list = 14;
+    uint32 type = 10;
+    string effect_alias = 3;
+    repeated float float_param_list = 15;
 }
+
+

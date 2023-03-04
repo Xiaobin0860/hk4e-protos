@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message CreateMassiveEntityRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 381;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 2;
+// Name: ACHCCCKDALM
+// CmdId: 397
+message CreateMassiveEntityRsp {
+    int32 retcode = 2;
 }
+
+

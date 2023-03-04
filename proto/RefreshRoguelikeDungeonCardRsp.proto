@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message RefreshRoguelikeDungeonCardRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8302;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 9;
-	repeated uint32 resCardList = 12;
+// Name: JLNCEKEFIJI
+// CmdId: 8721
+message RefreshRoguelikeDungeonCardRsp {
+    int32 retcode = 4;
+    repeated uint32 res_card_list = 12;
 }
+
+

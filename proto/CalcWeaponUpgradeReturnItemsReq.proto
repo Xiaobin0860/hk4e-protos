@@ -4,17 +4,12 @@ option go_package = "./;proto";
 
 import "ItemParam.proto";
 
+// Name: JIPJFBLAPNL
+// CmdId: 601
 message CalcWeaponUpgradeReturnItemsReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 691;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	repeated uint64 foodWeaponGuidList = 8;
-	repeated ItemParam itemParamList = 4;
-	uint64 targetWeaponGuid = 10;
+    repeated uint64 food_weapon_guid_list = 13;
+    uint64 target_weapon_guid = 8;
+    repeated ItemParam item_param_list = 11;
 }
+
+

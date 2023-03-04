@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SceneKickPlayerNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 282;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 kickerUid = 8;
-	uint32 targetUid = 15;
+// Name: HEODAKMCPNE
+// CmdId: 299
+message SceneKickPlayerNotify {
+    uint32 kicker_uid = 12;
+    uint32 target_uid = 3;
 }
+
+

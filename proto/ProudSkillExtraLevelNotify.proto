@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ProudSkillExtraLevelNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1013;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 talentIndex = 4;
-	uint64 avatarGuid = 2;
-	uint32 talentType = 5;
-	uint32 extraLevel = 13;
+// Name: FFDMIACPHJJ
+// CmdId: 1029
+message ProudSkillExtraLevelNotify {
+    uint32 extra_level = 1; // MCIMCJEMMAH
+    uint32 talent_type = 7; // IMHNBMDKMMN
+    uint64 avatar_guid = 10;
+    uint32 talent_index = 11; // FAOAFMCOILH
 }
+
+

@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "PlayTeamEntityInfo.proto";
 
+// Name: GFENDIBMJBG
+// CmdId: 3362
 message SyncScenePlayTeamEntityNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3227;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 sceneId = 1;
-	repeated PlayTeamEntityInfo entityInfoList = 14;
+    repeated PlayTeamEntityInfo entity_info_list = 12;
+    uint32 scene_id = 14;
 }
+
+

@@ -2,7 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: COCLMIBAHOP
 message LanternRiteFireworksReformFactorInfo {
-	uint32 factorId = 1;
-	uint32 factorValue = 4;
+    uint32 factor_value = 4;
+    uint32 factor_id = 3;
 }
+
+

@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: NMDPHMJNAJA
+// CmdId: 230
 message MarkEntityInMinMapNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 263;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 monsterId = 12;
-	uint32 entityId = 3;
-	Vector position = 13;
+    uint32 entity_id = 7;
+    uint32 monster_id = 2;
+    Vector position = 12;
 }
+
+

@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MechanicusLevelupGearReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3962;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 mechanicusId = 6;
-	uint32 gearId = 10;
+// Name: OLPCCONLNBI
+// CmdId: 3965
+message MechanicusLevelupGearReq {
+    uint32 gear_id = 3;
+    uint32 mechanicus_id = 12;
 }
+
+

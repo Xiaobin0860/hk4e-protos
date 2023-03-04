@@ -2,16 +2,19 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message AnchorPointOpReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4291;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 anchorPointId = 15;
-	uint32 anchorPointOpType = 3;
+// Name: EJJFDKEPDBP
+// CmdId: 4296
+message AnchorPointOpReq {
+    // Name: KFMHCPAPAEI
+    enum AnchorPointOpType {
+    ANCHOR_POINT_OP_NONE     = 0;
+    ANCHOR_POINT_OP_TELEPORT = 1;
+    ANCHOR_POINT_OP_REMOVE   = 2;
+    }
+
+    uint32 anchor_point_op_type = 1;
+    uint32 anchor_point_id = 11;
 }
+
+

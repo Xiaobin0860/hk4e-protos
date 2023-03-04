@@ -4,18 +4,13 @@ option go_package = "./;proto";
 
 import "ForwardType.proto";
 
+// Name: GLCFLDFINNO
+// CmdId: 329
 message EvtEntityStartDieEndNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 313;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 entityId = 11;
-	bool immediately = 9;
-	ForwardType forwardType = 15;
-	uint32 dieStateFlag = 8;
+    bool immediately = 1;
+    uint32 entity_id = 6;
+    ForwardType forward_type = 5;
+    uint32 die_state_flag = 3;
 }
+
+

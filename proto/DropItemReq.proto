@@ -5,18 +5,13 @@ option go_package = "./;proto";
 import "StoreType.proto";
 import "Vector.proto";
 
+// Name: PDAMDHFOIIL
+// CmdId: 650
 message DropItemReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 614;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint64 guid = 10;
-	uint32 count = 3;
-	StoreType storeType = 12;
-	Vector pos = 13;
+    uint32 count = 5;
+    uint64 guid = 1;
+    StoreType store_type = 4;
+    Vector pos = 12;
 }
+
+

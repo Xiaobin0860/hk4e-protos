@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "AvatarSatiationData.proto";
 
+// Name: GILFMIFBHII
+// CmdId: 1655
 message AvatarSatiationDataNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1722;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated AvatarSatiationData satiationDataList = 9;
+    repeated AvatarSatiationData satiation_data_list = 3;
 }
+
+

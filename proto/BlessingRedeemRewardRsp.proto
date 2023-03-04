@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message BlessingRedeemRewardRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2104;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 2;
-	map<uint32, uint32> picNumMap = 6;
+// Name: MNKCNAJGIIN
+// CmdId: 2145
+message BlessingRedeemRewardRsp {
+    int32 retcode = 3;
+    map<uint32, uint32> pic_num_map = 14;
 }
+
+

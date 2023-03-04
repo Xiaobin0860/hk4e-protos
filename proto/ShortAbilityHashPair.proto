@@ -2,7 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: LFCFFHIAGBN
 message ShortAbilityHashPair {
-	fixed32 abilityNameHash = 6;
-	fixed32 abilityConfigHash = 10;
+    int32 ability_config_hash = 15;
+    int32 ability_name_hash = 7;
 }
+
+

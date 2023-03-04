@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message CoinCollectInterruptPlayRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 24576;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 galleryId = 7;
-	int32 retcode = 6;
+// Name: HPPGENNNNKA
+// CmdId: 23195
+message CoinCollectInterruptPlayRsp {
+    uint32 gallery_id = 7;
+    int32 retcode = 15;
 }
+
+

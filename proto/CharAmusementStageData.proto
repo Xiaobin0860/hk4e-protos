@@ -2,8 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: GMEBFGNEGLA
 message CharAmusementStageData {
-	uint32 finishTime = 11;
-	uint32 stageId = 12;
-	bool isOpen = 9;
+    uint32 stage_id = 7;
+    bool is_open = 11;
+    uint32 finish_time = 4;
 }
+
+

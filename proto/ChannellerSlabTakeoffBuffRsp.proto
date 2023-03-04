@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ChannellerSlabTakeoffBuffRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8646;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 slotId = 2;
-	bool fhableimdgl = 6;
-	uint32 buffId = 14;
-	int32 retcode = 3;
+// Name: EANAJADAGJP
+// CmdId: 8875
+message ChannellerSlabTakeoffBuffRsp {
+    uint32 buff_id = 3;
+    bool is_mp = 9;
+    int32 retcode = 14;
+    uint32 slot_id = 13;
 }
+
+

@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message HomeUpdateArrangementInfoRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4466;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 1;
+// Name: PLLKGLGEOGD
+// CmdId: 4776
+message HomeUpdateArrangementInfoRsp {
+    int32 retcode = 9;
 }
+
+

@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message QuestProgressUpdateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 406;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 questId = 9;
-	repeated uint32 failProgressList = 11;
-	repeated uint32 finishProgressList = 1;
+// Name: APPHCCAKOKB
+// CmdId: 466
+message QuestProgressUpdateNotify {
+    repeated uint32 DOFGANFLADG = 7;
+    repeated uint32 NAJLNEMFEGA = 2;
+    uint32 quest_id = 3;
 }
+
+

@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "ChatInfo.proto";
 
+// Name: IOCNDGDEEOL
+// CmdId: 3236
 message PlayerChatNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3092;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 channelId = 14;
-	ChatInfo chatInfo = 6;
+    ChatInfo chat_info = 15;
+    uint32 channel_id = 4;
 }
+
+

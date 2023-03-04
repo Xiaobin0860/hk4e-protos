@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SetBattlePassViewedReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2637;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 scheduleId = 10;
+// Name: OCKLLDMFEME
+// CmdId: 2601
+message SetBattlePassViewedReq {
+    uint32 schedule_id = 14;
 }
+
+

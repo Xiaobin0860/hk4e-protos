@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message StartFishingReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5846;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 rodEntityId = 14;
-	uint32 fishPoolId = 3;
+// Name: KKGHEMHHGBO
+// CmdId: 5809
+message StartFishingReq {
+    uint32 rod_entity_id = 4;
+    uint32 fish_pool_id = 13;
 }
+
+

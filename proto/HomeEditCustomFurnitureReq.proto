@@ -4,15 +4,10 @@ option go_package = "./;proto";
 
 import "HomeCustomFurnitureInfo.proto";
 
+// Name: LHJHCBDCJCM
+// CmdId: 4558
 message HomeEditCustomFurnitureReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4685;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	HomeCustomFurnitureInfo customFurnitureInfo = 5;
+    HomeCustomFurnitureInfo custom_furniture_info = 10;
 }
+
+

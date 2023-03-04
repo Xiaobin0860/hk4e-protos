@@ -2,19 +2,16 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message WeaponAwakenRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 685;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 11;
-	uint32 targetWeaponAwakenLevel = 3;
-	uint64 targetWeaponGuid = 2;
-	uint64 avatarGuid = 5;
-	map<uint32, uint32> oldAffixLevelMap = 6;
-	map<uint32, uint32> curAffixLevelMap = 12;
+// Name: DAEDFCNPJJC
+// CmdId: 686
+message WeaponAwakenRsp {
+    map<uint32, uint32> old_affix_level_map = 4; // AEICCHNADDH
+    int32 retcode = 5;
+    uint64 target_weapon_guid = 15;
+    map<uint32, uint32> cur_affix_level_map = 13; // HKHDCHGMGIJ
+    uint64 avatar_guid = 6;
+    uint32 target_weapon_awaken_level = 14;
 }
+
+

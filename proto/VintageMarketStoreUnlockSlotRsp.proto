@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message VintageMarketStoreUnlockSlotRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 20112;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 storeId = 5;
-	int32 retcode = 8;
-	uint32 slotCount = 10;
+// Name: GHFKALECMKJ
+// CmdId: 23837
+message VintageMarketStoreUnlockSlotRsp {
+    int32 retcode = 2;
+    uint32 slot_count = 9;
+    uint32 store_id = 6;
 }
+
+

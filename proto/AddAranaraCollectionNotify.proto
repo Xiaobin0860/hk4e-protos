@@ -4,17 +4,13 @@ option go_package = "./;proto";
 
 import "AranaraCollectionState.proto";
 
+// Name: OFLAHJBIJCJ
+// CmdId: 6393
 message AddAranaraCollectionNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6395;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	AranaraCollectionState Unk3300_AFBIBLNKCOD = 10;
-	AranaraCollectionState Unk3300_NJLJBBMJLBK = 15;
-	uint32 collectionId = 1;
-	uint32 collectionType = 5;
+    uint32 collection_type = 2;
+    AranaraCollectionState MENDLEGAOCB = 14;
+    AranaraCollectionState NJBIEHOJMCO = 5;
+    uint32 collection_id = 15;
 }
+
+

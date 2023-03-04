@@ -4,7 +4,10 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: LGCNHKIIMLL
 message HomeBlockSubFieldData {
-	Vector rot = 6;
-	Vector pos = 11;
+    Vector pos = 14;
+    Vector rot = 3;
 }
+
+

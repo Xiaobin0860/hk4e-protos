@@ -4,17 +4,13 @@ option go_package = "./;proto";
 
 import "SealBattleType.proto";
 
+// Name: LABKKBMBJPG
+// CmdId: 206
 message SealBattleBeginNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 261;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 sealRadius = 12;
-	uint32 sealMaxProgress = 2;
-	uint32 sealEntityId = 15;
-	SealBattleType battleType = 4;
+    uint32 seal_entity_id = 12;
+    uint32 HOECKCBABAL = 4;
+    uint32 BBHIBAHFNJE = 5;
+    SealBattleType battle_type = 15;
 }
+
+

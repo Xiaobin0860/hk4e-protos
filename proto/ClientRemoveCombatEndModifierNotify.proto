@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ClientRemoveCombatEndModifierNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1106;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	repeated uint32 combatEndTypeList = 12;
+// Name: PLDNFMGOBBD
+// CmdId: 1166
+message ClientRemoveCombatEndModifierNotify {
+    repeated uint32 combat_end_type_list = 11;
 }
+
+

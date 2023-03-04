@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message LanV3BoatGameTransferFinishNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 20696;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool bllclajlijb = 14;
+// Name: DDKDGNHFPFL
+// CmdId: 20763
+message LanV3BoatGameTransferFinishNotify {
+    bool is_reenter = 15;
 }
+
+

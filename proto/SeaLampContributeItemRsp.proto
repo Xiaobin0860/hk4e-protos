@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SeaLampContributeItemRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2166;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 addProgress = 4;
-	uint32 Unk3300_AIINHBHNHOI = 9;
-	int32 retcode = 12;
-	uint32 Unk3300_LPHALOGLGAL = 2;
+// Name: ADCIPKGKANK
+// CmdId: 2138
+message SeaLampContributeItemRsp {
+    uint32 HNGMFPDIFCG = 7;
+    uint32 NAOHGOGJGGM = 6;
+    uint32 add_progress = 2;
+    int32 retcode = 8;
 }
+
+

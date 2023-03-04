@@ -4,17 +4,19 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: OEAAFGJPJGP
+// CmdId: 5248
 message UseMiracleRingReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5238;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
+    // Name: DLDCNGNDKOC
+    enum DLDCNGNDKOC {
+        DLDCNGNDKOC_CIEDPDIKNGO = 0;
+        DLDCNGNDKOC_EBJPFOFAOFG = 1;
+        DLDCNGNDKOC_FJDMFFAJOBB = 2;
+    }
 
-	Vector pos = 7;
-	Vector rot = 2;
-	uint32 miracleRingOpType = 1;
+    uint32 miracle_ring_op_type = 7;
+    Vector rot = 6;
+    Vector pos = 9;
 }
+
+

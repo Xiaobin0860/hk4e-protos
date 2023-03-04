@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GetShopmallDataRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 774;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	repeated uint32 shopTypeList = 10;
-	int32 retcode = 3;
+// Name: JHGOPMOFJNN
+// CmdId: 734
+message GetShopmallDataRsp {
+    repeated uint32 shop_type_list = 3;
+    int32 retcode = 14;
 }
+
+

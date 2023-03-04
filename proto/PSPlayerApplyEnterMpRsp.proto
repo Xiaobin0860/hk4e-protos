@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message PSPlayerApplyEnterMpRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1814;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 param = 14;
-	int32 retcode = 2;
-	string targetPsnId = 3;
+// Name: EKGBIBIKFPI
+// CmdId: 1802
+message PSPlayerApplyEnterMpRsp {
+    string target_psn_id = 1;
+    int32 retcode = 8;
+    uint32 param = 3;
 }
+
+

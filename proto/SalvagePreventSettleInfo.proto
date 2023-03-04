@@ -4,7 +4,10 @@ option go_package = "./;proto";
 
 import "SalvagePreventGallerySettleInfo.proto";
 
+// Name: AKIMCMDLPEK
 message SalvagePreventSettleInfo {
-	bool isNewRecord = 4;
-	SalvagePreventGallerySettleInfo settleInfo = 6;
+    SalvagePreventGallerySettleInfo settle_info = 12;
+    bool is_new_record = 2;
 }
+
+

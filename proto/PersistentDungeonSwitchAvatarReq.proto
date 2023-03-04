@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message PersistentDungeonSwitchAvatarReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1709;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint64 curAvatarGuid = 14;
-	repeated uint64 avatarTeamGuidList = 2;
+// Name: ANLOCILIBFO
+// CmdId: 1720
+message PersistentDungeonSwitchAvatarReq {
+    uint64 cur_avatar_guid = 12;
+    repeated uint64 avatar_team_guid_list = 11;
 }
+
+

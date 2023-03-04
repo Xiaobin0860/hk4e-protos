@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "InvestigationTarget.proto";
 
+// Name: MOGCBFKFHDN
+// CmdId: 1930
 message PlayerInvestigationTargetNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1930;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated InvestigationTarget investigationTargetList = 12;
+    repeated InvestigationTarget investigation_target_list = 1;
 }
+
+

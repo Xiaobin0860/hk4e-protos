@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message StartRogueDiaryRoomReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8792;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	bool isSelectHard = 4;
-	uint32 roomDifficulty = 1;
+// Name: EJLABJMFMFD
+// CmdId: 8291
+message StartRogueDiaryRoomReq {
+    uint32 room_difficulty = 14;
+    bool is_select_hard = 13;
 }
+
+

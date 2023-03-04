@@ -4,11 +4,14 @@ option go_package = "./;proto";
 
 import "TowerTeam.proto";
 
+// Name: CAHLCAONMAP
 message TowerCurLevelRecord {
-	repeated TowerTeam towerTeamList = 13;
-	uint32 curLevelIndex = 14;
-	repeated uint32 buffIdList = 12;
-	bool isUpperPart = 1;
-	bool isEmpty = 7;
-	uint32 curFloorId = 9;
+    uint32 cur_floor_id = 2; //OOBKAHDLNGD 
+    repeated TowerTeam tower_team_list = 11;
+    bool is_upper_part = 6;
+    repeated uint32 buff_id_list = 3;
+    uint32 cur_level_index = 15; //ECKEFENMNCC 
+    bool is_empty = 1;
 }
+
+

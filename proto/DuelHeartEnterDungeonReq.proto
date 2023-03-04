@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message DuelHeartEnterDungeonReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 23310;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 levelId = 13;
+// Name: JAHOLILGJNJ
+// CmdId: 23327
+message DuelHeartEnterDungeonReq {
+    uint32 level_id = 9;
 }
+
+

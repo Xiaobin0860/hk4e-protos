@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message PublishCustomDungeonReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6214;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint64 dungeonGuid = 10;
-	repeated uint32 tagList = 1;
+// Name: NMOFCINOEBI
+// CmdId: 6202
+message PublishCustomDungeonReq {
+    repeated uint32 tag_list = 10;
+    uint64 dungeon_guid = 8;
 }
+
+

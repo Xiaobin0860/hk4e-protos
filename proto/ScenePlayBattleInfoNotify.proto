@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "ScenePlayBattleInfo.proto";
 
+// Name: GANMGHEFDNP
+// CmdId: 4417
 message ScenePlayBattleInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4355;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	ScenePlayBattleInfo battleInfo = 3;
+    ScenePlayBattleInfo battle_info = 2;
 }
+
+

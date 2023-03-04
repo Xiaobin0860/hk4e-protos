@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ServerTimeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 14;
-	// 	ENET_CHANNEL_ID = 1;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint64 serverTime = 12;
+// Name: OJGHKIIHLIG
+// CmdId: 50
+message ServerTimeNotify {
+    uint64 server_time = 8;
 }
+
+

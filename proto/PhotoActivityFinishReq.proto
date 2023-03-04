@@ -2,17 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message PhotoActivityFinishReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8021;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	bool isSucc = 11;
-	uint32 checkRootId = 3;
-	uint32 posId = 5;
+// Name: JHLKAAELCPP
+// CmdId: 8473
+message PhotoActivityFinishReq {
+    uint32 pos_id = 1;
+    uint32 check_root_id = 8;
+    bool is_succ = 4;
 }
+
+

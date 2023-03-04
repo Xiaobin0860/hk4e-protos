@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "ItemParam.proto";
 
+// Name: BLGLCOLCEPL
+// CmdId: 2119
 message SeaLampContributeItemReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2110;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	repeated ItemParam itemList = 13;
-	uint32 activityId = 12;
+    repeated ItemParam item_list = 1;
+    uint32 activity_id = 3;
 }
+
+

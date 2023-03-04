@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: FPCOGOEEBDM
 enum SvrMsgId {
   MSG_UNKNOWN                     = 0;
   MSG_BLOCK_REFRESH_COUNTDOWN     = 1;
@@ -11,3 +13,5 @@ enum SvrMsgId {
   MSG_ROUTINE_TYPE_REWARD_MAX_NUM = 5;
   MSG_MECHANICUS_COIN_LIMIT       = 6;
 }
+
+

@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message VintageHuntingStartGalleryRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 24063;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 11;
+// Name: LJAAJOAMJNB
+// CmdId: 24920
+message VintageHuntingStartGalleryRsp {
+    int32 retcode = 9;
 }
+
+

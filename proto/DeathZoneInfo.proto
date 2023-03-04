@@ -2,7 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: PMBGJHILHMF
 message DeathZoneInfo {
-	bool isOpen = 15;
-	uint32 id = 6;
+    uint32 id = 9;
+    bool is_open = 1;
 }
+
+

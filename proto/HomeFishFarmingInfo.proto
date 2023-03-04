@@ -2,7 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: OPEFMKHJAIN
 message HomeFishFarmingInfo {
-	uint32 fishpondGuid = 4;
-	repeated uint32 fishIdList = 6;
+    repeated uint32 fish_id_list = 11;
+    uint32 fishpond_guid = 5;
 }
+
+

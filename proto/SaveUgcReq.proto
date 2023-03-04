@@ -2,21 +2,21 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+import "UgcMusicBriefInfo.proto";
+import "UgcMusicRecord.proto";
 import "UgcType.proto";
-import "MusicRecord.proto";
 
+// Name: DMPCNMHFEHN
+// CmdId: 6344
 message SaveUgcReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6331;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	UgcType ugcType = 1;
-	oneof record {
-		MusicRecord music_record = 15;
-	}
+    UgcType ugc_type = 13;
+    uint32 schedule_id = 2;
+    oneof record {
+        UgcMusicRecord music_record = 11;
+    }
+    oneof brief {
+        UgcMusicBriefInfo music_brief_info = 380;
+    }
 }
+
+

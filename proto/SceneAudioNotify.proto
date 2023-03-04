@@ -2,19 +2,15 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SceneAudioNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3132;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	int32 type = 14;
-	repeated string param3 = 12;
-	repeated float param2 = 4;
-	uint32 sourceUid = 5;
-	repeated uint32 param1 = 9;
+// Name: BHHLLDGJLGK
+// CmdId: 3412
+message SceneAudioNotify {
+    int32 type = 12;
+    repeated float param2 = 9;
+    uint32 source_uid = 6;
+    repeated string param3 = 8;
+    repeated uint32 param1 = 7;
 }
+
+

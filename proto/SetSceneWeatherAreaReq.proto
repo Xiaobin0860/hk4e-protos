@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SetSceneWeatherAreaReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 208;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 weatherGadgetId = 15;
-	map<uint32, string> weatherValueMap = 6;
+// Name: KJJDAJEJCNP
+// CmdId: 296
+message SetSceneWeatherAreaReq {
+    map<uint32, string> weather_value_map = 13;
+    uint32 weather_gadget_id = 9;
 }
+
+

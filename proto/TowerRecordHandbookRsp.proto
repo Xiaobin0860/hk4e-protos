@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "TowerMonthlyDetail.proto";
 
+// Name: LHMDJABMLNN
+// CmdId: 2416
 message TowerRecordHandbookRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2450;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated TowerMonthlyDetail monthlyDetailList = 8;
-	int32 retcode = 12;
+    int32 retcode = 14;
+    repeated TowerMonthlyDetail monthly_detail_list = 1;
 }
+
+

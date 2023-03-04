@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "RogueEffectRecord.proto";
 
+// Name: LMLGDBGCAOJ
+// CmdId: 8556
 message RoguelikeEffectDataNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8256;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated RogueEffectRecord curseList = 11;
-	repeated RogueEffectRecord cardList = 1;
+    repeated RogueEffectRecord card_list = 8;
+    repeated RogueEffectRecord curse_list = 5;
 }
+
+

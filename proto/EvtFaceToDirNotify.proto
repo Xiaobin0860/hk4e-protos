@@ -2,19 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "ForwardType.proto";
 import "EvtFaceToDirInfo.proto";
+import "ForwardType.proto";
 
+// Name: LPPPDGBBOOI
+// CmdId: 382
 message EvtFaceToDirNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 370;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	ForwardType forwardType = 14;
-	EvtFaceToDirInfo evtFaceToDirInfo = 2;
+    EvtFaceToDirInfo evt_face_to_dir_info = 12;
+    ForwardType forward_type = 7;
 }
+
+

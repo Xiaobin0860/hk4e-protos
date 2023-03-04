@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "ReunionBriefInfo.proto";
 
+// Name: BLJGDDIJIHG
+// CmdId: 5088
 message ReunionActivateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5060;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	ReunionBriefInfo reunionBriefInfo = 7;
-	bool isActivate = 5;
+    bool is_activate = 7;
+    ReunionBriefInfo reunion_brief_info = 15;
 }
+
+

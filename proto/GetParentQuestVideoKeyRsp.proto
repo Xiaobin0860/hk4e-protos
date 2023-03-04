@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GetParentQuestVideoKeyRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 427;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint64 videoKey = 2;
-	int32 retcode = 9;
-	uint32 parentQuestId = 11;
+// Name: AALPIPNOICA
+// CmdId: 493
+message GetParentQuestVideoKeyRsp {
+    uint32 parent_quest_id = 11;
+    uint64 video_key = 9;
+    int32 retcode = 1;
 }
+
+

@@ -2,7 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: BGNNBFGLOLE
 message BartenderTaskInfo {
-	bool isFinish = 7;
-	uint32 id = 4;
+    uint32 id = 1;
+    bool is_finish = 14;
 }
+
+

@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message EffigyChallengeInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2164;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 challengeScore = 12;
-	repeated uint32 conditionIdList = 2;
-	uint32 difficultyId = 7;
-	uint32 challengeId = 8;
+// Name: PMPECEFOAEL
+// CmdId: 2038
+message EffigyChallengeInfoNotify {
+    uint32 challenge_id = 12;
+    uint32 difficulty_id = 11;
+    repeated uint32 condition_id_list = 15;
+    uint32 challenge_score = 4;
 }
+
+

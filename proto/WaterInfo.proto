@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-option go_package = "./;proto";
-
-message WaterInfo {
-	int64 id = 1;
-}

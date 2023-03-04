@@ -2,18 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message RogueSwitchAvatarReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8262;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint64 curAvatarGuid = 15;
-	repeated uint64 onstageAvatarGuidList = 14;
-	uint32 cellId = 8;
-	uint32 dungeonId = 1;
+// Name: BANCBBMHEKO
+// CmdId: 8770
+message RogueSwitchAvatarReq {
+    uint64 cur_avatar_guid = 5;
+    repeated uint64 onstage_avatar_guid_list = 2;
+    uint32 cell_id = 1;
+    uint32 dungeon_id = 12;
 }
+
+

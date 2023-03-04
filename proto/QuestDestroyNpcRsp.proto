@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message QuestDestroyNpcRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 488;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 npcId = 4;
-	uint32 parentQuestId = 6;
-	int32 retcode = 2;
+// Name: IHAMDEJMOKK
+// CmdId: 444
+message QuestDestroyNpcRsp {
+    uint32 parent_quest_id = 5;
+    uint32 npc_id = 3;
+    int32 retcode = 1;
 }
+
+

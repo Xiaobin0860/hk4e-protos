@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "ItemParam.proto";
 
+// Name: LNFPECLLAJF
+// CmdId: 2696
 message TakeAchievementRewardRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2691;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated ItemParam itemList = 7;
-	repeated uint32 idList = 4;
-	int32 retcode = 13;
+    repeated ItemParam item_list = 5;
+    int32 retcode = 6;
+    repeated uint32 id_list = 1;
 }
+
+

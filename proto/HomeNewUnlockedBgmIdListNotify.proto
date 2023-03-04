@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message HomeNewUnlockedBgmIdListNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4732;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	repeated uint32 newUnlockedBgmIdList = 6;
+// Name: DJOGPDMKFLM
+// CmdId: 4612
+message HomeNewUnlockedBgmIdListNotify {
+    repeated uint32 new_unlocked_bgm_id_list = 5;
 }
+
+

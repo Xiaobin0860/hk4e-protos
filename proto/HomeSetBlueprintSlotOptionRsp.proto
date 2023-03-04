@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message HomeSetBlueprintSlotOptionRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4749;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 15;
-	uint32 slotId = 2;
-	bool isAllowCopy = 1;
+// Name: KDGBNKKPMGJ
+// CmdId: 4855
+message HomeSetBlueprintSlotOptionRsp {
+    bool is_allow_copy = 4;
+    uint32 slot_id = 12;
+    int32 retcode = 1;
 }
+
+

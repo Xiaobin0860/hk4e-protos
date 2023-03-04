@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "BattlePassMission.proto";
 
+// Name: MBEPHADCLEE
+// CmdId: 2643
 message BattlePassMissionUpdateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2645;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated BattlePassMission missionList = 10;
+    repeated BattlePassMission mission_list = 13;
 }
+
+

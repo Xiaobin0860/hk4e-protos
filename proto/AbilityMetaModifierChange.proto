@@ -4,22 +4,22 @@ option go_package = "./;proto";
 
 import "AbilityAttachedModifier.proto";
 import "AbilityString.proto";
+import "HBMJGKJKIGL.proto";
 import "ModifierAction.proto";
-import "ModifierProperty.proto";
 
+// Name: IPPNBIDINLA
 message AbilityMetaModifierChange {
-	uint32 applyEntityId = 8;
-	AbilityAttachedModifier attachedInstancedModifier = 7;
-	bool isMuteRemote = 1;
-	repeated ModifierProperty properties = 13;
-	AbilityString parentAbilityName = 10;
-	AbilityString parentAbilityOverride = 5;
-	bool isDurabilityZero = 11;
-	bool isAttachedParentAbility = 3;
-	uint32 serverBuffUid = 9;
-	int32 modifierLocalId = 6;
-	ModifierAction action = 2;
+    bool EHNDJAIGJGL = 8;
+    int32 modifier_local_id = 11;
+    repeated HBMJGKJKIGL JONDGNPJAFA = 4;
+    uint32 apply_entity_id = 3;
+    AbilityAttachedModifier attached_instanced_modifier = 1;
+    ModifierAction action = 9; // NOAJNAPDEMN
+    bool is_attached_parent_ability = 15;
+    AbilityString parent_ability_name = 6;
+    bool AODBABIFPHH = 2;
+    AbilityString parent_ability_override = 12;
+    uint32 server_buff_uid = 13;
 }
-
 
 

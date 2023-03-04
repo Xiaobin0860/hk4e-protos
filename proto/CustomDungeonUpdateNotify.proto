@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "CustomDungeonBrief.proto";
 
+// Name: PMGNHJBGGAJ
+// CmdId: 6225
 message CustomDungeonUpdateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6203;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	CustomDungeonBrief dungeonBrief = 14;
+    CustomDungeonBrief dungeon_brief = 11;
 }
+
+

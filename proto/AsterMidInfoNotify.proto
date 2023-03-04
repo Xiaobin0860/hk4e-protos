@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "AsterMidDetailInfo.proto";
 
+// Name: LJKDKKDMJGM
+// CmdId: 2118
 message AsterMidInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2007;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	AsterMidDetailInfo info = 8;
+    AsterMidDetailInfo info = 11;
 }
+
+

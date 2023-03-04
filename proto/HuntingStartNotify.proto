@@ -5,17 +5,13 @@ option go_package = "./;proto";
 import "HuntingPair.proto";
 import "Vector.proto";
 
+// Name: HDMIAHCJMLG
+// CmdId: 4344
 message HuntingStartNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4331;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 failTime = 4;
-	HuntingPair huntingPair = 12;
-	bool isFinal = 7;
-	Vector cluePosition = 14;
+    bool is_final = 5;
+    uint32 fail_time = 6;
+    Vector clue_position = 2;
+    HuntingPair hunting_pair = 13;
 }
+
+

@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option go_package = "./;proto";
-
-message FungusFighterMonsterDetail {
-	float curHpPercentage = 9;
-	uint32 fungusId = 10;
-	bool isAlive = 12;
-}

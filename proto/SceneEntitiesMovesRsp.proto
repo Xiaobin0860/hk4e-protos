@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "EntityMoveFailInfo.proto";
 
+// Name: CJDHJADEIAA
+// CmdId: 212
 message SceneEntitiesMovesRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 293;
-	// 	ENET_CHANNEL_ID = 1;
-	// 	ENET_IS_RELIABLE = 0;
-	// }
-
-	repeated EntityMoveFailInfo entityMoveFailInfoList = 5;
+    repeated EntityMoveFailInfo entity_move_fail_info_list = 9;
 }
+
+

@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "HomeSceneArrangementInfo.proto";
 
+// Name: DACJJCPINAB
+// CmdId: 4600
 message HomePreviewBlueprintRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4625;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	string shareCode = 3;
-	int32 retcode = 4;
-	HomeSceneArrangementInfo sceneArrangementInfo = 15;
+    string share_code = 12;
+    HomeSceneArrangementInfo scene_arrangement_info = 3;
+    int32 retcode = 13;
 }
+
+

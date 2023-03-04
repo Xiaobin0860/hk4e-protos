@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-option go_package = "./;proto";
-
-message GCGTCTavernChallengeData {
-	repeated uint32 lidokiohkmh = 13;
-	uint32 caaaccpgkff = 1;
-}

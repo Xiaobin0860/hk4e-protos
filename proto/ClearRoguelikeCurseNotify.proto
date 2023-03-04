@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ClearRoguelikeCurseNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8183;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool isCurseAllClear = 14;
-	bool isClearAll = 9;
-	map<uint32, uint32> clearCurseMap = 12;
-	uint32 cardId = 6;
+// Name: IMDJMIGFNDA
+// CmdId: 8565
+message ClearRoguelikeCurseNotify {
+    map<uint32, uint32> clear_curse_map = 13;
+    uint32 card_id = 7;
+    bool EABGIEFBONK = 4;
+    bool DJDLPJELAMM = 10;
 }
+
+

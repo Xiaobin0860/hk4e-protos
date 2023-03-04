@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: FCNGHDHCBJL
+// CmdId: 2304
 message GMShowNavMeshReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2390;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	Vector center = 6;
-	Vector extent = 13;
+    Vector center = 6;
+    Vector extent = 13;
 }
+
+

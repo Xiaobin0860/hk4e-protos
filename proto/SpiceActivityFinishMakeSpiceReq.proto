@@ -2,18 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SpiceActivityFinishMakeSpiceReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8744;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 stageId = 9;
-	bool isSuccess = 12;
-	repeated uint32 leftMaterialIdList = 1;
-	uint32 leftTurns = 4;
+// Name: CAEIOKCNHNF
+// CmdId: 8032
+message SpiceActivityFinishMakeSpiceReq {
+    uint32 stage_id = 12;
+    bool is_success = 8;
+    repeated uint32 left_material_id_list = 1;
+    uint32 left_turns = 7;
 }
+
+

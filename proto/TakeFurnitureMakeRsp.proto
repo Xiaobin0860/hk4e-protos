@@ -5,18 +5,14 @@ option go_package = "./;proto";
 import "FurnitureMakeSlot.proto";
 import "ItemParam.proto";
 
+// Name: ACOKGGPOACP
+// CmdId: 4630
 message TakeFurnitureMakeRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4806;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated ItemParam returnItemList = 7;
-	FurnitureMakeSlot furnitureMakeSlot = 6;
-	uint32 makeId = 4;
-	repeated ItemParam outputItemList = 1;
-	int32 retcode = 10;
+    repeated ItemParam OutputItemList = 11; // PODPGGGOFGP
+    repeated ItemParam CBLILOJFLPO = 14; // CBLILOJFLPO
+    FurnitureMakeSlot furniture_make_slot = 12;
+    uint32 make_id = 10;
+    int32 retcode = 8;
 }
+
+

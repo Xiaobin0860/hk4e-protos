@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "CustomGadgetTreeInfo.proto";
 
+// Name: KJNHKMHCOCG
+// CmdId: 8746
 message IrodoriEditFlowerCombinationReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8795;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 entityId = 8;
-	CustomGadgetTreeInfo combinationInfo = 9;
+    uint32 entity_id = 2;
+    CustomGadgetTreeInfo combination_info = 7;
 }
+
+

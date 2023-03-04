@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GearActivityFinishPlayPictureReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 24600;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	bool isSuccess = 3;
+// Name: BGCJIPNGAHK
+// CmdId: 21009
+message GearActivityFinishPlayPictureReq {
+    bool is_success = 3;
 }
+
+

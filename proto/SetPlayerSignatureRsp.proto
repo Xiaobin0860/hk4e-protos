@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SetPlayerSignatureRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4069;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	string signature = 13;
-	int32 retcode = 10;
+// Name: AICKCEEEKKO
+// CmdId: 4027
+message SetPlayerSignatureRsp {
+    string signature = 13;
+    int32 retcode = 9;
 }
+
+

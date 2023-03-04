@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MpPlayOwnerStartInviteRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1803;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 mpPlayId = 3;
-	bool isSkipMatch = 7;
-	int32 retcode = 8;
+// Name: GLDBJLEPDKG
+// CmdId: 1825
+message MpPlayOwnerStartInviteRsp {
+    int32 retcode = 15;
+    uint32 mp_play_id = 3;
+    bool is_skip_match = 5;
 }
+
+

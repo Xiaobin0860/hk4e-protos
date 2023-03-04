@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message InterpretInferenceWordReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 423;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 wordId = 12;
-	uint32 pageId = 10;
+// Name: OIOIOFJMHFO
+// CmdId: 487
+message InterpretInferenceWordReq {
+    uint32 page_id = 1;
+    uint32 word_id = 6;
 }
+
+

@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "EventTriggerType.proto";
 
+// Name: MOHMFBOEKEA
+// CmdId: 191
 message ClientTriggerEventNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 178;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 forceId = 5;
-	EventTriggerType eventType = 1;
+    uint32 force_id = 14;
+    EventTriggerType event_type = 10;
 }
+
+

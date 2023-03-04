@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message HomeModuleUnlockNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4528;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 moduleId = 14;
+// Name: BJCKAJNCINB
+// CmdId: 4700
+message HomeModuleUnlockNotify {
+    uint32 module_id = 6;
 }
+
+

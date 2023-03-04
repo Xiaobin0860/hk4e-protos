@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message HomeDeleteBlueprintReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4829;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 slotId = 13;
+// Name: DFMIMBLJPNI
+// CmdId: 4854
+message HomeDeleteBlueprintReq {
+    uint32 slot_id = 1;
 }
+
+

@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message FurnitureMakeCancelReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4577;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 makeId = 5;
-	uint32 index = 12;
+// Name: OFDKCMBFMBP
+// CmdId: 4619
+message FurnitureMakeCancelReq {
+    uint32 index = 11;
+    uint32 make_id = 8;
 }
+
+

@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "SceneEntityInfo.proto";
 
+// Name: DDPDLNJBKAP
+// CmdId: 1759
 message AvatarChangeCostumeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1648;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	SceneEntityInfo entityInfo = 13;
+    SceneEntityInfo entity_info = 3;
 }
+
+

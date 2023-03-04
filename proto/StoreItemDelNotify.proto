@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "StoreType.proto";
 
+// Name: LFBAPJJCKLK
+// CmdId: 664
 message StoreItemDelNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 698;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated uint64 guidList = 6;
-	StoreType storeType = 10;
+    StoreType store_type = 1;
+    repeated uint64 guid_list = 15;
 }
+
+

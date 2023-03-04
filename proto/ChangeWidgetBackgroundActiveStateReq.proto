@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ChangeWidgetBackgroundActiveStateReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6092;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 materialId = 8;
-	bool isActive = 9;
+// Name: FGPHMLLJKNC
+// CmdId: 5953
+message ChangeWidgetBackgroundActiveStateReq {
+    uint32 material_id = 1;
+    bool is_active = 2;
 }
+
+

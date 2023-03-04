@@ -4,18 +4,13 @@ option go_package = "./;proto";
 
 import "HomeSceneArrangementInfo.proto";
 
+// Name: FDIKAEEIFOI
+// CmdId: 4865
 message HomeCreateBlueprintReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4645;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	HomeSceneArrangementInfo sceneArrangementInfo = 15;
-	uint32 slotId = 13;
-	string serverShareCode = 8;
-	uint32 genShareCodeCount = 1;
+    string server_share_code = 3;
+    HomeSceneArrangementInfo scene_arrangement_info = 14;
+    uint32 slot_id = 8;
+    uint32 gen_share_code_count = 1;
 }
+
+

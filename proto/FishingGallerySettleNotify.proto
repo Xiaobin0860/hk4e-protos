@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "FishingGallerySettleInfo.proto";
 
+// Name: ENFPDJJKBJK
+// CmdId: 8594
 message FishingGallerySettleNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8356;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	FishingGallerySettleInfo settleInfo = 3;
-	uint32 galleryId = 7;
-	uint32 levelId = 6;
+    FishingGallerySettleInfo settle_info = 5;
+    uint32 level_id = 14;
+    uint32 gallery_id = 12;
 }
+
+

@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: EHNGPEEHDLI
+// CmdId: 278
 message HitClientTrivialNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 272;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	Vector position = 9;
-	uint32 ownerEntityId = 4;
+    uint32 owner_entity_id = 14;
+    Vector position = 6;
 }
+
+

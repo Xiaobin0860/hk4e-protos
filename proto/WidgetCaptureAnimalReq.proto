@@ -4,17 +4,12 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: OIAOALNGDJF
+// CmdId: 4274
 message WidgetCaptureAnimalReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4273;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 materialId = 8;
-	Vector pos = 5;
-	uint32 entityId = 11;
+    uint32 material_id = 5;
+    Vector pos = 3;
+    uint32 entity_id = 11;
 }
+
+

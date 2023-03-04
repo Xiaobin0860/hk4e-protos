@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: KCEHIDGIEEF
 enum MapMarkPointType {
   NPC        = 0;
   QUEST      = 1;
@@ -11,3 +13,5 @@ enum MapMarkPointType {
   MONSTER    = 5;
   FISH_POOL  = 6;
 }
+
+

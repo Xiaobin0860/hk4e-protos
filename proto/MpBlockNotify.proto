@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MpBlockNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1826;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 endTime = 13;
+// Name: NFGFJNEJDIN
+// CmdId: 1837
+message MpBlockNotify {
+    uint32 end_time = 6;
 }
+
+

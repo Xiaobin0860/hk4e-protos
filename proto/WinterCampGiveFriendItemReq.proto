@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "ItemParam.proto";
 
+// Name: ADDFLBOGEHN
+// CmdId: 8187
 message WinterCampGiveFriendItemReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8528;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	repeated ItemParam itemList = 5;
-	uint32 uid = 2;
+    uint32 uid = 1;
+    repeated ItemParam item_list = 4;
 }
+
+

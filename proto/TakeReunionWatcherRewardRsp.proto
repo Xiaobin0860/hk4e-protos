@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message TakeReunionWatcherRewardRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5090;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 watcherId = 2;
-	int32 retcode = 1;
-	uint32 missionId = 3;
+// Name: OMBOHFLMOAN
+// CmdId: 5071
+message TakeReunionWatcherRewardRsp {
+    int32 retcode = 5;
+    uint32 watcher_id = 1;
+    uint32 mission_id = 2;
 }
+
+

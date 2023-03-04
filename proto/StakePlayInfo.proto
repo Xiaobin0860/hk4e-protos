@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option go_package = "./;proto";
-
-import "HomeStakePlayRecord.proto";
-
-message StakePlayInfo {
-	repeated HomeStakePlayRecord recordList = 14;
-}

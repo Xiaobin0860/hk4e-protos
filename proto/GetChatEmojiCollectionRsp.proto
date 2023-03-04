@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "ChatEmojiCollectionData.proto";
 
+// Name: ADOKOEBEDKI
+// CmdId: 4001
 message GetChatEmojiCollectionRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4091;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	int32 retcode = 4;
-	ChatEmojiCollectionData chatEmojiCollectionData = 12;
+    ChatEmojiCollectionData chat_emoji_collection_data = 3;
+    int32 retcode = 10;
 }
+
+

@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ActivityGetCanGiveFriendGiftReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8383;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 scheduleId = 8;
+// Name: PLOKAKEIEFA
+// CmdId: 8934
+message ActivityGetCanGiveFriendGiftReq {
+    uint32 schedule_id = 8;
 }
+
+

@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: NPDDDIOCDLF
+// CmdId: 259
 message SceneAvatarStaminaStepRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 224;
-	// 	ENET_CHANNEL_ID = 1;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	int32 retcode = 8;
-	bool useClientRot = 3;
-	Vector rot = 6;
+    int32 retcode = 10;
+    Vector rot = 14;
+    bool use_client_rot = 3;
 }
+
+

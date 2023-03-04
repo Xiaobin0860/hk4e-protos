@@ -4,10 +4,13 @@ option go_package = "./;proto";
 
 import "ProfilePicture.proto";
 
+// Name: MJONLMACPAH
 message ActivityFriendGiftWishData {
-	uint32 uid = 4;
-	map<uint32, uint32> giftNumMap = 1;
-	string remarkName = 2;
-	string nickname = 9;
-	ProfilePicture profilePicture = 3;
+    map<uint32, uint32> gift_num_map = 8;
+    uint32 uid = 5;
+    string nickname = 1;
+    ProfilePicture profile_picture = 11;
+    string remark_name = 12;
 }
+
+

@@ -4,18 +4,14 @@ option go_package = "./;proto";
 
 import "FoundationOpType.proto";
 
+// Name: HHLPGAGCBPI
+// CmdId: 866
 message FoundationRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 806;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 pointConfigId = 14;
-	int32 retcode = 1;
-	uint32 gadgetEntityId = 10;
-	FoundationOpType opType = 15;
-	uint32 buildingId = 8;
+    FoundationOpType op_type = 12;
+    uint32 ODOEMLALIML = 10;
+    int32 retcode = 14;
+    uint32 AHBIFENKEPF = 15;
+    uint32 gadget_entity_id = 6;
 }
+
+

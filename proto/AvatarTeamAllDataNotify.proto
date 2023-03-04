@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "AvatarTeam.proto";
 
+// Name: IKLIDEBOGPM
+// CmdId: 1729
 message AvatarTeamAllDataNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1763;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated uint64 tempAvatarGuidList = 15;
-	repeated uint32 backupAvatarTeamOrderList = 14;
-	map<uint32, AvatarTeam> avatarTeamMap = 12;
+    repeated uint32 backup_avatar_team_order_list = 8;
+    map<uint32, AvatarTeam> avatar_team_map = 3;
+    repeated uint64 temp_avatar_guid_list = 6;
 }
+
+

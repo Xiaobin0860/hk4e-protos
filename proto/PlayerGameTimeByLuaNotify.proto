@@ -2,14 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message PlayerGameTimeByLuaNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 171;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	string gpbkdlaodce = 6;
+// Name: FDNAMLJAAFA
+// CmdId: 168
+message PlayerGameTimeByLuaNotify {
+    uint32 sim_speed = 3;
+    uint32 uid = 11;
+    uint32 game_time = 14;
 }
+
+

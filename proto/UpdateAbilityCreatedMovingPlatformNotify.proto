@@ -2,18 +2,19 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "OpType.proto";
 
+// Name: KNEOLPEIPID
+// CmdId: 829
 message UpdateAbilityCreatedMovingPlatformNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 813;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
+    // Name: IPLKGKOHDOL
+    enum OpType {
+    OP_NONE       = 0;
+    OP_ACTIVATE   = 1;
+    OP_DEACTIVATE = 2;
+    }
 
-	uint32 entityId = 4;
-	OpType opType = 6;
+    OpType op_type = 8;
+    uint32 entity_id = 7;
 }
+
+

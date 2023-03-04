@@ -4,18 +4,14 @@ option go_package = "./;proto";
 
 import "ShopGoods.proto";
 
+// Name: ENKEADDAPDB
+// CmdId: 764
 message BuyGoodsRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 798;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 buyCount = 2;
-	ShopGoods goods = 1;
-	repeated ShopGoods goodsList = 7;
-	int32 retcode = 5;
-	uint32 shopType = 14;
+    uint32 buy_count = 11;
+    uint32 shop_type = 9;
+    repeated ShopGoods goods_list = 5;
+    int32 retcode = 3;
+    ShopGoods goods = 2;
 }
+
+

@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message CookGradeDataNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 151;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 grade = 2;
+// Name: OBOFAJMJMGL
+// CmdId: 126
+message CookGradeDataNotify {
+    uint32 grade = 3;
 }
+
+

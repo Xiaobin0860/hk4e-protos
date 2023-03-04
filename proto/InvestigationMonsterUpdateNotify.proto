@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "InvestigationMonster.proto";
 
+// Name: IDGEJMMEOEO
+// CmdId: 1920
 message InvestigationMonsterUpdateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1919;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	InvestigationMonster investigationMonster = 15;
+    InvestigationMonster investigation_monster = 13;
 }
+
+

@@ -2,20 +2,16 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "ShopGoods.proto";
 import "BuyGoodsParam.proto";
+import "ShopGoods.proto";
 
+// Name: LMIKBGJFDOA
+// CmdId: 750
 message BatchBuyGoodsRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 714;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	int32 retcode = 5;
-	repeated ShopGoods goodsList = 11;
-	uint32 shopType = 14;
-	repeated BuyGoodsParam buyGoodsList = 3;
+    repeated BuyGoodsParam buy_goods_list = 9;
+    repeated ShopGoods goods_list = 15;
+    int32 retcode = 11;
+    uint32 shop_type = 13;
 }
+
+

@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message PlayerGeneralMatchConfirmNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4164;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool isAgree = 7;
-	uint32 matchId = 14;
-	uint32 uid = 8;
+// Name: AFPAEEIEEFD
+// CmdId: 4152
+message PlayerGeneralMatchConfirmNotify {
+    bool is_agree = 15;
+    uint32 uid = 10;
+    uint32 match_id = 2;
 }
+
+

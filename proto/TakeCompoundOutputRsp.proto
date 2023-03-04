@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "ItemParam.proto";
 
+// Name: LKHMPMMAEBD
+// CmdId: 125
 message TakeCompoundOutputRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 143;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated ItemParam itemList = 13;
-	int32 retcode = 2;
+    repeated ItemParam item_list = 12;
+    int32 retcode = 7;
 }
+
+

@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "OnlinePlayerInfo.proto";
 
+// Name: DIFECLKBCGD
+// CmdId: 65
 message GetOnlinePlayerListRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 62;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	int32 retcode = 5;
-	uint32 param = 14;
-	repeated OnlinePlayerInfo playerInfoList = 9;
+    repeated OnlinePlayerInfo player_info_list = 13;
+    uint32 param = 12;
+    int32 retcode = 14;
 }
+
+

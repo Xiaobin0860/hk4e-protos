@@ -5,20 +5,15 @@ option go_package = "./;proto";
 import "SceneReliquaryInfo.proto";
 import "SceneWeaponInfo.proto";
 
+// Name: IKNNNIGIPLE
+// CmdId: 661
 message AvatarEquipChangeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 639;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 itemId = 2;
-	uint64 equipGuid = 11;
-	uint32 equipType = 12;
-	SceneReliquaryInfo reliquary = 13;
-	uint64 avatarGuid = 15;
-	SceneWeaponInfo weapon = 10;
+    uint32 equip_type = 5;
+    uint64 avatar_guid = 3;
+    SceneReliquaryInfo reliquary = 6;
+    SceneWeaponInfo weapon = 12;
+    uint64 equip_guid = 2;
+    uint32 item_id = 9;
 }
+
+

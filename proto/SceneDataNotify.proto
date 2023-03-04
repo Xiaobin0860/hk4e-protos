@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SceneDataNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3295;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	repeated string levelConfigNameList = 6;
-	repeated uint32 sceneTagIdList = 8;
+// Name: HGPFLODNOJD
+// CmdId: 3210
+message SceneDataNotify {
+    repeated string level_config_name_list = 11;
+    repeated uint32 scene_tag_id_list = 5;
 }
+
+

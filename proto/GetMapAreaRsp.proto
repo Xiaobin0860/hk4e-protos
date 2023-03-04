@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "MapAreaInfo.proto";
 
+// Name: FDMHPADJFJP
+// CmdId: 3458
 message GetMapAreaRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3213;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated MapAreaInfo mapAreaInfoList = 3;
-	int32 retcode = 2;
+    int32 retcode = 2;
+    repeated MapAreaInfo map_area_info_list = 1;
 }
+
+

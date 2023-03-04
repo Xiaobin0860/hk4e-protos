@@ -2,20 +2,23 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "ItemExceedLimitMsgType.proto";
 
+// Name: FABJDIPEMDE
+// CmdId: 685
 message CheckAddItemExceedLimitNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 634;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
+    // Name: ONKIMGOMOEL
+    enum ItemExceedLimitMsgType {
+    ITEM_EXCEED_LIMIT_MSG_DEFAULT         = 0;
+    ITEM_EXCEED_LIMIT_MSG_TEXT            = 1;
+    ITEM_EXCEED_LIMIT_MSG_DIALOG          = 2;
+    ITEM_EXCEED_LIMIT_MSG_DIALOG_NONBLOCK = 3;
+    }
 
-	repeated uint32 finishedChallengeIdList = 15;
-	repeated uint32 exceededItemList = 5;
-	uint32 reason = 2;
-	ItemExceedLimitMsgType msgType = 7;
-	bool isDrop = 1;
+    uint32 reason = 6;
+    repeated uint32 NPLFIOFPAKH = 2;
+    ItemExceedLimitMsgType msg_type = 10;
+    bool is_drop = 15;
+    repeated uint32 DNJDACFOEJA = 1;
 }
+
+

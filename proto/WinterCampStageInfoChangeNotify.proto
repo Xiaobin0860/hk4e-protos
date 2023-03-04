@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "WinterCampStageInfo.proto";
 
+// Name: DCAJHAFCEHL
+// CmdId: 8531
 message WinterCampStageInfoChangeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8517;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	WinterCampStageInfo battleInfo = 15;
-	WinterCampStageInfo exploreInfo = 3;
+    WinterCampStageInfo battle_info = 8;
+    WinterCampStageInfo explore_info = 1;
 }
+
+

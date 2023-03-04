@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message EchoShellTakeRewardRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8180;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 rewardId = 2;
-	int32 retcode = 1;
+// Name: JPFCLONBGNH
+// CmdId: 8523
+message EchoShellTakeRewardRsp {
+    int32 retcode = 8;
+    uint32 reward_id = 4;
 }
+
+

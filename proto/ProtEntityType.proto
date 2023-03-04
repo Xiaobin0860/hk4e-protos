@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: APHMIMMPMDI
 enum ProtEntityType {
   PROT_ENTITY_NONE             = 0;
   PROT_ENTITY_AVATAR           = 1;
@@ -19,3 +21,5 @@ enum ProtEntityType {
   PROT_ENTITY_EYE_POINT        = 13;
   PROT_ENTITY_MAX              = 14;
 }
+
+

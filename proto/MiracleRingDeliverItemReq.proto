@@ -5,19 +5,14 @@ option go_package = "./;proto";
 import "InterOpType.proto";
 import "ItemParam.proto";
 
+// Name: MAKGHLKHBKG
+// CmdId: 5244
 message MiracleRingDeliverItemReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5231;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	repeated uint64 foodWeaponGuidList = 3;
-	InterOpType opType = 2;
-	uint32 gadgetId = 14;
-	repeated ItemParam itemParamList = 5;
-	uint32 gadgetEntityId = 6;
+    repeated ItemParam item_param_list = 8;
+    repeated uint64 food_weapon_guid_list = 14;
+    uint32 gadget_entity_id = 3;
+    uint32 gadget_id = 7;
+    InterOpType op_type = 2;
 }
+
+

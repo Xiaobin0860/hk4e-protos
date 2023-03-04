@@ -4,6 +4,9 @@ option go_package = "./;proto";
 
 import "SummerTimeSprintBoatRecord.proto";
 
+// Name: EBKOLPHCCKJ
 message SummerTimeSprintBoatInfo {
-	repeated SummerTimeSprintBoatRecord recordList = 14;
+    repeated SummerTimeSprintBoatRecord record_list = 14;
 }
+
+

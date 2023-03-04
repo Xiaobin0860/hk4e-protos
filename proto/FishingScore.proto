@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-option go_package = "./;proto";
-
-message FishingScore {
-	bool isNewRecord = 13;
-	uint32 bcjgjjefnci = 10;
-}

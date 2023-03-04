@@ -2,24 +2,19 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "SkillResponse.proto";
-import "ReliquaryResponse.proto";
-import "ElementReliquaryResponse.proto";
+import "GameplayRecommendationElementReliquaryRequest.proto";
+import "GameplayRecommendationReliquaryRequest.proto";
+import "GameplayRecommendationSkillRequest.proto";
 
+// Name: GEHDNPMCDAE
+// CmdId: 109
 message GetGameplayRecommendationReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 196;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 avatarId = 1;
-	int32 retcode = 12;
-	oneof detail {
-		SkillResponse skill_response = 223;
-		ReliquaryResponse reliquary_response = 1964;
-		ElementReliquaryResponse element_reliquary_response = 1912;
-	}
+    uint32 avatar_id = 1;
+    oneof detail {
+        GameplayRecommendationSkillRequest skill_request = 1028;
+        GameplayRecommendationReliquaryRequest reliquary_request = 138;
+        GameplayRecommendationElementReliquaryRequest element_reliquary_request = 1480;
+    }
 }
+
+

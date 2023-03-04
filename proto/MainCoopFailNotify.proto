@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MainCoopFailNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1976;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	string textmapId = 4;
-	uint32 chapterId = 13;
+// Name: KLEPHMMFBPB
+// CmdId: 1987
+message MainCoopFailNotify {
+    string textmap_id = 15;
+    uint32 chapter_id = 6;
 }
+
+

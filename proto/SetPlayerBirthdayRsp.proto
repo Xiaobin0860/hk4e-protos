@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "Birthday.proto";
 
+// Name: LIDFLIOHLDF
+// CmdId: 4042
 message SetPlayerBirthdayRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4016;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	Birthday birthday = 13;
-	int32 retcode = 7;
+    Birthday birthday = 11;
+    int32 retcode = 9;
 }
+
+

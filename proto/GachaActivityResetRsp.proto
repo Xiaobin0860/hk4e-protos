@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GachaActivityResetRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8263;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 13;
-	uint32 stageId = 12;
+// Name: FGAMGEDPHEK
+// CmdId: 8296
+message GachaActivityResetRsp {
+    uint32 stage_id = 13;
+    int32 retcode = 15;
 }
+
+

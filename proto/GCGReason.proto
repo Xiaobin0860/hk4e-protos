@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: IAIKHNIKNHG
 enum GCGReason {
   GCG_REASON_DEFAULT          = 0;
   GCG_REASON_EFFECT           = 1;
@@ -17,3 +19,5 @@ enum GCGReason {
   GCG_REASON_EFFECT_HEAL      = 11;
   GCG_REASON_EFFECT_REVIVE    = 12;
 }
+
+

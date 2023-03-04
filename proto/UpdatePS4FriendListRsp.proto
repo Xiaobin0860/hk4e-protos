@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message UpdatePS4FriendListRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4065;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	repeated string psnIdList = 7;
-	int32 retcode = 15;
+// Name: CCDPDGGPKMD
+// CmdId: 4090
+message UpdatePS4FriendListRsp {
+    repeated string psn_id_list = 10;
+    int32 retcode = 13;
 }
+
+

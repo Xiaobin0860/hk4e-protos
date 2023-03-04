@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GetReunionPrivilegeInfoReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5057;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 privilegeId = 4;
+// Name: OCBDKJLGIDA
+// CmdId: 5076
+message GetReunionPrivilegeInfoReq {
+    uint32 privilege_id = 1;
 }
+
+

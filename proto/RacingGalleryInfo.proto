@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option go_package = "./;proto";
-
-import "HomeRacingGalleryRecord.proto";
-
-message RacingGalleryInfo {
-	repeated HomeRacingGalleryRecord recordList = 2;
-}

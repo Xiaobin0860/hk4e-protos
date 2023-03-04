@@ -2,18 +2,20 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "State.proto";
 
+// Name: NMKDCJBDNHL
+// CmdId: 1832
 message PlayerPreEnterMpNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1835;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
+    // Name: NLPMIDEGMNA
+    enum State {
+    STATE_UNSTARTED = 0;
+    STATE_STARTED   = 1;
+    STATE_FINISHED  = 2;
+    }
 
-	State state = 7;
-	uint32 uid = 10;
-	string nickname = 15;
+    string nickname = 10;
+    State state = 14;
+    uint32 uid = 12;
 }
+
+

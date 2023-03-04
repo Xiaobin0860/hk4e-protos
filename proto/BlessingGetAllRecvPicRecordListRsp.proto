@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "BlessingRecvPicRecord.proto";
 
+// Name: PFDIKIJJFLG
+// CmdId: 2111
 message BlessingGetAllRecvPicRecordListRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2118;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated BlessingRecvPicRecord recvPicRecordList = 9;
-	int32 retcode = 4;
+    int32 retcode = 4;
+    repeated BlessingRecvPicRecord recv_pic_record_list = 15;
 }
+
+

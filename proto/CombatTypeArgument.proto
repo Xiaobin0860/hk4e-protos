@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: BPJGLKPJAPE
 enum CombatTypeArgument {
   COMBAT_NONE                       = 0;
   COMBAT_EVT_BEING_HIT              = 1;
@@ -23,3 +25,5 @@ enum CombatTypeArgument {
   COMBAT_SKILL_ANCHOR_POSITION_NTF  = 17;
   COMBAT_GRAPPLING_HOOK_MOVE        = 18;
 }
+
+

@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MpPlayGuestReplyNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1812;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool isAgree = 7;
-	uint32 mpPlayId = 12;
-	uint32 uid = 6;
+// Name: DFPGBOBGOKE
+// CmdId: 1810
+message MpPlayGuestReplyNotify {
+    uint32 uid = 2;
+    uint32 mp_play_id = 14;
+    bool is_agree = 10;
 }
+
+

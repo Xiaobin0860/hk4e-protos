@@ -2,16 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message UgcNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6337;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool Unk3300_IBLDINGJJFI = 13;
-	bool Unk3300_KPABJPMLHCD = 5;
-	bool isUgcFeatureClosed = 10;
+// Name: PCFGKBLLAEF
+// CmdId: 6301
+message UgcNotify {
+    bool FNFJAIOGDIL = 6;
+    bool OLEDANJLOEI = 5;
+    bool NFBPGNCIKPD = 8;
+    bool EBONPFLOCKN = 3;
 }
+
+

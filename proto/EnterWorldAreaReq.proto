@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message EnterWorldAreaReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 242;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 areaId = 1;
-	uint32 areaType = 11;
+// Name: KCKKEDMBCFL
+// CmdId: 233
+message EnterWorldAreaReq {
+    uint32 area_type = 9;
+    uint32 area_id = 15;
 }
+
+

@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "FallPlayerBrief.proto";
 
+// Name: FABGNMBDPKE
+// CmdId: 5534
 message GalleryFallScoreNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5574;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 galleryId = 8;
-	map<uint32, FallPlayerBrief> uidBriefMap = 4;
+    map<uint32, FallPlayerBrief> uid_brief_map = 15;
+    uint32 gallery_id = 12;
 }
+
+

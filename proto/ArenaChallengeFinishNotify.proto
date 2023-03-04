@@ -4,17 +4,13 @@ option go_package = "./;proto";
 
 import "ArenaChallengeChildChallengeInfo.proto";
 
+// Name: GDHDICEJDBP
+// CmdId: 2169
 message ArenaChallengeFinishNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2199;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	bool isSuccess = 7;
-	repeated ArenaChallengeChildChallengeInfo childChallengeList = 6;
-	uint32 Unk3300_DBHAGHMMLAI = 15;
-	uint32 Unk3300_FDFNFLAKONG = 9;
+    bool is_success = 5;
+    repeated ArenaChallengeChildChallengeInfo child_challenge_list = 13;
+    uint32 NEFKFHIPLHG = 1;
+    uint32 BCHEDLFFNKC = 8;
 }
+
+

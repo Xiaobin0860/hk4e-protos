@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CustomDungeonBriefMuipData.proto";
+
+// Name: OKBDIGDJGIN
+message CustomDungeonBatchBriefMuipData {
+    repeated CustomDungeonBriefMuipData brief_list = 1;
+}
+
+

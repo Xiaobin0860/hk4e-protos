@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ScenePlayOwnerStartInviteReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4448;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	bool isSkipMatch = 11;
-	uint32 playId = 7;
+// Name: KOIMPDHFCKK
+// CmdId: 4414
+message ScenePlayOwnerStartInviteReq {
+    uint32 play_id = 7;
+    bool is_skip_match = 10;
 }
+
+

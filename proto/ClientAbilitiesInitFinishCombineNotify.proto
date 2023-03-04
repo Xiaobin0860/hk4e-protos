@@ -4,15 +4,10 @@ option go_package = "./;proto";
 
 import "EntityAbilityInvokeEntry.proto";
 
+// Name: LNIKBMEBALI
+// CmdId: 1172
 message ClientAbilitiesInitFinishCombineNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1180;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	repeated EntityAbilityInvokeEntry entityInvokeList = 4;
+    repeated EntityAbilityInvokeEntry entity_invoke_list = 12;
 }
+
+

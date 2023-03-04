@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "HomeBlueprintSearchInfo.proto";
 
+// Name: MLACPPJOPOM
+// CmdId: 4659
 message HomeSearchBlueprintRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4611;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	HomeBlueprintSearchInfo searchInfo = 9;
-	int32 retcode = 3;
+    int32 retcode = 8;
+    HomeBlueprintSearchInfo search_info = 13;
 }
+
+

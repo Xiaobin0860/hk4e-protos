@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "WidgetSlotData.proto";
 
+// Name: AHNDODKDGHO
+// CmdId: 4266
 message GetWidgetSlotRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4263;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	int32 retcode = 15;
-	repeated WidgetSlotData slotList = 13;
+    repeated WidgetSlotData slot_list = 11;
+    int32 retcode = 12;
 }
+
+

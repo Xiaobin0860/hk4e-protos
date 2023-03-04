@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GalleryBalloonScoreNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5587;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	map<uint32, uint32> uidScoreMap = 12;
-	uint32 galleryId = 2;
+// Name: CKHHPKMCPGO
+// CmdId: 5554
+message GalleryBalloonScoreNotify {
+    map<uint32, uint32> uid_score_map = 13;
+    uint32 gallery_id = 6;
 }
+
+

@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message PushTipsReadFinishRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2258;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 1;
-	uint32 pushTipsId = 15;
+// Name: OGHOAICJCAC
+// CmdId: 2274
+message PushTipsReadFinishRsp {
+    uint32 push_tips_id = 5;
+    int32 retcode = 1;
 }
+
+

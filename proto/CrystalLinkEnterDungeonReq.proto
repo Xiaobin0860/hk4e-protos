@@ -4,17 +4,12 @@ option go_package = "./;proto";
 
 import "CrystalLinkTeamInfo.proto";
 
+// Name: FFLLNNCGFPA
+// CmdId: 8861
 message CrystalLinkEnterDungeonReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8110;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	repeated CrystalLinkTeamInfo teamInfoList = 7;
-	uint32 levelId = 8;
-	uint32 difficultyId = 4;
+    uint32 difficulty_id = 15;
+    uint32 level_id = 8;
+    repeated CrystalLinkTeamInfo team_info_list = 10;
 }
+
+

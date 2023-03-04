@@ -4,7 +4,10 @@ option go_package = "./;proto";
 
 import "CustomDungeonBlock.proto";
 
+// Name: GPGKKBPELBF
 message CustomDungeonRoom {
-	repeated CustomDungeonBlock blockList = 7;
-	uint32 roomId = 3;
+    repeated CustomDungeonBlock block_list = 12;
+    uint32 room_id = 13;
 }
+
+

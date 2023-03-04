@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: FNGBAFLMEDH
 enum AbilityInvokeArgument {
   ABILITY_NONE                                                      = 0;
   ABILITY_META_MODIFIER_CHANGE                                      = 1;
@@ -66,3 +68,5 @@ enum AbilityInvokeArgument {
   ABILITY_MIXIN_ERASE_BRICK_ACTIVITY                                = 121;
   ABILITY_MIXIN_BREAKOUT                                            = 122;
 }
+
+

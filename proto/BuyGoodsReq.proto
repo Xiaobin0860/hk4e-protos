@@ -4,17 +4,12 @@ option go_package = "./;proto";
 
 import "ShopGoods.proto";
 
+// Name: KNMKFMAAMHH
+// CmdId: 754
 message BuyGoodsReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 787;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 buyCount = 14;
-	uint32 shopType = 5;
-	ShopGoods goods = 3;
+    uint32 buy_count = 14;
+    ShopGoods goods = 5;
+    uint32 shop_type = 11;
 }
+
+

@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message FleurFairReplayMiniGameReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2004;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 minigameId = 11;
+// Name: ICOCCCIKBNM
+// CmdId: 2165
+message FleurFairReplayMiniGameReq {
+    uint32 minigame_id = 13;
 }
+
+

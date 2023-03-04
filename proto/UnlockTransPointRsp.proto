@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message UnlockTransPointRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3057;
-	// 	ENET_CHANNEL_ID = 1;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 3;
+// Name: NEKAJEGPNFH
+// CmdId: 3311
+message UnlockTransPointRsp {
+    int32 retcode = 14;
 }
+
+

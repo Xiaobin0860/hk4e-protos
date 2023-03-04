@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ResetRogueDiaryPlayRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8282;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 15;
+// Name: OFFOAFKCHOL
+// CmdId: 8336
+message ResetRogueDiaryPlayRsp {
+    int32 retcode = 10;
 }
+
+

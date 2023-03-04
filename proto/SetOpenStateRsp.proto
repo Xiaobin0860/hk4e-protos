@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SetOpenStateRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 125;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 9;
-	uint32 value = 15;
-	uint32 key = 10;
+// Name: BEAKEMPBGLI
+// CmdId: 194
+message SetOpenStateRsp {
+    uint32 key = 4;
+    int32 retcode = 7;
+    uint32 value = 2;
 }
+
+

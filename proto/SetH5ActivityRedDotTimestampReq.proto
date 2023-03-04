@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SetH5ActivityRedDotTimestampReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5691;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 clientRedDotTimestamp = 10;
+// Name: NIFPNHFGPNB
+// CmdId: 5696
+message SetH5ActivityRedDotTimestampReq {
+    uint32 client_red_dot_timestamp = 3;
 }
+
+

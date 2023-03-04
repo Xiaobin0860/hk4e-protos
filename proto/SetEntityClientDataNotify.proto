@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "EntityClientData.proto";
 
+// Name: HBLOJLPHJCD
+// CmdId: 3457
 message SetEntityClientDataNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3149;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 entityId = 15;
-	EntityClientData entityClientData = 13;
+    EntityClientData entity_client_data = 14;
+    uint32 entity_id = 7;
 }
+
+

@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "DealAddFriendResultType.proto";
 
+// Name: MDFCDBBABMB
+// CmdId: 4072
 message DealAddFriendReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4080;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 targetUid = 1;
-	DealAddFriendResultType dealAddFriendResult = 6;
+    uint32 target_uid = 13;
+    DealAddFriendResultType deal_add_friend_result = 1;
 }
+
+

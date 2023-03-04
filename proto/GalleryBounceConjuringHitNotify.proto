@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GalleryBounceConjuringHitNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5569;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool isPerfect = 15;
-	uint32 galleryId = 7;
-	uint32 addScore = 14;
+// Name: NBEHDELBNKF
+// CmdId: 5527
+message GalleryBounceConjuringHitNotify {
+    bool is_perfect = 15;
+    uint32 add_score = 13;
+    uint32 gallery_id = 5;
 }
+
+

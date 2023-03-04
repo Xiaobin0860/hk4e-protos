@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ItemCdGroupTimeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 651;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	map<uint32, uint64> itemCdMap = 13;
+// Name: KBFIFLBFIII
+// CmdId: 626
+message ItemCdGroupTimeNotify {
+    map<uint32, uint64> item_cd_map = 3;
 }
+
+

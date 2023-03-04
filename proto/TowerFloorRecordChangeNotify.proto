@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "TowerFloorRecord.proto";
 
+// Name: GMBOOECENCF
+// CmdId: 2475
 message TowerFloorRecordChangeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2455;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	bool isFinishedEntranceFloor = 11;
-	repeated TowerFloorRecord towerFloorRecordList = 12;
+    bool is_finished_entrance_floor = 7;
+    repeated TowerFloorRecord tower_floor_record_list = 6;
 }
+
+

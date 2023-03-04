@@ -2,19 +2,16 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ReliquaryPromoteRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 675;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	repeated uint32 curAppendPropList = 12;
-	uint64 targetReliquaryGuid = 2;
-	int32 retcode = 6;
-	repeated uint32 oldAppendPropList = 11;
-	uint32 oldPromoteLevel = 7;
-	uint32 curPromoteLevel = 15;
+// Name: EGKNAIKCCFF
+// CmdId: 684
+message ReliquaryPromoteRsp {
+    int32 retcode = 13;
+    uint32 cur_promote_level = 9; // ONKINPFPNPJ
+    uint32 old_promote_level = 8; // PJGFEEMIPBL
+    repeated uint32 cur_append_prop_list = 14; // CHKOMADPLAO
+    repeated uint32 old_append_prop_list = 11; // PBPLNHFCKIO
+    uint64 target_reliquary_guid = 2;
 }
+
+

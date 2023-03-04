@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "OtherCustomDungeonBrief.proto";
 
+// Name: MDNBJIOGKHI
+// CmdId: 6228
 message SearchCustomDungeonRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6224;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	OtherCustomDungeonBrief customDungeonBrief = 6;
-	int32 retcode = 5;
+    OtherCustomDungeonBrief custom_dungeon_brief = 2;
+    int32 retcode = 15;
 }
+
+

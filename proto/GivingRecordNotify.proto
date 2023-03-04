@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "GivingRecord.proto";
 
+// Name: ALDMHFAPEBH
+// CmdId: 143
 message GivingRecordNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 195;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated GivingRecord givingRecordList = 4;
+    repeated GivingRecord giving_record_list = 14;
 }
+
+

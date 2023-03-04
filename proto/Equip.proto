@@ -5,10 +5,13 @@ option go_package = "./;proto";
 import "Reliquary.proto";
 import "Weapon.proto";
 
+// Name: PJPGEBLCDHG
 message Equip {
-	oneof detail {
-		Reliquary reliquary = 1;
-		Weapon weapon = 2;
-	}
-	bool isLocked = 3;
+    bool is_locked = 3;
+    oneof detail {
+        Reliquary reliquary = 1;
+        Weapon weapon = 2;
+    }
 }
+
+

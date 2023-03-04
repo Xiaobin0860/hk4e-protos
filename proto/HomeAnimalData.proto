@@ -4,8 +4,11 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: FCEGEHJMIMC
 message HomeAnimalData {
-	Vector spawnRot = 13;
-	uint32 furnitureId = 10;
-	Vector spawnPos = 4;
+    uint32 furniture_id = 12;
+    Vector spawnRot = 7;
+    Vector spawn_pos = 1;
 }
+
+

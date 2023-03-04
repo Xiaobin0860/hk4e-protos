@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "CookRecipeData.proto";
 
+// Name: GAKFBBPCPHD
+// CmdId: 186
 message CookRecipeDataNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 185;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	CookRecipeData recipeData = 6;
+    CookRecipeData recipe_data = 6;
 }
+
+

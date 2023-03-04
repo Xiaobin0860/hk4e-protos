@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message RogueDungeonPlayerCellChangeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8954;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 cellId = 9;
-	uint32 oldCellId = 1;
+// Name: GBHINFBINLP
+// CmdId: 8320
+message RogueDungeonPlayerCellChangeNotify {
+    uint32 old_cell_id = 10;
+    uint32 cell_id = 11;
 }
+
+

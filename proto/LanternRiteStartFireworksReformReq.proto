@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message LanternRiteStartFireworksReformReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8874;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 challengeId = 12;
-	uint32 stageId = 11;
+// Name: JGMPKEFCLBL
+// CmdId: 8865
+message LanternRiteStartFireworksReformReq {
+    uint32 challenge_id = 6;
+    uint32 stage_id = 8;
 }
+
+

@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message TreasureMapCurrencyNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2038;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 currencyNum = 13;
+// Name: FEDJFKEGAKM
+// CmdId: 2046
+message TreasureMapCurrencyNotify {
+    uint32 currency_num = 3;
 }
+
+

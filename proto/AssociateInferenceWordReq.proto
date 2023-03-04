@@ -2,17 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message AssociateInferenceWordReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 456;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 Unk3300_EPMGHELECNH = 11;
-	uint32 pageId = 3;
-	uint32 Unk3300_FDGLBLJOKOK = 13;
+// Name: GJKELGFMJPG
+// CmdId: 438
+message AssociateInferenceWordReq {
+    uint32 page_id = 9;
+    uint32 PCGFIGLNLLD = 7;
+    uint32 FLFHEDBHLPH = 3;
 }
+
+

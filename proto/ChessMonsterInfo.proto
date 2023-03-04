@@ -2,8 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: GNIAJGHFPEJ
 message ChessMonsterInfo {
-	uint32 monsterId = 9;
-	uint32 level = 2;
-	repeated uint32 affixList = 3;
+    uint32 monster_id = 5;
+    uint32 level = 14;
+    repeated uint32 affix_list = 15;
 }
+
+

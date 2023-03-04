@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message HomeBalloonGalleryScoreNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4839;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 triggerEntityId = 13;
-	uint32 curScore = 7;
-	uint32 addScore = 10;
-	uint32 galleryId = 14;
+// Name: CDJLFFDMJKF
+// CmdId: 4532
+message HomeBalloonGalleryScoreNotify {
+    uint32 trigger_entity_id = 2;
+    uint32 gallery_id = 7;
+    uint32 add_score = 12;
+    uint32 cur_score = 3;
 }
+
+

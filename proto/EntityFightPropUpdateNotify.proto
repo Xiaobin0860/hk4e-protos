@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message EntityFightPropUpdateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1298;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	map<uint32, float> fightPropMap = 11;
-	uint32 entityId = 7;
+// Name: HKPAJNLJBOH
+// CmdId: 1264
+message EntityFightPropUpdateNotify {
+    uint32 entity_id = 7;
+    map<uint32, float> fight_prop_map = 11;
 }
+
+

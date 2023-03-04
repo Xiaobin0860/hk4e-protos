@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "TreasureMapBonusChallengeInfo.proto";
 
+// Name: MCJFPFPHMDG
+// CmdId: 2163
 message TreasureMapBonusChallengeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2056;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	TreasureMapBonusChallengeInfo info = 5;
+    TreasureMapBonusChallengeInfo info = 5;
 }
+
+

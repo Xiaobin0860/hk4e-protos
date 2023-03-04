@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ActivityBannerNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2005;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 scheduleId = 11;
-	uint32 activityId = 6;
+// Name: FMNLOMEOFMG
+// CmdId: 2018
+message ActivityBannerNotify {
+    uint32 activity_id = 12;
+    uint32 schedule_id = 3;
 }
+
+

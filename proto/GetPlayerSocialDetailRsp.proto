@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "SocialDetail.proto";
 
+// Name: LOFIPDAGNJA
+// CmdId: 4050
 message GetPlayerSocialDetailRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4014;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	SocialDetail detailData = 15;
-	int32 retcode = 14;
+    SocialDetail detail_data = 11;
+    int32 retcode = 1;
 }
+
+

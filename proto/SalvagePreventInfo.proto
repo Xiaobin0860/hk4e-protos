@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-option go_package = "./;proto";
-
-message SalvagePreventInfo {
-	uint32 monsterCount = 2;
-}

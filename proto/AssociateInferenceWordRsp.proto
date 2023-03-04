@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message AssociateInferenceWordRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 490;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 Unk3300_FDGLBLJOKOK = 14;
-	uint32 Unk3300_EPMGHELECNH = 5;
-	uint32 pageId = 11;
-	int32 retcode = 13;
+// Name: FMGIFDALPPD
+// CmdId: 404
+message AssociateInferenceWordRsp {
+    uint32 PCGFIGLNLLD = 7;
+    int32 retcode = 1;
+    uint32 page_id = 12;
+    uint32 FLFHEDBHLPH = 10;
 }
+
+

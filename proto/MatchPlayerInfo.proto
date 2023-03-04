@@ -4,7 +4,10 @@ option go_package = "./;proto";
 
 import "OnlinePlayerInfo.proto";
 
+// Name: DKFNMCMGENJ
 message MatchPlayerInfo {
-	bool isAgreed = 11;
-	OnlinePlayerInfo playerInfo = 4;
+    bool is_agreed = 3;
+    OnlinePlayerInfo player_info = 7;
 }
+
+

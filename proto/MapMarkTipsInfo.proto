@@ -4,7 +4,10 @@ option go_package = "./;proto";
 
 import "MapMarkTipsType.proto";
 
+// Name: ACOGHICAGEN
 message MapMarkTipsInfo {
-	MapMarkTipsType tipsType = 1;
-	repeated uint32 pointIdList = 2;
+    MapMarkTipsType tips_type = 1;
+    repeated uint32 point_id_list = 2;
 }
+
+

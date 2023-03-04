@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "HomeLimitedShop.proto";
 
+// Name: KEEIJEODNBH
+// CmdId: 4451
 message HomeLimitedShopGoodsListRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4770;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	HomeLimitedShop shop = 13;
-	int32 retcode = 9;
+    int32 retcode = 11;
+    HomeLimitedShop shop = 10;
 }
+
+

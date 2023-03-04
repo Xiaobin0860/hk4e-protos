@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message HomeAvatarSummonEventRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4696;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 eventId = 9;
-	int32 retcode = 13;
+// Name: MFMKAJHKJPK
+// CmdId: 4633
+message HomeAvatarSummonEventRsp {
+    uint32 event_id = 4;
+    int32 retcode = 6;
 }
+
+

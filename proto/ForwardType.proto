@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: IHFHAKKFMHG
 enum ForwardType {
   FORWARD_LOCAL                   = 0;
   FORWARD_TO_ALL                  = 1;
@@ -13,3 +15,5 @@ enum ForwardType {
   FORWARD_ONLY_SERVER             = 7;
   FORWARD_TO_ALL_EXIST_EXCEPT_CUR = 8;
 }
+
+

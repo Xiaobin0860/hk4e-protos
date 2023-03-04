@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message PlayerDeathZoneNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6296;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 curDeathZoneId = 11;
+// Name: BDHCKJCEACL
+// CmdId: 6259
+message PlayerDeathZoneNotify {
+    uint32 cur_death_zone_id = 10;
 }
+
+

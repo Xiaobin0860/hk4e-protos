@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "ReunionBriefInfo.proto";
 
+// Name: EAMOBGECJML
+// CmdId: 5093
 message ReunionBriefInfoRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5095;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	int32 retcode = 3;
-	bool isActivate = 11;
-	ReunionBriefInfo reunionBriefInfo = 8;
+    bool is_activate = 9;
+    int32 retcode = 5;
+    ReunionBriefInfo reunion_brief_info = 2;
 }
+
+

@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "GCGTCTavernChallengeData.proto";
 
+// Name: LGFMBGFHJEF
+// CmdId: 7680
 message GCGGrowthLevelNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 7722;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated GCGTCTavernChallengeData eekdbogblnc = 5;
+    uint32 level = 10;
+    uint32 exp = 7;
 }
+
+

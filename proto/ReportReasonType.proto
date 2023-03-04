@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: MABMAHNONLB
 enum ReportReasonType {
   REPORT_REASON_NONE          = 0;
   REPORT_REASON_DECEPTIVE_ADS = 1;
@@ -11,3 +13,5 @@ enum ReportReasonType {
   REPORT_REASON_OTHER         = 5;
   REPORT_REASON_HOME          = 6;
 }
+
+

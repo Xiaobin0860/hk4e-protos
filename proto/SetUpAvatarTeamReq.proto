@@ -2,17 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SetUpAvatarTeamReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1764;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint64 curAvatarGuid = 9;
-	uint32 teamId = 4;
-	repeated uint64 avatarTeamGuidList = 15;
+// Name: IOACHNLALKO
+// CmdId: 1638
+message SetUpAvatarTeamReq {
+    repeated uint64 avatar_team_guid_list = 13;
+    uint32 team_id = 8;
+    uint64 cur_avatar_guid = 11;
 }
+
+

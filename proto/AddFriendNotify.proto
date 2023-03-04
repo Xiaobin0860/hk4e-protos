@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "FriendBrief.proto";
 
+// Name: MJCLFOHPKLB
+// CmdId: 4019
 message AddFriendNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4092;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 targetUid = 4;
-	FriendBrief targetFriendBrief = 12;
+    FriendBrief target_friend_brief = 12;
+    uint32 target_uid = 5;
 }
+
+

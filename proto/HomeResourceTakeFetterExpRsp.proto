@@ -2,17 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "HomeResource.proto";
+import "FHCMHOPJELB.proto";
 
+// Name: IIGPCKJGACD
+// CmdId: 4808
 message HomeResourceTakeFetterExpRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4837;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	HomeResource fetterExp = 12;
-	int32 retcode = 3;
+    int32 retcode = 2;
+    FHCMHOPJELB DPCGMOMFNCD = 9;
 }
+
+

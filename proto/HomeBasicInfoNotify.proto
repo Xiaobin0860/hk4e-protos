@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "HomeBasicInfo.proto";
 
+// Name: NKPAHOBCJKD
+// CmdId: 4501
 message HomeBasicInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4607;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	HomeBasicInfo basicInfo = 7;
+    HomeBasicInfo basic_info = 15;
 }
+
+

@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: FEPJMFICDGB
 enum MatchType {
   MATCH_TYPE_NONE       = 0;
   MATCH_TYPE_DUNGEON    = 1;
@@ -10,3 +12,5 @@ enum MatchType {
   MATCH_TYPE_GENERAL    = 4;
   MATCH_TYPE_GCG        = 5;
 }
+
+

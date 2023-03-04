@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MechanicusCandidateTeamCreateRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3969;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 difficultLevel = 4;
-	uint32 dungeonId = 15;
-	int32 retcode = 10;
+// Name: DJDIOACDGEA
+// CmdId: 3927
+message MechanicusCandidateTeamCreateRsp {
+    uint32 difficult_level = 15;
+    uint32 dungeon_id = 5;
+    int32 retcode = 6;
 }
+
+

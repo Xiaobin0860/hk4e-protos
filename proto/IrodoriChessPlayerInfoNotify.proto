@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "IrodoriChessPlayerInfo.proto";
 
+// Name: DEBHBDNMDAA
+// CmdId: 5332
 message IrodoriChessPlayerInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5338;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	IrodoriChessPlayerInfo playerInfo = 13;
+    IrodoriChessPlayerInfo player_info = 3;
 }
+
+

@@ -2,22 +2,19 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+import "MathQuaternion.proto";
 import "ShapeType.proto";
 import "Vector.proto";
-import "MathQuaternion.proto";
 import "Vector3Int.proto";
 
+// Name: KKLMEPGAGJK
 message GMObstacleInfo {
-
-	enum ShapeType {
-    OBSTACLE_SHAPE_CAPSULE = 0;
-    OBSTACLE_SHAPE_BOX     = 1;
-    }
-
-	int64 timestamp = 13;
-	ShapeType shape = 3;
-	Vector center = 9;
-	int32 obstacleId = 15;
-	MathQuaternion rotation = 4;
-	Vector3Int extents = 5;
+    ShapeType shape = 12;
+    Vector3Int extents = 5;
+    int32 obstacle_id = 8;
+    int64 timestamp = 7;
+    Vector center = 9;
+    MathQuaternion rotation = 13;
 }
+
+

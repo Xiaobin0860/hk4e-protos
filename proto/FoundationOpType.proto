@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: MFMLDFBDCLA
 enum FoundationOpType {
   FOUNDATION_OP_NONE       = 0;
   FOUNDATION_OP_BUILD      = 1;
@@ -11,3 +13,5 @@ enum FoundationOpType {
   FOUNDATION_OP_LOCK       = 5;
   FOUNDATION_OP_UNLOCK     = 6;
 }
+
+

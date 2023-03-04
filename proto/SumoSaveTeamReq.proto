@@ -4,18 +4,13 @@ option go_package = "./;proto";
 
 import "SumoTeamData.proto";
 
+// Name: CBJKGAIOOGN
+// CmdId: 8607
 message SumoSaveTeamReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8599;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 difficultyId = 14;
-	repeated SumoTeamData teamList = 2;
-	uint32 stageId = 7;
-	uint32 activityId = 12;
+    repeated SumoTeamData team_list = 11;
+    uint32 activity_id = 10;
+    uint32 difficulty_id = 12;
+    uint32 stage_id = 9;
 }
+
+

@@ -4,7 +4,10 @@ option go_package = "./;proto";
 
 import "ChannelerSlabCamp.proto";
 
+// Name: BFNEKAHMMLJ
 message ChannelerSlabChallenge {
-	repeated ChannelerSlabCamp campList = 15;
-	uint32 activeCampIndex = 14;
+    repeated ChannelerSlabCamp camp_list = 8;
+    uint32 active_camp_index = 1;
 }
+
+

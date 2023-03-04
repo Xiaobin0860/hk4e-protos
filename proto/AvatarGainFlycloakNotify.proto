@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message AvatarGainFlycloakNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1702;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 flycloakId = 15;
+// Name: HCLMIGIPANC
+// CmdId: 1793
+message AvatarGainFlycloakNotify {
+    uint32 flycloak_id = 9;
 }
+
+

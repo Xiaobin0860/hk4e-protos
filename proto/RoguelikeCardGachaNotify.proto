@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message RoguelikeCardGachaNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8033;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool isCanRefresh = 9;
-	repeated uint32 cardList = 5;
+// Name: PFINALGKHEB
+// CmdId: 8494
+message RoguelikeCardGachaNotify {
+    bool is_can_refresh = 6;
+    repeated uint32 card_list = 14;
 }
+
+

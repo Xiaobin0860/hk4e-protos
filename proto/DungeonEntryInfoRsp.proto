@@ -2,21 +2,17 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "DungeonEntryPointInfo.proto";
 import "DungeonEntryInfo.proto";
+import "DungeonEntryPointInfo.proto";
 
+// Name: DALCJFEAHJH
+// CmdId: 975
 message DungeonEntryInfoRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 955;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated DungeonEntryPointInfo dungeonEntryPointList = 5;
-	uint32 recommendDungeonId = 4;
-	uint32 pointId = 7;
-	repeated DungeonEntryInfo dungeonEntryList = 1;
-	int32 retcode = 3;
+    uint32 recommend_dungeon_id = 13;
+    int32 retcode = 15;
+    uint32 point_id = 14;
+    repeated DungeonEntryInfo dungeon_entry_list = 4;
+    repeated DungeonEntryPointInfo dungeon_entry_point_list = 9;
 }
+
+

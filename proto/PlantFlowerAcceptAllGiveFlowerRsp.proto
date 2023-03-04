@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "PlantFlowerAcceptFlowerResultInfo.proto";
 
+// Name: BKJMIFECGOF
+// CmdId: 8040
 message PlantFlowerAcceptAllGiveFlowerRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8764;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 scheduleId = 14;
-	int32 retcode = 1;
-	repeated PlantFlowerAcceptFlowerResultInfo acceptFlowerResultInfoList = 7;
+    uint32 schedule_id = 11;
+    int32 retcode = 5;
+    repeated PlantFlowerAcceptFlowerResultInfo accept_flower_result_info_list = 4;
 }
+
+

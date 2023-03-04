@@ -2,15 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ClientNewMailNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1414;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 notReadNum = 3;
-	uint32 notGotAttachmentNum = 11;
+// Name: DNKOPLJDKHH
+// CmdId: 1450
+message ClientNewMailNotify {
+    bool CNCDJHLGHKA = 7;
+    uint32 KIKLOMKNELG = 6;
+    uint32 GPMOAAPPPNN = 8;
 }
+
+

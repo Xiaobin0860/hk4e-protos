@@ -2,13 +2,10 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message FurnitureMakeFinishNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4789;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
+// Name: MLDLJMCEPGD
+// CmdId: 4658
+message FurnitureMakeFinishNotify {
 }
+
+

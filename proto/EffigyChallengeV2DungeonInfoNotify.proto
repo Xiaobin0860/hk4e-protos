@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message EffigyChallengeV2DungeonInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 20626;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 levelId = 6;
-	uint32 challengeModeDifficulty = 4;
-	uint32 skillNo = 10;
+// Name: PEPDKKBCLIL
+// CmdId: 22612
+message EffigyChallengeV2DungeonInfoNotify {
+    uint32 challenge_mode_difficulty = 1;
+    uint32 level_id = 6;
+    uint32 skill_no = 3;
 }
+
+

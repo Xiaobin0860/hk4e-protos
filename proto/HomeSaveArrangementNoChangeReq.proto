@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message HomeSaveArrangementNoChangeReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4562;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 sceneId = 14;
+// Name: DNEOJOBPKKB
+// CmdId: 4475
+message HomeSaveArrangementNoChangeReq {
+    uint32 scene_id = 3;
 }
+
+

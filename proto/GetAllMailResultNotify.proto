@@ -4,19 +4,15 @@ option go_package = "./;proto";
 
 import "MailData.proto";
 
+// Name: ILFMLLOCKFB
+// CmdId: 1429
 message GetAllMailResultNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1413;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	bool isCollected = 12;
-	repeated MailData mailList = 1;
-	uint32 totalPageCount = 7;
-	int32 retcode = 8;
-	uint32 pageIndex = 6;
-	string transaction = 15;
+    int32 retcode = 6;
+    uint32 FCGFGPDOKOH = 1;
+    repeated MailData mail_list = 10;
+    string transaction = 5;
+    bool is_collected = 8;
+    uint32 GKAOFKGNGGO = 13;
 }
+
+

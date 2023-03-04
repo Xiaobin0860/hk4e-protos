@@ -2,10 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: NDOJCJJNIKB
 message MsgParam {
-	oneof param {
-		uint32 int_param = 10;
-		float flt_param = 7;
-		string str_param = 15;
-	}
+    oneof param {
+        uint32 int_param = 3;
+        float flt_param = 5;
+        string str_param = 8;
+    }
 }
+
+

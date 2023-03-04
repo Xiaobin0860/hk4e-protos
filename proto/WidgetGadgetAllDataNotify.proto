@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "WidgetGadgetData.proto";
 
+// Name: EDHIDALBDJA
+// CmdId: 4280
 message WidgetGadgetAllDataNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4259;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated WidgetGadgetData widgetGadgetData = 4;
+    repeated WidgetGadgetData widget_gadget_data = 5;
 }
+
+

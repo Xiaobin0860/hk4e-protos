@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message TakeInvestigationRewardRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1920;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 id = 13;
-	int32 retcode = 15;
+// Name: MADHMGMOJPM
+// CmdId: 1910
+message TakeInvestigationRewardRsp {
+    uint32 id = 10;
+    int32 retcode = 6;
 }
+
+

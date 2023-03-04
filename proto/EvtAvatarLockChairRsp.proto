@@ -4,17 +4,13 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: NEEHKIBGIKA
+// CmdId: 345
 message EvtAvatarLockChairRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 384;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	Vector position = 3;
-	uint64 chairId = 15;
-	int32 retcode = 12;
-	uint32 entityId = 4;
+    uint64 chair_id = 2;
+    uint32 entity_id = 8;
+    int32 retcode = 6;
+    Vector position = 12;
 }
+
+

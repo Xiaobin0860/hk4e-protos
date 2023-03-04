@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: MLNMMIOBKFB
 enum RegionSearchState {
   REGION_SEARCH_NONE        = 0;
   REGION_SEARCH_UNSTARTED   = 1;
@@ -9,3 +11,5 @@ enum RegionSearchState {
   REGION_SEARCH_WAIT_REWARD = 3;
   REGION_SEARCH_FINISHED    = 4;
 }
+
+

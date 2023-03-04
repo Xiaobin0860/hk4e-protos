@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "FoundationInfo.proto";
 
+// Name: CKGGJCDDFIG
+// CmdId: 861
 message FoundationNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 839;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 gadgetEntityId = 5;
-	FoundationInfo info = 2;
+    uint32 gadget_entity_id = 11;
+    FoundationInfo info = 12;
 }
+
+

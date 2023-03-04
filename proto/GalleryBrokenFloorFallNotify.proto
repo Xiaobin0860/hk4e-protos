@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GalleryBrokenFloorFallNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5529;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 fallCount = 2;
-	uint32 galleryId = 6;
+// Name: PAHAALHGGIK
+// CmdId: 5507
+message GalleryBrokenFloorFallNotify {
+    uint32 gallery_id = 12;
+    uint32 fall_count = 11;
 }
+
+

@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "CoinCollectInfo.proto";
+import "CoinCollectStageInfo.proto";
 
+// Name: HHKILGLJINL
+// CmdId: 6553
 message CoinCollectPrepareStageNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6441;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	CoinCollectInfo locpgggjmdl = 7;
+    CoinCollectStageInfo coin_collect_info = 9;
 }
+
+

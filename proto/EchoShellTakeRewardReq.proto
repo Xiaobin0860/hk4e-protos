@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message EchoShellTakeRewardReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8614;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 rewardId = 8;
+// Name: HGJBMPDPJLK
+// CmdId: 8078
+message EchoShellTakeRewardReq {
+    uint32 reward_id = 8;
 }
+
+

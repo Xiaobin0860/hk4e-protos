@@ -4,18 +4,14 @@ option go_package = "./;proto";
 
 import "ItemParam.proto";
 
+// Name: AHKIPJDGOLE
+// CmdId: 4109
 message OrderFinishNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4146;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 addMcoin = 4;
-	uint32 cardProductRemainDays = 3;
-	uint32 orderId = 5;
-	repeated ItemParam itemList = 8;
-	string productId = 13;
+    uint32 add_mcoin = 2;
+    uint32 card_product_remain_days = 6;
+    string product_id = 8;
+    uint32 order_id = 15;
+    repeated ItemParam item_list = 5;
 }
+
+

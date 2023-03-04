@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GetRecommendCustomDungeonReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6210;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	bool isRefresh = 6;
+// Name: BKNEEMDBCHG
+// CmdId: 6238
+message GetRecommendCustomDungeonReq {
+    bool is_refresh = 12;
 }
+
+

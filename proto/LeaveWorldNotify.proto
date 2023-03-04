@@ -2,13 +2,10 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message LeaveWorldNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3445;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
+// Name: DMKABPIBILH
+// CmdId: 3009
+message LeaveWorldNotify {
 }
+
+

@@ -4,20 +4,15 @@ option go_package = "./;proto";
 
 import "MatchType.proto";
 
+// Name: MIHJMBFBLBI
+// CmdId: 4198
 message PlayerStartMatchReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4188;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 mechanicusDifficultLevel = 10;
-	repeated uint32 matchParamList = 15;
-	uint32 mpPlayId = 5;
-	uint32 dungeonId = 12;
-	uint32 matchId = 11;
-	MatchType matchType = 13;
+    repeated uint32 match_param_list = 15;
+    uint32 mechanicus_difficult_level = 12;
+    uint32 match_id = 8;
+    MatchType match_type = 5;
+    uint32 mp_play_id = 13;
+    uint32 dungeon_id = 4;
 }
+
+

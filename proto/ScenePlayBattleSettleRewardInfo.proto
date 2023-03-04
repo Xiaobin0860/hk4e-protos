@@ -4,7 +4,10 @@ option go_package = "./;proto";
 
 import "ItemParam.proto";
 
+// Name: NMCLDDEHHKM
 message ScenePlayBattleSettleRewardInfo {
-	uint32 uid = 8;
-	repeated ItemParam rewardItemList = 5;
+    repeated ItemParam reward_item_list = 6;
+    uint32 uid = 1;
 }
+
+

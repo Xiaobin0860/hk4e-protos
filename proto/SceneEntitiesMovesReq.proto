@@ -4,15 +4,10 @@ option go_package = "./;proto";
 
 import "EntityMoveInfo.proto";
 
+// Name: PBOEBEAEAFF
+// CmdId: 222
 message SceneEntitiesMovesReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 241;
-	// 	ENET_CHANNEL_ID = 1;
-	// 	ENET_IS_RELIABLE = 0;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	repeated EntityMoveInfo entityMoveInfoList = 8;
+    repeated EntityMoveInfo entity_move_info_list = 11;
 }
+
+

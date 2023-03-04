@@ -4,17 +4,12 @@ option go_package = "./;proto";
 
 import "VehicleInteractType.proto";
 
+// Name: DPOAMNMLJFP
+// CmdId: 844
 message VehicleInteractReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 888;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 pos = 14;
-	VehicleInteractType interactType = 11;
-	uint32 entityId = 13;
+    uint32 entity_id = 8;
+    VehicleInteractType interact_type = 9;
+    uint32 pos = 6;
 }
+
+

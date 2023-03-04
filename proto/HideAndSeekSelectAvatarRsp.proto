@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message HideAndSeekSelectAvatarRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5364;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 avatarId = 10;
-	int32 retcode = 14;
+// Name: CAFALCOGOBE
+// CmdId: 5340
+message HideAndSeekSelectAvatarRsp {
+    uint32 avatar_id = 4;
+    int32 retcode = 10;
 }
+
+

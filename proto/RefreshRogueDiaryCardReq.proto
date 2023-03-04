@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message RefreshRogueDiaryCardReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8157;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	repeated uint32 refreshCardList = 4;
+// Name: BKLCBPHIKIP
+// CmdId: 8849
+message RefreshRogueDiaryCardReq {
+    repeated uint32 refresh_card_list = 5;
 }
+
+

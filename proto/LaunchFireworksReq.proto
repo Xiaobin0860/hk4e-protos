@@ -4,15 +4,10 @@ option go_package = "./;proto";
 
 import "FireworksLaunchSchemeData.proto";
 
+// Name: HCPFFHAHOEI
+// CmdId: 6053
 message LaunchFireworksReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5921;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	FireworksLaunchSchemeData schemeData = 1;
+    FireworksLaunchSchemeData scheme_data = 12;
 }
+
+

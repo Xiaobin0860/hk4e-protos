@@ -2,13 +2,16 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "Vector.proto";
 import "HomeBlockSubFieldData.proto";
+import "Vector.proto";
 
+// Name: CGDHNAGKLLP
 message HomeBlockFieldData {
-	Vector pos = 1;
-	uint32 guid = 6;
-	repeated HomeBlockSubFieldData subFieldList = 9;
-	uint32 furnitureId = 10;
-	Vector rot = 2;
+    Vector rot = 7;
+    uint32 furniture_id = 14;
+    repeated HomeBlockSubFieldData subFieldList = 5;
+    Vector pos = 8;
+    uint32 guid = 3;
 }
+
+

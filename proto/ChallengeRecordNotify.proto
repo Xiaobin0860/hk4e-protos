@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "ChallengeRecord.proto";
 
+// Name: MACPIPKNOLL
+// CmdId: 974
 message ChallengeRecordNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 958;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 groupId = 3;
-	repeated ChallengeRecord challengeRecordList = 5;
+    repeated ChallengeRecord challenge_record_list = 11;
+    uint32 group_id = 8;
 }
+
+

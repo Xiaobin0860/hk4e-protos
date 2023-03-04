@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ScenePlayOutofRegionNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4419;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 playId = 5;
+// Name: FKKHKPOLBBB
+// CmdId: 4377
+message ScenePlayOutofRegionNotify {
+    uint32 play_id = 11;
 }
+
+

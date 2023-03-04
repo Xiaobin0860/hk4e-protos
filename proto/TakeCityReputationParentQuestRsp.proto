@@ -4,18 +4,13 @@ option go_package = "./;proto";
 
 import "ItemParam.proto";
 
+// Name: FOOGLNHHBCK
+// CmdId: 2872
 message TakeCityReputationParentQuestRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2880;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	repeated uint32 parentQuestList = 14;
-	int32 retcode = 6;
-	uint32 cityId = 13;
-	repeated ItemParam itemList = 11;
+    repeated uint32 parent_quest_list = 4;
+    uint32 city_id = 9;
+    int32 retcode = 5;
+    repeated ItemParam item_list = 13;
 }
+
+

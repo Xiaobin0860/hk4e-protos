@@ -4,18 +4,13 @@ option go_package = "./;proto";
 
 import "GearColumnInfo.proto";
 
+// Name: MHAFPLJHPLJ
+// CmdId: 24069
 message GearActivityFinishPlayGearReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 20920;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	bool isSuccess = 15;
-	repeated GearColumnInfo gearColumnInfoList = 9;
-	bool useClue = 13;
-	uint32 levelId = 2;
+    repeated GearColumnInfo gear_column_info_list = 7;
+    bool use_clue = 13;
+    bool is_success = 6;
+    uint32 level_id = 10;
 }
+
+

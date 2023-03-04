@@ -2,14 +2,10 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message EffigyChallengeV2RestartDungeonReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 21461;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
+// Name: BDEPGMGHKBF
+// CmdId: 20949
+message EffigyChallengeV2RestartDungeonReq {
 }
+
+

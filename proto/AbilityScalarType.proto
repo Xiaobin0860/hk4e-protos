@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: MLNEEGJPBCO
 enum AbilityScalarType {
   ABILITY_SCALAR_TYPE_UNKNOW  = 0;
   ABILITY_SCALAR_TYPE_FLOAT   = 1;
@@ -11,3 +13,5 @@ enum AbilityScalarType {
   ABILITY_SCALAR_TYPE_STRING  = 5;
   ABILITY_SCALAR_TYPE_UINT    = 6;
 }
+
+

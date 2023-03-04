@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message FocusAvatarReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1608;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	bool isFocus = 15;
-	uint64 avatarGuid = 10;
+// Name: JFCDLLPKDEE
+// CmdId: 1712
+message FocusAvatarReq {
+    uint64 avatar_guid = 1;
+    bool is_focus = 7;
 }
+
+

@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: MHKKAAKLPEC
+// CmdId: 250
 message SceneAvatarStaminaStepReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 214;
-	// 	ENET_CHANNEL_ID = 1;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	Vector rot = 4;
-	bool useClientRot = 9;
+    bool use_client_rot = 15;
+    Vector rot = 2;
 }
+
+

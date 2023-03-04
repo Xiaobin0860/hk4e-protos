@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: EHGNPLKIBNP
 enum HideAndSeekStageType {
   HIDE_AND_SEEK_STAGE_PREPARE = 0;
   HIDE_AND_SEEK_STAGE_PICK    = 1;
@@ -10,3 +12,5 @@ enum HideAndSeekStageType {
   HIDE_AND_SEEK_STAGE_SEEK    = 4;
   HIDE_AND_SEEK_STAGE_SETTLE  = 5;
 }
+
+

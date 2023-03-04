@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "AreaPlayType.proto";
 
+// Name: BBOEDGMNHBC
+// CmdId: 3472
 message AreaPlayInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3069;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 detailPlayType = 12;
-	AreaPlayType areaPlayType = 9;
+    uint32 detail_play_type = 3;
+    AreaPlayType area_play_type = 6;
 }
+
+

@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ChannellerSlabLoopDungeonSelectConditionRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8943;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 5;
-	repeated uint32 conditionIdList = 10;
-	uint32 dungeonIndex = 15;
-	uint32 difficultyId = 6;
+// Name: HAIKBGENEOP
+// CmdId: 8794
+message ChannellerSlabLoopDungeonSelectConditionRsp {
+    int32 retcode = 6;
+    uint32 dungeon_index = 4;
+    uint32 difficulty_id = 5;
+    repeated uint32 condition_id_list = 9;
 }
+
+

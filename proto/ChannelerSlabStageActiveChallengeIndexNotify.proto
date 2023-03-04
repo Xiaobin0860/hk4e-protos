@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ChannelerSlabStageActiveChallengeIndexNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8354;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 activeCampIndex = 6;
-	uint32 challengeIndex = 8;
-	uint32 stageId = 7;
+// Name: NLNMEONBNGB
+// CmdId: 8647
+message ChannelerSlabStageActiveChallengeIndexNotify {
+    uint32 active_camp_index = 9;
+    uint32 challenge_index = 2;
+    uint32 stage_id = 5;
 }
+
+

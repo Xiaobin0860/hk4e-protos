@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "HomeLimitedShopGoods.proto";
 
+// Name: KIJPELEMEPN
+// CmdId: 4471
 message HomeLimitedShopBuyGoodsReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4647;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	HomeLimitedShopGoods goods = 1;
-	uint32 buyCount = 10;
+    uint32 buy_count = 14;
+    HomeLimitedShopGoods goods = 13;
 }
+
+

@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message StartRogueNormalCellChallengeRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8485;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 dungeonId = 4;
-	int32 retcode = 2;
-	uint32 cellId = 7;
+// Name: APBCOILLJIL
+// CmdId: 8834
+message StartRogueNormalCellChallengeRsp {
+    int32 retcode = 8;
+    uint32 dungeon_id = 4;
+    uint32 cell_id = 7;
 }
+
+

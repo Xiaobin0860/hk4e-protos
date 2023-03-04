@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message FishChosenNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5831;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 fishId = 14;
+// Name: NHDGJCKLJGC
+// CmdId: 5844
+message FishChosenNotify {
+    uint32 fish_id = 9;
 }
+
+

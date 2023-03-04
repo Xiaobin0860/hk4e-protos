@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GetSceneAreaReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 288;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 sceneId = 6;
-	uint32 belongUid = 5;
+// Name: CDJAAKPLLLE
+// CmdId: 244
+message GetSceneAreaReq {
+    uint32 scene_id = 8;
+    uint32 belong_uid = 4;
 }
+
+

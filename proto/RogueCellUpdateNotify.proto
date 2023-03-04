@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "RogueCellInfo.proto";
 
+// Name: MGMCOIIAJLO
+// CmdId: 8624
 message RogueCellUpdateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8067;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	RogueCellInfo cellInfo = 15;
+    RogueCellInfo cell_info = 13;
 }
+
+

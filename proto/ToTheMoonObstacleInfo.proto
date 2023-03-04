@@ -2,20 +2,22 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "Vector.proto";
 import "MathQuaternion.proto";
-import "ShapeType.proto";
+import "Vector.proto";
 
+// Name: ECDLKNIAMAF
 message ToTheMoonObstacleInfo {
-
-	enum ShapeType {
+    // Name: PIFLNEEKLJG
+    enum ShapeType {
     OBSTACLE_SHAPE_CAPSULE = 0;
     OBSTACLE_SHAPE_BOX     = 1;
     }
 
-	Vector center = 3;
-	int32 handleId = 5;
-	MathQuaternion rotation = 8;
-	Vector halfExtents = 9;
-	ShapeType type = 1;
+    ShapeType type = 11;
+    Vector half_extents = 6;
+    Vector center = 7;
+    int32 handle_id = 5;
+    MathQuaternion rotation = 12;
 }
+
+

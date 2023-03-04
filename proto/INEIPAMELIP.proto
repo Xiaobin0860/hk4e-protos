@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HHACKKBLLHO.proto";
+
+// Name: INEIPAMELIP
+// CmdId: 7287
+message INEIPAMELIP {
+    HHACKKBLLHO IEOMECODBLG = 4;
+    int32 retcode = 13;
+}
+
+

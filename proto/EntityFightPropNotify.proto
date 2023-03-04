@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message EntityFightPropNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1287;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 entityId = 7;
-	map<uint32, float> fightPropMap = 15;
+// Name: GHAPMIGCIAM
+// CmdId: 1254
+message EntityFightPropNotify {
+    map<uint32, float> fight_prop_map = 3;
+    uint32 entity_id = 7;
 }
+
+

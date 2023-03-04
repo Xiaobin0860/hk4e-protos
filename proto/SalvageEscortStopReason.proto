@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: OCIIEKFBAEC
 enum SalvageEscortStopReason {
   SALVAGE_ESCORT_STOP_NONE      = 0;
   SALVAGE_ESCORT_STOP_SUCCESS   = 1;
@@ -11,3 +13,5 @@ enum SalvageEscortStopReason {
   SALVAGE_ESCORT_STOP_LEAVE     = 5;
   SALVAGE_ESCORT_STOP_FULL      = 6;
 }
+
+

@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "TaskVar.proto";
 
+// Name: DCGJFPPNBPH
+// CmdId: 176
 message TaskVarNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 177;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated TaskVar taskVarList = 9;
+    repeated TaskVar task_var_list = 8;
 }
+
+

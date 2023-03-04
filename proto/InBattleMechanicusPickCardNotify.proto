@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message InBattleMechanicusPickCardNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5314;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 playIndex = 11;
-	uint32 groupId = 5;
-	uint32 playerUid = 9;
-	uint32 cardId = 8;
+// Name: MJAFBMMIIKH
+// CmdId: 5350
+message InBattleMechanicusPickCardNotify {
+    uint32 group_id = 3;
+    uint32 card_id = 5;
+    uint32 player_uid = 1;
+    uint32 play_index = 15;
 }
+
+

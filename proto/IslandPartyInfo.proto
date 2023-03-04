@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option go_package = "./;proto";
-
-import "IslandPartyStageData.proto";
-
-message IslandPartyInfo {
-	repeated IslandPartyStageData stageDataList = 5;
-}

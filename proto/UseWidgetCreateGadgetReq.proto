@@ -4,17 +4,12 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: LEIIEGJMBBL
+// CmdId: 4292
 message UseWidgetCreateGadgetReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4300;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	Vector rot = 9;
-	uint32 materialId = 7;
-	Vector pos = 2;
+    uint32 material_id = 2;
+    Vector rot = 15;
+    Vector pos = 6;
 }
+
+

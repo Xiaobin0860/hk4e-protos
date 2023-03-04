@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message HomeChangeEditModeRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4767;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool isEnterEditMode = 9;
-	int32 retcode = 3;
+// Name: HKFKCOODNHH
+// CmdId: 4862
+message HomeChangeEditModeRsp {
+    int32 retcode = 14;
+    bool is_enter_edit_mode = 11;
 }
+
+

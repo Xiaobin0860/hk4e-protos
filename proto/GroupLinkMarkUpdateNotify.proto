@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "GroupLinkBundle.proto";
 
+// Name: KEAMGKKDLMK
+// CmdId: 5796
 message GroupLinkMarkUpdateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5791;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	GroupLinkBundle bundle = 7;
+    GroupLinkBundle bundle = 14;
 }
+
+

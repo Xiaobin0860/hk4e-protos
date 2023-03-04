@@ -2,17 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MonsterAIConfigHashNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3324;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	int32 hashValue = 9;
-	uint32 entityId = 7;
-	uint32 jobId = 1;
+// Name: LELAMOBAAJE
+// CmdId: 3379
+message MonsterAIConfigHashNotify {
+    uint32 job_id = 3;
+    int32 hash_value = 6;
+    uint32 entity_id = 14;
 }
+
+

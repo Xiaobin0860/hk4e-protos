@@ -2,19 +2,15 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "StoreType.proto";
 import "Item.proto";
+import "StoreType.proto";
 
+// Name: HCEKCKEOOLM
+// CmdId: 667
 message PlayerStoreNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 605;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated Item itemList = 5;
-	uint32 weightLimit = 6;
-	StoreType storeType = 10;
+    uint32 weight_limit = 3;
+    repeated Item item_list = 6;
+    StoreType store_type = 5;
 }
+
+

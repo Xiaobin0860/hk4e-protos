@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "AranaraCollectionSuite.proto";
 
+// Name: KPDCOFIBKFD
+// CmdId: 6398
 message AranaraCollectionDataNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6388;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated AranaraCollectionSuite collectionSuiteList = 7;
+    repeated AranaraCollectionSuite collection_suite_list = 6;
 }
+
+

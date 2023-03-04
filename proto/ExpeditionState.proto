@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: GKPJIIJPOFC
 enum ExpeditionState {
   EXPEDITION_NONE     = 0;
   EXPEDITION_STARTED  = 1;
@@ -9,3 +11,5 @@ enum ExpeditionState {
   EXPEDITION_REWARDED = 3;
   EXPEDITION_LOCKED   = 4;
 }
+
+

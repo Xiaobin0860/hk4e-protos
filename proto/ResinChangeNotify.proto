@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ResinChangeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 694;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 curValue = 12;
-	uint32 nextAddTimestamp = 4;
-	uint32 curBuyCount = 5;
+// Name: IBIMGHOHNDK
+// CmdId: 649
+message ResinChangeNotify {
+    uint32 cur_value = 14;
+    uint32 KDJDKFKHOEN = 13;
+    uint32 NJLHPIKCNOP = 12;
 }
+
+

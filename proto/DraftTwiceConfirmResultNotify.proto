@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message DraftTwiceConfirmResultNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5478;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool isAllAgree = 15;
-	uint32 draftId = 7;
+// Name: DBJGJNGNNEK
+// CmdId: 5491
+message DraftTwiceConfirmResultNotify {
+    bool is_all_argee = 11;
+    uint32 draft_id = 8;
 }
+
+

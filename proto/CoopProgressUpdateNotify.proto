@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message CoopProgressUpdateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1956;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 curCoopPoint = 5;
-	bool isHaveProgress = 1;
+// Name: PENHDJEFHGH
+// CmdId: 1990
+message CoopProgressUpdateNotify {
+    uint32 cur_coop_point = 15;
+    bool is_have_progress = 2;
 }
+
+

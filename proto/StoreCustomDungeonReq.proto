@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message StoreCustomDungeonReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6211;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	bool isCancelStore = 5;
-	uint64 dungeonGuid = 2;
+// Name: EDHEGJAFOFG
+// CmdId: 6218
+message StoreCustomDungeonReq {
+    bool is_cancel_store = 7;
+    uint64 dungeon_guid = 5;
 }
+
+

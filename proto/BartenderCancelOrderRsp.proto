@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message BartenderCancelOrderRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8908;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 1;
-	uint32 questId = 8;
+// Name: PDHKNEPDCNE
+// CmdId: 8850
+message BartenderCancelOrderRsp {
+    int32 retcode = 1;
+    uint32 quest_id = 9;
 }
+
+

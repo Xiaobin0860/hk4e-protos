@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message FinishLanternProjectionReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8236;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 finishTime = 15;
-	uint32 levelId = 10;
+// Name: MHMFOLKBLFK
+// CmdId: 8720
+message FinishLanternProjectionReq {
+    uint32 level_id = 1;
+    uint32 finish_time = 12;
 }
+
+

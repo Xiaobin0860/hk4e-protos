@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: CHKGDGODKAA
 enum InteractType {
   INTERACT_NONE            = 0;
   INTERACT_PICK_ITEM       = 1;
@@ -21,3 +23,5 @@ enum InteractType {
   INTERACT_UI_INTERACT     = 15;
   INTERACT_DESHRET_OBELISK = 16;
 }
+
+

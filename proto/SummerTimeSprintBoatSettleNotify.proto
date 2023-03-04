@@ -2,21 +2,18 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SummerTimeSprintBoatSettleNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8474;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 leftTime = 11;
-	uint32 score = 14;
-	uint32 groupId = 1;
-	uint32 Unk3300_MEEKFJJIOKE = 3;
-	uint32 Unk3300_PLFMJPNPPLI = 8;
-	bool isSuccess = 2;
-	uint32 totalNum = 7;
-	bool isNewRecord = 4;
+// Name: BIJPBENPHEA
+// CmdId: 8256
+message SummerTimeSprintBoatSettleNotify {
+    bool is_success = 8;
+    uint32 group_id = 14;
+    uint32 ECGNDJEFALL = 2;
+    uint32 score = 3;
+    bool is_new_record = 6;
+    uint32 DOJCKDMCLJE = 5;
+    uint32 left_time = 9;
+    uint32 NJENGLLHPJD = 4;
 }
+
+

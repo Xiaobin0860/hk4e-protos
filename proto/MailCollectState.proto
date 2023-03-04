@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: KPHNGIEIKOJ
 enum MailCollectState {
   MAIL_COLLECTIBLE_UNKONW      = 0;
   MAIL_NOT_COLLECTIBLE         = 1;

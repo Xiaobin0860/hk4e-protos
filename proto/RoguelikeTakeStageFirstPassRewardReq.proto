@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message RoguelikeTakeStageFirstPassRewardReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8887;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 stageId = 14;
+// Name: CMPPFFFHCEN
+// CmdId: 8541
+message RoguelikeTakeStageFirstPassRewardReq {
+    uint32 stage_id = 9;
 }
+
+

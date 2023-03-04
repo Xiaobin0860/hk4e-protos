@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GadgetChainLevelChangeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 892;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	map<uint32, uint32> gadgetChainLevelMap = 14;
+// Name: OKPDGILKABD
+// CmdId: 819
+message GadgetChainLevelChangeNotify {
+    map<uint32, uint32> gadget_chain_level_map = 7;
 }
+
+

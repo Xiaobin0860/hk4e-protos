@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message AntiAddictNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 104;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	string msg = 3;
-	string level = 14;
-	int32 msgType = 13;
+// Name: KLJIFBIHNPK
+// CmdId: 103
+message AntiAddictNotify {
+    int32 msg_type = 3;
+    string msg = 5;
+    string level = 14;
 }
+
+

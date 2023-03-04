@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message DungeonCandidateTeamInviteRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 942;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	repeated uint32 invalidPlayerUids = 4;
-	int32 retcode = 13;
+// Name: LDFNHPJJOIH
+// CmdId: 933
+message DungeonCandidateTeamInviteRsp {
+    repeated uint32 invalid_player_uids = 6;
+    int32 retcode = 2;
 }
+
+

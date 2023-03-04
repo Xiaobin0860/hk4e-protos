@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "CodexType.proto";
 
+// Name: MKIEDBEHAHC
+// CmdId: 4207
 message CodexDataUpdateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4202;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	CodexType type = 15;
-	uint32 id = 6;
-	uint32 weaponMaxPromoteLevel = 1;
+    CodexType type = 10;
+    uint32 weapon_max_promote_level = 15;
+    uint32 id = 5;
 }
+
+

@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MiracleRingDropResultNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5243;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 dropResult = 6;
-	int32 lastTakeRewardTime = 9;
+// Name: HCFHCCKHJMN
+// CmdId: 5215
+message MiracleRingDropResultNotify {
+    int32 JCFKODDCBIH = 15;
+    int32 OIMOAGJJCOI = 13;
 }
+
+

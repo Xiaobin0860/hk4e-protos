@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "RogueDiaryAvatar.proto";
 
+// Name: EILFAEAPPLM
+// CmdId: 8749
 message RogueFinishRepairReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8049;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	repeated uint32 chosenCardList = 4;
-	repeated RogueDiaryAvatar chosenAvatarList = 13;
+    repeated RogueDiaryAvatar chosen_avatar_list = 2;
+    repeated uint32 chosen_card_list = 12;
 }
+
+

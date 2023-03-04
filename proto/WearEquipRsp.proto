@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message WearEquipRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 613;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 9;
-	uint64 avatarGuid = 6;
-	uint64 equipGuid = 13;
+// Name: BHBOLAAJJFE
+// CmdId: 629
+message WearEquipRsp {
+    uint64 equip_guid = 4;
+    int32 retcode = 2;
+    uint64 avatar_guid = 11;
 }
+
+

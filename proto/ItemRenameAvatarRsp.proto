@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ItemRenameAvatarRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1628;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 15;
-	uint32 renameId = 8;
-	uint32 cdTime = 7;
+// Name: GHECAHIKANG
+// CmdId: 1797
+message ItemRenameAvatarRsp {
+    uint32 cd_time = 5;
+    uint32 rename_id = 9;
+    int32 retcode = 7;
 }
+
+

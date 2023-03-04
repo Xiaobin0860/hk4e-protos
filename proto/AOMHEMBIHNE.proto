@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "NIHOOOAICMD.proto";
+
+// Name: AOMHEMBIHNE
+// CmdId: 7271
+message AOMHEMBIHNE {
+    uint32 HCKIILHKKBE = 8;
+    repeated NIHOOOAICMD ABBIFONKPDJ = 1;
+}
+
+

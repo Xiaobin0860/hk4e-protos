@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "DigMarkPoint.proto";
 
+// Name: MIDHCHFOCFJ
+// CmdId: 8585
 message DigActivityMarkPointChangeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8508;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated DigMarkPoint digMarkPointList = 4;
+    repeated DigMarkPoint dig_mark_point_list = 9;
 }
+
+

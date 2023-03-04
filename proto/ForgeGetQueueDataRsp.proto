@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "ForgeQueueData.proto";
 
+// Name: BBHOPHBCLAE
+// CmdId: 658
 message ForgeGetQueueDataRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 607;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	int32 retcode = 12;
-	uint32 maxQueueNum = 7;
-	map<uint32, ForgeQueueData> forgeQueueMap = 4;
+    uint32 max_queue_num = 2;
+    int32 retcode = 1;
+    map<uint32, ForgeQueueData> forge_queue_map = 9;
 }
+
+

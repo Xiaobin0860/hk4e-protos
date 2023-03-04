@@ -4,11 +4,14 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: JKJKGLGIDJL
 message WinterCampStageInfo {
-	uint32 totalProgress = 15;
-	uint32 curProgress = 2;
-	uint32 id = 13;
-	uint32 openTime = 12;
-	Vector pos = 6;
-	bool isFinished = 9;
+    uint32 open_time = 7;
+    bool is_finished = 13;
+    uint32 cur_progress = 12;
+    uint32 total_progress = 2;
+    uint32 id = 6;
+    Vector pos = 15;
 }
+
+

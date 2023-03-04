@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-option go_package = "./;proto";
-
-message GCGPVEIntention {
-	uint32 cardGuid = 11;
-	repeated uint32 skillIdList = 3;
-}

@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ActivitySelectAvatarCardRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2154;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 rewardId = 14;
-	uint32 activityId = 1;
-	int32 retcode = 5;
+// Name: DJMNICMCPCJ
+// CmdId: 2130
+message ActivitySelectAvatarCardRsp {
+    uint32 reward_id = 2;
+    int32 retcode = 3;
+    uint32 activity_id = 9;
 }
+
+

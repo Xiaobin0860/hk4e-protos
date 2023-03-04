@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MBAAFHPBLEP
+message MBAAFHPBLEP {
+    uint32 FPCJCINAGGB = 7;
+}
+
+

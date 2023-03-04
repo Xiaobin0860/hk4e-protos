@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message CoinCollectInterruptPlayReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 24934;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 galleryId = 9;
+// Name: ABAMPBHOKFF
+// CmdId: 20221
+message CoinCollectInterruptPlayReq {
+    uint32 gallery_id = 9;
 }
+
+

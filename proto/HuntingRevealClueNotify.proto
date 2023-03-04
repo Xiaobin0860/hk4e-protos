@@ -2,20 +2,16 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "Vector.proto";
 import "HuntingPair.proto";
+import "Vector.proto";
 
+// Name: MLMHNJMNFPI
+// CmdId: 4332
 message HuntingRevealClueNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4335;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 finishedGroupId = 13;
-	uint32 finishClueCount = 11;
-	Vector cluePosition = 5;
-	HuntingPair huntingPair = 4;
+    Vector clue_position = 13;
+    uint32 finished_group_id = 3;
+    uint32 finish_clue_count = 14;
+    HuntingPair hunting_pair = 7;
 }
+
+

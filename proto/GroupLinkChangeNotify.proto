@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "GroupLinkBundle.proto";
 
+// Name: GHJIGIBCCFE
+// CmdId: 5793
 message GroupLinkChangeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5795;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	GroupLinkBundle bundle = 2;
+    GroupLinkBundle bundle = 2;
 }
+
+

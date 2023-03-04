@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GetAreaExplorePointReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 207;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	repeated uint32 areaIdList = 5;
+// Name: EPLOBIPMGNK
+// CmdId: 258
+message GetAreaExplorePointReq {
+    repeated uint32 area_id_list = 14;
 }
+
+

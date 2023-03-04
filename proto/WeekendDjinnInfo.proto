@@ -4,7 +4,10 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: DAMDPHBCAKI
 message WeekendDjinnInfo {
-	Vector rot = 11;
-	Vector pos = 10;
+    Vector pos = 11;
+    Vector rot = 8;
 }
+
+

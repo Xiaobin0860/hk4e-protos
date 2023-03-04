@@ -4,6 +4,9 @@ option go_package = "./;proto";
 
 import "GCGSkillLimitsInfo.proto";
 
+// Name: FNNHNPCGJIM
 message GCGCardSkillLimitsInfo {
-	repeated GCGSkillLimitsInfo skillLimitsList = 13;
+    repeated GCGSkillLimitsInfo skill_limits_list = 3;
 }
+
+

@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "WorldRoutineTypeInfo.proto";
 
+// Name: KEHJMHEMANF
+// CmdId: 3509
 message WorldRoutineTypeRefreshNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3546;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	WorldRoutineTypeInfo worldRoutineType = 15;
+    WorldRoutineTypeInfo world_routine_type = 13;
 }
+
+

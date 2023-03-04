@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message UnlockNameCardNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4085;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 nameCardId = 5;
+// Name: ABAFHCHFHPD
+// CmdId: 4086
+message UnlockNameCardNotify {
+    uint32 name_card_id = 11;
 }
+
+

@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message PlayerSetLanguageReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 194;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 languageType = 3;
+// Name: PBMGCGFPJOM
+// CmdId: 149
+message PlayerSetLanguageReq {
+    uint32 language_type = 8;
 }
+
+

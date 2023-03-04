@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "OpActivityInfo.proto";
 
+// Name: NHMNKHNKNFK
+// CmdId: 5164
 message OpActivityUpdateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5198;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	OpActivityInfo opActivityInfo = 15;
+    OpActivityInfo op_activity_info = 6;
 }
+
+

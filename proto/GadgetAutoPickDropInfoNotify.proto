@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "Item.proto";
 
+// Name: PBGEBLODBDC
+// CmdId: 842
 message GadgetAutoPickDropInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 816;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated Item itemList = 15;
+    repeated Item item_list = 14;
 }
+
+

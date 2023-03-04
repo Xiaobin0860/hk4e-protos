@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message FungusFighterTrainingSelectFungusRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 20972;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 15;
+// Name: OJOJGKOHKLL
+// CmdId: 22453
+message FungusFighterTrainingSelectFungusRsp {
+    int32 retcode = 14;
 }
+
+

@@ -2,18 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MarkTargetInvestigationMonsterNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1913;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 groupId = 15;
-	uint32 monsterId = 12;
-	uint32 sceneId = 14;
-	uint32 investigationMonsterId = 2;
+// Name: DAMGJDHFMCA
+// CmdId: 1916
+message MarkTargetInvestigationMonsterNotify {
+    uint32 scene_id = 7;
+    uint32 monster_id = 5;
+    uint32 investigation_monster_id = 9;
+    uint32 group_id = 3;
 }
+
+

@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "SignInInfo.proto";
 
+// Name: HOBHMLNNDKH
+// CmdId: 2534
 message GetSignInRewardRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2574;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	int32 retcode = 7;
-	SignInInfo signInInfo = 13;
+    int32 retcode = 9;
+    SignInInfo sign_in_info = 3;
 }
+
+

@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message RechargeRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4145;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 8;
-	string productId = 11;
-	bool isShowMinorsHint = 5;
+// Name: NDGDDBCEOPC
+// CmdId: 4143
+message RechargeRsp {
+    string product_id = 11;
+    bool is_show_minors_hint = 1;
+    int32 retcode = 9;
 }
+
+

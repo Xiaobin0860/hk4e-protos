@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GetHomeLevelUpRewardReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4588;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 level = 13;
+// Name: CPKFHLMGLON
+// CmdId: 4821
+message GetHomeLevelUpRewardReq {
+    uint32 level = 4;
 }
+
+

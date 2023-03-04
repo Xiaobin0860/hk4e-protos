@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ScenePlayBattleInterruptNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4379;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 playType = 4;
-	uint32 interruptState = 12;
-	uint32 playId = 14;
+// Name: FIELNLJBGKB
+// CmdId: 4357
+message ScenePlayBattleInterruptNotify {
+    uint32 interrupt_state = 14;
+    uint32 play_type = 1;
+    uint32 play_id = 4;
 }
+
+

@@ -2,8 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: DCMLDNDFBDN
 message BartenderLevelInfo {
-	bool isFinish = 13;
-	uint32 maxScore = 12;
-	uint32 id = 10;
+    bool is_finish = 11;
+    uint32 max_score = 6;
+    uint32 id = 12;
 }
+
+

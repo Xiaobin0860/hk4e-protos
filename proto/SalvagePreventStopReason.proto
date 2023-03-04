@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: CNKNLMCLGEE
 enum SalvagePreventStopReason {
   SALVAGE_PREVENT_STOP_NONE      = 0;
   SALVAGE_PREVENT_STOP_SUCCESS   = 1;
@@ -11,3 +13,5 @@ enum SalvagePreventStopReason {
   SALVAGE_PREVENT_STOP_FULL      = 5;
   SALVAGE_PREVENT_STOP_AWAY      = 6;
 }
+
+

@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message TrialAvatarFirstPassDungeonNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2175;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 trialAvatarIndexId = 9;
+// Name: JDOFGAKDDPA
+// CmdId: 2105
+message TrialAvatarFirstPassDungeonNotify {
+    uint32 trial_avatar_index_id = 10;
 }
+
+

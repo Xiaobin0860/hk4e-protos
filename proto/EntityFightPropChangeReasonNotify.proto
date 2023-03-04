@@ -2,24 +2,20 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+import "CPBMIAMDLPE.proto";
+import "GFDBMHNEOFL.proto";
 import "PropChangeReason.proto";
-import "ChangeHpReason.proto";
-import "ChangeEnergyReason.proto";
 
+// Name: CGLFHNCCBKJ
+// CmdId: 1272
 message EntityFightPropChangeReasonNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1280;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	float propDelta = 4;
-	PropChangeReason reason = 13;
-	uint32 entityId = 12;
-	repeated uint32 paramList = 1;
-	ChangeHpReason changeHpReason = 6;
-	ChangeEnergyReason changeEnergyReason = 3;
-	uint32 propType = 14;
+    repeated uint32 param_list = 12;
+    uint32 prop_type = 9;
+    CPBMIAMDLPE FHLNGJNGPNN = 14;
+    GFDBMHNEOFL KAKKINHPKPN = 10;
+    PropChangeReason reason = 11;
+    float prop_delta = 15;
+    uint32 entity_id = 6;
 }
+
+

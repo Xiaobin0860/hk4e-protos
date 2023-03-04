@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message McoinExchangeHcoinRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 667;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 7;
-	uint32 mcoinCost = 11;
-	uint32 hcoin = 15;
+// Name: NBMNMAAOFAN
+// CmdId: 636
+message McoinExchangeHcoinRsp {
+    uint32 MIBMBPJHBBM = 2;
+    int32 retcode = 15;
+    uint32 CALAJIHCLCF = 4;
 }
+
+

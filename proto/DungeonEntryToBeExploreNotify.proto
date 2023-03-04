@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message DungeonEntryToBeExploreNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3446;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 sceneId = 9;
-	uint32 dungeonEntryScenePointId = 6;
-	uint32 dungeonEntryConfigId = 4;
+// Name: ILGPBLHBKNJ
+// CmdId: 3313
+message DungeonEntryToBeExploreNotify {
+    uint32 GGGEMNHNCNJ = 7;
+    uint32 scene_id = 2;
+    uint32 NAKJJEJCAJI = 4;
 }
+
+

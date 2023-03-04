@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: BBDPIINPKHI
 enum MatchReason {
   MATCH_NONE            = 0;
   MATCH_FINISH          = 1;
@@ -14,3 +16,5 @@ enum MatchReason {
   MATCH_MP_UNAVAILABLE  = 8;
   MATCH_CONFIRM_TIMEOUT = 9;
 }
+
+

@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "UgcType.proto";
 
+// Name: PMAPPANGOHF
+// CmdId: 6339
 message PublishUgcReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6316;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	UgcType ugcType = 9;
-	uint64 ugcGuid = 14;
+    UgcType ugc_type = 4;
+    uint64 ugc_guid = 8;
 }
+
+

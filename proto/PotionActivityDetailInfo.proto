@@ -4,6 +4,9 @@ option go_package = "./;proto";
 
 import "PotionStageData.proto";
 
+// Name: CMFJGDKFPBH
 message PotionActivityDetailInfo {
-	repeated PotionStageData stageList = 11;
+    repeated PotionStageData stage_list = 13;
 }
+
+

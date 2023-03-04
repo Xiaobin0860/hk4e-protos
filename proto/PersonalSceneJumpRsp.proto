@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: BNEDOJNHOBO
+// CmdId: 203
 message PersonalSceneJumpRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 204;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 destSceneId = 3;
-	Vector destPos = 2;
-	int32 retcode = 12;
+    uint32 dest_scene_id = 10;
+    Vector dest_pos = 2;
+    int32 retcode = 7;
 }
+
+

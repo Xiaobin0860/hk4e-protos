@@ -2,17 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MonsterAlertChangeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 322;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 avatarEntityId = 2;
-	uint32 isAlert = 10;
-	repeated uint32 monsterEntityList = 15;
+// Name: HCGCGPICFEA
+// CmdId: 313
+message MonsterAlertChangeNotify {
+    uint32 avatar_entity_id = 9;
+    uint32 is_alert = 14;
+    repeated uint32 monster_entity_list = 4;
 }
+
+

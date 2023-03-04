@@ -2,17 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ReliquaryDecomposeReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 640;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 targetCount = 5;
-	uint32 configId = 13;
-	repeated uint64 guidList = 2;
+// Name: BPIDHOFHENA
+// CmdId: 631
+message ReliquaryDecomposeReq {
+    uint32 target_count = 10;
+    repeated uint64 guid_list = 12;
+    uint32 config_id = 14;
 }
+
+

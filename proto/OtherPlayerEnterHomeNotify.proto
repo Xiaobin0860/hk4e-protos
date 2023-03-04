@@ -2,17 +2,25 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "Reason.proto";
 
+// Name: FFAADPONCMG
+// CmdId: 4771
 message OtherPlayerEnterHomeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4582;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
+    // Name: LCFCMAGCDAJ
+    enum Reason {
+    PLAYER_JUDGE                = 0;
+    PLAYER_ENTER_OPTION_REFUSE  = 1;
+    PLAYER_ENTER_OPTION_DIRECT  = 2;
+    SYSTEM_JUDGE                = 3;
+    HOST_IN_MATCH               = 4;
+    PS_PLAYER_NOT_ACCEPT_OTHERS = 5;
+    OPEN_STATE_NOT_OPEN         = 6;
+    HOST_IN_EDIT_MODE           = 7;
+    PRIOR_CHECK                 = 8;
+    }
 
-	Reason reason = 15;
-	string nickname = 11;
+    string nickname = 15;
+    Reason reason = 8;
 }
+
+

@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "HomeCustomFurnitureInfo.proto";
 
+// Name: MPKLBHMHOIK
+// CmdId: 4647
 message HomeCustomFurnitureInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4784;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated uint32 deleteCustomFurnitureList = 14;
-	repeated HomeCustomFurnitureInfo customFurnitureInfoList = 15;
-	map<uint32, uint32> usedSubFurnitureCountMap = 2;
+    repeated uint32 delete_custom_furniture_list = 10;
+    map<uint32, uint32> used_sub_furniture_count_map = 13;
+    repeated HomeCustomFurnitureInfo custom_furniture_info_list = 9;
 }
+
+

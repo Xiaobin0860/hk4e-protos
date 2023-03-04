@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SaveMainCoopRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1991;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	repeated uint32 savePointIdList = 4;
-	int32 retcode = 10;
-	uint32 id = 9;
+// Name: FLOHCLGELKM
+// CmdId: 1996
+message SaveMainCoopRsp {
+    repeated uint32 save_point_id_list = 6;
+    uint32 id = 15;
+    int32 retcode = 8;
 }
+
+

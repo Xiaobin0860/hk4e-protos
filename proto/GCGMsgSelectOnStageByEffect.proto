@@ -2,8 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: CNLBLDKJOHE
 message GCGMsgSelectOnStageByEffect {
-	uint32 skillId = 4;
-	uint32 cardGuid = 2;
-	uint32 controllerId = 13;
+    uint32 skill_id = 2;
+    uint32 controller_id = 5;
+    uint32 card_guid = 6;
 }
+
+

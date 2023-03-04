@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message AddQuestContentProgressRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 480;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 contentType = 13;
-	int32 retcode = 8;
+// Name: LNEHHKPDPHL
+// CmdId: 472
+message AddQuestContentProgressRsp {
+    int32 retcode = 5;
+    uint32 content_type = 12;
 }
+
+

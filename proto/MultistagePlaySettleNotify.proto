@@ -2,24 +2,20 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "MechanicusSettleInfo.proto";
-import "ChessSettleInfo.proto";
-import "IrodoriChessSettleInfo.proto";
+import "InBattleChessSettleInfo.proto";
+import "InBattleIrodoriChessSettleInfo.proto";
+import "InBattleMechanicusSettleInfo.proto";
 
+// Name: HAHMKAKECFP
+// CmdId: 5348
 message MultistagePlaySettleNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5347;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 playIndex = 15;
-	uint32 groupId = 1;
-	oneof detail {
-		MechanicusSettleInfo mechanicus_settle_info = 1241;
-		ChessSettleInfo chess_settle_info = 200;
-		IrodoriChessSettleInfo irodori_chess_settle_info = 96;
-	}
+    uint32 play_index = 11;
+    uint32 group_id = 13;
+    oneof detail {
+        InBattleMechanicusSettleInfo mechanicus_settle_info = 137;
+        InBattleChessSettleInfo chess_settle_info = 1316;
+        InBattleIrodoriChessSettleInfo irodori_chess_settle_info = 176;
+    }
 }
+
+

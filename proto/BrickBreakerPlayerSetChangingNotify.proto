@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message BrickBreakerPlayerSetChangingNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5366;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool isChanging = 1;
-	uint32 uid = 9;
+// Name: IGLFMBGPMPN
+// CmdId: 5363
+message BrickBreakerPlayerSetChangingNotify {
+    bool is_changing = 15;
+    uint32 uid = 14;
 }
+
+

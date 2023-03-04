@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "ChatInfo.proto";
 
+// Name: NFIKNDINCMM
+// CmdId: 3125
 message PlayerChatReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3242;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	uint32 channelId = 5;
-	ChatInfo chatInfo = 12;
+    ChatInfo chat_info = 5;
+    uint32 channel_id = 15;
 }
+
+

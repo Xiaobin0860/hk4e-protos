@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SetFriendRemarkNameReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4094;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 uid = 11;
-	string remarkName = 15;
+// Name: PANFMHCBCOM
+// CmdId: 4049
+message SetFriendRemarkNameReq {
+    string remark_name = 6;
+    uint32 uid = 7;
 }
+
+

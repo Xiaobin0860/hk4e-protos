@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message HomeKickPlayerRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4883;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	bool isKickAll = 8;
-	uint32 targetUid = 5;
-	int32 retcode = 2;
+// Name: OLILJCHDNJF
+// CmdId: 4889
+message HomeKickPlayerRsp {
+    int32 retcode = 2;
+    uint32 target_uid = 6;
+    bool is_kick_all = 10;
 }
+
+

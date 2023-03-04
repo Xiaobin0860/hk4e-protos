@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message UnlockAvatarTalentRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1055;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 1;
-	uint64 avatarGuid = 13;
-	uint32 talentId = 2;
+// Name: EFFKKHNDIAF
+// CmdId: 1075
+message UnlockAvatarTalentRsp {
+    uint64 avatar_guid = 5;
+    uint32 talent_id = 13;
+    int32 retcode = 4;
 }
+
+

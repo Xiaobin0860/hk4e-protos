@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "HuntingPair.proto";
 
+// Name: ACJPHFFIIAF
+// CmdId: 4335
 message HuntingFailNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4302;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	HuntingPair huntingPair = 9;
+    HuntingPair hunting_pair = 8;
 }
+
+

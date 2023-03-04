@@ -2,17 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ChangeGameTimeReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 162;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 extraDays = 7;
-	bool isForceSet = 6;
-	uint32 gameTime = 9;
+// Name: IMMJMBKDKNO
+// CmdId: 165
+message ChangeGameTimeReq {
+    uint32 game_time = 11;
+    bool is_force_set = 13;
+    uint32 extra_days = 6;
 }
+
+

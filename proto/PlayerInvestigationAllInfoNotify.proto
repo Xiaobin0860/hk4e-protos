@@ -2,18 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "InvestigationTarget.proto";
 import "Investigation.proto";
+import "InvestigationTarget.proto";
 
+// Name: HCPEEIEKMCL
+// CmdId: 1911
 message PlayerInvestigationAllInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1917;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated InvestigationTarget investigationTargetList = 6;
-	repeated Investigation investigationList = 2;
+    repeated Investigation investigation_list = 10;
+    repeated InvestigationTarget investigation_target_list = 12;
 }
+
+

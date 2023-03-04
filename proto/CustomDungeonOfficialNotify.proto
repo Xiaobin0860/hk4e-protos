@@ -2,19 +2,15 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "TryCustomDungeonType.proto";
 import "EnterCustomDungeonType.proto";
+import "TryCustomDungeonType.proto";
 
+// Name: CAJOCNPLLEH
+// CmdId: 6250
 message CustomDungeonOfficialNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6236;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	TryCustomDungeonType tryType = 7;
-	repeated uint32 officialBlackCoinList = 12;
-	EnterCustomDungeonType enterType = 11;
+    repeated uint32 official_black_coin_list = 1;
+    TryCustomDungeonType try_type = 13;
+    EnterCustomDungeonType enter_type = 10;
 }
+
+

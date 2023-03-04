@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message TakeEffigyRewardRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2180;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 rewardIndex = 13;
-	int32 retcode = 6;
+// Name: ONDFFNHEBHF
+// CmdId: 2089
+message TakeEffigyRewardRsp {
+    int32 retcode = 5;
+    uint32 reward_index = 2;
 }
+
+

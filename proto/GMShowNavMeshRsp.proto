@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "PBNavMeshTile.proto";
 
+// Name: GKHCBIDCMHJ
+// CmdId: 2320
 message GMShowNavMeshRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2354;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated PBNavMeshTile tiles = 9;
-	int32 retcode = 4;
+    int32 retcode = 2;
+    repeated PBNavMeshTile tiles = 7;
 }
+
+

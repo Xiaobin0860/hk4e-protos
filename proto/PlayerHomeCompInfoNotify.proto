@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "PlayerHomeCompInfo.proto";
 
+// Name: FAFABIGFAMI
+// CmdId: 4886
 message PlayerHomeCompInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4844;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	PlayerHomeCompInfo compInfo = 5;
+    PlayerHomeCompInfo comp_info = 14;
 }
+
+

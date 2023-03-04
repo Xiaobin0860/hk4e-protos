@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message SummerTimeV2RestartBoatGalleryRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8972;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 galleryId = 15;
-	int32 retcode = 12;
+// Name: MMMMGDMFAEG
+// CmdId: 8599
+message SummerTimeV2RestartBoatGalleryRsp {
+    uint32 gallery_id = 14;
+    int32 retcode = 9;
 }
+
+

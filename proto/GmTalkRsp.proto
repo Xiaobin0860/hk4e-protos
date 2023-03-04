@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GmTalkRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 87;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	string retmsg = 3;
-	int32 retcode = 7;
-	string msg = 5;
+// Name: OPANAMLOKOK
+// CmdId: 54
+message GmTalkRsp {
+    string retmsg = 6;
+    string msg = 13;
+    int32 retcode = 12;
 }
+
+

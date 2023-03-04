@@ -2,17 +2,14 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GallerySumoKillMonsterNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 5506;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 score = 2;
-	uint32 killNormalMonsterNum = 13;
-	uint32 killEliteMonsterNum = 4;
-	uint32 galleryId = 10;
+// Name: CIHILMMMOCG
+// CmdId: 5566
+message GallerySumoKillMonsterNotify {
+    uint32 ACLMNJDOGKP = 3;
+    uint32 DNCGDPEOCHL = 15;
+    uint32 score = 2;
+    uint32 gallery_id = 7;
 }
+
+

@@ -4,16 +4,11 @@ option go_package = "./;proto";
 
 import "ItemParam.proto";
 
+// Name: JEECPPNMOCB
+// CmdId: 20804
 message VintageMarketDeliverItemReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 21636;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	repeated ItemParam deliverItemList = 15;
-	uint32 traderId = 4;
+    repeated ItemParam deliver_item_list = 10;
+    uint32 trader_id = 4;
 }
+
+

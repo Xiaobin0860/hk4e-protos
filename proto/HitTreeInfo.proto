@@ -4,7 +4,10 @@ option go_package = "./;proto";
 
 import "Vector.proto";
 
+// Name: GPDPAAPFOML
 message HitTreeInfo {
-	uint32 treeType = 1;
-	Vector treePos = 2;
+    Vector tree_pos = 12;
+    uint32 tree_type = 15;
 }
+
+

@@ -2,17 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ForgeStartReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 652;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 avatarId = 10;
-	uint32 forgeCount = 6;
-	uint32 forgeId = 3;
+// Name: GCDBEBFGMNP
+// CmdId: 605
+message ForgeStartReq {
+    uint32 avatar_id = 14;
+    uint32 forge_id = 8;
+    uint32 forge_count = 1;
 }
+
+

@@ -2,18 +2,15 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MusicGameSettleRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8735;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 9;
-	bool isUnlockNextLevel = 1;
-	uint64 ugcGuid = 7;
-	uint32 musicBasicId = 4;
-	bool isNewRecord = 14;
+// Name: ANDLNOABFII
+// CmdId: 8542
+message MusicGameSettleRsp {
+    uint64 ugc_guid = 9;
+    bool is_unlock_next_level = 5;
+    uint32 music_basic_id = 14;
+    bool is_new_record = 7;
+    int32 retcode = 15;
 }
+
+

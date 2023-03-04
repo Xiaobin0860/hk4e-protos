@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message TakeCompoundOutputReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 130;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 compoundId = 13;
-	uint32 compoundGroupId = 4;
+// Name: FFEIDHMLFHM
+// CmdId: 137
+message TakeCompoundOutputReq {
+    uint32 compound_group_id = 6;
+    uint32 compound_id = 3;
 }
+
+

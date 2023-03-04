@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message LunaRiteHintPointReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8859;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 areaId = 5;
+// Name: PBELBHMKCHP
+// CmdId: 8114
+message LunaRiteHintPointReq {
+    uint32 area_id = 2;
 }
+
+

@@ -5,19 +5,15 @@ option go_package = "./;proto";
 import "HuntingPair.proto";
 import "Vector.proto";
 
+// Name: LGBLMLKHJNC
+// CmdId: 4321
 message HuntingOngoingNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4340;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 failTime = 9;
-	uint32 finishClueCount = 8;
-	bool isStarted = 5;
-	HuntingPair huntingPair = 10;
-	Vector nextPosition = 14;
-	bool isFinal = 11;
+    Vector next_position = 7;
+    HuntingPair hunting_pair = 11;
+    uint32 fail_time = 1;
+    uint32 finish_clue_count = 10;
+    bool is_final = 9;
+    bool is_started = 5;
 }
+
+

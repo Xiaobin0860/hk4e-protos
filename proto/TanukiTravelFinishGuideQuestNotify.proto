@@ -2,14 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message TanukiTravelFinishGuideQuestNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8824;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 activityId = 7;
+// Name: PFAJMCBMPGH
+// CmdId: 8130
+message TanukiTravelFinishGuideQuestNotify {
+    uint32 activity_id = 15;
 }
+
+

@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "BuoyantCombatSettleInfo.proto";
 
+// Name: MAPJPGFCLAE
+// CmdId: 8387
 message BuoyantCombatSettleNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8267;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	BuoyantCombatSettleInfo settleInfo = 5;
-	uint32 galleryId = 15;
+    uint32 gallery_id = 11;
+    BuoyantCombatSettleInfo settle_info = 6;
 }
+
+

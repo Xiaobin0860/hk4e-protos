@@ -4,6 +4,9 @@ option go_package = "./;proto";
 
 import "RogueAvatarInfo.proto";
 
+// Name: EIDMCBCONOB
 message RogueShowAvatarTeamInfo {
-	repeated RogueAvatarInfo avatarList = 3;
+    repeated RogueAvatarInfo avatar_list = 8;
 }
+
+

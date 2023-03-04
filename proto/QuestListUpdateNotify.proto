@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "Quest.proto";
 
+// Name: BACDDEEPDDG
+// CmdId: 475
 message QuestListUpdateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 455;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated Quest questList = 13;
+    repeated Quest quest_list = 11;
 }
+
+

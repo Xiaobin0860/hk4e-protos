@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message AvatarFightPropUpdateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1274;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint64 avatarGuid = 8;
-	map<uint32, float> fightPropMap = 10;
+// Name: DBDANALHILN
+// CmdId: 1234
+message AvatarFightPropUpdateNotify {
+    map<uint32, float> fight_prop_map = 6;
+    uint64 avatar_guid = 13;
 }
+
+

@@ -2,9 +2,18 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "State.proto";
 
+// Name: NPMBLHJCHHD
 message CoopReward {
-	State state = 8;
-	uint32 id = 1;
+    // Name: ELAIMJJNBCG
+    enum State {
+    STATE_UNSTARTED = 0;
+    STATE_STARTED   = 1;
+    STATE_FINISHED  = 2;
+    }
+
+    uint32 id = 1;
+    State state = 7;
 }
+
+

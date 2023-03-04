@@ -4,7 +4,10 @@ option go_package = "./;proto";
 
 import "GCGCostReviseInfo.proto";
 
+// Name: HPJENALBJJD
 message GCGMsgCostRevise {
-	uint32 controllerId = 15;
-	GCGCostReviseInfo costRevise = 10;
+    uint32 controller_id = 15;
+    GCGCostReviseInfo cost_revise = 2;
 }
+
+

@@ -2,18 +2,15 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ChannellerSlabLoopDungeonChallengeInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8499;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 difficultyId = 9;
-	uint32 challengeScore = 1;
-	repeated uint32 conditionIdList = 10;
-	uint32 dungeonIndex = 3;
-	repeated uint32 gihlcdadndf = 8;
+// Name: HIMLJEHFCOM
+// CmdId: 8364
+message ChannellerSlabLoopDungeonChallengeInfoNotify {
+    repeated uint32 scheme_buff_id_list = 13;
+    uint32 dungeon_index = 4;
+    repeated uint32 condition_id_list = 15;
+    uint32 difficulty_id = 9;
+    uint32 challenge_score = 10;
 }
+
+

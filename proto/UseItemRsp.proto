@@ -2,18 +2,15 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message UseItemRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 662;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint64 guid = 12;
-	int32 retcode = 7;
-	uint32 itemId = 4;
-	uint64 targetGuid = 11;
-	uint32 optionIdx = 3;
+// Name: LLDLKAGIBLM
+// CmdId: 665
+message UseItemRsp {
+    uint32 item_id = 8;
+    uint64 guid = 7;
+    int32 retcode = 13;
+    uint64 target_guid = 14;
+    uint32 option_idx = 11;
 }
+
+

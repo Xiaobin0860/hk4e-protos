@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "FleurFairBalloonSettleInfo.proto";
 
+// Name: CEMMAFIDCKC
+// CmdId: 2200
 message FleurFairBalloonSettleNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2183;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 minigameId = 10;
-	map<uint32, FleurFairBalloonSettleInfo> settleInfoMap = 5;
+    uint32 minigame_id = 12;
+    map<uint32, FleurFairBalloonSettleInfo> settle_info_map = 10;
 }
+
+

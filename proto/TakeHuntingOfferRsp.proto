@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "HuntingPair.proto";
 
+// Name: DCBKNCEELGD
+// CmdId: 4343
 message TakeHuntingOfferRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4345;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	int32 retcode = 7;
-	uint32 cityId = 8;
-	HuntingPair huntingPair = 6;
+    uint32 city_id = 10;
+    HuntingPair hunting_pair = 8;
+    int32 retcode = 9;
 }
+
+

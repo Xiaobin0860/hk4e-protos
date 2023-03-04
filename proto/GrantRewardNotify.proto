@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "Reward.proto";
 
+// Name: GIHGMKPCMNI
+// CmdId: 613
 message GrantRewardNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 622;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	Reward reward = 10;
+    Reward reward = 8;
 }
+
+

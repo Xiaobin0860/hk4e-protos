@@ -4,7 +4,10 @@ option go_package = "./;proto";
 
 import "SkyCrystalDetectorData.proto";
 
+// Name: JFMBHEPEIKA
 message SkyCrystalDetectorQuickUseResult {
-	SkyCrystalDetectorData skyCrystalDetectorData = 14;
-	int32 retcode = 7;
+    SkyCrystalDetectorData sky_crystal_detector_data = 14;
+    int32 retcode = 11;
 }
+
+

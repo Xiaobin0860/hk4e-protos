@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message InterpretInferenceWordRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 415;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 pageId = 2;
-	int32 retcode = 13;
-	uint32 wordId = 6;
+// Name: GLJDKMFBLIJ
+// CmdId: 453
+message InterpretInferenceWordRsp {
+    int32 retcode = 8;
+    uint32 word_id = 7;
+    uint32 page_id = 13;
 }
+
+

@@ -2,15 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message ReliquaryFilterStateSaveNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 672;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	map<uint32, uint32> reliquaryFilterStateMap = 3;
+// Name: AEFFGGNGFCL
+// CmdId: 678
+message ReliquaryFilterStateSaveNotify {
+    map<uint32, uint32> reliquary_filter_state_map = 15;
 }
+
+

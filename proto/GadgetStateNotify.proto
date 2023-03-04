@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message GadgetStateNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 887;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	uint32 gadgetState = 9;
-	uint32 gadgetEntityId = 7;
-	bool isEnableInteract = 15;
+// Name: DPAAILJEKLP
+// CmdId: 854
+message GadgetStateNotify {
+    uint32 gadget_state = 15;
+    bool is_enable_interact = 6;
+    uint32 gadget_entity_id = 8;
 }
+
+

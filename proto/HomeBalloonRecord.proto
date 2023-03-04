@@ -4,6 +4,9 @@ option go_package = "./;proto";
 
 import "HomeBalloonGalleryRecord.proto";
 
+// Name: KNLFEMENDPG
 message HomeBalloonRecord {
-	repeated HomeBalloonGalleryRecord recordList = 7;
+    repeated HomeBalloonGalleryRecord record_list = 15;
 }
+
+

@@ -2,8 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: ABEAGCMPNGD
 message SegmentInfo {
-	uint32 size = 6;
-	uint32 offset = 9;
-	uint32 module = 12;
+    uint32 size = 13;
+    uint32 module = 8;
+    uint32 offset = 1;
 }
+
+

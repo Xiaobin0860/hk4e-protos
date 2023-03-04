@@ -4,7 +4,10 @@ option go_package = "./;proto";
 
 import "DraftInviteFailReason.proto";
 
+// Name: IABHECOCONE
 message DraftInviteFailInfo {
-	DraftInviteFailReason reason = 9;
-	uint32 uid = 1;
+    DraftInviteFailReason reason = 2;
+    uint32 uid = 4;
 }
+
+

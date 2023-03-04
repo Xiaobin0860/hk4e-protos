@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message BlessingAcceptAllGivePicRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2048;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	map<uint32, uint32> acceptPicNumMap = 13;
-	repeated uint32 acceptIndexList = 3;
-	int32 retcode = 11;
+// Name: NLNHDOFDJAB
+// CmdId: 2159
+message BlessingAcceptAllGivePicRsp {
+    int32 retcode = 12;
+    map<uint32, uint32> accept_pic_num_map = 6;
+    repeated uint32 accept_index_list = 7;
 }
+
+

@@ -4,17 +4,12 @@ option go_package = "./;proto";
 
 import "EnterCustomDungeonType.proto";
 
+// Name: MNMCGIADIEN
+// CmdId: 6248
 message EnterCustomDungeonReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6238;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	EnterCustomDungeonType enterType = 2;
-	uint32 dungeonId = 13;
-	uint64 dungeonGuid = 3;
+    uint64 dungeon_guid = 3;
+    uint32 dungeon_id = 2;
+    EnterCustomDungeonType enter_type = 6;
 }
+
+

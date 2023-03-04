@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "AvatarTeamResonanceInfo.proto";
 
+// Name: CPNPPLHLMCP
+// CmdId: 1066
 message TeamResonanceChangeNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1006;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	repeated AvatarTeamResonanceInfo infoList = 3;
+    repeated AvatarTeamResonanceInfo info_list = 15;
 }
+
+

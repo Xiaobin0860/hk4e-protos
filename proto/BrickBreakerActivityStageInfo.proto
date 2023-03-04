@@ -2,8 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: KJDMCAKDFCO
 message BrickBreakerActivityStageInfo {
-	uint32 stageId = 1;
-	bool Unk3300_FFKIEDNGNGK = 12;
-	bool Unk3300_ALOGIKNHEIM = 5;
+    bool FIBOFNLKBLM = 1;
+    uint32 stage_id = 7;
+    bool FEKFFLBBOEI = 14;
 }
+
+

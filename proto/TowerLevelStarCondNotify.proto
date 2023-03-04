@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "TowerLevelStarCondData.proto";
 
+// Name: MCBOPCGNLCL
+// CmdId: 2486
 message TowerLevelStarCondNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 2485;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	uint32 floorId = 13;
-	uint32 levelIndex = 4;
-	repeated TowerLevelStarCondData condDataList = 15;
+    uint32 level_index = 9;
+    repeated TowerLevelStarCondData cond_data_list = 8;
+    uint32 floor_id = 13;
 }
+
+

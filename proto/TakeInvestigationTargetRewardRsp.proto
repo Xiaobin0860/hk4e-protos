@@ -2,15 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message TakeInvestigationTargetRewardRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1923;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 1;
-	uint32 questId = 6;
+// Name: LHAPHELPIHC
+// CmdId: 1927
+message TakeInvestigationTargetRewardRsp {
+    int32 retcode = 6;
+    uint32 quest_id = 14;
 }
+
+

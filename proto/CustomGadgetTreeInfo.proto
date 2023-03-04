@@ -4,6 +4,9 @@ option go_package = "./;proto";
 
 import "CustomCommonNodeInfo.proto";
 
+// Name: IKCAPLALLPO
 message CustomGadgetTreeInfo {
-	repeated CustomCommonNodeInfo nodeList = 1;
+    repeated CustomCommonNodeInfo node_list = 1;
 }
+
+

@@ -4,15 +4,10 @@ option go_package = "./;proto";
 
 import "HomeLimitedShopInfo.proto";
 
+// Name: ELMECFHEBMD
+// CmdId: 4584
 message HomeLimitedShopInfoNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4576;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
-
-	HomeLimitedShopInfo shopInfo = 13;
+    HomeLimitedShopInfo shop_info = 11;
 }
+
+

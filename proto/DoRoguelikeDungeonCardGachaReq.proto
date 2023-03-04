@@ -2,16 +2,12 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message DoRoguelikeDungeonCardGachaReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8752;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 cellId = 13;
-	uint32 dungeonId = 6;
+// Name: GNPGGDENLCK
+// CmdId: 8427
+message DoRoguelikeDungeonCardGachaReq {
+    uint32 cell_id = 5;
+    uint32 dungeon_id = 12;
 }
+
+

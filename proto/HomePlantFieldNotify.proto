@@ -4,14 +4,10 @@ option go_package = "./;proto";
 
 import "HomePlantFieldData.proto";
 
+// Name: COLEPMPNKPG
+// CmdId: 4710
 message HomePlantFieldNotify {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 4731;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	HomePlantFieldData field = 4;
+    HomePlantFieldData field = 3;
 }
+
+

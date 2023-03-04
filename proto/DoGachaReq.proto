@@ -2,19 +2,15 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message DoGachaReq {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 1587;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// 	IS_ALLOW_CLIENT = 1;
-	// }
 
-	uint32 gachaRandom = 12;
-	uint32 gachaType = 2;
-	uint32 gachaScheduleId = 3;
-	string gachaTag = 15;
-	uint32 gachaTimes = 10;
+// Name: KBMLDGNEKHA
+// CmdId: 1554
+message DoGachaReq {
+    uint32 PKCLGOCJPLN = 3;
+    uint32 DGIFMDIADJF = 6;
+    uint32 NMKGGDOKHLF = 12;
+    uint32 HKJAAPBGNEI = 5;
+    string gacha_tag = 14;
 }
+
+

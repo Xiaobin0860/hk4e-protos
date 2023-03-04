@@ -2,6 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
+
+// Name: NILPIHBMNHG
 enum RecordUsage {
   UGC_RECORD_USAGE_NONE    = 0;
   UGC_RECORD_USAGE_IMPORT  = 1;
@@ -9,3 +11,5 @@ enum RecordUsage {
   UGC_RECORD_USAGE_TRIAL   = 3;
   UGC_RECORD_USAGE_COMPARE = 4;
 }
+
+

@@ -4,15 +4,11 @@ option go_package = "./;proto";
 
 import "IrodoriPoetryThemeData.proto";
 
+// Name: OCFDPCBKDAK
+// CmdId: 8346
 message IrodoriFillPoetryRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 8762;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	IrodoriPoetryThemeData themeData = 14;
-	int32 retcode = 15;
+    int32 retcode = 8;
+    IrodoriPoetryThemeData theme_data = 15;
 }
+
+

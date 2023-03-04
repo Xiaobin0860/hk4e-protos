@@ -2,16 +2,13 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-message MechanicusUnlockGearRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 3970;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
 
-	int32 retcode = 2;
-	uint32 gearId = 9;
-	uint32 mechanicusId = 13;
+// Name: JABBEEICGBD
+// CmdId: 3982
+message MechanicusUnlockGearRsp {
+    uint32 mechanicus_id = 4;
+    uint32 gear_id = 13;
+    int32 retcode = 12;
 }
+
+

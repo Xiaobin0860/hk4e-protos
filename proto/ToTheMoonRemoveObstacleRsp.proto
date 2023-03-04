@@ -4,16 +4,12 @@ option go_package = "./;proto";
 
 import "DynamicNodes.proto";
 
+// Name: CFBPIEFPBHE
+// CmdId: 6165
 message ToTheMoonRemoveObstacleRsp {
-	// enum CmdId {
-	// 	option allow_alias = true;
-	// 	NONE = 0;
-	// 	CMD_ID = 6162;
-	// 	ENET_CHANNEL_ID = 0;
-	// 	ENET_IS_RELIABLE = 1;
-	// }
-
-	int32 queryId = 4;
-	DynamicNodes dynamicNodes = 8;
-	int32 retcode = 3;
+    DynamicNodes dynamic_nodes = 8;
+    int32 retcode = 15;
+    int32 query_id = 10;
 }
+
+
