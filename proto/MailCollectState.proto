@@ -10,3 +10,15 @@ enum MailCollectState {
   MAIL_COLLECTIBLE_UNCOLLECTED = 2;
   MAIL_COLLECTIBLE_COLLECTED   = 3;
 }
+
+
+
+
+
+
+
+
+
+
+
+

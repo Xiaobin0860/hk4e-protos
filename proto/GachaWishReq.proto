@@ -6,9 +6,21 @@ option go_package = "./;proto";
 // Name: HEEOPFJGOKN
 // CmdId: 1514
 message GachaWishReq {
-    uint32 NMKGGDOKHLF = 9;
+    uint32 gachaScheduleId = 9; //NMKGGDOKHLF
     uint32 item_id = 11;
-    uint32 DGIFMDIADJF = 5;
+    uint32 gachaType = 5; //DGIFMDIADJF
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 

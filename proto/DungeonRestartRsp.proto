@@ -9,3 +9,15 @@ message DungeonRestartRsp {
     uint32 point_id = 3;
     uint32 dungeon_id = 2;
 }
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-import "FMOEOCJBOPN.proto";
+import "GCGGameBusinessType.proto";
 import "JIPFDPOBPNH.proto";
 
 // Name: BCMHCFICCDD
@@ -11,8 +11,20 @@ message BCMHCFICCDD {
     repeated JIPFDPOBPNH OAKDHABOPJD = 2;
     uint32 platform_type = 9;
     uint32 OEAEACPKCNP = 7;
-    FMOEOCJBOPN AECBJKLBGFK = 3;
+    GCGGameBusinessType businessType = 3;
     uint32 DELFEGPPGMK = 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
