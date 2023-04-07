@@ -6,20 +6,4 @@ import "HuntingPair.proto";
 
 // Name: LJNKBMALBKJ
 // CmdId: 4301
-message HuntingGiveUpReq {
-    HuntingPair hunting_pair = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HuntingGiveUpReq { HuntingPair hunting_pair = 12; }

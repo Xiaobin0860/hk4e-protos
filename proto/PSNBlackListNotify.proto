@@ -6,20 +6,4 @@ import "FriendBrief.proto";
 
 // Name: LMHNPPGHGAC
 // CmdId: 4008
-message PSNBlackListNotify {
-    repeated FriendBrief psn_blacklist = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PSNBlackListNotify { repeated FriendBrief psn_blacklist = 11; }

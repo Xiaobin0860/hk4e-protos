@@ -6,19 +6,5 @@ import "FleurFairMusicRecord.proto";
 
 // Name: BNNCKKOLHCI
 message FleurFairMusicGameInfo {
-    map<uint32, FleurFairMusicRecord> music_record_map = 13;
+  map<uint32, FleurFairMusicRecord> music_record_map = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

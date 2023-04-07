@@ -6,20 +6,4 @@ import "Birthday.proto";
 
 // Name: POLNCBKMBPC
 // CmdId: 4091
-message SetPlayerBirthdayReq {
-    Birthday birthday = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message SetPlayerBirthdayReq { Birthday birthday = 10; }

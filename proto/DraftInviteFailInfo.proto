@@ -6,20 +6,6 @@ import "DraftInviteFailReason.proto";
 
 // Name: IABHECOCONE
 message DraftInviteFailInfo {
-    DraftInviteFailReason reason = 2;
-    uint32 uid = 4;
+  DraftInviteFailReason reason = 2;
+  uint32 uid = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

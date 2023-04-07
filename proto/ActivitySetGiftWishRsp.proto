@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: AJIEGCNPIIN
 // CmdId: 8764
 message ActivitySetGiftWishRsp {
-    uint32 schedule_id = 15;
-    int32 retcode = 13;
+  uint32 schedule_id = 15;
+  int32 retcode = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

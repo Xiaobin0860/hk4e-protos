@@ -7,18 +7,6 @@ import "HomeResource.proto";
 // Name: PEPNHFLKBLG
 // CmdId: 4753
 message HomeResourceNotify {
-    HomeResource fetter_exp = 5; //DPCGMOMFNCD
-    HomeResource home_coin = 14; //ONMIIOIPGAI
+  HomeResource fetter_exp = 5; // DPCGMOMFNCD
+  HomeResource home_coin = 14; // ONMIIOIPGAI
 }
-
-
-
-
-
-
-
-
-
-
-
-

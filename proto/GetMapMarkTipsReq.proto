@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BFBHNCLAMBG
 // CmdId: 3342
-message GetMapMarkTipsReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetMapMarkTipsReq {}

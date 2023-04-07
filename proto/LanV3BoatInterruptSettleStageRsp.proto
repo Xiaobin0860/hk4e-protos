@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CALFPKMOOLN
 // CmdId: 24740
-message LanV3BoatInterruptSettleStageRsp {
-    int32 retcode = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LanV3BoatInterruptSettleStageRsp { int32 retcode = 15; }

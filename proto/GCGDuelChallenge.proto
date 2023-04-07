@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: INNMBACLEMO
 message GCGDuelChallenge {
-    uint32 total_progress = 11;
-    uint32 challenge_id = 13;
-    uint32 cur_progress = 12;
+  uint32 total_progress = 11;
+  uint32 challenge_id = 13;
+  uint32 cur_progress = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

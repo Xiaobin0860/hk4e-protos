@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BOAINCLDMBC
 // CmdId: 8937
-message ViewLanternProjectionLevelTipsReq {
-    uint32 level_id = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ViewLanternProjectionLevelTipsReq { uint32 level_id = 3; }

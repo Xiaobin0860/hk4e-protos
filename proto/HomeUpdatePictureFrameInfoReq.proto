@@ -7,19 +7,5 @@ import "HomePictureFrameInfo.proto";
 // Name: HDNELOLFNKB
 // CmdId: 4813
 message HomeUpdatePictureFrameInfoReq {
-    HomePictureFrameInfo picture_frame_info = 5;
+  HomePictureFrameInfo picture_frame_info = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

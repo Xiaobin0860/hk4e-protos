@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KMPFIBHBALL
-message Furniture {
-    uint32 count = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message Furniture { uint32 count = 1; }

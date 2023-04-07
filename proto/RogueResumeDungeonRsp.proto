@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FMGJHCJBPLP
 // CmdId: 8009
 message RogueResumeDungeonRsp {
-    int32 retcode = 12;
-    uint32 stage_id = 13;
+  int32 retcode = 12;
+  uint32 stage_id = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

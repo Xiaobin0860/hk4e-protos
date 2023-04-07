@@ -7,20 +7,6 @@ import "FoundationInfo.proto";
 // Name: CKGGJCDDFIG
 // CmdId: 861
 message FoundationNotify {
-    uint32 gadget_entity_id = 11;
-    FoundationInfo info = 12;
+  uint32 gadget_entity_id = 11;
+  FoundationInfo info = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

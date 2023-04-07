@@ -6,20 +6,6 @@ import "Vector.proto";
 
 // Name: HFFNDCIHEMC
 message HFFNDCIHEMC {
-    Vector rot = 1;
-    Vector pos = 3;
+  Vector rot = 1;
+  Vector pos = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

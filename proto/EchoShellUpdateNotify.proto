@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NKEEJIALJLK
 // CmdId: 8377
-message EchoShellUpdateNotify {
-    uint32 shell_id = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message EchoShellUpdateNotify { uint32 shell_id = 12; }

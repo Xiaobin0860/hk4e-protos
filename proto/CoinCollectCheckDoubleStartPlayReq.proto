@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FLPHIGJIGGJ
 // CmdId: 23353
-message CoinCollectCheckDoubleStartPlayReq {
-    uint32 level_id = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CoinCollectCheckDoubleStartPlayReq { uint32 level_id = 3; }

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KFPCPMNNILM
 // CmdId: 22118
-message FungusFighterRestartTraningDungeonRsp {
-    int32 retcode = 13;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message FungusFighterRestartTraningDungeonRsp { int32 retcode = 13; }

@@ -6,20 +6,4 @@ import "Reward.proto";
 
 // Name: GIHGMKPCMNI
 // CmdId: 613
-message GrantRewardNotify {
-    Reward reward = 8;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GrantRewardNotify { Reward reward = 8; }

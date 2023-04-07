@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BNPEGHDMBII
 // CmdId: 8405
-message WinterCampSetWishListReq {
-    repeated uint32 item_id_list = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message WinterCampSetWishListReq { repeated uint32 item_id_list = 6; }

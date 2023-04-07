@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LDEIHIHDJOC
 // CmdId: 8975
 message PlantFlowerEditFlowerCombinationRsp {
-    int32 retcode = 5;
-    uint32 schedule_id = 11;
+  int32 retcode = 5;
+  uint32 schedule_id = 11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

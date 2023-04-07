@@ -6,20 +6,4 @@ import "OpActivityInfo.proto";
 
 // Name: NHMNKHNKNFK
 // CmdId: 5164
-message OpActivityUpdateNotify {
-    OpActivityInfo op_activity_info = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message OpActivityUpdateNotify { OpActivityInfo op_activity_info = 6; }

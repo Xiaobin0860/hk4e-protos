@@ -7,20 +7,6 @@ import "TransmitReason.proto";
 // Name: FHBLFIAFHCA
 // CmdId: 202
 message ClientTransmitRsp {
-    TransmitReason reason = 10;
-    int32 retcode = 5;
+  TransmitReason reason = 10;
+  int32 retcode = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

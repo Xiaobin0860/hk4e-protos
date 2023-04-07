@@ -6,20 +6,6 @@ import "FireworksReformParamType.proto";
 
 // Name: LBJDDOCNBFN
 message FireworksReformParam {
-    int32 value = 7;
-    FireworksReformParamType type = 11;
+  int32 value = 7;
+  FireworksReformParamType type = 11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

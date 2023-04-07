@@ -6,20 +6,4 @@ import "AsterLargeDetailInfo.proto";
 
 // Name: DKJHBIMPBFB
 // CmdId: 2059
-message AsterLargeInfoNotify {
-    AsterLargeDetailInfo info = 14;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message AsterLargeInfoNotify { AsterLargeDetailInfo info = 14; }

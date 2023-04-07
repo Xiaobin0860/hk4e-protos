@@ -7,20 +7,6 @@ import "FriendBrief.proto";
 // Name: PCOJKOCFPIN
 // CmdId: 4044
 message AskAddFriendNotify {
-    uint32 target_uid = 9;
-    FriendBrief target_friend_brief = 3;
+  uint32 target_uid = 9;
+  FriendBrief target_friend_brief = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

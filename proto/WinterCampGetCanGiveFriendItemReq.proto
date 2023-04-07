@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FDEBMOEJKIM
 // CmdId: 8866
-message WinterCampGetCanGiveFriendItemReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message WinterCampGetCanGiveFriendItemReq {}

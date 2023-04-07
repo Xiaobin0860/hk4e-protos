@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BKPPKNEHIIC
 // CmdId: 4992
 message ChatChannelShieldNotify {
-    uint32 channel_id = 13;
-    bool is_shield = 1;
+  uint32 channel_id = 13;
+  bool is_shield = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

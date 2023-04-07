@@ -6,20 +6,4 @@ import "ClientReconnectReason.proto";
 
 // Name: COHPOPIPCKO
 // CmdId: 7
-message ClientReconnectNotify {
-    ClientReconnectReason reason = 14;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ClientReconnectNotify { ClientReconnectReason reason = 14; }

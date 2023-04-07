@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JHOENGLMPEF
 // CmdId: 1836
 message PlayerApplyEnterMpResultReq {
-    uint32 apply_uid = 2;
-    bool is_agreed = 4;
+  uint32 apply_uid = 2;
+  bool is_agreed = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

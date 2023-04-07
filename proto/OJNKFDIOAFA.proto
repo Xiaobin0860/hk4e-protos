@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OJNKFDIOAFA
 message OJNKFDIOAFA {
-    repeated uint32 PHDCPPEPGGB = 3;
-    uint32 id = 4;
+  repeated uint32 PHDCPPEPGGB = 3;
+  uint32 id = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

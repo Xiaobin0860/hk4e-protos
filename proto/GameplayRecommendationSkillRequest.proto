@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KCFMFINBJFM
-message GameplayRecommendationSkillRequest {
-    uint32 skill_depot_id = 13;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GameplayRecommendationSkillRequest { uint32 skill_depot_id = 13; }

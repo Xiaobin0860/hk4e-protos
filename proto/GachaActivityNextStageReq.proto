@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: AMKNCMBCIPK
 // CmdId: 8212
-message GachaActivityNextStageReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GachaActivityNextStageReq {}

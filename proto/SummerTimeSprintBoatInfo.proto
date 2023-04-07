@@ -6,19 +6,5 @@ import "SummerTimeSprintBoatRecord.proto";
 
 // Name: EBKOLPHCCKJ
 message SummerTimeSprintBoatInfo {
-    repeated SummerTimeSprintBoatRecord record_list = 14;
+  repeated SummerTimeSprintBoatRecord record_list = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

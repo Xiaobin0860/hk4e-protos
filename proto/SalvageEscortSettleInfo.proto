@@ -6,20 +6,6 @@ import "SalvageEscortGallerySettleInfo.proto";
 
 // Name: JGCJDJCLGIC
 message SalvageEscortSettleInfo {
-    bool is_new_record = 7;
-    SalvageEscortGallerySettleInfo settle_info = 8;
+  bool is_new_record = 7;
+  SalvageEscortGallerySettleInfo settle_info = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -7,20 +7,6 @@ import "HomeLimitedShopInfo.proto";
 // Name: PMAGBEFIIEL
 // CmdId: 4791
 message HomeLimitedShopInfoRsp {
-    int32 retcode = 6;
-    HomeLimitedShopInfo shop_info = 10;
+  int32 retcode = 6;
+  HomeLimitedShopInfo shop_info = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

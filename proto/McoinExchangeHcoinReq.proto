@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LIOGDEJCPAJ
 // CmdId: 643
 message McoinExchangeHcoinReq {
-    uint32 mcoin_cost = 8;
-    uint32 hcoin = 6;
+  uint32 mcoin_cost = 8;
+  uint32 hcoin = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

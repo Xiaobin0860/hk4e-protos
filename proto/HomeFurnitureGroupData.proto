@@ -6,20 +6,6 @@ import "HomeFurnitureData.proto";
 
 // Name: FNLKKMKJIDF
 message HomeFurnitureGroupData {
-    repeated HomeFurnitureData virtualFurnitureList = 5;
-    uint32 groupFurnitureIndex = 9;
+  repeated HomeFurnitureData virtualFurnitureList = 5;
+  uint32 groupFurnitureIndex = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

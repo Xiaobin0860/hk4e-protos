@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EDDAKPCGDNO
-message GCGMsgReactionEnd {
-    uint32 skill_id = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GCGMsgReactionEnd { uint32 skill_id = 11; }

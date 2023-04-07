@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: AJBIHJGCCPM
-message HomeMarkPointSuiteData {
-    uint32 suite_id = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomeMarkPointSuiteData { uint32 suite_id = 1; }

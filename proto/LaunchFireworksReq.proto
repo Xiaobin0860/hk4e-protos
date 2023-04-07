@@ -6,20 +6,4 @@ import "FireworksLaunchSchemeData.proto";
 
 // Name: HCPFFHAHOEI
 // CmdId: 6053
-message LaunchFireworksReq {
-    FireworksLaunchSchemeData scheme_data = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LaunchFireworksReq { FireworksLaunchSchemeData scheme_data = 12; }

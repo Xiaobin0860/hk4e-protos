@@ -6,20 +6,4 @@ import "CoopReward.proto";
 
 // Name: FNGDAFLJIIM
 // CmdId: 1981
-message CoopRewardUpdateNotify {
-    repeated CoopReward reward_list = 2;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CoopRewardUpdateNotify { repeated CoopReward reward_list = 2; }

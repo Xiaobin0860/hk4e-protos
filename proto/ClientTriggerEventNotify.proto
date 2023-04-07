@@ -7,20 +7,6 @@ import "EventTriggerType.proto";
 // Name: MOHMFBOEKEA
 // CmdId: 191
 message ClientTriggerEventNotify {
-    uint32 force_id = 14;
-    EventTriggerType event_type = 10;
+  uint32 force_id = 14;
+  EventTriggerType event_type = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

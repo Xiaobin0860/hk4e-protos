@@ -6,21 +6,7 @@ import "AvatarType.proto";
 
 // Name: KMKEAAHAMKC
 message MistTrialBestAvatar {
-    uint32 avatar_id = 15;
-    AvatarType avatar_type = 10;
-    uint32 costume_id = 12;
+  uint32 avatar_id = 15;
+  AvatarType avatar_type = 10;
+  uint32 costume_id = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

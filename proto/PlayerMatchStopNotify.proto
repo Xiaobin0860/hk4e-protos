@@ -7,20 +7,6 @@ import "MatchReason.proto";
 // Name: BOLIJNNEPBK
 // CmdId: 4165
 message PlayerMatchStopNotify {
-    MatchReason reason = 9;
-    uint32 host_uid = 13;
+  MatchReason reason = 9;
+  uint32 host_uid = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

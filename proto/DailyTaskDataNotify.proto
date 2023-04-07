@@ -2,25 +2,10 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: MEBMDKGNFIP
 // CmdId: 111
 message DailyTaskDataNotify {
-    uint32 score_reward_id = 10;
-    bool is_taken_score_reward = 6;
-    uint32 finished_num = 4;
+  uint32 score_reward_id = 10;
+  bool is_taken_score_reward = 6;
+  uint32 finished_num = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

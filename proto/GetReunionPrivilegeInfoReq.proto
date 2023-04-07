@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OCBDKJLGIDA
 // CmdId: 5076
-message GetReunionPrivilegeInfoReq {
-    uint32 privilege_id = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetReunionPrivilegeInfoReq { uint32 privilege_id = 1; }

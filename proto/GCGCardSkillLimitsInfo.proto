@@ -6,19 +6,5 @@ import "GCGSkillLimitsInfo.proto";
 
 // Name: FNNHNPCGJIM
 message GCGCardSkillLimitsInfo {
-    repeated GCGSkillLimitsInfo skill_limits_list = 3;
+  repeated GCGSkillLimitsInfo skill_limits_list = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BGPIHHGOLIF
 // CmdId: 937
-message DungeonCandidateTeamKickRsp {
-    int32 retcode = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DungeonCandidateTeamKickRsp { int32 retcode = 3; }

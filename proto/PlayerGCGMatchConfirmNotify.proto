@@ -2,25 +2,10 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NPNPFJHHHMB
 // CmdId: 4188
 message PlayerGCGMatchConfirmNotify {
-    uint32 uid = 7;
-    bool is_agree = 8;
-    uint32 match_id = 1;
+  uint32 uid = 7;
+  bool is_agree = 8;
+  uint32 match_id = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

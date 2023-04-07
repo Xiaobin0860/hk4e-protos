@@ -7,22 +7,8 @@ import "SummerTimeV2BoatGallerySettleInfo.proto";
 // Name: DAPMDJEDHFN
 // CmdId: 8436
 message SummerTimeV2BoatSettleNotify {
-    uint32 stage_id = 9;
-    SummerTimeV2BoatGallerySettleInfo settle_info = 8;
-    uint32 gallery_id = 11;
-    bool is_new_record = 10;
+  uint32 stage_id = 9;
+  SummerTimeV2BoatGallerySettleInfo settle_info = 8;
+  uint32 gallery_id = 11;
+  bool is_new_record = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

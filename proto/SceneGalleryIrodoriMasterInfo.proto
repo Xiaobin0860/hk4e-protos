@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FMELCLIBKLD
 message SceneGalleryIrodoriMasterInfo {
-    bool is_cg_viewed = 3;
-    uint32 level_id = 14;
-    uint32 difficulty = 8;
+  bool is_cg_viewed = 3;
+  uint32 level_id = 14;
+  uint32 difficulty = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

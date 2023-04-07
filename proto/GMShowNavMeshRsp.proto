@@ -7,20 +7,6 @@ import "PBNavMeshTile.proto";
 // Name: GKHCBIDCMHJ
 // CmdId: 2320
 message GMShowNavMeshRsp {
-    int32 retcode = 2;
-    repeated PBNavMeshTile tiles = 7;
+  int32 retcode = 2;
+  repeated PBNavMeshTile tiles = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

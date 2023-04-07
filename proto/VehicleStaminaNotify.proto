@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DEFEKFDPJCK
 // CmdId: 826
 message VehicleStaminaNotify {
-    uint32 entity_id = 14;
-    float cur_stamina = 12;
+  uint32 entity_id = 14;
+  float cur_stamina = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

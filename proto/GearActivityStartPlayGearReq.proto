@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GIPEACAIMIJ
 // CmdId: 24337
-message GearActivityStartPlayGearReq {
-    uint32 level_id = 2;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GearActivityStartPlayGearReq { uint32 level_id = 2; }

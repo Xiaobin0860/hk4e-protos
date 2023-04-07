@@ -7,19 +7,5 @@ import "PlayerRoutineInfo.proto";
 // Name: KFIPGNKDGBH
 // CmdId: 3548
 message PlayerRoutineDataNotify {
-    repeated PlayerRoutineInfo routine_info_list = 6;
+  repeated PlayerRoutineInfo routine_info_list = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IMKKNKHJMFN
 // CmdId: 4551
-message HomeUpdateFishFarmingInfoRsp {
-    int32 retcode = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomeUpdateFishFarmingInfoRsp { int32 retcode = 1; }

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HKCFNMAFFDO
 // CmdId: 23315
-message BrickBreakerQuitRsp {
-    int32 retcode = 14;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message BrickBreakerQuitRsp { int32 retcode = 14; }

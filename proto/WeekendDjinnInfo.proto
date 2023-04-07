@@ -6,20 +6,6 @@ import "Vector.proto";
 
 // Name: DAMDPHBCAKI
 message WeekendDjinnInfo {
-    Vector pos = 11;
-    Vector rot = 8;
+  Vector pos = 11;
+  Vector rot = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -7,23 +7,7 @@ import "RoguelikeDungeonSettleInfo.proto";
 // Name: IIODPLPFGPP
 // CmdId: 8868
 message RoguelikeGiveUpRsp {
-    int32 retcode = 14;
-    uint32 stage_id = 5;
-    oneof info {
-        RoguelikeDungeonSettleInfo settle_info = 3;
-    }
+  int32 retcode = 14;
+  uint32 stage_id = 5;
+  oneof info { RoguelikeDungeonSettleInfo settle_info = 3; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

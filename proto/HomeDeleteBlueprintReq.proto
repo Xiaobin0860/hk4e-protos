@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DFMIMBLJPNI
 // CmdId: 4854
-message HomeDeleteBlueprintReq {
-    uint32 slot_id = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomeDeleteBlueprintReq { uint32 slot_id = 1; }

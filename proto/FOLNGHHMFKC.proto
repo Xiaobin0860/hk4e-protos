@@ -6,20 +6,4 @@ import "OJNKFDIOAFA.proto";
 
 // Name: FOLNGHHMFKC
 // CmdId: 7577
-message FOLNGHHMFKC {
-    OJNKFDIOAFA BHBNFMDDKOF = 9;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message FOLNGHHMFKC { OJNKFDIOAFA BHBNFMDDKOF = 9; }

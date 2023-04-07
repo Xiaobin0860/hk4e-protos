@@ -6,20 +6,4 @@ import "SegmentInfo.proto";
 
 // Name: BAGMHNFGMNB
 // CmdId: 56
-message CheckSegmentCRCNotify {
-    repeated SegmentInfo info_list = 5;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CheckSegmentCRCNotify { repeated SegmentInfo info_list = 5; }

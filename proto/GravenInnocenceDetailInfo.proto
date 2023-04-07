@@ -9,23 +9,9 @@ import "HKCAHHHHPGL.proto";
 
 // Name: NKCEOHKNCKG
 message GravenInnocenceDetailInfo {
-    EJDDAFOGCEF OMIGMFKNCIK = 11;
-    FIDBMENLPEP CIGEOIIBPHF = 3;
-    HKCAHHHHPGL NLHOPBFKEKD = 12;
-    GravenInnocencePhotoInfo photo_info = 5;
-    bool is_content_closed = 8;
+  EJDDAFOGCEF OMIGMFKNCIK = 11;
+  FIDBMENLPEP CIGEOIIBPHF = 3;
+  HKCAHHHHPGL NLHOPBFKEKD = 12;
+  GravenInnocencePhotoInfo photo_info = 5;
+  bool is_content_closed = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

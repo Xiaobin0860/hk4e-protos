@@ -6,20 +6,4 @@ import "QuestGlobalVar.proto";
 
 // Name: ABJNGHFNOGP
 // CmdId: 426
-message QuestGlobalVarNotify {
-    repeated QuestGlobalVar var_list = 4;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message QuestGlobalVarNotify { repeated QuestGlobalVar var_list = 4; }

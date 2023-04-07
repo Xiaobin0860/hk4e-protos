@@ -7,20 +7,6 @@ import "ChatEmojiCollectionData.proto";
 // Name: ADOKOEBEDKI
 // CmdId: 4001
 message GetChatEmojiCollectionRsp {
-    ChatEmojiCollectionData chat_emoji_collection_data = 3;
-    int32 retcode = 10;
+  ChatEmojiCollectionData chat_emoji_collection_data = 3;
+  int32 retcode = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

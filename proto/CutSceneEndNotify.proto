@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: AOLNCADGIOF
 // CmdId: 283
 message CutSceneEndNotify {
-    uint32 cutscene_id = 6;
-    int32 retcode = 1;
+  uint32 cutscene_id = 6;
+  int32 retcode = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BKBJJNKOPGB
 // CmdId: 1129
 message ClientAIStateNotify {
-    uint32 entity_id = 3;
-    uint32 cur_tactic = 12;
+  uint32 entity_id = 3;
+  uint32 cur_tactic = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: ICNBAPCCAKO
 // CmdId: 180
 message DailyTaskUnlockedCitiesNotify {
-    repeated uint32 unlocked_city_list = 7;
+  repeated uint32 unlocked_city_list = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

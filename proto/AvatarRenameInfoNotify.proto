@@ -7,19 +7,5 @@ import "AvatarRenameInfo.proto";
 // Name: KGEPLPDHBGI
 // CmdId: 1758
 message AvatarRenameInfoNotify {
-    repeated AvatarRenameInfo avatar_rename_list = 12;
+  repeated AvatarRenameInfo avatar_rename_list = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

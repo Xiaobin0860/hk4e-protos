@@ -7,20 +7,6 @@ import "AnchorPointData.proto";
 // Name: NJIPFBKJBLI
 // CmdId: 4298
 message AnchorPointDataNotify {
-    repeated AnchorPointData anchor_point_list = 15;
-    uint32 next_usable_time = 7;
+  repeated AnchorPointData anchor_point_list = 15;
+  uint32 next_usable_time = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

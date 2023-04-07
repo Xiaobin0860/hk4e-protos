@@ -6,20 +6,4 @@ import "CGJDJJLIADJ.proto";
 
 // Name: HNPEJFPHAEH
 // CmdId: 7429
-message HNPEJFPHAEH {
-    repeated CGJDJJLIADJ ELDJDEJEJML = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HNPEJFPHAEH { repeated CGJDJJLIADJ ELDJDEJEJML = 6; }

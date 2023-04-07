@@ -6,20 +6,4 @@ import "UgcType.proto";
 
 // Name: CFEGIGKBDFM
 // CmdId: 6335
-message CheckUgcUpdateReq {
-    UgcType ugc_type = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CheckUgcUpdateReq { UgcType ugc_type = 3; }

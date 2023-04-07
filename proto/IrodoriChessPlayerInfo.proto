@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KEJMEHAPBOJ
 message IrodoriChessPlayerInfo {
-    uint32 GKBILFJMMAO = 3;
-    uint32 uid = 4;
-    uint32 CGCEKHJDBBP = 9;
+  uint32 GKBILFJMMAO = 3;
+  uint32 uid = 4;
+  uint32 CGCEKHJDBBP = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

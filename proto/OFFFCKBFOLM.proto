@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OFFFCKBFOLM
-message OFFFCKBFOLM {
-    uint32 MCLFONHPHKE = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message OFFFCKBFOLM { uint32 MCLFONHPHKE = 10; }

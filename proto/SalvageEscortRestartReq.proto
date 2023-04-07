@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FMKMCEAPNJA
 // CmdId: 8020
-message SalvageEscortRestartReq {
-    uint32 gallery_id = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message SalvageEscortRestartReq { uint32 gallery_id = 10; }

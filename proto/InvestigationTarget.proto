@@ -2,33 +2,18 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EJKIKKJCFKL
 message InvestigationTarget {
-    // Name: PMPLOIOCICM
-    enum State {
+  // Name: PMPLOIOCICM
+  enum State {
     STATE_UNSTARTED = 0;
-    STATE_STARTED   = 1;
-    STATE_FINISHED  = 2;
-    }
+    STATE_STARTED = 1;
+    STATE_FINISHED = 2;
+  }
 
-    State state = 6;
-    uint32 total_progress = 5;
-    uint32 investigation_id = 7;
-    uint32 quest_id = 14;
-    uint32 progress = 1;
+  State state = 6;
+  uint32 total_progress = 5;
+  uint32 investigation_id = 7;
+  uint32 quest_id = 14;
+  uint32 progress = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

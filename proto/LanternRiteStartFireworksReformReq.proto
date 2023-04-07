@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JGMPKEFCLBL
 // CmdId: 8865
 message LanternRiteStartFireworksReformReq {
-    uint32 challenge_id = 6;
-    uint32 stage_id = 8;
+  uint32 challenge_id = 6;
+  uint32 stage_id = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

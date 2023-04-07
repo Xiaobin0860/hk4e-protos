@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JDOFGAKDDPA
 // CmdId: 2105
-message TrialAvatarFirstPassDungeonNotify {
-    uint32 trial_avatar_index_id = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message TrialAvatarFirstPassDungeonNotify { uint32 trial_avatar_index_id = 10; }

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LHNEFELJGOO
 // CmdId: 6159
-message LHNEFELJGOO {
-    bool GPDMAGPFCDC = 9;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LHNEFELJGOO { bool GPDMAGPFCDC = 9; }

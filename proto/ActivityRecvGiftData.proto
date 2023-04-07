@@ -6,23 +6,9 @@ import "ProfilePicture.proto";
 
 // Name: CFHNBMHCAAN
 message ActivityRecvGiftData {
-    string nickname = 7;
-    string remark_name = 12;
-    uint32 uid = 14;
-    map<uint32, uint32> gift_num_map = 10;
-    ProfilePicture profile_picture = 13;
+  string nickname = 7;
+  string remark_name = 12;
+  uint32 uid = 14;
+  map<uint32, uint32> gift_num_map = 10;
+  ProfilePicture profile_picture = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

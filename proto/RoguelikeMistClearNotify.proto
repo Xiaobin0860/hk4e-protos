@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: ENBGKAMLPEF
 // CmdId: 8512
-message RoguelikeMistClearNotify {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message RoguelikeMistClearNotify {}

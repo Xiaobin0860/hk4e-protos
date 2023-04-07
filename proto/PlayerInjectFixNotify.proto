@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EPILEBMPDEP
 // CmdId: 192
 message PlayerInjectFixNotify {
-    bytes inject_fix = 2;
-    uint32 id = 5;
+  bytes inject_fix = 2;
+  uint32 id = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

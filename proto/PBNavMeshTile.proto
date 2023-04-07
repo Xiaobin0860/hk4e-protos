@@ -7,20 +7,6 @@ import "Vector.proto";
 
 // Name: BEINIMOEPND
 message PBNavMeshTile {
-    repeated Vector vecs = 7;
-    repeated PBNavMeshPoly polys = 15;
+  repeated Vector vecs = 7;
+  repeated PBNavMeshPoly polys = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

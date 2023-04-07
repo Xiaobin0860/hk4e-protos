@@ -7,20 +7,6 @@ import "Vector.proto";
 // Name: KOBACDPOPJI
 // CmdId: 187
 message AddRandTaskInfoNotify {
-    Vector pos = 11;
-    uint32 rand_task_id = 6;
+  Vector pos = 11;
+  uint32 rand_task_id = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

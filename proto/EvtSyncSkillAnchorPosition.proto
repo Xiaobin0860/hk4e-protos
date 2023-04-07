@@ -6,20 +6,6 @@ import "Vector.proto";
 
 // Name: CJCFDMIBGHI
 message EvtSyncSkillAnchorPosition {
-    uint32 entity_id = 5;
-    Vector skill_anchor_position = 1;
+  uint32 entity_id = 5;
+  Vector skill_anchor_position = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

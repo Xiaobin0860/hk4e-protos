@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: MAGNGONBPEI
 // CmdId: 680
 message ReliquaryFilterStateNotify {
-    map<uint32, uint32> reliquary_filter_state_map = 11;
+  map<uint32, uint32> reliquary_filter_state_map = 11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

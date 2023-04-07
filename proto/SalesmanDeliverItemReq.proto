@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GJHJNLKNKDI
 // CmdId: 2167
-message SalesmanDeliverItemReq {
-    uint32 schedule_id = 13;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message SalesmanDeliverItemReq { uint32 schedule_id = 13; }

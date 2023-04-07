@@ -7,20 +7,6 @@ import "GCGDiceSideType.proto";
 // Name: ABAMJKJOMHJ
 // CmdId: 7765
 message ABAMJKJOMHJ {
-    repeated uint32 MFJPHFOJKEF = 8;
-    repeated GCGDiceSideType dice_side_list = 13;
+  repeated uint32 MFJPHFOJKEF = 8;
+  repeated GCGDiceSideType dice_side_list = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

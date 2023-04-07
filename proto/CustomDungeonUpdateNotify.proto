@@ -6,20 +6,4 @@ import "CustomDungeonBrief.proto";
 
 // Name: PMGNHJBGGAJ
 // CmdId: 6225
-message CustomDungeonUpdateNotify {
-    CustomDungeonBrief dungeon_brief = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CustomDungeonUpdateNotify { CustomDungeonBrief dungeon_brief = 11; }

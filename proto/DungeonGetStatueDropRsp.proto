@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HOCJLNIALNO
 // CmdId: 994
-message DungeonGetStatueDropRsp {
-    int32 retcode = 7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DungeonGetStatueDropRsp { int32 retcode = 7; }

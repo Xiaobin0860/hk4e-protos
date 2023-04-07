@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: ENAGNHFCKHK
-message ENAGNHFCKHK {
-    float CMIDHHPAFFF = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ENAGNHFCKHK { float CMIDHHPAFFF = 3; }

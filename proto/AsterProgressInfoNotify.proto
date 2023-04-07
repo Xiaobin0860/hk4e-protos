@@ -6,20 +6,4 @@ import "AsterProgressDetailInfo.proto";
 
 // Name: LMNNPFFMONB
 // CmdId: 2173
-message AsterProgressInfoNotify {
-    AsterProgressDetailInfo info = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message AsterProgressInfoNotify { AsterProgressDetailInfo info = 12; }

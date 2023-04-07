@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PLOKAKEIEFA
 // CmdId: 8934
-message ActivityGetCanGiveFriendGiftReq {
-    uint32 schedule_id = 8;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ActivityGetCanGiveFriendGiftReq { uint32 schedule_id = 8; }

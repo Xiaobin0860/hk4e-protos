@@ -7,20 +7,6 @@ import "Vector.proto";
 // Name: FCNGHDHCBJL
 // CmdId: 2304
 message GMShowNavMeshReq {
-    Vector center = 6;
-    Vector extent = 13;
+  Vector center = 6;
+  Vector extent = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -6,19 +6,5 @@ import "GCGMsgPVEIntention.proto";
 
 // Name: DBNHODFFHMG
 message GCGMsgPVEIntentionInfo {
-    map<uint32, GCGMsgPVEIntention> intention_map = 4;
+  map<uint32, GCGMsgPVEIntention> intention_map = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

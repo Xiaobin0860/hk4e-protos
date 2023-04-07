@@ -6,21 +6,7 @@ import "CoinCollectPlayerInfo.proto";
 
 // Name: PEPHBANPBCG
 message CoinCollectStageInfo {
-    repeated CoinCollectPlayerInfo player_info_list = 6;
-    uint32 play_index = 4;
-    uint32 level_id = 14;
+  repeated CoinCollectPlayerInfo player_info_list = 6;
+  uint32 play_index = 4;
+  uint32 level_id = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

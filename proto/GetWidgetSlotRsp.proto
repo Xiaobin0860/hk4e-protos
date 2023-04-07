@@ -7,20 +7,6 @@ import "WidgetSlotData.proto";
 // Name: AHNDODKDGHO
 // CmdId: 4266
 message GetWidgetSlotRsp {
-    repeated WidgetSlotData slot_list = 11;
-    int32 retcode = 12;
+  repeated WidgetSlotData slot_list = 11;
+  int32 retcode = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

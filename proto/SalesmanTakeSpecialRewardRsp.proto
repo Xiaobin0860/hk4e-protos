@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FDEBLNBOEIF
 // CmdId: 2184
 message SalesmanTakeSpecialRewardRsp {
-    int32 retcode = 9;
-    uint32 schedule_id = 10;
+  int32 retcode = 9;
+  uint32 schedule_id = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

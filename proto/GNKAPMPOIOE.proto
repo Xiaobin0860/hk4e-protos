@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GNKAPMPOIOE
 // CmdId: 7621
-message GNKAPMPOIOE {
-    repeated uint32 card_list = 5;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GNKAPMPOIOE { repeated uint32 card_list = 5; }

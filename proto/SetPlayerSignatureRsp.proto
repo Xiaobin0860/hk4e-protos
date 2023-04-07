@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: AICKCEEEKKO
 // CmdId: 4027
 message SetPlayerSignatureRsp {
-    string signature = 13;
-    int32 retcode = 9;
+  string signature = 13;
+  int32 retcode = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

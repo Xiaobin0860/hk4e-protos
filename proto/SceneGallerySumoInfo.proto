@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CHNDCGKFGLD
 message SceneGallerySumoInfo {
-    uint32 score = 14;
-    uint32 DNCGDPEOCHL = 13;
-    uint32 ACLMNJDOGKP = 2;
+  uint32 score = 14;
+  uint32 DNCGDPEOCHL = 13;
+  uint32 ACLMNJDOGKP = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

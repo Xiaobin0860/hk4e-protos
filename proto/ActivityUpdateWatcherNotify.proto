@@ -7,20 +7,6 @@ import "ActivityWatcherInfo.proto";
 // Name: PPOLCIAJKGN
 // CmdId: 2183
 message ActivityUpdateWatcherNotify {
-    uint32 activity_id = 15;
-    ActivityWatcherInfo watcher_info = 3;
+  uint32 activity_id = 15;
+  ActivityWatcherInfo watcher_info = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

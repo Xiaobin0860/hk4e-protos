@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
-// Name: CBGLBMMCPPK 
+// Name: CBGLBMMCPPK
 message MailTextContent {
-    string title = 1;
-    string content = 2;
-    string sender = 3; //NBNLJCLPGEA
+  string title = 1;
+  string content = 2;
+  string sender = 3; // NBNLJCLPGEA
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

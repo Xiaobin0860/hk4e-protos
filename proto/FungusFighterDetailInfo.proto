@@ -9,25 +9,12 @@ import "OMCFMEFELOC.proto";
 
 // Name: DAIHEMHJHMO
 message FungusFighterDetailInfo {
-    repeated FungusTrainingDungeonDetail training_dungeon_detail_list = 12;
-    repeated OMCFMEFELOC AHOABLPADMI = 9;
-    repeated FungusTrainingProgressDetail training_dungeon_progress_detail_list = 2;
-    repeated HMEFDAPADKA OEKELAIIPHO = 14;
-    repeated uint32 BOBMJNEDDJA = 1;
-    repeated uint32 EPHINHFNJCL = 5;
-    repeated uint32 IJECEAHGLJP = 8;
+  repeated FungusTrainingDungeonDetail training_dungeon_detail_list = 12;
+  repeated OMCFMEFELOC AHOABLPADMI = 9;
+  repeated FungusTrainingProgressDetail training_dungeon_progress_detail_list =
+      2;
+  repeated HMEFDAPADKA OEKELAIIPHO = 14;
+  repeated uint32 BOBMJNEDDJA = 1;
+  repeated uint32 EPHINHFNJCL = 5;
+  repeated uint32 IJECEAHGLJP = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

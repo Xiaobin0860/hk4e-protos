@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OHPBKOBFIPH
 // CmdId: 5334
-message InBattleMechanicusLeftMonsterNotify {
-    uint32 left_monster = 13;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message InBattleMechanicusLeftMonsterNotify { uint32 left_monster = 13; }

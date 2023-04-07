@@ -7,20 +7,6 @@ import "UgcType.proto";
 // Name: PMAPPANGOHF
 // CmdId: 6339
 message PublishUgcReq {
-    UgcType ugc_type = 4;
-    uint64 ugc_guid = 8;
+  UgcType ugc_type = 4;
+  uint64 ugc_guid = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

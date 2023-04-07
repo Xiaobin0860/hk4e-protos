@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HEBFDFDMOFH
 // CmdId: 1926
-message TakeInvestigationTargetRewardReq {
-    uint32 quest_id = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message TakeInvestigationTargetRewardReq { uint32 quest_id = 15; }

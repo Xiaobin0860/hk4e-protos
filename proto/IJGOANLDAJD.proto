@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IJGOANLDAJD
-message IJGOANLDAJD {
-    bool HLBKFKCGPJI = 4;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message IJGOANLDAJD { bool HLBKFKCGPJI = 4; }

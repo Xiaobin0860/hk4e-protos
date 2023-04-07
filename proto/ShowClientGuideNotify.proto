@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LAJJKMLLJEB
 // CmdId: 3384
-message ShowClientGuideNotify {
-    string guide_name = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ShowClientGuideNotify { string guide_name = 11; }

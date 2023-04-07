@@ -7,19 +7,5 @@ import "FurnitureMakeMakeInfo.proto";
 // Name: EADLIDOKAOH
 // CmdId: 4588
 message FunitureMakeMakeInfoChangeNotify {
-    FurnitureMakeMakeInfo make_info = 6;
+  FurnitureMakeMakeInfo make_info = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

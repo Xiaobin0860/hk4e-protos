@@ -7,23 +7,9 @@ import "Vector.proto";
 
 // Name: IGKGJNCLPBA
 message HomePlantFieldData {
-    uint32 furniture_id = 10;
-    Vector spawn_pos = 2;
-    uint32 field_guid = 6;
-    uint32 scene_id = 15;
-    repeated EHHKFDCDNLN JAHEFCKOHGL = 11;
+  uint32 furniture_id = 10;
+  Vector spawn_pos = 2;
+  uint32 field_guid = 6;
+  uint32 scene_id = 15;
+  repeated EHHKFDCDNLN JAHEFCKOHGL = 11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

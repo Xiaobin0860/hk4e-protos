@@ -7,19 +7,5 @@ import "AvatarSatiationData.proto";
 // Name: GILFMIFBHII
 // CmdId: 1655
 message AvatarSatiationDataNotify {
-    repeated AvatarSatiationData satiation_data_list = 3;
+  repeated AvatarSatiationData satiation_data_list = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

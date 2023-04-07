@@ -6,22 +6,8 @@ import "CrystalLinkTeamInfo.proto";
 
 // Name: EDDKDMFIJFI
 message CrystalLinkLevelInfo {
-    uint32 level_id = 4;
-    repeated CrystalLinkTeamInfo team_info_list = 7;
-    uint32 best_score = 11;
-    bool is_open = 10;
+  uint32 level_id = 4;
+  repeated CrystalLinkTeamInfo team_info_list = 7;
+  uint32 best_score = 11;
+  bool is_open = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

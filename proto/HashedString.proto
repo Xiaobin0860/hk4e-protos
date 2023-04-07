@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IHKILPECFBJ
-message HashedString {
-    uint32 hash = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HashedString { uint32 hash = 1; }

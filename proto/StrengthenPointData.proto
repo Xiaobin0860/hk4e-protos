@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FGMDHBOGAHG
 message StrengthenPointData {
-    uint32 OBOMOEJEDHL = 6;
-    uint32 NHOPNOMIDEF = 2;
+  uint32 OBOMOEJEDHL = 6;
+  uint32 NHOPNOMIDEF = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

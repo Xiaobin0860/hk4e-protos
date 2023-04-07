@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LDACIPENNDP
 // CmdId: 5351
-message BrickBreakerSetChangingReq {
-    bool is_changing = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message BrickBreakerSetChangingReq { bool is_changing = 6; }

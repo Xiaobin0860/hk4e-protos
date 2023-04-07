@@ -6,20 +6,6 @@ import "ChannelerSlabCamp.proto";
 
 // Name: BFNEKAHMMLJ
 message ChannelerSlabChallenge {
-    repeated ChannelerSlabCamp camp_list = 8;
-    uint32 active_camp_index = 1;
+  repeated ChannelerSlabCamp camp_list = 8;
+  uint32 active_camp_index = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PFLBPGOHFKJ
 // CmdId: 687
 message BuyResinRsp {
-    int32 retcode = 9;
-    uint32 cur_value = 3;
+  int32 retcode = 9;
+  uint32 cur_value = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

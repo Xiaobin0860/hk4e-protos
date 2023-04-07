@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: MIMGLIBHAPO
 // CmdId: 1768
 message MIMGLIBHAPO {
-    uint64 cur_avatar_guid = 12;
-    repeated uint64 avatar_team_guid_list = 13;
+  uint64 cur_avatar_guid = 12;
+  repeated uint64 avatar_team_guid_list = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

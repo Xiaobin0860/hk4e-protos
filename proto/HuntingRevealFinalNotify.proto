@@ -8,21 +8,7 @@ import "Vector.proto";
 // Name: HEBIPDKBIJB
 // CmdId: 4339
 message HuntingRevealFinalNotify {
-    Vector final_position = 9;
-    uint32 finished_group_id = 1;
-    HuntingPair hunting_pair = 12;
+  Vector final_position = 9;
+  uint32 finished_group_id = 1;
+  HuntingPair hunting_pair = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

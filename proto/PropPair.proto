@@ -6,20 +6,6 @@ import "PropValue.proto";
 
 // Name: KLGFAAAPHPO
 message PropPair {
-    uint32 type = 1;
-    PropValue prop_value = 2;
+  uint32 type = 1;
+  PropValue prop_value = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

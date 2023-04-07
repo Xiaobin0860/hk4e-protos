@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PCIGDBDDFKD
 // CmdId: 7509
 message GCGDSCardNumChangeNotify {
-    uint32 card_id = 13;
-    uint32 num = 11;
+  uint32 card_id = 13;
+  uint32 num = 11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

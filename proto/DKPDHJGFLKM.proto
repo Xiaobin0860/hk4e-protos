@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "BreakoutSnapShot.proto";
 
 // Name: DKPDHJGFLKM
-message DKPDHJGFLKM {
-    BreakoutSnapShot ENNAPNPNDNB = 4;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DKPDHJGFLKM { BreakoutSnapShot ENNAPNPNDNB = 4; }

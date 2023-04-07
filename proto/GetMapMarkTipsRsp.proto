@@ -7,20 +7,6 @@ import "MapMarkTipsInfo.proto";
 // Name: CHGPAKDGCEC
 // CmdId: 3465
 message GetMapMarkTipsRsp {
-    repeated MapMarkTipsInfo mark_tips_list = 12;
-    int32 retcode = 9;
+  repeated MapMarkTipsInfo mark_tips_list = 12;
+  int32 retcode = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

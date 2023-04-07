@@ -6,20 +6,4 @@ import "HomeBasicInfo.proto";
 
 // Name: NKPAHOBCJKD
 // CmdId: 4501
-message HomeBasicInfoNotify {
-    HomeBasicInfo basic_info = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomeBasicInfoNotify { HomeBasicInfo basic_info = 15; }

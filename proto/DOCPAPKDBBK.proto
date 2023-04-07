@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DOCPAPKDBBK
-message DOCPAPKDBBK {
-    string PIOJJFIDING = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DOCPAPKDBBK { string PIOJJFIDING = 1; }

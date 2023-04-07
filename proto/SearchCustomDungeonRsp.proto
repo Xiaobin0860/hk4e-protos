@@ -7,20 +7,6 @@ import "OtherCustomDungeonBrief.proto";
 // Name: MDNBJIOGKHI
 // CmdId: 6228
 message SearchCustomDungeonRsp {
-    OtherCustomDungeonBrief custom_dungeon_brief = 2;
-    int32 retcode = 15;
+  OtherCustomDungeonBrief custom_dungeon_brief = 2;
+  int32 retcode = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

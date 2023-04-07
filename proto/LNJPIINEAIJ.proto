@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LNJPIINEAIJ
 // CmdId: 7813
-message LNJPIINEAIJ {
-    uint32 AHAIAIPGFDN = 7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LNJPIINEAIJ { uint32 AHAIAIPGFDN = 7; }

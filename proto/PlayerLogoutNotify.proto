@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NGEFPAINAHE
 // CmdId: 172
-message PlayerLogoutNotify {
-    int32 retcode = 13;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PlayerLogoutNotify { int32 retcode = 13; }

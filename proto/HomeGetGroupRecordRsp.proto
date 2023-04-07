@@ -7,21 +7,7 @@ import "HomeGroupRecord.proto";
 // Name: JKOBCBECAAM
 // CmdId: 4522
 message HomeGetGroupRecordRsp {
-    uint32 record_type = 7;
-    int32 retcode = 9;
-    HomeGroupRecord group_record = 12;
+  uint32 record_type = 7;
+  int32 retcode = 9;
+  HomeGroupRecord group_record = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -6,20 +6,4 @@ import "MainCoop.proto";
 
 // Name: OEEBFHGFMOD
 // CmdId: 1993
-message MainCoopUpdateNotify {
-    repeated MainCoop main_coop_list = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message MainCoopUpdateNotify { repeated MainCoop main_coop_list = 6; }

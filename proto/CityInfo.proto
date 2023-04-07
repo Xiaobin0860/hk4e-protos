@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GGDCLBEFCNO
 message CityInfo {
-    uint32 level = 14;
-    uint32 city_id = 13;
-    uint32 crystal_num = 10;
+  uint32 level = 14;
+  uint32 city_id = 13;
+  uint32 crystal_num = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -7,20 +7,6 @@ import "PDKLFCHIAMH.proto";
 
 // Name: OPNBGGNPPOE
 message FishingGallerySettleInfo {
-    repeated GMIFBLJMMNA EKEAHMCHEOH = 5;
-    map<uint32, PDKLFCHIAMH> HIPPDLHJGGN = 6;
+  repeated GMIFBLJMMNA EKEAHMCHEOH = 5;
+  map<uint32, PDKLFCHIAMH> HIPPDLHJGGN = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -7,22 +7,8 @@ import "Vector.proto";
 // Name: LGIIFLMONKC
 // CmdId: 2175
 message SeaLampFlyLampReq {
-    Vector pos = 8;
-    int32 param = 13;
-    uint32 item_id = 11;
-    uint32 item_num = 14;
+  Vector pos = 8;
+  int32 param = 13;
+  uint32 item_id = 11;
+  uint32 item_num = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

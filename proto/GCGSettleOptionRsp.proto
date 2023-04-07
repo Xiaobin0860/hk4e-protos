@@ -7,20 +7,6 @@ import "GCGSettleOption.proto";
 // Name: MJDIPKANHDE
 // CmdId: 7883
 message GCGSettleOptionRsp {
-    GCGSettleOption option = 9;
-    int32 retcode = 5;
+  GCGSettleOption option = 9;
+  int32 retcode = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

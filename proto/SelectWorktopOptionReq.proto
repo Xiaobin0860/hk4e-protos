@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EJIFKLBLKOE
 // CmdId: 814
 message SelectWorktopOptionReq {
-    uint32 gadget_entity_id = 12;
-    uint32 option_id = 2;
+  uint32 gadget_entity_id = 12;
+  uint32 option_id = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

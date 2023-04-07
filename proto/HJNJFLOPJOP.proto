@@ -6,20 +6,6 @@ import "KJMKJAIFNEC.proto";
 
 // Name: HJNJFLOPJOP
 message HJNJFLOPJOP {
-    bool IACPFHDIBAH = 1;
-    repeated KJMKJAIFNEC FIAKFNFDPFP = 999;
+  bool IACPFHDIBAH = 1;
+  repeated KJMKJAIFNEC FIAKFNFDPFP = 999;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

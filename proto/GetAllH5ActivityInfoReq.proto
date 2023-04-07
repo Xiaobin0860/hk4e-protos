@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DNJAPCHCBOH
 // CmdId: 5693
-message GetAllH5ActivityInfoReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetAllH5ActivityInfoReq {}

@@ -8,21 +8,7 @@ import "CustomDungeonBrief.proto";
 // Name: KCDAEOFDJHO
 // CmdId: 6220
 message GetCustomDungeonRsp {
-    CustomDungeonBanInfo ban_info = 14;
-    int32 retcode = 8;
-    repeated CustomDungeonBrief brief_list = 7;
+  CustomDungeonBanInfo ban_info = 14;
+  int32 retcode = 8;
+  repeated CustomDungeonBrief brief_list = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

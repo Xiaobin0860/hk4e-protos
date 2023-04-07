@@ -6,20 +6,6 @@ import "GCGOperation.proto";
 
 // Name: EJBPKIGPFIG
 message GCGReplayOperationData {
-    GCGOperation op = 11;
-    uint32 controller_id = 8;
+  GCGOperation op = 11;
+  uint32 controller_id = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

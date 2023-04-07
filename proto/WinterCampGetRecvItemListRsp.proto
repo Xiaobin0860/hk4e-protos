@@ -7,20 +7,6 @@ import "WinterCampRecvItemData.proto";
 // Name: MJHFMGGPIHD
 // CmdId: 8234
 message WinterCampGetRecvItemListRsp {
-    repeated WinterCampRecvItemData recv_item_data_list = 15;
-    int32 retcode = 2;
+  repeated WinterCampRecvItemData recv_item_data_list = 15;
+  int32 retcode = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

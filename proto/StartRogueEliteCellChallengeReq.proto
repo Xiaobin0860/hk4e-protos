@@ -7,21 +7,7 @@ import "RogueEliteCellDifficultyType.proto";
 // Name: OJDDIODLICI
 // CmdId: 8874
 message StartRogueEliteCellChallengeReq {
-    uint32 dungeon_id = 12;
-    RogueEliteCellDifficultyType difficulty = 14;
-    uint32 cell_id = 15;
+  uint32 dungeon_id = 12;
+  RogueEliteCellDifficultyType difficulty = 14;
+  uint32 cell_id = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

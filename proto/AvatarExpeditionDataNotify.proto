@@ -7,19 +7,5 @@ import "AvatarExpeditionInfo.proto";
 // Name: IDDOKPGDFOP
 // CmdId: 1646
 message AvatarExpeditionDataNotify {
-    map<uint64, AvatarExpeditionInfo> expedition_info_map = 13;
+  map<uint64, AvatarExpeditionInfo> expedition_info_map = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

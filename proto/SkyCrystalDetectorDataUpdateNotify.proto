@@ -7,19 +7,5 @@ import "SkyCrystalDetectorData.proto";
 // Name: GPKEKJAKPMO
 // CmdId: 4262
 message SkyCrystalDetectorDataUpdateNotify {
-    SkyCrystalDetectorData sky_crystal_detector_data = 12;
+  SkyCrystalDetectorData sky_crystal_detector_data = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

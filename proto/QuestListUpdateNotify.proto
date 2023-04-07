@@ -6,20 +6,4 @@ import "Quest.proto";
 
 // Name: BACDDEEPDDG
 // CmdId: 475
-message QuestListUpdateNotify {
-    repeated Quest quest_list = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message QuestListUpdateNotify { repeated Quest quest_list = 11; }

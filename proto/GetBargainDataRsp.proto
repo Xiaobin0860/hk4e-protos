@@ -7,21 +7,7 @@ import "BargainSnapshot.proto";
 // Name: JDAECELJMDL
 // CmdId: 470
 message GetBargainDataRsp {
-    int32 retcode = 15;
-    uint32 bargain_id = 4;
-    BargainSnapshot snapshot = 7;
+  int32 retcode = 15;
+  uint32 bargain_id = 4;
+  BargainSnapshot snapshot = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

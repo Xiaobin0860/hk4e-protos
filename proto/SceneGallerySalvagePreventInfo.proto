@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LBOLFDBJOEF
-message SceneGallerySalvagePreventInfo {
-    uint32 monster_count = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message SceneGallerySalvagePreventInfo { uint32 monster_count = 15; }

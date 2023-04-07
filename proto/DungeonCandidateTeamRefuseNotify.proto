@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CJLGEAEIMBI
 // CmdId: 941
-message DungeonCandidateTeamRefuseNotify {
-    uint32 player_uid = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DungeonCandidateTeamRefuseNotify { uint32 player_uid = 12; }

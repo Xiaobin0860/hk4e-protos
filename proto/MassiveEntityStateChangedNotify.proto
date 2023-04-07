@@ -7,19 +7,5 @@ import "MassiveEntityState.proto";
 // Name: MDLLNBKPGMK
 // CmdId: 360
 message MassiveEntityStateChangedNotify {
-    repeated MassiveEntityState massive_entity_state_list = 15;
+  repeated MassiveEntityState massive_entity_state_list = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

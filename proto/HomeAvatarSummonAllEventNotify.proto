@@ -7,19 +7,5 @@ import "HomeAvatarSummonEventInfo.proto";
 // Name: BDOLBAAPHNE
 // CmdId: 4892
 message HomeAvatarSummonAllEventNotify {
-    repeated HomeAvatarSummonEventInfo summon_event_list = 7;
+  repeated HomeAvatarSummonEventInfo summon_event_list = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

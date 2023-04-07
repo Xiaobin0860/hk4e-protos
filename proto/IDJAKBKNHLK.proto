@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "GalleryStopReason.proto";
 
 // Name: IDJAKBKNHLK
-message IDJAKBKNHLK {
-    GalleryStopReason reason = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message IDJAKBKNHLK { GalleryStopReason reason = 11; }

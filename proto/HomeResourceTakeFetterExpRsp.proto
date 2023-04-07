@@ -7,20 +7,6 @@ import "HomeResource.proto";
 // Name: IIGPCKJGACD
 // CmdId: 4808
 message HomeResourceTakeFetterExpRsp {
-    int32 retcode = 2;
-    HomeResource fetter_exp = 9;
+  int32 retcode = 2;
+  HomeResource fetter_exp = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

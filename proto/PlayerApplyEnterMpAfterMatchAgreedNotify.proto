@@ -8,21 +8,7 @@ import "OnlinePlayerInfo.proto";
 // Name: BAGAKCIOLPE
 // CmdId: 4171
 message PlayerApplyEnterMpAfterMatchAgreedNotify {
-    MatchType match_type = 9;
-    uint32 matchserver_id = 3;
-    OnlinePlayerInfo src_player_info = 2;
+  MatchType match_type = 9;
+  uint32 matchserver_id = 3;
+  OnlinePlayerInfo src_player_info = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

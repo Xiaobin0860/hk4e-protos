@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DFDJKOLMOHG
 // CmdId: 1828
 message MpPlayInviteResultNotify {
-    uint32 mp_play_id = 15;
-    bool all_argee = 8;
+  uint32 mp_play_id = 15;
+  bool all_argee = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

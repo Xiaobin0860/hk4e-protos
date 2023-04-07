@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HCOOANKLKCD
 message BreakoutSyncConnectUidInfo {
-    uint32 uid = 1;
-    repeated uint32 skill_id_list = 2;
-    repeated uint32 skill_level_list = 3;
+  uint32 uid = 1;
+  repeated uint32 skill_id_list = 2;
+  repeated uint32 skill_level_list = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DFKPKCCAHMK
 // CmdId: 4521
 message HomeSetBlueprintSlotOptionReq {
-    uint32 slot_id = 7;
-    bool is_allow_copy = 5;
+  uint32 slot_id = 7;
+  bool is_allow_copy = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

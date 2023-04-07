@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NFGMIGCIPIN
 // CmdId: 1976
-message CancelCoopTaskReq {
-    uint32 chapter_id = 4;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CancelCoopTaskReq { uint32 chapter_id = 4; }

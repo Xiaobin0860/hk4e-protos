@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CEGIBBLHIIE
 // CmdId: 20935
 message CEGIBBLHIIE {
-    uint32 pos_id = 9;
-    int32 retcode = 3;
+  uint32 pos_id = 9;
+  int32 retcode = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

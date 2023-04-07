@@ -8,24 +8,10 @@ import "SalvageStageInfo.proto";
 
 // Name: KALJNIHLPEB
 message LanternRiteActivityDetailInfo {
-    bool OEMINLMOPPP = 1;
-    bool MMEOMGJBGNE = 7;
-    repeated SalvageStageInfo stage_info_list = 9;
-    JFAEOPHPBGL OEEDOHKBLMD = 8;
-    bool is_content_closed = 6;
-    MCJJAJKEOAM EGDHPACCIFB = 10;
+  bool OEMINLMOPPP = 1;
+  bool MMEOMGJBGNE = 7;
+  repeated SalvageStageInfo stage_info_list = 9;
+  JFAEOPHPBGL OEEDOHKBLMD = 8;
+  bool is_content_closed = 6;
+  MCJJAJKEOAM EGDHPACCIFB = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

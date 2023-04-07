@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JFJAPNLJNNC
 // CmdId: 4780
-message HomeSceneInitFinishRsp {
-    int32 retcode = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomeSceneInitFinishRsp { int32 retcode = 10; }

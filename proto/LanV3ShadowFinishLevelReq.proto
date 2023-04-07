@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KNMALDDNDBH
 // CmdId: 23065
 message LanV3ShadowFinishLevelReq {
-    uint32 finish_time = 1;
-    uint32 level_id = 5;
+  uint32 finish_time = 1;
+  uint32 level_id = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

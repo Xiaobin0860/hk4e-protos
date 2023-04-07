@@ -6,20 +6,4 @@ import "LunchBoxData.proto";
 
 // Name: ELGNFEMBKHH
 // CmdId: 4282
-message SetUpLunchBoxWidgetReq {
-    LunchBoxData lunch_box_data = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message SetUpLunchBoxWidgetReq { LunchBoxData lunch_box_data = 3; }

@@ -7,19 +7,5 @@ import "InstableSprayAvatarInfo.proto";
 // Name: MHAKCHCPHGM
 // CmdId: 23108
 message InstableSprayRestartDungeonReq {
-    repeated InstableSprayAvatarInfo avatar_info_list = 14;
+  repeated InstableSprayAvatarInfo avatar_info_list = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

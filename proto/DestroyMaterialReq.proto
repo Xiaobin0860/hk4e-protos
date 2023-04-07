@@ -6,20 +6,4 @@ import "MaterilaInfo.proto";
 
 // Name: NNCOOJDHINJ
 // CmdId: 608
-message DestroyMaterialReq {
-    repeated MaterilaInfo material_list = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DestroyMaterialReq { repeated MaterilaInfo material_list = 12; }

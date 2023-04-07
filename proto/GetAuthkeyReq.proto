@@ -2,25 +2,10 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NFPHMNBGONL
 // CmdId: 1482
 message GetAuthkeyReq {
-    string auth_appid = 8;
-    uint32 BILPDHGPPPO = 6;
-    uint32 FHPGCOBFIOE = 3;
+  string auth_appid = 8;
+  uint32 BILPDHGPPPO = 6;
+  uint32 FHPGCOBFIOE = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

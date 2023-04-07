@@ -6,20 +6,4 @@ import "ReunionBriefInfo.proto";
 
 // Name: DNFALBNOKOJ
 // CmdId: 5072
-message ReunionDailyRefreshNotify {
-    ReunionBriefInfo reunion_brief_info = 8;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ReunionDailyRefreshNotify { ReunionBriefInfo reunion_brief_info = 8; }

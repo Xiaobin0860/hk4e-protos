@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BOPMGFEHJEB
 // CmdId: 8731
-message ActivityTakeAllScoreRewardReq {
-    uint32 activity_id = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ActivityTakeAllScoreRewardReq { uint32 activity_id = 15; }

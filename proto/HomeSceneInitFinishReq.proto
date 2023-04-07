@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BKKCOCNANDN
 // CmdId: 4900
-message HomeSceneInitFinishReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomeSceneInitFinishReq {}

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BMOHJCEIHCK
 // CmdId: 2050
-message TakeEffigyFirstPassRewardReq {
-    uint32 challenge_id = 7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message TakeEffigyFirstPassRewardReq { uint32 challenge_id = 7; }

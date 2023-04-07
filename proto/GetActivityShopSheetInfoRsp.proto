@@ -7,21 +7,7 @@ import "ActivityShopSheetInfo.proto";
 // Name: LKFJGOICFNO
 // CmdId: 782
 message GetActivityShopSheetInfoRsp {
-    repeated ActivityShopSheetInfo sheet_info_list = 13;
-    uint32 shop_type = 8;
-    int32 retcode = 10;
+  repeated ActivityShopSheetInfo sheet_info_list = 13;
+  uint32 shop_type = 8;
+  int32 retcode = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

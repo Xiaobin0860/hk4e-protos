@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CDPMKDBOKIA
 // CmdId: 714
-message GetShopmallDataReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetShopmallDataReq {}

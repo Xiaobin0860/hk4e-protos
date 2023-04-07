@@ -7,19 +7,5 @@ import "BlossomScheduleInfo.proto";
 // Name: DIEHNGECGMB
 // CmdId: 2714
 message WorldOwnerBlossomScheduleInfoNotify {
-    BlossomScheduleInfo schedule_info = 1;
+  BlossomScheduleInfo schedule_info = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

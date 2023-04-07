@@ -7,19 +7,5 @@ import "ClientMassiveEntity.proto";
 // Name: ILBPCLIIJOB
 // CmdId: 311
 message DestroyMassiveEntityNotify {
-    repeated ClientMassiveEntity massive_entity_list = 13;
+  repeated ClientMassiveEntity massive_entity_list = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

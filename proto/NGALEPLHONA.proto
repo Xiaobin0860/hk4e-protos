@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NGALEPLHONA
 enum NGALEPLHONA {
-    NGALEPLHONA_DBLCHAMKCGF = 0;
-    NGALEPLHONA_DIAGFFMHHMP = 1;
-    NGALEPLHONA_IHOPNFPNIFL = 2;
+  NGALEPLHONA_DBLCHAMKCGF = 0;
+  NGALEPLHONA_DIAGFFMHHMP = 1;
+  NGALEPLHONA_IHOPNFPNIFL = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

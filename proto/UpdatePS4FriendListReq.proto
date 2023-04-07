@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HICIHFIECAH
 // CmdId: 4006
-message UpdatePS4FriendListReq {
-    repeated string psn_id_list = 7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message UpdatePS4FriendListReq { repeated string psn_id_list = 7; }

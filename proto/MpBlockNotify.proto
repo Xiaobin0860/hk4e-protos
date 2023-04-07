@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NFGFJNEJDIN
 // CmdId: 1837
-message MpBlockNotify {
-    uint32 end_time = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message MpBlockNotify { uint32 end_time = 6; }

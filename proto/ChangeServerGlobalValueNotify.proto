@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NIOKEKNBBPN
 // CmdId: 46
-message ChangeServerGlobalValueNotify {
-    uint32 entity_id = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ChangeServerGlobalValueNotify { uint32 entity_id = 15; }

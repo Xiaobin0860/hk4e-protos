@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EIOOMOJGHCP
 message GCGTavernNpcInfo {
-    uint32 level_id = 14;
-    uint32 id = 8;
-    uint32 scene_point_id = 10;
+  uint32 level_id = 14;
+  uint32 id = 8;
+  uint32 scene_point_id = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

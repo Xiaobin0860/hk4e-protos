@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IAKDOBNNCLB
 // CmdId: 8440
-message WinterCampGetFriendWishListReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message WinterCampGetFriendWishListReq {}

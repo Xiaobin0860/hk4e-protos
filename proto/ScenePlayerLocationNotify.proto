@@ -8,21 +8,7 @@ import "VehicleLocationInfo.proto";
 // Name: EGCBDDHMNGD
 // CmdId: 291
 message ScenePlayerLocationNotify {
-    repeated VehicleLocationInfo vehicle_loc_list = 7;
-    repeated PlayerLocationInfo player_loc_list = 15;
-    uint32 scene_id = 12;
+  repeated VehicleLocationInfo vehicle_loc_list = 7;
+  repeated PlayerLocationInfo player_loc_list = 15;
+  uint32 scene_id = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

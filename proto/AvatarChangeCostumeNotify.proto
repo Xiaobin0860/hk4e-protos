@@ -6,20 +6,4 @@ import "SceneEntityInfo.proto";
 
 // Name: DDPDLNJBKAP
 // CmdId: 1759
-message AvatarChangeCostumeNotify {
-    SceneEntityInfo entity_info = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message AvatarChangeCostumeNotify { SceneEntityInfo entity_info = 3; }

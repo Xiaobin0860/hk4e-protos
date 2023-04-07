@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GPPPPHHOCIP
-message GPPPPHHOCIP {
-    int64 value = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GPPPPHHOCIP { int64 value = 1; }

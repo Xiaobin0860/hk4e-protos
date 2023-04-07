@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DONIIMFNGAE
 // CmdId: 2026
 message TakeAsterSpecialRewardRsp {
-    int32 retcode = 6;
-    uint32 schedule_id = 4;
+  int32 retcode = 6;
+  uint32 schedule_id = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

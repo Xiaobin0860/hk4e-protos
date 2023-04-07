@@ -6,25 +6,11 @@ import "Vector.proto";
 
 // Name: PGPIMHLBMNI
 message MassiveBoxInfo {
-    int32 id = 1;
-    uint32 config_id = 2;
-    Vector center = 3;
-    Vector extents = 4;
-    Vector up = 5;
-    Vector forward = 6;
-    Vector right = 7;
+  int32 id = 1;
+  uint32 config_id = 2;
+  Vector center = 3;
+  Vector extents = 4;
+  Vector up = 5;
+  Vector forward = 6;
+  Vector right = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

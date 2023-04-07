@@ -7,20 +7,6 @@ import "AiSyncInfo.proto";
 // Name: CFFCOJOFDNG
 // CmdId: 320
 message EntityAiSyncNotify {
-    repeated uint32 local_avatar_alerted_monster_list = 8;
-    repeated AiSyncInfo info_list = 5;
+  repeated uint32 local_avatar_alerted_monster_list = 8;
+  repeated AiSyncInfo info_list = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

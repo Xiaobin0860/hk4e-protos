@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PAADLGLLMEH
 // CmdId: 8750
-message WinterCampTakeExploreRewardReq {
-    uint32 id = 5;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message WinterCampTakeExploreRewardReq { uint32 id = 5; }

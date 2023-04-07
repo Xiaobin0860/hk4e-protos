@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EDJCHALHLPF
 // CmdId: 1788
-message SpringUseReq {
-    uint64 guid = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message SpringUseReq { uint64 guid = 6; }

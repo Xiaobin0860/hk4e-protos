@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KLJEIKDDFCJ
 // CmdId: 5572
-message GetAllSceneGalleryInfoReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetAllSceneGalleryInfoReq {}

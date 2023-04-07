@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "POLLPFJAIPM.proto";
 
 // Name: JFAEOPHPBGL
-message JFAEOPHPBGL {
-    repeated POLLPFJAIPM stage_info_list = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message JFAEOPHPBGL { repeated POLLPFJAIPM stage_info_list = 12; }

@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KDIFONPIAEI
-message GCGMsgDuelDataChange {
-    uint32 round = 14;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GCGMsgDuelDataChange { uint32 round = 14; }

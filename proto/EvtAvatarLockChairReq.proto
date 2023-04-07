@@ -7,20 +7,6 @@ import "Vector.proto";
 // Name: PIBJPDAAJLK
 // CmdId: 379
 message EvtAvatarLockChairReq {
-    uint64 chair_id = 7;
-    Vector position = 15;
+  uint64 chair_id = 7;
+  Vector position = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

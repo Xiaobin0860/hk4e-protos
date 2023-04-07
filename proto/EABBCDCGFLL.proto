@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "AbilityAppliedAbility.proto";
 
 // Name: EABBCDCGFLL
-message EABBCDCGFLL {
-    AbilityAppliedAbility LICDLAICHAJ = 8;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message EABBCDCGFLL { AbilityAppliedAbility LICDLAICHAJ = 8; }

@@ -7,20 +7,6 @@ import "MapAreaInfo.proto";
 // Name: FDMHPADJFJP
 // CmdId: 3458
 message GetMapAreaRsp {
-    int32 retcode = 2;
-    repeated MapAreaInfo map_area_info_list = 1;
+  int32 retcode = 2;
+  repeated MapAreaInfo map_area_info_list = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

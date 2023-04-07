@@ -7,20 +7,6 @@ import "MatchType.proto";
 // Name: IEILBIFCLAL
 // CmdId: 4186
 message PlayerCancelMatchRsp {
-    int32 retcode = 14;
-    MatchType match_type = 11;
+  int32 retcode = 14;
+  MatchType match_type = 11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -7,22 +7,8 @@ import "ItemParam.proto";
 // Name: JMHAGFLFKIF
 // CmdId: 2829
 message TakeCityReputationExploreRewardRsp {
-    uint32 city_id = 2;
-    int32 retcode = 10;
-    repeated ItemParam item_list = 11;
-    repeated uint32 explore_id_list = 12;
+  uint32 city_id = 2;
+  int32 retcode = 10;
+  repeated ItemParam item_list = 11;
+  repeated uint32 explore_id_list = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BHFFGKIHEMB
 // CmdId: 22204
-message DuelHeartRestartDungeonReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DuelHeartRestartDungeonReq {}

@@ -6,20 +6,4 @@ import "MapMarkPoint.proto";
 
 // Name: DLOIBNACJAM
 // CmdId: 3156
-message AllMarkPointNotify {
-    repeated MapMarkPoint mark_list = 14;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message AllMarkPointNotify { repeated MapMarkPoint mark_list = 14; }

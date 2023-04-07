@@ -7,21 +7,7 @@ import "Vector.proto";
 // Name: NJJDCGNJHKF
 // CmdId: 1665
 message AvatarDieAnimationEndReq {
-    uint32 skill_id = 13;
-    uint64 die_guid = 15;
-    Vector reborn_pos = 2;
+  uint32 skill_id = 13;
+  uint64 die_guid = 15;
+  Vector reborn_pos = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

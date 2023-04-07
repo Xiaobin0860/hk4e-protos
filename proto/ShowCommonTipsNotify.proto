@@ -2,25 +2,10 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DCNCLONCJHI
 // CmdId: 3469
 message ShowCommonTipsNotify {
-    uint32 close_time = 1;
-    string content = 6;
-    string title = 14;
+  uint32 close_time = 1;
+  string content = 6;
+  string title = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

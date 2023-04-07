@@ -6,20 +6,4 @@ import "AsterMidDetailInfo.proto";
 
 // Name: LJKDKKDMJGM
 // CmdId: 2118
-message AsterMidInfoNotify {
-    AsterMidDetailInfo info = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message AsterMidInfoNotify { AsterMidDetailInfo info = 11; }

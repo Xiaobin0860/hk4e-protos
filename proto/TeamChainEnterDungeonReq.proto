@@ -7,21 +7,7 @@ import "TeamChainChooseTeamInfo.proto";
 // Name: PPCDGJDJBCM
 // CmdId: 20080
 message TeamChainEnterDungeonReq {
-    repeated TeamChainChooseTeamInfo team_info_list = 6;
-    uint32 difficulty = 11;
-    uint32 stage_id = 5;
+  repeated TeamChainChooseTeamInfo team_info_list = 6;
+  uint32 difficulty = 11;
+  uint32 stage_id = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

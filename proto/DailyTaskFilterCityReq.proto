@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NMHFKMALINE
 // CmdId: 199
-message DailyTaskFilterCityReq {
-    uint32 city_id = 7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DailyTaskFilterCityReq { uint32 city_id = 7; }

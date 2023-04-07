@@ -2,22 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EDAOBIJNNKG
 // CmdId: 132
 message AdjustWorldLevelReq {
-    uint32 GKPAJDAOHDN = 10;
-    uint32 HFANGCIKHFI = 6;
+  uint32 GKPAJDAOHDN = 10;
+  uint32 HFANGCIKHFI = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-

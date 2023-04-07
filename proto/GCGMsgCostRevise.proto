@@ -6,20 +6,6 @@ import "GCGCostReviseInfo.proto";
 
 // Name: HPJENALBJJD
 message GCGMsgCostRevise {
-    uint32 controller_id = 15;
-    GCGCostReviseInfo cost_revise = 2;
+  uint32 controller_id = 15;
+  GCGCostReviseInfo cost_revise = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

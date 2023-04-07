@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LGMLPBFMEEM
 // CmdId: 7529
-message LGMLPBFMEEM {
-    uint32 LKFDEJMGHMP = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LGMLPBFMEEM { uint32 LKFDEJMGHMP = 10; }

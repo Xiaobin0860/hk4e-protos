@@ -6,20 +6,4 @@ import "MultistagePlayInfo.proto";
 
 // Name: EEELINAIEOJ
 // CmdId: 5367
-message MultistagePlayInfoNotify {
-    MultistagePlayInfo info = 7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message MultistagePlayInfoNotify { MultistagePlayInfo info = 7; }

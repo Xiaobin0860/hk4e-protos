@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: ACPFDAHIELE
 // CmdId: 2275
 message WatcherChangeNotify {
-    repeated uint32 EOHKBELNKDA = 8;
-    repeated uint32 NCNHKHALDOI = 6;
+  repeated uint32 EOHKBELNKDA = 8;
+  repeated uint32 NCNHKHALDOI = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

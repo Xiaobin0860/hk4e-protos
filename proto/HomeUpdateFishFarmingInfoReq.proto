@@ -7,19 +7,5 @@ import "HomeFishFarmingInfo.proto";
 // Name: OFNIBAHINGO
 // CmdId: 4746
 message HomeUpdateFishFarmingInfoReq {
-    HomeFishFarmingInfo fish_farming_info = 1;
+  HomeFishFarmingInfo fish_farming_info = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

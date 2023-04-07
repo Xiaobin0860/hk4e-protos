@@ -7,21 +7,7 @@ import "Vector.proto";
 // Name: HHCLAFPEBEE
 // CmdId: 5812
 message FishAttractNotify {
-    uint32 uid = 4;
-    Vector pos = 9;
-    repeated uint32 fish_id_list = 3;
+  uint32 uid = 4;
+  Vector pos = 9;
+  repeated uint32 fish_id_list = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

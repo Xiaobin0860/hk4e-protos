@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DHBOANFMLNE
 message SceneGalleryCoinCollectInfo {
-    uint32 JIEODOEOBID = 15;
-    uint32 BOFDHHNBNCH = 6;
+  uint32 JIEODOEOBID = 15;
+  uint32 BOFDHHNBNCH = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

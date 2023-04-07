@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EPMNNEBIBEH
 // CmdId: 2128
-message BlessingGetFriendPicListReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message BlessingGetFriendPicListReq {}

@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PBEGADLGMHP
-message PBEGADLGMHP {
-    repeated uint32 data = 8;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PBEGADLGMHP { repeated uint32 data = 8; }

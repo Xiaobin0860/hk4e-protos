@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BAJOKHOELIA
 // CmdId: 1817
 message MpPlayOwnerCheckReq {
-    bool is_skip_match = 14;
-    uint32 mp_play_id = 15;
+  bool is_skip_match = 14;
+  uint32 mp_play_id = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DLHLIHPGNOG
-message DLHLIHPGNOG {
-    uint32 apply_entity_id = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DLHLIHPGNOG { uint32 apply_entity_id = 15; }

@@ -6,20 +6,6 @@ import "AttackResult.proto";
 
 // Name: GDDABPDNJJC
 message EvtHittingOtherInfo {
-    uint32 peer_id = 12;
-    AttackResult attack_result = 9;
+  uint32 peer_id = 12;
+  AttackResult attack_result = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

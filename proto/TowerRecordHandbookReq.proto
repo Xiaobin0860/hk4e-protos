@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BPBAGJJIBPN
 // CmdId: 2433
-message TowerRecordHandbookReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message TowerRecordHandbookReq {}

@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FEGEKLPBFCP
 // CmdId: 8933
 message EnterIrodoriChessDungeonReq {
-    bool is_hard_map = 15;
-    uint32 level_id = 10;
+  bool is_hard_map = 15;
+  uint32 level_id = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

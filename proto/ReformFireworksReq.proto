@@ -6,20 +6,4 @@ import "FireworksReformData.proto";
 
 // Name: HAKLPJBNCEF
 // CmdId: 6040
-message ReformFireworksReq {
-    FireworksReformData fireworks_reform_data = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ReformFireworksReq { FireworksReformData fireworks_reform_data = 15; }

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PFHIOOMPNBH
 // CmdId: 1442
-message GetAllMailNotify {
-    bool is_collected = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetAllMailNotify { bool is_collected = 6; }

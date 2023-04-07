@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IKGLOHMLBPA
 message OpActivityTagBriefInfo {
-    uint32 op_activity_type = 15;
-    uint32 config_id = 9;
-    bool has_reward = 3;
+  uint32 op_activity_type = 15;
+  uint32 config_id = 9;
+  bool has_reward = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

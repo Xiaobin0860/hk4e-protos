@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NEKAJEGPNFH
 // CmdId: 3311
-message UnlockTransPointRsp {
-    int32 retcode = 14;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message UnlockTransPointRsp { int32 retcode = 14; }

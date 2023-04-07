@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "ADLNAMCMMNP.proto";
 
 // Name: JIJOIEGIHPM
-message JIJOIEGIHPM {
-    repeated ADLNAMCMMNP IDIDBDBCJKK = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message JIJOIEGIHPM { repeated ADLNAMCMMNP IDIDBDBCJKK = 1; }

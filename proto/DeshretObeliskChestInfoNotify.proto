@@ -7,19 +7,5 @@ import "DeshretObeliskChestInfo.proto";
 // Name: ELOLMILJLPC
 // CmdId: 858
 message DeshretObeliskChestInfoNotify {
-    repeated DeshretObeliskChestInfo chest_info_list = 12;
+  repeated DeshretObeliskChestInfo chest_info_list = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

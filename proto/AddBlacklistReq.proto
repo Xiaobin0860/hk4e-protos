@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JGEINEJNJII
 // CmdId: 4041
-message AddBlacklistReq {
-    uint32 target_uid = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message AddBlacklistReq { uint32 target_uid = 10; }

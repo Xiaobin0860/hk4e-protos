@@ -6,21 +6,7 @@ import "Vector.proto";
 
 // Name: PMOLBLJJLKG
 message PMOLBLJJLKG {
-    Vector PGHLDHIMDAP = 10;
-    Vector IPLOMHNGBHB = 14;
-    uint32 entity_id = 15;
+  Vector PGHLDHIMDAP = 10;
+  Vector IPLOMHNGBHB = 14;
+  uint32 entity_id = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

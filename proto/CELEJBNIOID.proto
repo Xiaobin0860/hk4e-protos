@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CELEJBNIOID
 // CmdId: 23473
-message CELEJBNIOID {
-    int32 retcode = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CELEJBNIOID { int32 retcode = 11; }

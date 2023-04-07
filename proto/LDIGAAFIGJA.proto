@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LDIGAAFIGJA
 message LDIGAAFIGJA {
-    string name = 1;
-    string EOANIHHFMGE = 2;
+  string name = 1;
+  string EOANIHHFMGE = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CPCLNBAOEMO
 message RogueAvatarInfo {
-    bool LKHOGMMPCJL = 10;
-    bool ABCENJAFGOF = 5;
-    uint32 avatar_id = 3;
+  bool LKHOGMMPCJL = 10;
+  bool ABCENJAFGOF = 5;
+  uint32 avatar_id = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JELDLHLILBH
 // CmdId: 8701
 message BartenderCancelLevelRsp {
-    uint32 level_id = 10;
-    int32 retcode = 7;
+  uint32 level_id = 10;
+  int32 retcode = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

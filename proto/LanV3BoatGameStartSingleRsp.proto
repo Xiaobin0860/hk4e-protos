@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OJJNFPAMLKF
 // CmdId: 21227
-message LanV3BoatGameStartSingleRsp {
-    int32 retcode = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LanV3BoatGameStartSingleRsp { int32 retcode = 10; }

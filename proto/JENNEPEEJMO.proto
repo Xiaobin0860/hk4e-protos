@@ -7,21 +7,7 @@ import "GCGTavernNpcInfo.proto";
 // Name: JENNEPEEJMO
 // CmdId: 7238
 message JENNEPEEJMO {
-    repeated GCGTavernNpcInfo FBCGJHJAKCB = 1;
-    GCGTavernNpcInfo KHMBPIBKKII = 13;
-    repeated GCGTavernNpcInfo PKPONJNCKFM = 9;
+  repeated GCGTavernNpcInfo FBCGJHJAKCB = 1;
+  GCGTavernNpcInfo KHMBPIBKKII = 13;
+  repeated GCGTavernNpcInfo PKPONJNCKFM = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

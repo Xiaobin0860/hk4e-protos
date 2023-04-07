@@ -6,20 +6,6 @@ import "Vector.proto";
 
 // Name: GBJCOPHPAKL
 message GBJCOPHPAKL {
-    Vector pos = 10;
-    Vector rot = 12;
+  Vector pos = 10;
+  Vector rot = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

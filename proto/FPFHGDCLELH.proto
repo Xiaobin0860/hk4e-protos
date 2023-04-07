@@ -7,21 +7,7 @@ import "PMJLNPPJJCI.proto";
 
 // Name: FPFHGDCLELH
 message FPFHGDCLELH {
-    string name = 1;
-    repeated OPDLLIJJGFB GMIHFCGDEJH = 2;
-    PMJLNPPJJCI PNFIHGPGNKD = 3;
+  string name = 1;
+  repeated OPDLLIJJGFB GMIHFCGDEJH = 2;
+  PMJLNPPJJCI PNFIHGPGNKD = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

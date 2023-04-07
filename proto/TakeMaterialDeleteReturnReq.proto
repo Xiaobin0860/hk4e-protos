@@ -6,20 +6,4 @@ import "MaterialDeleteReturnType.proto";
 
 // Name: IDAIPDMLAOP
 // CmdId: 638
-message TakeMaterialDeleteReturnReq {
-    MaterialDeleteReturnType type = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message TakeMaterialDeleteReturnReq { MaterialDeleteReturnType type = 12; }

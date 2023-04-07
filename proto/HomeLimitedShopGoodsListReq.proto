@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JBDGFINNHHN
 // CmdId: 4769
-message HomeLimitedShopGoodsListReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomeLimitedShopGoodsListReq {}

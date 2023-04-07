@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: ILICGBGEBKG
 // CmdId: 2043
 message ActivitySelectAvatarCardReq {
-    uint32 reward_id = 13;
-    uint32 activity_id = 2;
+  uint32 reward_id = 13;
+  uint32 activity_id = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

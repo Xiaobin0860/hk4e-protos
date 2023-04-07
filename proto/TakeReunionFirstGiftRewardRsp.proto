@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: ONKHHJIIPDL
 // CmdId: 5096
 message TakeReunionFirstGiftRewardRsp {
-    int32 reward_id = 6;
-    int32 retcode = 4;
+  int32 reward_id = 6;
+  int32 retcode = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

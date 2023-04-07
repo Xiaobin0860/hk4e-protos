@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: ICNCCLJNHAA
-message GameplayRecommendationReliquaryRequest {
-    uint32 equip_type = 13;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GameplayRecommendationReliquaryRequest { uint32 equip_type = 13; }

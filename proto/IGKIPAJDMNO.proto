@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IGKIPAJDMNO
 message IGKIPAJDMNO {
-    uint32 FLALLOBJHNC = 9;
-    uint32 block_id = 7;
+  uint32 FLALLOBJHNC = 9;
+  uint32 block_id = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

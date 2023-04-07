@@ -6,19 +6,5 @@ import "BuoyantCombatDailyInfo.proto";
 
 // Name: IJOHCJNGINF
 message BuoyantCombatDetailInfo {
-    repeated BuoyantCombatDailyInfo daily_info_list = 8;
+  repeated BuoyantCombatDailyInfo daily_info_list = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

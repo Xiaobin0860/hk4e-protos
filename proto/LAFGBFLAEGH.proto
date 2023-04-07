@@ -6,21 +6,7 @@ import "HJNJFLOPJOP.proto";
 
 // Name: LAFGBFLAEGH
 message LAFGBFLAEGH {
-    string name = 1;
-    int32 IHHEFANAHMG = 2;
-    HJNJFLOPJOP PNFIHGPGNKD = 3;
+  string name = 1;
+  int32 IHHEFANAHMG = 2;
+  HJNJFLOPJOP PNFIHGPGNKD = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

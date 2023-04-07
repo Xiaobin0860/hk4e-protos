@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PIEEAMNHHJH
 // CmdId: 3037
-message SceneWeatherForcastReq {
-    uint32 weather_area_id = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message SceneWeatherForcastReq { uint32 weather_area_id = 3; }

@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GIMHFKKKBMN
-message AiThreatInfo {
-    map<uint32, uint32> ai_threat_map = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message AiThreatInfo { map<uint32, uint32> ai_threat_map = 6; }

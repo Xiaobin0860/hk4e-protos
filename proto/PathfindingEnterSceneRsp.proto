@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CFMBMBBDLDE
 // CmdId: 2334
-message PathfindingEnterSceneRsp {
-    int32 retcode = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PathfindingEnterSceneRsp { int32 retcode = 11; }

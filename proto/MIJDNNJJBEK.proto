@@ -6,22 +6,8 @@ import "LPGOCDCNECC.proto";
 
 // Name: MIJDNNJJBEK
 message MIJDNNJJBEK {
-    uint32 uid = 1;
-    repeated uint64 JGEAGEDMGMK = 2;
-    repeated uint64 KFOCIHGPOBM = 3;
-    repeated LPGOCDCNECC CKELOGNLNJM = 4;
+  uint32 uid = 1;
+  repeated uint64 JGEAGEDMGMK = 2;
+  repeated uint64 KFOCIHGPOBM = 3;
+  repeated LPGOCDCNECC CKELOGNLNJM = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

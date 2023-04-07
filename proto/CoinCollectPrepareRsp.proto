@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NAGPFLFFPEA
 // CmdId: 22764
-message CoinCollectPrepareRsp {
-    int32 retcode = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CoinCollectPrepareRsp { int32 retcode = 6; }

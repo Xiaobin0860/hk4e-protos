@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CIMPKGDGBNG
 // CmdId: 2099
-message TreasureMapGuideTaskDoneNotify {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message TreasureMapGuideTaskDoneNotify {}

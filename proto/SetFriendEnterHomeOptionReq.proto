@@ -6,20 +6,4 @@ import "FriendEnterHomeOption.proto";
 
 // Name: LOOEFEKKMPC
 // CmdId: 4732
-message SetFriendEnterHomeOptionReq {
-    FriendEnterHomeOption option = 5;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message SetFriendEnterHomeOptionReq { FriendEnterHomeOption option = 5; }

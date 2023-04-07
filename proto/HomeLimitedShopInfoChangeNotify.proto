@@ -7,19 +7,5 @@ import "HomeLimitedShopGoods.proto";
 // Name: EKNBJFLCGCH
 // CmdId: 4722
 message HomeLimitedShopInfoChangeNotify {
-    repeated HomeLimitedShopGoods goods_list = 3;
+  repeated HomeLimitedShopGoods goods_list = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

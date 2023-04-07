@@ -6,20 +6,4 @@ import "SceneGalleryInfo.proto";
 
 // Name: EEGDPECCGNC
 // CmdId: 5529
-message SceneGalleryInfoNotify {
-    SceneGalleryInfo gallery_info = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message SceneGalleryInfoNotify { SceneGalleryInfo gallery_info = 6; }

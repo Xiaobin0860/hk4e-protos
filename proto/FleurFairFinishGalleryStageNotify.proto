@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LGIHEIKKJMG
 // CmdId: 5349
-message FleurFairFinishGalleryStageNotify {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message FleurFairFinishGalleryStageNotify {}

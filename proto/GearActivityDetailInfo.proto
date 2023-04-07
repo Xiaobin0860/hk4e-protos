@@ -7,20 +7,6 @@ import "KFMDIFPCNOC.proto";
 
 // Name: NNCOMCGMPBK
 message GearActivityDetailInfo {
-    repeated ALAMJIMOCOP GGOBGABGAJH = 4;
-    KFMDIFPCNOC NDHPACEIAPO = 13;
+  repeated ALAMJIMOCOP GGOBGABGAJH = 4;
+  KFMDIFPCNOC NDHPACEIAPO = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

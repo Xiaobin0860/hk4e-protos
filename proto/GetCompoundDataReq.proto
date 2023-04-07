@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KJDGGCGBDCK
 // CmdId: 158
-message GetCompoundDataReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetCompoundDataReq {}

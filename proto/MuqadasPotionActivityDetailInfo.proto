@@ -6,19 +6,5 @@ import "MuqadasPotionLevelData.proto";
 
 // Name: MLIOFGMAFPP
 message MuqadasPotionActivityDetailInfo {
-    repeated MuqadasPotionLevelData muqadas_potion_level_data_list = 5;
+  repeated MuqadasPotionLevelData muqadas_potion_level_data_list = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

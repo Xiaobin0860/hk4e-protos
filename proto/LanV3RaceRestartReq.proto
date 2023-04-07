@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LCHCJOGHCDD
 // CmdId: 21466
-message LanV3RaceRestartReq {
-    uint32 gallery_id = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LanV3RaceRestartReq { uint32 gallery_id = 1; }

@@ -6,22 +6,8 @@ import "ProfilePicture.proto";
 
 // Name: AEGNPAKEEEJ
 message PlantFlowerRecvFlowerData {
-    map<uint32, uint32> flower_num_map = 1;
-    ProfilePicture profile_picture = 7;
-    uint32 uid = 2;
-    string nickname = 3;
+  map<uint32, uint32> flower_num_map = 1;
+  ProfilePicture profile_picture = 7;
+  uint32 uid = 2;
+  string nickname = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -7,29 +7,15 @@ import "Vector.proto";
 // Name: FKMNFJNKLOG
 // CmdId: 2375
 message QueryPathRsp {
-    // Name: OJMJFOELEOF
-    enum PathStatusType {
-    STATUS_FAIL    = 0;
-    STATUS_SUCC    = 1;
+  // Name: OJMJFOELEOF
+  enum PathStatusType {
+    STATUS_FAIL = 0;
+    STATUS_SUCC = 1;
     STATUS_PARTIAL = 2;
-    }
+  }
 
-    repeated Vector corners = 2;
-    PathStatusType query_status = 12;
-    int32 query_id = 7;
-    int32 retcode = 5;
+  repeated Vector corners = 2;
+  PathStatusType query_status = 12;
+  int32 query_id = 7;
+  int32 retcode = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

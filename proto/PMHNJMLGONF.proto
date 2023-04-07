@@ -6,22 +6,8 @@ import "AbilityString.proto";
 
 // Name: PMHNJMLGONF
 message PMHNJMLGONF {
-    uint32 MJFMPLIAOFL = 9;
-    AbilityString ability_name = 6;
-    uint32 OEEOHALHBMM = 11;
-    AbilityString AJMFMEAKOMN = 15;
+  uint32 MJFMPLIAOFL = 9;
+  AbilityString ability_name = 6;
+  uint32 OEEOHALHBMM = 11;
+  AbilityString AJMFMEAKOMN = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

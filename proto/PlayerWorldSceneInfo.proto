@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PLKBIMJHCOK
 message PlayerWorldSceneInfo {
-    bool is_locked = 6;
-    uint32 scene_id = 8;
-    repeated uint32 scene_tag_id_list = 7;
+  bool is_locked = 6;
+  uint32 scene_id = 8;
+  repeated uint32 scene_tag_id_list = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

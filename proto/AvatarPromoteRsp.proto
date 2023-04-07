@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GNGADEDNLBF
 // CmdId: 1681
 message AvatarPromoteRsp {
-    int32 retcode = 7;
-    uint64 guid = 5;
+  int32 retcode = 7;
+  uint64 guid = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

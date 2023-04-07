@@ -7,19 +7,5 @@ import "RoguelikeRuneRecord.proto";
 // Name: JJICLCJCGCD
 // CmdId: 8950
 message RoguelikeRuneRecordUpdateNotify {
-    repeated RoguelikeRuneRecord rune_record_list = 13;
+  repeated RoguelikeRuneRecord rune_record_list = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

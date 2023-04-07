@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HDNFAJFONNC
 // CmdId: 8956
-message LunaRiteAreaFinishNotify {
-    uint32 area_id = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LunaRiteAreaFinishNotify { uint32 area_id = 10; }

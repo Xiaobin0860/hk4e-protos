@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LDOGPMKMIGL
 // CmdId: 5167
-message GetOpActivityInfoReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetOpActivityInfoReq {}

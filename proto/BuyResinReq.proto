@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NIBFJEFHMIM
 // CmdId: 630
-message BuyResinReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message BuyResinReq {}

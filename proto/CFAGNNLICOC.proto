@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "JFGOFCIOKNH.proto";
 
 // Name: CFAGNNLICOC
-message CFAGNNLICOC {
-    repeated JFGOFCIOKNH IDJDIDMDCAC = 9;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CFAGNNLICOC { repeated JFGOFCIOKNH IDJDIDMDCAC = 9; }

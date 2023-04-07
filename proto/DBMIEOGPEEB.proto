@@ -8,23 +8,9 @@ import "ONIKMEGNJAK.proto";
 
 // Name: DBMIEOGPEEB
 message DBMIEOGPEEB {
-    uint32 DELFEGPPGMK = 7;
-    repeated ONIKMEGNJAK INEBKAJGDND = 14;
-    repeated CIDOFFBIFIA BFDMNOAALHL = 15;
-    repeated GCGReplayOperationData ILDDMPOECIK = 13;
-    uint32 EPKNIKCAAAM = 3;
+  uint32 DELFEGPPGMK = 7;
+  repeated ONIKMEGNJAK INEBKAJGDND = 14;
+  repeated CIDOFFBIFIA BFDMNOAALHL = 15;
+  repeated GCGReplayOperationData ILDDMPOECIK = 13;
+  uint32 EPKNIKCAAAM = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

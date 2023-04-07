@@ -7,21 +7,7 @@ import "BrickBreakerStageType.proto";
 
 // Name: JHEKPKFLJJL
 message BrickBreakerStageInfo {
-    repeated BrickBreakerPlayerBattleInfo battle_info_list = 1;
-    BrickBreakerStageType stage_type = 7;
-    uint32 level_id = 13;
+  repeated BrickBreakerPlayerBattleInfo battle_info_list = 1;
+  BrickBreakerStageType stage_type = 7;
+  uint32 level_id = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

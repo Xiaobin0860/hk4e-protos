@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JPKJOHFMDPM
 // CmdId: 3967
-message GetMechanicusInfoReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetMechanicusInfoReq {}

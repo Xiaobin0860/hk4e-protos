@@ -7,20 +7,6 @@ import "DailyDungeonEntryInfo.proto";
 // Name: GCBDKGNHLHB
 // CmdId: 940
 message GetDailyDungeonEntryInfoRsp {
-    int32 retcode = 1;
-    repeated DailyDungeonEntryInfo daily_dungeon_info_list = 13;
+  int32 retcode = 1;
+  repeated DailyDungeonEntryInfo daily_dungeon_info_list = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

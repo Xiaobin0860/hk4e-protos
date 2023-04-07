@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: ILOEELJDPFD
 // CmdId: 8135
 message MichiaeMatsuriDarkPressureLevelUpdateNotify {
-    uint32 dark_pressure_level = 5;
+  uint32 dark_pressure_level = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

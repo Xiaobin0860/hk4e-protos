@@ -7,20 +7,6 @@ import "OtherCustomDungeonBrief.proto";
 // Name: DFLFGBCHEMP
 // CmdId: 6210
 message GetStoreCustomDungeonRsp {
-    repeated OtherCustomDungeonBrief custom_dungeon_list = 3;
-    int32 retcode = 9;
+  repeated OtherCustomDungeonBrief custom_dungeon_list = 3;
+  int32 retcode = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

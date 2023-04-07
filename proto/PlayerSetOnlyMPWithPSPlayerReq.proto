@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FAMNNOAEKLJ
 // CmdId: 1835
-message PlayerSetOnlyMPWithPSPlayerReq {
-    bool is_only = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PlayerSetOnlyMPWithPSPlayerReq { bool is_only = 11; }

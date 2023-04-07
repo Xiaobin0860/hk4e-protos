@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "Vector.proto";
 
 // Name: CIMFCKOOJEG
-message CIMFCKOOJEG {
-    Vector JKBNDOPLHCE = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CIMFCKOOJEG { Vector JKBNDOPLHCE = 15; }

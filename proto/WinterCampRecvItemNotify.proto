@@ -6,20 +6,4 @@ import "WinterCampRecvItemData.proto";
 
 // Name: OAGALFMPOHL
 // CmdId: 8740
-message WinterCampRecvItemNotify {
-    WinterCampRecvItemData recv_item_data = 9;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message WinterCampRecvItemNotify { WinterCampRecvItemData recv_item_data = 9; }

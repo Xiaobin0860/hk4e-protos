@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KIAAEPKLOEN
 // CmdId: 2464
 message TowerDailyRewardProgressChangeNotify {
-    uint32 CKCFIIGKHMJ = 1;
-    uint32 AKANNMFELNA = 5;
+  uint32 CKCFIIGKHMJ = 1;
+  uint32 AKANNMFELNA = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

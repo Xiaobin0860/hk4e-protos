@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IMCPJNAJPFN
 // CmdId: 7083
-message IMCPJNAJPFN {
-    repeated uint32 JGMCHBNMPEO = 4;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message IMCPJNAJPFN { repeated uint32 JGMCHBNMPEO = 4; }

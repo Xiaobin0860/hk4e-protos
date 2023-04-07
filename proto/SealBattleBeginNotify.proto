@@ -7,22 +7,8 @@ import "SealBattleType.proto";
 // Name: LABKKBMBJPG
 // CmdId: 206
 message SealBattleBeginNotify {
-    uint32 seal_entity_id = 12;
-    uint32 HOECKCBABAL = 4;
-    uint32 BBHIBAHFNJE = 5;
-    SealBattleType battle_type = 15;
+  uint32 seal_entity_id = 12;
+  uint32 HOECKCBABAL = 4;
+  uint32 BBHIBAHFNJE = 5;
+  SealBattleType battle_type = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NJNFDJOHBIO
 // CmdId: 293
-message EndCameraSceneLookNotify {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message EndCameraSceneLookNotify {}

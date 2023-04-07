@@ -6,20 +6,6 @@ import "BuoyantCombatGallerySettleInfo.proto";
 
 // Name: MGKPNGHCGBA
 message BuoyantCombatSettleInfo {
-    BuoyantCombatGallerySettleInfo settle_info = 1;
-    bool is_new_record = 6;
+  BuoyantCombatGallerySettleInfo settle_info = 1;
+  bool is_new_record = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

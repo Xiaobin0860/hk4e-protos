@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OKKBFOHFOBP
 // CmdId: 8715
 message HideAndSeekSelectSkillRsp {
-    repeated uint32 skill_list = 10;
-    int32 retcode = 5;
+  repeated uint32 skill_list = 10;
+  int32 retcode = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

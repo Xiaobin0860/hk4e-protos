@@ -7,22 +7,8 @@ import "Vector.proto";
 // Name: GNMFHLECBKG
 // CmdId: 4261
 message WidgetCaptureAnimalRsp {
-    uint32 material_id = 5;
-    Vector pos = 15;
-    int32 retcode = 4;
-    uint32 entity_id = 14;
+  uint32 material_id = 5;
+  Vector pos = 15;
+  int32 retcode = 4;
+  uint32 entity_id = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

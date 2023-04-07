@@ -7,20 +7,6 @@ import "RogueEffectRecord.proto";
 // Name: LMLGDBGCAOJ
 // CmdId: 8556
 message RoguelikeEffectDataNotify {
-    repeated RogueEffectRecord card_list = 8;
-    repeated RogueEffectRecord curse_list = 5;
+  repeated RogueEffectRecord card_list = 8;
+  repeated RogueEffectRecord curse_list = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

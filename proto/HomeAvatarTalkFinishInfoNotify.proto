@@ -7,19 +7,5 @@ import "HomeAvatarTalkFinishInfo.proto";
 // Name: OCAGIPAPHMI
 // CmdId: 4517
 message HomeAvatarTalkFinishInfoNotify {
-    repeated HomeAvatarTalkFinishInfo avatar_talk_info_list = 9;
+  repeated HomeAvatarTalkFinishInfo avatar_talk_info_list = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

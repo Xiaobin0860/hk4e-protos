@@ -7,21 +7,7 @@ import "IrodoriPoetryThemeData.proto";
 // Name: JNAJHIBAKHC
 // CmdId: 8730
 message IrodoriScanEntityRsp {
-    IrodoriPoetryThemeData theme_data = 1;
-    bool is_get_inspiration = 3;
-    int32 retcode = 6;
+  IrodoriPoetryThemeData theme_data = 1;
+  bool is_get_inspiration = 3;
+  int32 retcode = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

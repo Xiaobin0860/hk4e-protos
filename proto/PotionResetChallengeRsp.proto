@@ -7,20 +7,6 @@ import "PotionStageData.proto";
 // Name: JHMHBINFLBM
 // CmdId: 8262
 message PotionResetChallengeRsp {
-    int32 retcode = 2;
-    PotionStageData stage_data = 4;
+  int32 retcode = 2;
+  PotionStageData stage_data = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -6,20 +6,4 @@ import "PbNavMeshStatsInfo.proto";
 
 // Name: NGEGEDPEMGJ
 // CmdId: 2343
-message NavMeshStatsNotify {
-    repeated PbNavMeshStatsInfo infos = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message NavMeshStatsNotify { repeated PbNavMeshStatsInfo infos = 11; }

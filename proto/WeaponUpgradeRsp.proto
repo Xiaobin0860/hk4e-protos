@@ -7,23 +7,9 @@ import "ItemParam.proto";
 // Name: HFBBOJNPDOF
 // CmdId: 623
 message WeaponUpgradeRsp {
-    uint32 cur_level = 15;
-    repeated ItemParam item_param_list = 3;
-    uint32 old_level = 5;
-    uint64 target_weapon_guid = 11;
-    int32 retcode = 13;
+  uint32 cur_level = 15;
+  repeated ItemParam item_param_list = 3;
+  uint32 old_level = 5;
+  uint64 target_weapon_guid = 11;
+  int32 retcode = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

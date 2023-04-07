@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KIOIKHFLJPE
 // CmdId: 1454
-message ReadMailNotify {
-    repeated uint32 mail_id_list = 2;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ReadMailNotify { repeated uint32 mail_id_list = 2; }

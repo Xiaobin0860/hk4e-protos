@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GMIFBLJMMNA
 message GMIFBLJMMNA {
-    uint32 NLDGLBHBNJE = 4;
-    bool is_new_record = 15;
+  uint32 NLDGLBHBNJE = 4;
+  bool is_new_record = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

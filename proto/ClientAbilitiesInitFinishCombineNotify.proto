@@ -7,19 +7,5 @@ import "EntityAbilityInvokeEntry.proto";
 // Name: LNIKBMEBALI
 // CmdId: 1172
 message ClientAbilitiesInitFinishCombineNotify {
-    repeated EntityAbilityInvokeEntry entity_invoke_list = 12;
+  repeated EntityAbilityInvokeEntry entity_invoke_list = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HMLAENOCENE
 // CmdId: 7195
-message HMLAENOCENE {
-    repeated uint32 IAADAMKHBIL = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HMLAENOCENE { repeated uint32 IAADAMKHBIL = 10; }

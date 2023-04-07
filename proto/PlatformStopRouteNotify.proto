@@ -7,21 +7,7 @@ import "PlatformInfo.proto";
 // Name: EPGBBKFKDDP
 // CmdId: 245
 message PlatformStopRouteNotify {
-    PlatformInfo platform = 13;
-    uint32 entity_id = 6;
-    uint32 scene_time = 12;
+  PlatformInfo platform = 13;
+  uint32 entity_id = 6;
+  uint32 scene_time = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

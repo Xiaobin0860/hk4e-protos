@@ -7,22 +7,8 @@ import "ItemParam.proto";
 // Name: FOOGLNHHBCK
 // CmdId: 2872
 message TakeCityReputationParentQuestRsp {
-    repeated uint32 parent_quest_list = 4;
-    uint32 city_id = 9;
-    int32 retcode = 5;
-    repeated ItemParam item_list = 13;
+  repeated uint32 parent_quest_list = 4;
+  uint32 city_id = 9;
+  int32 retcode = 5;
+  repeated ItemParam item_list = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -6,20 +6,6 @@ import "SalvageEscortStopReason.proto";
 
 // Name: DLKKODBHNOD
 message SalvageEscortGallerySettleInfo {
-    uint32 time_remain = 7;
-    SalvageEscortStopReason reason = 15;
+  uint32 time_remain = 7;
+  SalvageEscortStopReason reason = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -6,20 +6,4 @@ import "FriendBrief.proto";
 
 // Name: HBKIPDFCPEM
 // CmdId: 4036
-message PSNFriendListNotify {
-    repeated FriendBrief psn_friend_list = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PSNFriendListNotify { repeated FriendBrief psn_friend_list = 12; }

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GCIHJGNCKFP
 // CmdId: 8223
-message TryEnterNextRogueDiaryDungeonRsp {
-    int32 retcode = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message TryEnterNextRogueDiaryDungeonRsp { int32 retcode = 12; }

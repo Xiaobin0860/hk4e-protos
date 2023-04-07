@@ -8,20 +8,6 @@ import "WidgetSlotOp.proto";
 // Name: CAPCHPIFEGL
 // CmdId: 4254
 message WidgetSlotChangeNotify {
-    WidgetSlotOp op = 7;
-    WidgetSlotData slot = 13;
+  WidgetSlotOp op = 7;
+  WidgetSlotData slot = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

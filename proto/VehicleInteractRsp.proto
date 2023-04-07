@@ -8,22 +8,8 @@ import "VehicleMember.proto";
 // Name: GPOEFPAIHOE
 // CmdId: 894
 message VehicleInteractRsp {
-    uint32 entity_id = 8;
-    int32 retcode = 14;
-    VehicleInteractType interact_type = 3;
-    VehicleMember member = 4;
+  uint32 entity_id = 8;
+  int32 retcode = 14;
+  VehicleInteractType interact_type = 3;
+  VehicleMember member = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

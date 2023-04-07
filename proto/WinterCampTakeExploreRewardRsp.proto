@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EEGFCLLFHBH
 // CmdId: 8707
 message WinterCampTakeExploreRewardRsp {
-    int32 retcode = 12;
-    uint32 id = 9;
+  int32 retcode = 12;
+  uint32 id = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

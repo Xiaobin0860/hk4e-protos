@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LEDHFKADLOP
 // CmdId: 23997
-message LanV3ShadowFinishLevelRsp {
-    int32 retcode = 7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LanV3ShadowFinishLevelRsp { int32 retcode = 7; }

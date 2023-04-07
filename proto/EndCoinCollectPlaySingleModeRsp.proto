@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PFOGILNNCHE
 // CmdId: 21333
-message EndCoinCollectPlaySingleModeRsp {
-    int32 retcode = 7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message EndCoinCollectPlaySingleModeRsp { int32 retcode = 7; }

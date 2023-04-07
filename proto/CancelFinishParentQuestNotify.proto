@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BHNAKHDCBOL
 // CmdId: 402
-message CancelFinishParentQuestNotify {
-    uint32 parent_quest_id = 7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CancelFinishParentQuestNotify { uint32 parent_quest_id = 7; }

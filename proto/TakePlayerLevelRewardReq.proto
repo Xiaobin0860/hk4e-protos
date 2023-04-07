@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NGMPIODHGFN
 // CmdId: 138
-message TakePlayerLevelRewardReq {
-    uint32 level = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message TakePlayerLevelRewardReq { uint32 level = 11; }

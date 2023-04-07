@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: MPOCFLCPFGO
 // CmdId: 82
-message GetOnlinePlayerListReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetOnlinePlayerListReq {}

@@ -6,20 +6,4 @@ import "SegmentCRCInfo.proto";
 
 // Name: HIHMHAENBGE
 // CmdId: 23
-message CheckSegmentCRCReq {
-    repeated SegmentCRCInfo info_list = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CheckSegmentCRCReq { repeated SegmentCRCInfo info_list = 12; }

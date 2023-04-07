@@ -7,20 +7,6 @@ import "GCGDuelChallenge.proto";
 // Name: BPAMMINCHJG
 // CmdId: 7403
 message BPAMMINCHJG {
-    GCGDuelChallenge OIOCILJGDDA = 4;
-    uint32 HCKIILHKKBE = 10;
+  GCGDuelChallenge OIOCILJGDDA = 4;
+  uint32 HCKIILHKKBE = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

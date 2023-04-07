@@ -7,19 +7,5 @@ import "ChessCardInfo.proto";
 // Name: EMIEMODACJI
 // CmdId: 5385
 message ChessSelectedCardsNotify {
-    repeated ChessCardInfo selected_card_info_list = 9;
+  repeated ChessCardInfo selected_card_info_list = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

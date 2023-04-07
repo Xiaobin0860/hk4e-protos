@@ -7,22 +7,8 @@ import "Vector.proto";
 
 // Name: BOKOEDGKGCL
 message LunaRiteHintPoint {
-    uint32 area_id = 4;
-    Vector pos = 3;
-    uint32 index = 6;
-    LunaRiteHintPointType type = 10;
+  uint32 area_id = 4;
+  Vector pos = 3;
+  uint32 index = 6;
+  LunaRiteHintPointType type = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EIPCBMAJHAJ
 // CmdId: 4534
-message HomeResourceTakeFetterExpReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomeResourceTakeFetterExpReq {}

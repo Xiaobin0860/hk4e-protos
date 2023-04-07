@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BMPGLNBONJG
 // CmdId: 8017
-message IrodoriMasterStartGalleryRsp {
-    int32 retcode = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message IrodoriMasterStartGalleryRsp { int32 retcode = 15; }

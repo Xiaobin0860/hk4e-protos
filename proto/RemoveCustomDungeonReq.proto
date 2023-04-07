@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HDBPDLJICCD
 // CmdId: 6231
-message RemoveCustomDungeonReq {
-    uint64 dungeon_guid = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message RemoveCustomDungeonReq { uint64 dungeon_guid = 6; }

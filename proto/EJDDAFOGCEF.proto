@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "JJOOJEHEFDC.proto";
 
 // Name: EJDDAFOGCEF
-message EJDDAFOGCEF {
-    repeated JJOOJEHEFDC level_info_list = 8;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message EJDDAFOGCEF { repeated JJOOJEHEFDC level_info_list = 8; }

@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OKIMCDFNBMP
 message SpiceStageData {
-    bool is_open = 12;
-    uint32 success_times = 13;
-    uint32 stage_id = 6;
+  bool is_open = 12;
+  uint32 success_times = 13;
+  uint32 stage_id = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

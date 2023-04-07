@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FDPOKCFIIJK
 // CmdId: 1737
 message SpringUseRsp {
-    int32 retcode = 12;
-    uint64 guid = 10;
+  int32 retcode = 12;
+  uint64 guid = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

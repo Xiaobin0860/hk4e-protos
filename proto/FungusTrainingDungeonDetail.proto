@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BLAPHKFLNJB
 message FungusTrainingDungeonDetail {
-    uint32 best_score = 9;
-    bool is_open = 8;
-    uint32 dungeon_id = 2;
+  uint32 best_score = 9;
+  bool is_open = 8;
+  uint32 dungeon_id = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

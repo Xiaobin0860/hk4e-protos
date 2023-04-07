@@ -6,20 +6,4 @@ import "ChatInfo.proto";
 
 // Name: BAIPCMEIMJF
 // CmdId: 5004
-message PrivateChatNotify {
-    ChatInfo chat_info = 4;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PrivateChatNotify { ChatInfo chat_info = 4; }

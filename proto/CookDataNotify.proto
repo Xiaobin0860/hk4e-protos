@@ -7,20 +7,6 @@ import "CookRecipeData.proto";
 // Name: OOJIALHCMEO
 // CmdId: 157
 message CookDataNotify {
-    uint32 grade = 15;
-    repeated CookRecipeData recipe_data_list = 12;
+  uint32 grade = 15;
+  repeated CookRecipeData recipe_data_list = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

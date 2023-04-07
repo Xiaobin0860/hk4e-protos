@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EAHPHHBOJHB
 // CmdId: 5636
-message GetRegionSearchReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetRegionSearchReq {}

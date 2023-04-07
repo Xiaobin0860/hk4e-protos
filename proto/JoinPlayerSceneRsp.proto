@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NCEELGILLAG
 // CmdId: 273
-message JoinPlayerSceneRsp {
-    int32 retcode = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message JoinPlayerSceneRsp { int32 retcode = 6; }

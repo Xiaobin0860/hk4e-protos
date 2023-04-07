@@ -6,21 +6,7 @@ import "GalleryStopReason.proto";
 
 // Name: IDGKEJIPDNB
 message RacingGallerySettleInfo {
-    uint32 use_time = 14;
-    uint32 winner_uid = 4;
-    GalleryStopReason reason = 9;
+  uint32 use_time = 14;
+  uint32 winner_uid = 4;
+  GalleryStopReason reason = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

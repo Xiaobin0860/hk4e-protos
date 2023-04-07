@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PAIKIGMLFHE
 // CmdId: 22157
-message PAIKIGMLFHE {
-    int32 retcode = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PAIKIGMLFHE { int32 retcode = 3; }

@@ -2,25 +2,10 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CMNONPNCADC
 // CmdId: 7071
 message GCGDSTakeCardProficiencyRewardRsp {
-    int32 retcode = 12;
-    uint32 reward_index = 6;
-    uint32 card_id = 9;
+  int32 retcode = 12;
+  uint32 reward_index = 6;
+  uint32 card_id = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

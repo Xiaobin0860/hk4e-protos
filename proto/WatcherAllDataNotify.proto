@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NIHNNLMOGLP
 // CmdId: 2267
-message WatcherAllDataNotify {
-    repeated uint32 watcher_list = 7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message WatcherAllDataNotify { repeated uint32 watcher_list = 7; }

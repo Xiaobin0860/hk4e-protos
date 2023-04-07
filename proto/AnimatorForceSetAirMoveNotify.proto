@@ -7,21 +7,7 @@ import "ForwardType.proto";
 // Name: NDJOFLFACGC
 // CmdId: 337
 message AnimatorForceSetAirMoveNotify {
-    bool in_air_move = 4;
-    ForwardType forward_type = 13;
-    uint32 entity_id = 12;
+  bool in_air_move = 4;
+  ForwardType forward_type = 13;
+  uint32 entity_id = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

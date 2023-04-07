@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: MOKEDLCHLMH
 // CmdId: 5759
-message GroupLinkDeleteNotify {
-    uint32 bundle_id = 8;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GroupLinkDeleteNotify { uint32 bundle_id = 8; }

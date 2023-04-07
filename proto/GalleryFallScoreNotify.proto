@@ -7,20 +7,6 @@ import "FallPlayerBrief.proto";
 // Name: FABGNMBDPKE
 // CmdId: 5534
 message GalleryFallScoreNotify {
-    map<uint32, FallPlayerBrief> uid_brief_map = 15;
-    uint32 gallery_id = 12;
+  map<uint32, FallPlayerBrief> uid_brief_map = 15;
+  uint32 gallery_id = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

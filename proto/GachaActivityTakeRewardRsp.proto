@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OHIGEMKPMPC
 // CmdId: 8272
 message GachaActivityTakeRewardRsp {
-    int32 retcode = 15;
-    map<uint32, uint32> robot_num_map = 12;
+  int32 retcode = 15;
+  map<uint32, uint32> robot_num_map = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OGHOAICJCAC
 // CmdId: 2274
 message PushTipsReadFinishRsp {
-    uint32 push_tips_id = 5;
-    int32 retcode = 1;
+  uint32 push_tips_id = 5;
+  int32 retcode = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

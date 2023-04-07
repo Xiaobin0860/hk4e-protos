@@ -7,22 +7,8 @@ import "CreateEntityInfo.proto";
 // Name: DFNGNPLMEKN
 // CmdId: 450
 message QuestCreateEntityReq {
-    bool is_rewind = 3;
-    CreateEntityInfo entity = 1;
-    uint32 quest_id = 15;
-    uint32 parent_quest_id = 7;
+  bool is_rewind = 3;
+  CreateEntityInfo entity = 1;
+  uint32 quest_id = 15;
+  uint32 parent_quest_id = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

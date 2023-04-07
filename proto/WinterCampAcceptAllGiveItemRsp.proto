@@ -7,20 +7,6 @@ import "WinterCampAcceptItemResultInfo.proto";
 // Name: BHEABKLJGEG
 // CmdId: 8815
 message WinterCampAcceptAllGiveItemRsp {
-    int32 retcode = 10;
-    repeated WinterCampAcceptItemResultInfo accept_item_result_info = 14;
+  int32 retcode = 10;
+  repeated WinterCampAcceptItemResultInfo accept_item_result_info = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JAHOLILGJNJ
 // CmdId: 23327
-message DuelHeartEnterDungeonReq {
-    uint32 level_id = 9;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DuelHeartEnterDungeonReq { uint32 level_id = 9; }

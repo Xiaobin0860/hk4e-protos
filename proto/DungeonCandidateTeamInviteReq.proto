@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IBFOFHFKOGF
 // CmdId: 926
-message DungeonCandidateTeamInviteReq {
-    repeated uint32 player_uids = 9;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DungeonCandidateTeamInviteReq { repeated uint32 player_uids = 9; }

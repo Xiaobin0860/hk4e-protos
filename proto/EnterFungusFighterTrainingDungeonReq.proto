@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OIHHOPPOEJA
 // CmdId: 21011
-message EnterFungusFighterTrainingDungeonReq {
-    uint32 dungeon_id = 4;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message EnterFungusFighterTrainingDungeonReq { uint32 dungeon_id = 4; }

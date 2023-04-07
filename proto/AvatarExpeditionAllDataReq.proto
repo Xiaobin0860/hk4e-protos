@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: MDAOANDDMGE
 // CmdId: 1748
-message AvatarExpeditionAllDataReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message AvatarExpeditionAllDataReq {}

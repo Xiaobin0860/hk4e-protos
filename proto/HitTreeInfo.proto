@@ -6,20 +6,6 @@ import "Vector.proto";
 
 // Name: GPDPAAPFOML
 message HitTreeInfo {
-    Vector tree_pos = 12;
-    uint32 tree_type = 15;
+  Vector tree_pos = 12;
+  uint32 tree_type = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

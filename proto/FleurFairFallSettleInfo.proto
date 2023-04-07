@@ -6,20 +6,6 @@ import "FallSettleInfo.proto";
 
 // Name: PCLCKHPGJKN
 message FleurFairFallSettleInfo {
-    FallSettleInfo settle_info = 11;
-    bool is_new_record = 7;
+  FallSettleInfo settle_info = 11;
+  bool is_new_record = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

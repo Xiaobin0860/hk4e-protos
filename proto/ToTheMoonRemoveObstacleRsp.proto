@@ -7,21 +7,7 @@ import "DynamicNodes.proto";
 // Name: CFBPIEFPBHE
 // CmdId: 6165
 message ToTheMoonRemoveObstacleRsp {
-    DynamicNodes dynamic_nodes = 8;
-    int32 retcode = 15;
-    int32 query_id = 10;
+  DynamicNodes dynamic_nodes = 8;
+  int32 retcode = 15;
+  int32 query_id = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

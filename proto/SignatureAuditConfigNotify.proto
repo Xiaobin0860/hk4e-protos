@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GHCJIDMBNGK
 // CmdId: 4085
 message SignatureAuditConfigNotify {
-    uint32 submit_limit = 1;
-    bool is_open = 11;
+  uint32 submit_limit = 1;
+  bool is_open = 11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

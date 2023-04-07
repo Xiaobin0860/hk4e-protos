@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: ABAMPBHOKFF
 // CmdId: 20221
-message CoinCollectInterruptPlayReq {
-    uint32 gallery_id = 9;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CoinCollectInterruptPlayReq { uint32 gallery_id = 9; }

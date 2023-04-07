@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NAAMPFPNPLM
 // CmdId: 1582
-message GachaSimpleInfoNotify {
-    bool is_new = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GachaSimpleInfoNotify { bool is_new = 15; }

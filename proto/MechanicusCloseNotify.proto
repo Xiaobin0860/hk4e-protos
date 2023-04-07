@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CCPCANABIDB
 // CmdId: 3934
-message MechanicusCloseNotify {
-    uint32 mechanicus_id = 14;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message MechanicusCloseNotify { uint32 mechanicus_id = 14; }

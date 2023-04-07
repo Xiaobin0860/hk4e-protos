@@ -2,7 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OPEGMEBLMFH
 message PacketHead {
   uint32 packet_id = 1;
@@ -24,17 +23,3 @@ message PacketHead {
   bool is_set_game_thread = 34;
   uint32 game_thread_index = 35;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

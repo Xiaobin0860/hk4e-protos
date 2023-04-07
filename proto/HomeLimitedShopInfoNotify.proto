@@ -6,20 +6,4 @@ import "HomeLimitedShopInfo.proto";
 
 // Name: ELMECFHEBMD
 // CmdId: 4584
-message HomeLimitedShopInfoNotify {
-    HomeLimitedShopInfo shop_info = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomeLimitedShopInfoNotify { HomeLimitedShopInfo shop_info = 11; }

@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: APBIIDALOBA
 // CmdId: 119
 message SetPlayerNameRsp {
-    int32 retcode = 15;
-    string nick_name = 14;
+  int32 retcode = 15;
+  string nick_name = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

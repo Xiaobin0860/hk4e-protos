@@ -6,22 +6,8 @@ import "RoutePointChangeInfo.proto";
 
 // Name: NFBAMPAFEIG
 message SceneRouteChangeInfo {
-    uint32 type = 12;
-    bool is_forward = 5;
-    uint32 route_id = 2;
-    repeated RoutePointChangeInfo point_list = 1;
+  uint32 type = 12;
+  bool is_forward = 5;
+  uint32 route_id = 2;
+  repeated RoutePointChangeInfo point_list = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

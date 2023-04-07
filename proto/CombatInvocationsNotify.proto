@@ -6,20 +6,4 @@ import "CombatInvokeEntry.proto";
 
 // Name: AGBJEGIMDLE
 // CmdId: 387
-message CombatInvocationsNotify {
-    repeated CombatInvokeEntry invoke_list = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CombatInvocationsNotify { repeated CombatInvokeEntry invoke_list = 3; }

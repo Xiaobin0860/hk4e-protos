@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KIMICJIEGDD
 enum KIMICJIEGDD {
-    KIMICJIEGDD_LMDBDNDIJJL = 0;
-    KIMICJIEGDD_MPCLKLBEAPK = 1;
+  KIMICJIEGDD_LMDBDNDIJJL = 0;
+  KIMICJIEGDD_MPCLKLBEAPK = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

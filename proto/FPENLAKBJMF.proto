@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FPENLAKBJMF
-message FPENLAKBJMF {
-    repeated string HLKOHFECGLF = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message FPENLAKBJMF { repeated string HLKOHFECGLF = 1; }

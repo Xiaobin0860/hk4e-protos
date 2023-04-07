@@ -8,22 +8,8 @@ import "EnterCustomDungeonType.proto";
 // Name: DKDPGFEDLKH
 // CmdId: 6243
 message EnterCustomDungeonRsp {
-    EnterCustomDungeonType enter_type = 5;
-    CustomDungeon custom_dungeon = 14;
-    int32 retcode = 1;
-    map<uint32, uint32> room_cost_map = 3;
+  EnterCustomDungeonType enter_type = 5;
+  CustomDungeon custom_dungeon = 14;
+  int32 retcode = 1;
+  map<uint32, uint32> room_cost_map = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

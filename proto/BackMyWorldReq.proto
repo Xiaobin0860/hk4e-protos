@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LABCOONNBGO
 // CmdId: 280
-message BackMyWorldReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message BackMyWorldReq {}

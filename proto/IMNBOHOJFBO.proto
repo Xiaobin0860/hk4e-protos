@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "HDDLIDNBMJM.proto";
 
 // Name: IMNBOHOJFBO
-message IMNBOHOJFBO {
-    repeated HDDLIDNBMJM JDGOBICDINB = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message IMNBOHOJFBO { repeated HDDLIDNBMJM JDGOBICDINB = 15; }

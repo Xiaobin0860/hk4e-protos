@@ -6,23 +6,9 @@ import "Vector.proto";
 
 // Name: GBGELAPCNII
 message AnchorPointData {
-    Vector pos = 1;
-    uint32 end_time = 9;
-    Vector rot = 6;
-    uint32 anchor_point_id = 5;
-    uint32 scene_id = 15;
+  Vector pos = 1;
+  uint32 end_time = 9;
+  Vector rot = 6;
+  uint32 anchor_point_id = 5;
+  uint32 scene_id = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -7,19 +7,5 @@ import "InvestigationTarget.proto";
 // Name: MOGCBFKFHDN
 // CmdId: 1930
 message PlayerInvestigationTargetNotify {
-    repeated InvestigationTarget investigation_target_list = 1;
+  repeated InvestigationTarget investigation_target_list = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

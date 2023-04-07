@@ -6,20 +6,4 @@ import "MainCoop.proto";
 
 // Name: DOBLPKBHILE
 // CmdId: 1998
-message AllCoopInfoNotify {
-    repeated MainCoop main_coop_list = 4;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message AllCoopInfoNotify { repeated MainCoop main_coop_list = 4; }

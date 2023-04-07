@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GOMOAABDCLP
 // CmdId: 1972
 message SaveCoopDialogReq {
-    uint32 EFLHLGADIOL = 2;
-    uint32 JNIMIKPMODP = 4;
+  uint32 EFLHLGADIOL = 2;
+  uint32 JNIMIKPMODP = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

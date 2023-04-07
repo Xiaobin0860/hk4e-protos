@@ -7,19 +7,5 @@ import "WidgetGadgetData.proto";
 // Name: EDHIDALBDJA
 // CmdId: 4280
 message WidgetGadgetAllDataNotify {
-    repeated WidgetGadgetData widget_gadget_data = 5;
+  repeated WidgetGadgetData widget_gadget_data = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

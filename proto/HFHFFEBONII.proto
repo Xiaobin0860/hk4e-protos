@@ -6,21 +6,7 @@ import "AbilityString.proto";
 
 // Name: HFHFFEBONII
 message HFHFFEBONII {
-    float OIBFNDDDIMH = 12;
-    AbilityString ability_name = 15;
-    AbilityString ability_override = 10;
+  float OIBFNDDDIMH = 12;
+  AbilityString ability_name = 15;
+  AbilityString ability_override = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

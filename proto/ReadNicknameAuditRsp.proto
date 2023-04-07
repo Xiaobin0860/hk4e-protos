@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KJPFEDJNOPB
 // CmdId: 181
-message ReadNicknameAuditRsp {
-    int32 retcode = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ReadNicknameAuditRsp { int32 retcode = 11; }

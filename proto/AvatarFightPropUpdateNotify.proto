@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DBDANALHILN
 // CmdId: 1234
 message AvatarFightPropUpdateNotify {
-    map<uint32, float> fight_prop_map = 6;
-    uint64 avatar_guid = 13;
+  map<uint32, float> fight_prop_map = 6;
+  uint64 avatar_guid = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

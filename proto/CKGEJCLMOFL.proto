@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CKGEJCLMOFL
-message CKGEJCLMOFL {
-    float value = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CKGEJCLMOFL { float value = 1; }

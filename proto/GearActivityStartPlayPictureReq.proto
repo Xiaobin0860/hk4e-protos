@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KNNCLKDLJGP
 // CmdId: 24138
-message GearActivityStartPlayPictureReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GearActivityStartPlayPictureReq {}

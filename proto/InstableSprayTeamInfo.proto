@@ -6,19 +6,5 @@ import "InstableSprayAvatarInfo.proto";
 
 // Name: BOIBNONOGBF
 message InstableSprayTeamInfo {
-    repeated InstableSprayAvatarInfo avatar_info_list = 8;
+  repeated InstableSprayAvatarInfo avatar_info_list = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

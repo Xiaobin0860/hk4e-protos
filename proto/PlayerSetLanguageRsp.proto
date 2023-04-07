@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OOGCGOLMEJJ
 // CmdId: 197
-message PlayerSetLanguageRsp {
-    int32 retcode = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PlayerSetLanguageRsp { int32 retcode = 15; }

@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LMDHOMDMBBK
 // CmdId: 5025
 message PrivateChatRsp {
-    uint32 chat_forbidden_endtime = 1;
-    int32 retcode = 5;
+  uint32 chat_forbidden_endtime = 1;
+  int32 retcode = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

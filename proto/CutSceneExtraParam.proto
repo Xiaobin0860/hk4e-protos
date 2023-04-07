@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: ODDOEKJFOII
-message CutSceneExtraParam {
-    repeated double detail_param_list = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CutSceneExtraParam { repeated double detail_param_list = 3; }

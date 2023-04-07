@@ -6,20 +6,6 @@ import "ShopGoods.proto";
 
 // Name: CFNFHECAPPI
 message BuyGoodsParam {
-    ShopGoods goods = 15;
-    uint32 buy_count = 14;
+  ShopGoods goods = 15;
+  uint32 buy_count = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LGCELPOKEDF
-message LGCELPOKEDF {
-    double value = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LGCELPOKEDF { double value = 1; }

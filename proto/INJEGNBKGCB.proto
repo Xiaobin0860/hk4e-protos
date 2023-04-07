@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "BreakoutAction.proto";
 
 // Name: INJEGNBKGCB
-message INJEGNBKGCB {
-    BreakoutAction NOAJNAPDEMN = 14;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message INJEGNBKGCB { BreakoutAction NOAJNAPDEMN = 14; }

@@ -8,20 +8,6 @@ import "ForwardType.proto";
 // Name: CEFMDDMOGIF
 // CmdId: 307
 message EvtRushMoveNotify {
-    EvtRushMoveInfo evt_rush_move_info = 2;
-    ForwardType forward_type = 13;
+  EvtRushMoveInfo evt_rush_move_info = 2;
+  ForwardType forward_type = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

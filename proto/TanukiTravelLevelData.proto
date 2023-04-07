@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CCIIHPEKIPM
 message TanukiTravelLevelData {
-    bool is_open = 7;
-    uint32 route_id = 5;
-    bool is_finish = 9;
+  bool is_open = 7;
+  uint32 route_id = 5;
+  bool is_finish = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

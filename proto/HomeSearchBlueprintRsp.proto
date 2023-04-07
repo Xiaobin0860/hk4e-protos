@@ -7,20 +7,6 @@ import "HomeBlueprintSearchInfo.proto";
 // Name: MLACPPJOPOM
 // CmdId: 4659
 message HomeSearchBlueprintRsp {
-    int32 retcode = 8;
-    HomeBlueprintSearchInfo search_info = 13;
+  int32 retcode = 8;
+  HomeBlueprintSearchInfo search_info = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

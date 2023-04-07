@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IFJPGGKMMNA
 message IFJPGGKMMNA {
-    uint32 NHINGEDOELM = 3;
-    uint32 target_id = 6;
-    float FEHAJMPNDAB = 8;
+  uint32 NHINGEDOELM = 3;
+  uint32 target_id = 6;
+  float FEHAJMPNDAB = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

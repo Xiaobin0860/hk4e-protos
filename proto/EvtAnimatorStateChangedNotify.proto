@@ -8,20 +8,6 @@ import "ForwardType.proto";
 // Name: HLIMBKLACDL
 // CmdId: 359
 message EvtAnimatorStateChangedNotify {
-    EvtAnimatorStateChangedInfo evt_animator_state_changed_info = 4;
-    ForwardType forward_type = 13;
+  EvtAnimatorStateChangedInfo evt_animator_state_changed_info = 4;
+  ForwardType forward_type = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

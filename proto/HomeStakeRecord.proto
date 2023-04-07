@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "HomeStakePlayRecord.proto";
 
 // Name: GGDHLNEKIJB
-message HomeStakeRecord {
-    repeated HomeStakePlayRecord record_list = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomeStakeRecord { repeated HomeStakePlayRecord record_list = 10; }

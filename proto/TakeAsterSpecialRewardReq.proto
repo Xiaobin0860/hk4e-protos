@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IJOMIPEHIMO
 // CmdId: 2061
-message TakeAsterSpecialRewardReq {
-    uint32 schedule_id = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message TakeAsterSpecialRewardReq { uint32 schedule_id = 15; }

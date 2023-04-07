@@ -7,21 +7,7 @@ import "Uint32Pair.proto";
 
 // Name: LNDLOPKJALI
 message GCGMsgPhaseChange {
-    GCGPhaseType NKIMJKMFBDD = 3;
-    GCGPhaseType KGEFLIIHKBP = 2;
-    repeated Uint32Pair allow_controller_map = 4;
+  GCGPhaseType NKIMJKMFBDD = 3;
+  GCGPhaseType KGEFLIIHKBP = 2;
+  repeated Uint32Pair allow_controller_map = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

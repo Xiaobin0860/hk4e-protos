@@ -6,20 +6,6 @@ import "Vector.proto";
 
 // Name: MAAHGJJPDKG
 message WidgetCreateLocationInfo {
-    Vector rot = 10;
-    Vector pos = 2;
+  Vector rot = 10;
+  Vector pos = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

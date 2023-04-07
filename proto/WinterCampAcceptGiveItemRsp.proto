@@ -7,20 +7,6 @@ import "WinterCampAcceptItemResultInfo.proto";
 // Name: KIOEDAAHHFP
 // CmdId: 8374
 message WinterCampAcceptGiveItemRsp {
-    WinterCampAcceptItemResultInfo accept_item_result_info = 10;
-    int32 retcode = 12;
+  WinterCampAcceptItemResultInfo accept_item_result_info = 10;
+  int32 retcode = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

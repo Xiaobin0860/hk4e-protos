@@ -6,20 +6,6 @@ import "DynamicSVONode.proto";
 
 // Name: LPCBJDFPFII
 message DynamicLayerNodes {
-    int32 level = 15;
-    repeated DynamicSVONode nodes = 10;
+  int32 level = 15;
+  repeated DynamicSVONode nodes = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

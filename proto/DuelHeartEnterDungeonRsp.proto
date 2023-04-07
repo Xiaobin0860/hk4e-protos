@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PGNCAPGIGEI
 // CmdId: 21442
-message DuelHeartEnterDungeonRsp {
-    int32 retcode = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DuelHeartEnterDungeonRsp { int32 retcode = 11; }

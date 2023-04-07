@@ -7,23 +7,9 @@ import "Vector.proto";
 
 // Name: CGDHNAGKLLP
 message HomeBlockFieldData {
-    Vector rot = 7;
-    uint32 furniture_id = 14;
-    repeated HomeBlockSubFieldData subFieldList = 5;
-    Vector pos = 8;
-    uint32 guid = 3;
+  Vector rot = 7;
+  uint32 furniture_id = 14;
+  repeated HomeBlockSubFieldData subFieldList = 5;
+  Vector pos = 8;
+  uint32 guid = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

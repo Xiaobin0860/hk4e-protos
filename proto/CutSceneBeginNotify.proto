@@ -7,21 +7,7 @@ import "CutSceneExtraParam.proto";
 // Name: OPILHNEICML
 // CmdId: 295
 message CutSceneBeginNotify {
-    bool is_wait_others = 12;
-    uint32 cutscene_id = 10;
-    repeated CutSceneExtraParam extra_param_list = 7;
+  bool is_wait_others = 12;
+  uint32 cutscene_id = 10;
+  repeated CutSceneExtraParam extra_param_list = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

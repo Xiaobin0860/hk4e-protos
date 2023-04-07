@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FJJOGOJMCOO
 message AvatarSkillInfo {
-    uint32 pass_cd_time = 1;
-    repeated uint32 full_cd_time_list = 2;
-    uint32 max_charge_count = 3;
+  uint32 pass_cd_time = 1;
+  repeated uint32 full_cd_time_list = 2;
+  uint32 max_charge_count = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

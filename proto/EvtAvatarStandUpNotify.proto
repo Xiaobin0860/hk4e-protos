@@ -2,26 +2,11 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DICIOCNEPCL
 // CmdId: 388
 message EvtAvatarStandUpNotify {
-    uint64 chair_id = 5;
-    uint32 entity_id = 4;
-    int32 HKCNKFCDGIP = 7;
-    int32 DBKDLMNLNKM = 1;
+  uint64 chair_id = 5;
+  uint32 entity_id = 4;
+  int32 HKCNKFCDGIP = 7;
+  int32 DBKDLMNLNKM = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

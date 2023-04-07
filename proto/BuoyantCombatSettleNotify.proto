@@ -7,20 +7,6 @@ import "BuoyantCombatSettleInfo.proto";
 // Name: MAPJPGFCLAE
 // CmdId: 8387
 message BuoyantCombatSettleNotify {
-    uint32 gallery_id = 11;
-    BuoyantCombatSettleInfo settle_info = 6;
+  uint32 gallery_id = 11;
+  BuoyantCombatSettleInfo settle_info = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

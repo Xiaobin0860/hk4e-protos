@@ -7,22 +7,8 @@ import "QuestVarOp.proto";
 // Name: NLKBKCONOPK
 // CmdId: 461
 message QuestUpdateQuestVarReq {
-    uint32 quest_id = 10;
-    uint32 parent_quest_var_seq = 11;
-    repeated QuestVarOp quest_var_op_list = 7;
-    uint32 parent_quest_id = 1;
+  uint32 quest_id = 10;
+  uint32 parent_quest_var_seq = 11;
+  repeated QuestVarOp quest_var_op_list = 7;
+  uint32 parent_quest_id = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

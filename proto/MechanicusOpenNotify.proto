@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CHGPLODIFEO
 // CmdId: 3914
-message MechanicusOpenNotify {
-    uint32 mechanicus_id = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message MechanicusOpenNotify { uint32 mechanicus_id = 1; }

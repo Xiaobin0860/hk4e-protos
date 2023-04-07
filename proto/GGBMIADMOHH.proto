@@ -6,20 +6,6 @@ import "LLOKNKLJFHI.proto";
 
 // Name: GGBMIADMOHH
 message GGBMIADMOHH {
-    repeated LLOKNKLJFHI stage_data_list = 12;
-    uint32 IHCMMNBKCFH = 15;
+  repeated LLOKNKLJFHI stage_data_list = 12;
+  uint32 IHCMMNBKCFH = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

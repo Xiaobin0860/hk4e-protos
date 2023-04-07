@@ -6,20 +6,4 @@ import "HuntingPair.proto";
 
 // Name: ACJPHFFIIAF
 // CmdId: 4335
-message HuntingFailNotify {
-    HuntingPair hunting_pair = 8;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HuntingFailNotify { HuntingPair hunting_pair = 8; }

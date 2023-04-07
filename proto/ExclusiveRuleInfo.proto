@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PNLPMLCGLPB
 message ExclusiveRuleInfo {
-    repeated uint32 object_id_list = 1;
-    uint32 rule_type = 14;
+  repeated uint32 object_id_list = 1;
+  uint32 rule_type = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

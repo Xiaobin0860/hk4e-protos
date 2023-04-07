@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KFIIMIFNMKD
 message KFIIMIFNMKD {
-    repeated uint32 MJENOJLMDHH = 10;
-    repeated uint32 FILEOPOKGMG = 7;
+  repeated uint32 MJENOJLMDHH = 10;
+  repeated uint32 FILEOPOKGMG = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

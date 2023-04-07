@@ -7,21 +7,7 @@ import "EnterCustomDungeonType.proto";
 // Name: MNMCGIADIEN
 // CmdId: 6248
 message EnterCustomDungeonReq {
-    uint64 dungeon_guid = 3;
-    uint32 dungeon_id = 2;
-    EnterCustomDungeonType enter_type = 6;
+  uint64 dungeon_guid = 3;
+  uint32 dungeon_id = 2;
+  EnterCustomDungeonType enter_type = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

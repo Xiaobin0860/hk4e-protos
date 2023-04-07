@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: MPJJDJEINNM
 message MusicGameRecord {
-    bool is_unlock = 12;
-    uint32 max_score = 4;
-    uint32 max_combo = 7;
+  bool is_unlock = 12;
+  uint32 max_score = 4;
+  uint32 max_combo = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

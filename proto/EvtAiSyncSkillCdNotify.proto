@@ -6,20 +6,4 @@ import "AiSkillCdInfo.proto";
 
 // Name: FMKKKFIOHKJ
 // CmdId: 325
-message EvtAiSyncSkillCdNotify {
-    map<uint32, AiSkillCdInfo> ai_cd_map = 2;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message EvtAiSyncSkillCdNotify { map<uint32, AiSkillCdInfo> ai_cd_map = 2; }

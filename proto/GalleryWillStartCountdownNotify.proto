@@ -7,22 +7,8 @@ import "GalleryStartSource.proto";
 // Name: AOGCMDNFPLJ
 // CmdId: 5584
 message GalleryWillStartCountdownNotify {
-    uint32 end_time = 11;
-    bool is_end = 7;
-    uint32 gallery_id = 1;
-    GalleryStartSource start_source = 10;
+  uint32 end_time = 11;
+  bool is_end = 7;
+  uint32 gallery_id = 1;
+  GalleryStartSource start_source = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

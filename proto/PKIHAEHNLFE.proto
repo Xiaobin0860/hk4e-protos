@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PKIHAEHNLFE
 message PKIHAEHNLFE {
-    int64 HJMBDKFDIPK = 1;
-    int32 IFDGKPONJHJ = 2;
+  int64 HJMBDKFDIPK = 1;
+  int32 IFDGKPONJHJ = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

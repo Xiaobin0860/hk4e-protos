@@ -6,23 +6,9 @@ import "Vector.proto";
 
 // Name: GLAEHMMKJNF
 message GLAEHMMKJNF {
-    uint32 IKJNDCCAACL = 3;
-    uint32 GKMEGBPFMHA = 10;
-    int32 face_angle_compact = 13;
-    Vector cur_pos = 6;
-    uint32 entity_id = 11;
+  uint32 IKJNDCCAACL = 3;
+  uint32 GKMEGBPFMHA = 10;
+  int32 face_angle_compact = 13;
+  Vector cur_pos = 6;
+  uint32 entity_id = 11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

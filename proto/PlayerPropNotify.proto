@@ -6,20 +6,4 @@ import "PropValue.proto";
 
 // Name: MLANEGFDFME
 // CmdId: 107
-message PlayerPropNotify {
-    map<uint32, PropValue> prop_map = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PlayerPropNotify { map<uint32, PropValue> prop_map = 6; }

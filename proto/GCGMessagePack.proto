@@ -7,22 +7,8 @@ import "GCGMessage.proto";
 
 // Name: NIHOOOAICMD
 message GCGMessagePack {
-    uint32 AHOLGMMNMIB = 10;
-    repeated GCGMessage msg_list = 14;
-    uint32 controller_id = 6;
-    GCGActionType action_type = 3;
+  uint32 AHOLGMMNMIB = 10;
+  repeated GCGMessage msg_list = 14;
+  uint32 controller_id = 6;
+  GCGActionType action_type = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

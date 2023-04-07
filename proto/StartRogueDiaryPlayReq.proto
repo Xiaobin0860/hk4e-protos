@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EMMMHDIMBNP
 // CmdId: 8804
 message StartRogueDiaryPlayReq {
-    uint32 stage_id = 2;
-    uint32 difficulty = 6;
+  uint32 stage_id = 2;
+  uint32 difficulty = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

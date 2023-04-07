@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FHCMILEBGOM
 // CmdId: 3243
-message ChangeWorldToSingleModeReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ChangeWorldToSingleModeReq {}

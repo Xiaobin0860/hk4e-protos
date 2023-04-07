@@ -6,21 +6,7 @@ import "BounceConjuringChapterInfo.proto";
 
 // Name: CPGHOEPNAID
 message BounceConjuringActivityDetailInfo {
-    repeated BounceConjuringChapterInfo chapter_info_list = 7;
-    uint32 content_close_time = 4;
-    bool is_content_closed = 3;
+  repeated BounceConjuringChapterInfo chapter_info_list = 7;
+  uint32 content_close_time = 4;
+  bool is_content_closed = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

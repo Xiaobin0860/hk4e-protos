@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NALOPCHENIP
 message HomeBlockDotPattern {
-    uint32 height = 8;
-    bytes data = 6;
-    uint32 width = 14;
+  uint32 height = 8;
+  bytes data = 6;
+  uint32 width = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

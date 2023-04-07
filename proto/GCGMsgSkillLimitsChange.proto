@@ -6,19 +6,5 @@ import "GCGCardSkillLimitsInfo.proto";
 
 // Name: PGCOGOHENKC
 message GCGMsgSkillLimitsChange {
-    map<uint32, GCGCardSkillLimitsInfo> card_limits_change_map = 7;
+  map<uint32, GCGCardSkillLimitsInfo> card_limits_change_map = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

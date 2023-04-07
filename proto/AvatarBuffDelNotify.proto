@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IJHBAKEJLGM
 // CmdId: 370
 message AvatarBuffDelNotify {
-    uint32 buff_id = 13;
-    uint64 avatar_guid = 12;
+  uint32 buff_id = 13;
+  uint64 avatar_guid = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

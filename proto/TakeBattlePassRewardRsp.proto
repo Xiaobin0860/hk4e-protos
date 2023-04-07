@@ -8,21 +8,7 @@ import "ItemParam.proto";
 // Name: MADDBBDDEDI
 // CmdId: 2615
 message TakeBattlePassRewardRsp {
-    repeated ItemParam item_list = 10;
-    repeated BattlePassRewardTakeOption take_option_list = 15;
-    int32 retcode = 8;
+  repeated ItemParam item_list = 10;
+  repeated BattlePassRewardTakeOption take_option_list = 15;
+  int32 retcode = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: ALPPJOBNODK
 // CmdId: 4007
 message DeleteFriendRsp {
-    int32 retcode = 15;
-    uint32 target_uid = 7;
+  int32 retcode = 15;
+  uint32 target_uid = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

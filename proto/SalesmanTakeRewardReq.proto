@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CCEGKOHOHIH
 // CmdId: 2062
 message SalesmanTakeRewardReq {
-    uint32 position = 12;
-    uint32 schedule_id = 11;
+  uint32 position = 12;
+  uint32 schedule_id = 11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: MJEEKCIBOJI
 // CmdId: 5360
-message HideAndSeekSetReadyRsp {
-    int32 retcode = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HideAndSeekSetReadyRsp { int32 retcode = 6; }

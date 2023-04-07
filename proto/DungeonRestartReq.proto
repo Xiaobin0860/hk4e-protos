@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NKGBLOJIDDG
 // CmdId: 953
-message DungeonRestartReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DungeonRestartReq {}

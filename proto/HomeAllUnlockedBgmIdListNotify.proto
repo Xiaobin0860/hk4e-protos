@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CKMGNHJBJBA
 // CmdId: 4544
 message HomeAllUnlockedBgmIdListNotify {
-    repeated uint32 all_unlocked_bgm_id_list = 6;
+  repeated uint32 all_unlocked_bgm_id_list = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

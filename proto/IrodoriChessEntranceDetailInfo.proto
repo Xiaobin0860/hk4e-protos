@@ -6,19 +6,5 @@ import "IrodoriChessEntranceInfo.proto";
 
 // Name: DPIKGFELMFD
 message IrodoriChessEntranceDetailInfo {
-    repeated IrodoriChessEntranceInfo info_list = 4;
+  repeated IrodoriChessEntranceInfo info_list = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

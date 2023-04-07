@@ -6,20 +6,6 @@ import "Vector.proto";
 
 // Name: POKDNGLGMJC
 message POKDNGLGMJC {
-    Vector HOHCJADGKFD = 15;
-    Vector JOHKHKDAOGA = 7;
+  Vector HOHCJADGKFD = 15;
+  Vector JOHKHKDAOGA = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

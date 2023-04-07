@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EHGFBOIFGHC
 // CmdId: 22541
 message EnterFungusFighterTrainingDungeonRsp {
-    int32 retcode = 2;
-    uint32 dungeon_id = 9;
+  int32 retcode = 2;
+  uint32 dungeon_id = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

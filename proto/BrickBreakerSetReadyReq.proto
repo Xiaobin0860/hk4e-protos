@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BFPNLMALMHI
 // CmdId: 5315
-message BrickBreakerSetReadyReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message BrickBreakerSetReadyReq {}

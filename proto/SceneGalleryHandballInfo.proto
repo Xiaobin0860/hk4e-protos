@@ -6,20 +6,6 @@ import "PlaceInfo.proto";
 
 // Name: DKOPHIAMKHJ
 message SceneGalleryHandballInfo {
-    bool is_have_ball = 5;
-    PlaceInfo ball_place_info = 12;
+  bool is_have_ball = 5;
+  PlaceInfo ball_place_info = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

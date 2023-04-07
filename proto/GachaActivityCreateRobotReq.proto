@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IDAJIKMECBF
 // CmdId: 8654
-message GachaActivityCreateRobotReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GachaActivityCreateRobotReq {}

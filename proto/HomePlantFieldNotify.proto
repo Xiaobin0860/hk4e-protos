@@ -6,20 +6,4 @@ import "HomePlantFieldData.proto";
 
 // Name: COLEPMPNKPG
 // CmdId: 4710
-message HomePlantFieldNotify {
-    HomePlantFieldData field = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomePlantFieldNotify { HomePlantFieldData field = 3; }

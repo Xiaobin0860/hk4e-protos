@@ -6,20 +6,4 @@ import "AsterLittleDetailInfo.proto";
 
 // Name: JCBCJKAOKLH
 // CmdId: 2006
-message AsterLittleInfoNotify {
-    AsterLittleDetailInfo info = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message AsterLittleInfoNotify { AsterLittleDetailInfo info = 10; }

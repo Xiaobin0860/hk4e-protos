@@ -6,20 +6,6 @@ import "MassivePropParam.proto";
 
 // Name: IBDHKPKIDND
 message MassivePropSyncInfo {
-    int64 id = 1;
-    repeated MassivePropParam prop_list = 2;
+  int64 id = 1;
+  repeated MassivePropParam prop_list = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

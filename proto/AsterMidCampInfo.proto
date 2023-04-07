@@ -6,20 +6,6 @@ import "Vector.proto";
 
 // Name: AIFFCHGENAF
 message AsterMidCampInfo {
-    uint32 camp_id = 9;
-    Vector pos = 3;
+  uint32 camp_id = 9;
+  Vector pos = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

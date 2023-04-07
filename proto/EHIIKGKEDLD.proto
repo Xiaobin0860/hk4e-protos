@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EHIIKGKEDLD
 message EHIIKGKEDLD {
-    uint32 LDFHLKGLBEE = 1;
-    uint32 PLGLKDOKFOO = 15;
+  uint32 LDFHLKGLBEE = 1;
+  uint32 PLGLKDOKFOO = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

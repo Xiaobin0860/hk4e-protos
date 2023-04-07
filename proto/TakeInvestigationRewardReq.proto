@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: ECINNKNDEAB
 // CmdId: 1928
-message TakeInvestigationRewardReq {
-    uint32 id = 14;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message TakeInvestigationRewardReq { uint32 id = 14; }

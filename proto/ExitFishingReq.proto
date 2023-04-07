@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HKJPHJBGJCM
 // CmdId: 5817
-message ExitFishingReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ExitFishingReq {}

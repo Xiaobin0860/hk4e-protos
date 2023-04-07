@@ -6,20 +6,4 @@ import "ActivityInfo.proto";
 
 // Name: BKCOKLBOIIF
 // CmdId: 2134
-message ActivityInfoNotify {
-    ActivityInfo activity_info = 9;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ActivityInfoNotify { ActivityInfo activity_info = 9; }

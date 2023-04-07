@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HEIOKBJKIMH
 // CmdId: 94
-message ClientBulletCreateNotify {
-    uint32 param = 7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ClientBulletCreateNotify { uint32 param = 7; }

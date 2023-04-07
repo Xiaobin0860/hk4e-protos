@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: AENJJOAOGLI
 // CmdId: 185
-message GetNextResourceInfoReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetNextResourceInfoReq {}

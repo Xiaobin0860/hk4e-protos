@@ -6,37 +6,18 @@ import "Vector.proto";
 
 // Name: AEAIOCLFFDH
 message AbilityMixinWindSeedSpawner {
-    // Name: DDMMEHCNOMB
-    message AddSignal {
-    }
+  // Name: DDMMEHCNOMB
+  message AddSignal {}
 
-    // Name: KNKFILHLMBC
-    message RefreshSeed {
-        repeated Vector pos_list = 3;
-    }
+  // Name: KNKFILHLMBC
+  message RefreshSeed { repeated Vector pos_list = 3; }
 
-    // Name: LPGDOODMMFB
-    message CatchSeed {
-        uint32 entity_id = 2;
-    }
+  // Name: LPGDOODMMFB
+  message CatchSeed { uint32 entity_id = 2; }
 
-    oneof cmd {
-        AddSignal add_signal = 13;
-        RefreshSeed refresh_seed = 5;
-        CatchSeed catch_seed = 4;
-    }
+  oneof cmd {
+    AddSignal add_signal = 13;
+    RefreshSeed refresh_seed = 5;
+    CatchSeed catch_seed = 4;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

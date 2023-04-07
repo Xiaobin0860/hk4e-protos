@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LDHOOCGFIIP
 message MoonfinTrialLevelInfo {
-    uint32 open_time = 13;
-    uint32 best_record = 15;
+  uint32 open_time = 13;
+  uint32 best_record = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

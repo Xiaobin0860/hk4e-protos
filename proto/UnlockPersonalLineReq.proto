@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JFKNDGLGOPN
 // CmdId: 405
-message UnlockPersonalLineReq {
-    uint32 personal_line_id = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message UnlockPersonalLineReq { uint32 personal_line_id = 1; }

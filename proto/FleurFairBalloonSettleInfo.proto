@@ -6,20 +6,6 @@ import "BalloonSettleInfo.proto";
 
 // Name: FGMHOBKFKJK
 message FleurFairBalloonSettleInfo {
-    BalloonSettleInfo settle_info = 1;
-    bool is_new_record = 12;
+  BalloonSettleInfo settle_info = 1;
+  bool is_new_record = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

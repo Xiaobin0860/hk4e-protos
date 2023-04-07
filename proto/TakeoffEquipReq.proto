@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: MIKGIPNDOHP
 // CmdId: 627
 message TakeoffEquipReq {
-    uint64 avatar_guid = 1;
-    uint32 slot = 6;
+  uint64 avatar_guid = 1;
+  uint32 slot = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

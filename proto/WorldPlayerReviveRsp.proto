@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EBOELFEFKAI
 // CmdId: 268
-message WorldPlayerReviveRsp {
-    int32 retcode = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message WorldPlayerReviveRsp { int32 retcode = 6; }

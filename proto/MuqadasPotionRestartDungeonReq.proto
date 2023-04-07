@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NGPKCDCJFAB
 // CmdId: 23633
-message MuqadasPotionRestartDungeonReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message MuqadasPotionRestartDungeonReq {}

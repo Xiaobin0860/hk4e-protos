@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CFMICKHAGNK
 // CmdId: 419
 message QuestDestroyNpcReq {
-    uint32 parent_quest_id = 15;
-    uint32 npc_id = 3;
+  uint32 parent_quest_id = 15;
+  uint32 npc_id = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

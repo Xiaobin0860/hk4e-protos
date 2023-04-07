@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LIFODGKBFKK
 // CmdId: 2180
-message GetExpeditionAssistInfoListReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetExpeditionAssistInfoListReq {}

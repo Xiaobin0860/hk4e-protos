@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IGLFMBGPMPN
 // CmdId: 5363
 message BrickBreakerPlayerSetChangingNotify {
-    bool is_changing = 15;
-    uint32 uid = 14;
+  bool is_changing = 15;
+  uint32 uid = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

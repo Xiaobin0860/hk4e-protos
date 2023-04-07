@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FLJFOCOPGCK
 // CmdId: 1962
 message CancelCoopTaskRsp {
-    uint32 chapter_id = 3;
-    int32 retcode = 15;
+  uint32 chapter_id = 3;
+  int32 retcode = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

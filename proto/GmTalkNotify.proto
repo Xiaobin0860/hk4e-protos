@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DFPAJAOALOG
 // CmdId: 84
-message GmTalkNotify {
-    string msg = 2;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GmTalkNotify { string msg = 2; }

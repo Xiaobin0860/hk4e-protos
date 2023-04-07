@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NNBDKJNOIKH
 message NNBDKJNOIKH {
-    bool KJEEOAODKJG = 9;
-    uint64 server_game_time = 5;
-    bool is_win = 7;
+  bool KJEEOAODKJG = 9;
+  uint64 server_game_time = 5;
+  bool is_win = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

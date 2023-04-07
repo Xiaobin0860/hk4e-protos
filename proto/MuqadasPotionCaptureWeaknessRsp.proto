@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BJNPNMEGMMP
 // CmdId: 23854
-message MuqadasPotionCaptureWeaknessRsp {
-    int32 retcode = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message MuqadasPotionCaptureWeaknessRsp { int32 retcode = 12; }

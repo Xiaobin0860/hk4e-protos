@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HLBDENODCMG
 // CmdId: 5306
-message ChessManualRefreshCardsReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ChessManualRefreshCardsReq {}

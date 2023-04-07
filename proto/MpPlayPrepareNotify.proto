@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FIDDEBMCHAH
 // CmdId: 1807
 message MpPlayPrepareNotify {
-    uint32 prepare_end_time = 9;
-    uint32 mp_play_id = 12;
+  uint32 prepare_end_time = 9;
+  uint32 mp_play_id = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

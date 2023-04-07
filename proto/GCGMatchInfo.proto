@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "MatchPlayerInfo.proto";
 
 // Name: GLNFLNCDLJD
-message GCGMatchInfo {
-    repeated MatchPlayerInfo player_list = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GCGMatchInfo { repeated MatchPlayerInfo player_list = 6; }

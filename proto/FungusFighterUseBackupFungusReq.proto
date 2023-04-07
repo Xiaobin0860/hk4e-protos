@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EEKMJGBNHJO
 // CmdId: 21052
 message FungusFighterUseBackupFungusReq {
-    repeated uint32 backup_fungus_id_list = 2;
+  repeated uint32 backup_fungus_id_list = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

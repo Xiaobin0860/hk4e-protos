@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LEILOFMJCIF
 // CmdId: 8119
-message ActivityReadPushTipsRsp {
-    int32 retcode = 8;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ActivityReadPushTipsRsp { int32 retcode = 8; }

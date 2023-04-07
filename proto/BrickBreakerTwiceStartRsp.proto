@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FMHELFMKCOA
 // CmdId: 23499
-message BrickBreakerTwiceStartRsp {
-    int32 retcode = 7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message BrickBreakerTwiceStartRsp { int32 retcode = 7; }

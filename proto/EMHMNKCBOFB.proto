@@ -6,20 +6,6 @@ import "Vector.proto";
 
 // Name: EMHMNKCBOFB
 message EMHMNKCBOFB {
-    float damage = 10;
-    Vector BEMBGHIMOBJ = 14;
+  float damage = 10;
+  Vector BEMBGHIMOBJ = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

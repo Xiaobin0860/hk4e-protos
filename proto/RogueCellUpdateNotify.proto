@@ -6,20 +6,4 @@ import "RogueCellInfo.proto";
 
 // Name: MGMCOIIAJLO
 // CmdId: 8624
-message RogueCellUpdateNotify {
-    RogueCellInfo cell_info = 13;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message RogueCellUpdateNotify { RogueCellInfo cell_info = 13; }

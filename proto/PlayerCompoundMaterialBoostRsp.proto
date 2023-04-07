@@ -9,22 +9,8 @@ import "ItemParam.proto";
 // Name: IBIANFNHFKN
 // CmdId: 162
 message PlayerCompoundMaterialBoostRsp {
-    int32 retcode = 13;
-    repeated CompoundQueueData compound_que_data_list = 8;
-    CompoundBoostTakeStatusType take_status = 3;
-    repeated ItemParam take_item_list = 10;
+  int32 retcode = 13;
+  repeated CompoundQueueData compound_que_data_list = 8;
+  CompoundBoostTakeStatusType take_status = 3;
+  repeated ItemParam take_item_list = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

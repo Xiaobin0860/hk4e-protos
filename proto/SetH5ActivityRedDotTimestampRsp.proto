@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JKKGNIAKIEM
 // CmdId: 5686
-message SetH5ActivityRedDotTimestampRsp {
-    int32 retcode = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message SetH5ActivityRedDotTimestampRsp { int32 retcode = 6; }

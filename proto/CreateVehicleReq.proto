@@ -7,22 +7,8 @@ import "Vector.proto";
 // Name: GPEJFGAELLO
 // CmdId: 874
 message CreateVehicleReq {
-    Vector pos = 1;
-    uint32 scene_point_id = 9;
-    uint32 vehicle_id = 15;
-    Vector rot = 3;
+  Vector pos = 1;
+  uint32 scene_point_id = 9;
+  uint32 vehicle_id = 15;
+  Vector rot = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

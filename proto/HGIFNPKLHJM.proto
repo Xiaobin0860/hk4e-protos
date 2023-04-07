@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HGIFNPKLHJM
 // CmdId: 7776
 message HGIFNPKLHJM {
-    uint32 FMEICLMBOBF = 1;
-    uint32 level_id = 11;
+  uint32 FMEICLMBOBF = 1;
+  uint32 level_id = 11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

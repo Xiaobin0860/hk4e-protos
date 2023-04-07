@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HKKOOBLCCHM
 // CmdId: 4852
-message GetHomeExchangeWoodInfoReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetHomeExchangeWoodInfoReq {}

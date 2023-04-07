@@ -7,20 +7,6 @@ import "CompoundQueueData.proto";
 // Name: FLGCALNDKFE
 // CmdId: 116
 message PlayerCompoundMaterialRsp {
-    CompoundQueueData compound_que_data = 4;
-    int32 retcode = 1;
+  CompoundQueueData compound_que_data = 4;
+  int32 retcode = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

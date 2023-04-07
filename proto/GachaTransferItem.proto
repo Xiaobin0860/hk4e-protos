@@ -6,20 +6,6 @@ import "ItemParam.proto";
 
 // Name: HPEPNLNMJKM
 message GachaTransferItem {
-    ItemParam item = 8;
-    bool is_transfer_item_new = 6;
+  ItemParam item = 8;
+  bool is_transfer_item_new = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

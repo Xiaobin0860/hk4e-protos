@@ -7,19 +7,5 @@ import "FungusTrainingProgressDetail.proto";
 // Name: NMDMEHICCPN
 // CmdId: 23794
 message FungusFighterRuntimeDataNotify {
-    FungusTrainingProgressDetail progress_detail = 13;
+  FungusTrainingProgressDetail progress_detail = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

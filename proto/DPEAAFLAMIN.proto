@@ -6,23 +6,9 @@ import "Vector.proto";
 
 // Name: DPEAAFLAMIN
 message DPEAAFLAMIN {
-    Vector center = 11;
-    uint32 open_time = 1;
-    uint32 pos_id = 2;
-    bool is_open = 12;
-    bool is_view = 14;
+  Vector center = 11;
+  uint32 open_time = 1;
+  uint32 pos_id = 2;
+  bool is_open = 12;
+  bool is_view = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

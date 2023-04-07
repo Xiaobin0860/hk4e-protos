@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JNBHKNJHCHG
 message JNBHKNJHCHG {
-    uint32 MOBFAPLOPOL = 15;
-    uint32 FLOBIIACNND = 12;
-    uint32 BABLJMJPGEK = 1;
+  uint32 MOBFAPLOPOL = 15;
+  uint32 FLOBIIACNND = 12;
+  uint32 BABLJMJPGEK = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KHPBKEBCCIH
 // CmdId: 2085
 message SeaLampTakePhaseRewardRsp {
-    int32 retcode = 13;
-    uint32 phase_id = 3;
+  int32 retcode = 13;
+  uint32 phase_id = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

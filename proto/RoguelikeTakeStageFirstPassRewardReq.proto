@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CMPPFFFHCEN
 // CmdId: 8541
-message RoguelikeTakeStageFirstPassRewardReq {
-    uint32 stage_id = 9;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message RoguelikeTakeStageFirstPassRewardReq { uint32 stage_id = 9; }

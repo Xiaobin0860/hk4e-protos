@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: AODGPLLILEL
 // CmdId: 1067
 message UnlockAvatarTalentReq {
-    uint32 talent_id = 10;
-    uint64 avatar_guid = 3;
+  uint32 talent_id = 10;
+  uint64 avatar_guid = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

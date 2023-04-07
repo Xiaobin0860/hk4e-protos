@@ -6,20 +6,4 @@ import "HomePlantFieldData.proto";
 
 // Name: IEEEICOKCLM
 // CmdId: 4545
-message HomePlantInfoNotify {
-    repeated HomePlantFieldData field_list = 4;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomePlantInfoNotify { repeated HomePlantFieldData field_list = 4; }

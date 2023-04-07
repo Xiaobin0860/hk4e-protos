@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HNMFNPOGDBP
 // CmdId: 20054
 message TeamChainDungeonInfoNotify {
-    uint32 stage_id = 11;
-    repeated uint32 skill_no_list = 7;
+  uint32 stage_id = 11;
+  repeated uint32 skill_no_list = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

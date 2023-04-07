@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LMAFOCAAKIJ
 // CmdId: 920
-message DungeonRestartInviteReplyReq {
-    bool is_accept = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DungeonRestartInviteReplyReq { bool is_accept = 3; }

@@ -6,20 +6,4 @@ import "PlayerHomeCompInfo.proto";
 
 // Name: FAFABIGFAMI
 // CmdId: 4886
-message PlayerHomeCompInfoNotify {
-    PlayerHomeCompInfo comp_info = 14;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PlayerHomeCompInfoNotify { PlayerHomeCompInfo comp_info = 14; }

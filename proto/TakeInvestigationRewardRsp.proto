@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: MADHMGMOJPM
 // CmdId: 1910
 message TakeInvestigationRewardRsp {
-    uint32 id = 10;
-    int32 retcode = 6;
+  uint32 id = 10;
+  int32 retcode = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

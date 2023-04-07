@@ -6,19 +6,5 @@ import "CustomDungeonBriefMuipData.proto";
 
 // Name: OKBDIGDJGIN
 message CustomDungeonBatchBriefMuipData {
-    repeated CustomDungeonBriefMuipData brief_list = 1;
+  repeated CustomDungeonBriefMuipData brief_list = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

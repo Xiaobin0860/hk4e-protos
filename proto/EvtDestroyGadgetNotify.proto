@@ -7,20 +7,6 @@ import "ForwardType.proto";
 // Name: PPABGJHNOHL
 // CmdId: 334
 message EvtDestroyGadgetNotify {
-    ForwardType forward_type = 6;
-    uint32 entity_id = 4;
+  ForwardType forward_type = 6;
+  uint32 entity_id = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

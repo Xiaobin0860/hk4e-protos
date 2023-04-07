@@ -7,20 +7,6 @@ import "PlayerOfferingData.proto";
 // Name: JKEIELLELDE
 // CmdId: 2913
 message OfferingInteractRsp {
-    int32 retcode = 2;
-    PlayerOfferingData offering_data = 14;
+  int32 retcode = 2;
+  PlayerOfferingData offering_data = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

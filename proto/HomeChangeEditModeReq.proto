@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IGOBNECJKBF
 // CmdId: 4533
-message HomeChangeEditModeReq {
-    bool is_enter_edit_mode = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomeChangeEditModeReq { bool is_enter_edit_mode = 15; }

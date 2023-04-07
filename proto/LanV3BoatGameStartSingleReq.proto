@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NDNDILMJBOP
 // CmdId: 24887
-message LanV3BoatGameStartSingleReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LanV3BoatGameStartSingleReq {}

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HLAEEPDHFMD
 // CmdId: 4653
-message HomeChangeBgmNotify {
-    uint32 bgm_id = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomeChangeBgmNotify { uint32 bgm_id = 6; }

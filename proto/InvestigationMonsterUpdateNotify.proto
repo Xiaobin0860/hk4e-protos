@@ -7,19 +7,5 @@ import "InvestigationMonster.proto";
 // Name: IDGEJMMEOEO
 // CmdId: 1920
 message InvestigationMonsterUpdateNotify {
-    InvestigationMonster investigation_monster = 13;
+  InvestigationMonster investigation_monster = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

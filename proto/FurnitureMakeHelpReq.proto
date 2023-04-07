@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HPKEBGLLLAG
 // CmdId: 4851
-message FurnitureMakeHelpReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message FurnitureMakeHelpReq {}

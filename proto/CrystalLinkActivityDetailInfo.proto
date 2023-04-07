@@ -6,20 +6,6 @@ import "CrystalLinkLevelInfo.proto";
 
 // Name: AGMMNODNGMD
 message CrystalLinkActivityDetailInfo {
-    repeated CrystalLinkLevelInfo level_info_list = 5;
-    uint32 difficulty_id = 11;
+  repeated CrystalLinkLevelInfo level_info_list = 5;
+  uint32 difficulty_id = 11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

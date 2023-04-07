@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: AMBAOJLENKE
 // CmdId: 925
-message DungeonCandidateTeamLeaveReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DungeonCandidateTeamLeaveReq {}

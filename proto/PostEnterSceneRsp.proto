@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PGBGBIDLFDL
 // CmdId: 3030
 message PostEnterSceneRsp {
-    uint32 enter_scene_token = 13;
-    int32 retcode = 11;
+  uint32 enter_scene_token = 13;
+  int32 retcode = 11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

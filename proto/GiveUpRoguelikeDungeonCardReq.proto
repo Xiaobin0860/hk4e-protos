@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GCJILFHLJJG
 // CmdId: 8292
-message GiveUpRoguelikeDungeonCardReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GiveUpRoguelikeDungeonCardReq {}

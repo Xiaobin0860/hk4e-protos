@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FFFCGMMCJNO
 // CmdId: 8988
-message SummerTimeV2RestartDungeonReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message SummerTimeV2RestartDungeonReq {}

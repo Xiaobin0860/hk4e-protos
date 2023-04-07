@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FFKIBGMCDAG
 // CmdId: 7587
-message FFKIBGMCDAG {
-    int32 retcode = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message FFKIBGMCDAG { int32 retcode = 12; }

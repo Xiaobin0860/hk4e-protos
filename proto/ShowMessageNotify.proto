@@ -8,20 +8,6 @@ import "SvrMsgId.proto";
 // Name: HIAAGMFNAFI
 // CmdId: 64
 message ShowMessageNotify {
-    repeated MsgParam params = 1;
-    SvrMsgId msg_id = 8;
+  repeated MsgParam params = 1;
+  SvrMsgId msg_id = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

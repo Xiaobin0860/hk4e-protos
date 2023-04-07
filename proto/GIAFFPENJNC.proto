@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GIAFFPENJNC
 // CmdId: 7387
 message GIAFFPENJNC {
-    uint32 AHAIAIPGFDN = 6;
-    bool BBNOFLCPEBA = 2;
+  uint32 AHAIAIPGFDN = 6;
+  bool BBNOFLCPEBA = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

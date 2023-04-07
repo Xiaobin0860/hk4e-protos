@@ -7,20 +7,6 @@ import "TowerMonthlyCombatRecord.proto";
 
 // Name: MBJAKBMCIDD
 message TowerMonthlyDetail {
-    TowerMonthlyBrief monthly_brief = 3;
-    TowerMonthlyCombatRecord monthly_combat_record = 2;
+  TowerMonthlyBrief monthly_brief = 3;
+  TowerMonthlyCombatRecord monthly_combat_record = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

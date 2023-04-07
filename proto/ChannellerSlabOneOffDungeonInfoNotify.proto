@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NCLIOJCMIHH
 // CmdId: 8036
 message ChannellerSlabOneOffDungeonInfoNotify {
-    repeated uint32 scheme_buff_id_list = 7;
+  repeated uint32 scheme_buff_id_list = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

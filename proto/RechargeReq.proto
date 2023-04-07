@@ -10,22 +10,8 @@ import "PlayProduct.proto";
 // Name: OAMGPILLNIL
 // CmdId: 4148
 message RechargeReq {
-    ShopCardProduct card_product = 5;
-    PlayProduct play_product = 10;
-    ShopMcoinProduct mcoin_product = 14;
-    ShopConcertProduct concert_product = 6;
+  ShopCardProduct card_product = 5;
+  PlayProduct play_product = 10;
+  ShopMcoinProduct mcoin_product = 14;
+  ShopConcertProduct concert_product = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

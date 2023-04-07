@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NKGINHFDBJN
 // CmdId: 7363
 message NKGINHFDBJN {
-    uint32 AHAIAIPGFDN = 7;
-    int32 retcode = 12;
+  uint32 AHAIAIPGFDN = 7;
+  int32 retcode = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

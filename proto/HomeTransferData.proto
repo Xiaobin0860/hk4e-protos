@@ -6,20 +6,6 @@ import "Vector.proto";
 
 // Name: HDGFHDJCOOI
 message HomeTransferData {
-    uint32 guid = 6;
-    Vector spawn_pos = 15;
+  uint32 guid = 6;
+  Vector spawn_pos = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

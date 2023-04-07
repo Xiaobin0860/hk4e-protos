@@ -6,20 +6,6 @@ import "Vector.proto";
 
 // Name: LGCNHKIIMLL
 message HomeBlockSubFieldData {
-    Vector pos = 14;
-    Vector rot = 3;
+  Vector pos = 14;
+  Vector rot = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

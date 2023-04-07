@@ -7,20 +7,6 @@ import "BonusActivityInfo.proto";
 // Name: HHFGKICMOKE
 // CmdId: 2527
 message GetBonusActivityRewardRsp {
-    BonusActivityInfo bonus_activity_info_list = 3;
-    int32 retcode = 11;
+  BonusActivityInfo bonus_activity_info_list = 3;
+  int32 retcode = 11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

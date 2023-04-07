@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LAMLOIIIGDP
 // CmdId: 8044
 message BartenderFinishLevelRsp {
-    int32 retcode = 7;
-    uint32 level_id = 2;
+  int32 retcode = 7;
+  uint32 level_id = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

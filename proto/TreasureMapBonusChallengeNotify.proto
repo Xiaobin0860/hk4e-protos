@@ -7,19 +7,5 @@ import "TreasureMapBonusChallengeInfo.proto";
 // Name: MCJFPFPHMDG
 // CmdId: 2163
 message TreasureMapBonusChallengeNotify {
-    TreasureMapBonusChallengeInfo info = 5;
+  TreasureMapBonusChallengeInfo info = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

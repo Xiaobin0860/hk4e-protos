@@ -7,21 +7,7 @@ import "PlantFlowerRecvFlowerData.proto";
 // Name: PAGMOLKHNGC
 // CmdId: 8779
 message PlantFlowerGetRecvFlowerListRsp {
-    uint32 schedule_id = 11;
-    int32 retcode = 5;
-    repeated PlantFlowerRecvFlowerData recv_flower_list = 10;
+  uint32 schedule_id = 11;
+  int32 retcode = 5;
+  repeated PlantFlowerRecvFlowerData recv_flower_list = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -8,23 +8,9 @@ import "WidgetCreatorInfo.proto";
 // Name: ECBPKIEBPLJ
 // CmdId: 4299
 message WidgetDoBagReq {
-    uint32 material_id = 9;
-    oneof op_info {
-        WidgetCreateLocationInfo location_info = 1340;
-        WidgetCreatorInfo widget_creator_info = 1743;
-    }
+  uint32 material_id = 9;
+  oneof op_info {
+    WidgetCreateLocationInfo location_info = 1340;
+    WidgetCreatorInfo widget_creator_info = 1743;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

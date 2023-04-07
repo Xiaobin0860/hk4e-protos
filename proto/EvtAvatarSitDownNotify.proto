@@ -7,21 +7,7 @@ import "Vector.proto";
 // Name: OFLAJDNOKBM
 // CmdId: 302
 message EvtAvatarSitDownNotify {
-    uint32 entity_id = 12;
-    uint64 chair_id = 11;
-    Vector position = 5;
+  uint32 entity_id = 12;
+  uint64 chair_id = 11;
+  Vector position = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

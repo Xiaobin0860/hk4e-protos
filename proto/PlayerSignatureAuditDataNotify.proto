@@ -6,20 +6,4 @@ import "ContentAuditInfo.proto";
 
 // Name: CIJBALBBDIH
 // CmdId: 4076
-message PlayerSignatureAuditDataNotify {
-    ContentAuditInfo info = 14;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PlayerSignatureAuditDataNotify { ContentAuditInfo info = 14; }

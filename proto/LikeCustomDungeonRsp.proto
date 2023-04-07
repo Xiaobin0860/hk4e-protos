@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LBEPLDOPIEN
 // CmdId: 6203
-message LikeCustomDungeonRsp {
-    int32 retcode = 9;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LikeCustomDungeonRsp { int32 retcode = 9; }

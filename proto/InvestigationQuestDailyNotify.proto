@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BIILPLIEGPD
 // CmdId: 1902
-message InvestigationQuestDailyNotify {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message InvestigationQuestDailyNotify {}

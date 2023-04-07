@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PNNFJJNIILI
 // CmdId: 5396
-message BrickBreakerSetChangingRsp {
-    int32 retcode = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message BrickBreakerSetChangingRsp { int32 retcode = 12; }

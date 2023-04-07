@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: MIGCAFCNLJD
 message GravenInnocencePhotoStageInfo {
-    uint32 stage_id = 1;
-    bool is_open = 6;
-    bool is_finished = 4;
+  uint32 stage_id = 1;
+  bool is_open = 6;
+  bool is_finished = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

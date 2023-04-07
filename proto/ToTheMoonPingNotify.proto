@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FLFGIGFHAAP
 // CmdId: 6154
-message ToTheMoonPingNotify {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ToTheMoonPingNotify {}

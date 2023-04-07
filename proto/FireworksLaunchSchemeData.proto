@@ -6,21 +6,7 @@ import "FireworksLaunchParam.proto";
 
 // Name: KOGHPNIOEKJ
 message FireworksLaunchSchemeData {
-    repeated uint32 fireworks_id_list = 4;
-    repeated FireworksLaunchParam launch_param_list = 14;
-    uint32 scheme_id = 12;
+  repeated uint32 fireworks_id_list = 4;
+  repeated FireworksLaunchParam launch_param_list = 14;
+  uint32 scheme_id = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

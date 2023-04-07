@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BCACMIENOOD
 // CmdId: 20879
 message InstableSprayRestartDungeonRsp {
-    int32 retcode = 14;
-    uint32 level_id = 4;
+  int32 retcode = 14;
+  uint32 level_id = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

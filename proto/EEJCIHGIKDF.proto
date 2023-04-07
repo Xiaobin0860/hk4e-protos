@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EEJCIHGIKDF
-message EEJCIHGIKDF {
-    bytes value = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message EEJCIHGIKDF { bytes value = 1; }

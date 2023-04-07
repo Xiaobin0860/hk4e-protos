@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: POHNIGPBIFO
 // CmdId: 178
 message DailyTaskFilterCityRsp {
-    uint32 city_id = 3;
-    int32 retcode = 2;
+  uint32 city_id = 3;
+  int32 retcode = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

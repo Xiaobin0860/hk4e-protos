@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GHNDMCFNLHN
 message GHNDMCFNLHN {
-    uint32 level_id = 3;
-    bool is_level_open = 6;
-    uint32 AIICAANNDFB = 5;
+  uint32 level_id = 3;
+  bool is_level_open = 6;
+  uint32 AIICAANNDFB = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -6,20 +6,4 @@ import "Achievement.proto";
 
 // Name: PFKCLOLEDDE
 // CmdId: 2693
-message AchievementUpdateNotify {
-    repeated Achievement achievement_list = 2;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message AchievementUpdateNotify { repeated Achievement achievement_list = 2; }

@@ -6,20 +6,4 @@ import "RedPointData.proto";
 
 // Name: GFBNCCLPKFP
 // CmdId: 74
-message UpdateRedPointNotify {
-    repeated RedPointData red_point_list = 7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message UpdateRedPointNotify { repeated RedPointData red_point_list = 7; }

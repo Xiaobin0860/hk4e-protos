@@ -7,21 +7,7 @@ import "UgcMusicBriefInfo.proto";
 
 // Name: CJNEENHAPEE
 message MusicGameActivityDetailInfo {
-    repeated UgcMusicBriefInfo OMGGIPLOILH = 9;
-    repeated UgcMusicBriefInfo JJMBELIDNLN = 1;
-    map<uint32, MusicGameRecord> music_game_record_map = 13;
+  repeated UgcMusicBriefInfo OMGGIPLOILH = 9;
+  repeated UgcMusicBriefInfo JJMBELIDNLN = 1;
+  map<uint32, MusicGameRecord> music_game_record_map = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GMBAHICMGBD
 // CmdId: 8613
-message PotionRestartDungeonReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PotionRestartDungeonReq {}

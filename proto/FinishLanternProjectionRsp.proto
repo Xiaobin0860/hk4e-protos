@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KAGHEDICJNH
 // CmdId: 8016
-message FinishLanternProjectionRsp {
-    int32 retcode = 9;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message FinishLanternProjectionRsp { int32 retcode = 9; }

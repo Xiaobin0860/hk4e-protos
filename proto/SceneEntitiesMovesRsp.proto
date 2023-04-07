@@ -7,19 +7,5 @@ import "EntityMoveFailInfo.proto";
 // Name: CJDHJADEIAA
 // CmdId: 212
 message SceneEntitiesMovesRsp {
-    repeated EntityMoveFailInfo entity_move_fail_info_list = 9;
+  repeated EntityMoveFailInfo entity_move_fail_info_list = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

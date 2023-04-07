@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "KJMKJAIFNEC.proto";
 
 // Name: LEBACMOBIDE
-message LEBACMOBIDE {
-    repeated KJMKJAIFNEC FIAKFNFDPFP = 999;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LEBACMOBIDE { repeated KJMKJAIFNEC FIAKFNFDPFP = 999; }

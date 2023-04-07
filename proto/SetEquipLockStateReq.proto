@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CPBMGDOBJCG
 // CmdId: 645
 message SetEquipLockStateReq {
-    bool is_locked = 10;
-    uint64 target_equip_guid = 13;
+  bool is_locked = 10;
+  uint64 target_equip_guid = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

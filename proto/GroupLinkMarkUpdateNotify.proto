@@ -6,20 +6,4 @@ import "GroupLinkBundle.proto";
 
 // Name: KEAMGKKDLMK
 // CmdId: 5796
-message GroupLinkMarkUpdateNotify {
-    GroupLinkBundle bundle = 14;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GroupLinkMarkUpdateNotify { GroupLinkBundle bundle = 14; }

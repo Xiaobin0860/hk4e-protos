@@ -6,20 +6,6 @@ import "HIDNILLDCAD.proto";
 
 // Name: FPPMLGOAFGH
 message FPPMLGOAFGH {
-    HIDNILLDCAD type = 1;
-    int32 y = 2;
+  HIDNILLDCAD type = 1;
+  int32 y = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

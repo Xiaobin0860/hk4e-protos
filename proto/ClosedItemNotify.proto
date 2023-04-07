@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JMJFPPIJEGA
 // CmdId: 689
-message ClosedItemNotify {
-    repeated uint32 item_id_list = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ClosedItemNotify { repeated uint32 item_id_list = 10; }

@@ -7,21 +7,7 @@ import "OnlinePlayerInfo.proto";
 // Name: DIFECLKBCGD
 // CmdId: 65
 message GetOnlinePlayerListRsp {
-    repeated OnlinePlayerInfo player_info_list = 13;
-    uint32 param = 12;
-    int32 retcode = 14;
+  repeated OnlinePlayerInfo player_info_list = 13;
+  uint32 param = 12;
+  int32 retcode = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

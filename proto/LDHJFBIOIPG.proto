@@ -6,20 +6,6 @@ import "DGLAAOENJIH.proto";
 
 // Name: LDHJFBIOIPG
 message LDHJFBIOIPG {
-    repeated DGLAAOENJIH JJGOFGMNPLE = 1;
-    string name = 2;
+  repeated DGLAAOENJIH JJGOFGMNPLE = 1;
+  string name = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

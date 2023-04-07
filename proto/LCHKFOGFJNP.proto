@@ -6,20 +6,6 @@ import "CKLBEJHMHKG.proto";
 
 // Name: LCHKFOGFJNP
 message LCHKFOGFJNP {
-    repeated CKLBEJHMHKG ONICDCIHMNJ = 14;
-    repeated CKLBEJHMHKG PKOFIKOAFIC = 4;
+  repeated CKLBEJHMHKG ONICDCIHMNJ = 14;
+  repeated CKLBEJHMHKG PKOFIKOAFIC = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

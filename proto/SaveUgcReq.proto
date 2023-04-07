@@ -9,26 +9,8 @@ import "UgcType.proto";
 // Name: DMPCNMHFEHN
 // CmdId: 6344
 message SaveUgcReq {
-    UgcType ugc_type = 13;
-    uint32 schedule_id = 2;
-    oneof record {
-        UgcMusicRecord music_record = 11;
-    }
-    oneof brief {
-        UgcMusicBriefInfo music_brief_info = 380;
-    }
+  UgcType ugc_type = 13;
+  uint32 schedule_id = 2;
+  oneof record { UgcMusicRecord music_record = 11; }
+  oneof brief { UgcMusicBriefInfo music_brief_info = 380; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

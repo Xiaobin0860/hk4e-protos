@@ -6,20 +6,4 @@ import "PropValue.proto";
 
 // Name: KOEIKPHNEHA
 // CmdId: 142
-message SetPlayerPropReq {
-    repeated PropValue prop_list = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message SetPlayerPropReq { repeated PropValue prop_list = 10; }

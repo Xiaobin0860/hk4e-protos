@@ -7,21 +7,7 @@ import "BuildingInfo.proto";
 // Name: JHCOBPEEBLO
 // CmdId: 5373
 message GlobalBuildingInfoNotify {
-    uint32 LJDMMCIKHLC = 12;
-    uint32 IHNHBADFLKJ = 4;
-    repeated BuildingInfo building_list = 5;
+  uint32 LJDMMCIKHLC = 12;
+  uint32 IHNHBADFLKJ = 4;
+  repeated BuildingInfo building_list = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

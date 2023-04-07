@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "Uint32Pair.proto";
 
 // Name: GIHCLFFDKLE
-message GCGMsgUpdateController {
-    repeated Uint32Pair allow_controller_map = 5;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GCGMsgUpdateController { repeated Uint32Pair allow_controller_map = 5; }

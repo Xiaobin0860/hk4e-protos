@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: MDNIBPEGOCK
 // CmdId: 908
-message DungeonRestartResultNotify {
-    bool is_add_accpet = 5;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DungeonRestartResultNotify { bool is_add_accpet = 5; }

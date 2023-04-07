@@ -7,20 +7,6 @@ import "PlayTeamEntityInfo.proto";
 // Name: GFENDIBMJBG
 // CmdId: 3362
 message SyncScenePlayTeamEntityNotify {
-    repeated PlayTeamEntityInfo entity_info_list = 12;
-    uint32 scene_id = 14;
+  repeated PlayTeamEntityInfo entity_info_list = 12;
+  uint32 scene_id = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

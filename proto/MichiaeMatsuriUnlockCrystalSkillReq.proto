@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PILANJHDLNP
 // CmdId: 8949
-message MichiaeMatsuriUnlockCrystalSkillReq {
-    uint32 crystal_skill_id = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message MichiaeMatsuriUnlockCrystalSkillReq { uint32 crystal_skill_id = 10; }

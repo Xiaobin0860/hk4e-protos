@@ -6,20 +6,4 @@ import "ScenePlayerInfo.proto";
 
 // Name: JGMDCGBILKP
 // CmdId: 240
-message ScenePlayerInfoNotify {
-    repeated ScenePlayerInfo player_info_list = 9;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ScenePlayerInfoNotify { repeated ScenePlayerInfo player_info_list = 9; }

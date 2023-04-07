@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: INIMIDEBPCP
 // CmdId: 671
-message ForgeStartRsp {
-    int32 retcode = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ForgeStartRsp { int32 retcode = 11; }

@@ -6,20 +6,4 @@ import "ProfilePicture.proto";
 
 // Name: PJBKOMCLMJJ
 // CmdId: 4043
-message ProfilePictureChangeNotify {
-    ProfilePicture profile_picture = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ProfilePictureChangeNotify { ProfilePicture profile_picture = 10; }

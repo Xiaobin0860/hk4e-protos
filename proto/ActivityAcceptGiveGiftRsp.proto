@@ -7,21 +7,7 @@ import "ActivityAcceptGiftResultInfo.proto";
 // Name: KDOBINHBPOF
 // CmdId: 8915
 message ActivityAcceptGiveGiftRsp {
-    int32 retcode = 3;
-    uint32 schedule_id = 10;
-    ActivityAcceptGiftResultInfo accept_gift_result_info = 13;
+  int32 retcode = 3;
+  uint32 schedule_id = 10;
+  ActivityAcceptGiftResultInfo accept_gift_result_info = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

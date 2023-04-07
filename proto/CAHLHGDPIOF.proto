@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CAHLHGDPIOF
 // CmdId: 6473
-message CAHLHGDPIOF {
-    uint32 play_index = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message CAHLHGDPIOF { uint32 play_index = 15; }

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PFHGJKIABCF
 // CmdId: 24083
-message VintageMarketStartStorePlayReq {
-    uint32 store_round = 5;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message VintageMarketStartStorePlayReq { uint32 store_round = 5; }

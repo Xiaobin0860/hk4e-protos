@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GGJNNEGFMKM
 message ReunionPrivilegeInfo {
-    uint32 KMEGFGAADHB = 11;
-    uint32 GCJPFFOBGMJ = 3;
-    uint32 privilege_id = 1;
+  uint32 KMEGFGAADHB = 11;
+  uint32 GCJPFFOBGMJ = 3;
+  uint32 privilege_id = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

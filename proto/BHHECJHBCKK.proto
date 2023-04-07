@@ -6,20 +6,4 @@ import "CGJDJJLIADJ.proto";
 
 // Name: BHHECJHBCKK
 // CmdId: 7226
-message BHHECJHBCKK {
-    CGJDJJLIADJ JBBBNFLJCIH = 4;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message BHHECJHBCKK { CGJDJJLIADJ JBBBNFLJCIH = 4; }

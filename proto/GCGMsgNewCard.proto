@@ -5,20 +5,4 @@ option go_package = "./;proto";
 import "GCGCard.proto";
 
 // Name: ENHIHJAEFOP
-message GCGMsgNewCard {
-    GCGCard card = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GCGMsgNewCard { GCGCard card = 15; }

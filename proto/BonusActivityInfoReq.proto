@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DNOKOCEBFIG
 // CmdId: 2591
-message BonusActivityInfoReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message BonusActivityInfoReq {}

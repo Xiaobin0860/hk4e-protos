@@ -2,32 +2,17 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NMKDCJBDNHL
 // CmdId: 1832
 message PlayerPreEnterMpNotify {
-    // Name: NLPMIDEGMNA
-    enum State {
+  // Name: NLPMIDEGMNA
+  enum State {
     STATE_UNSTARTED = 0;
-    STATE_STARTED   = 1;
-    STATE_FINISHED  = 2;
-    }
+    STATE_STARTED = 1;
+    STATE_FINISHED = 2;
+  }
 
-    string nickname = 10;
-    State state = 14;
-    uint32 uid = 12;
+  string nickname = 10;
+  State state = 14;
+  uint32 uid = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

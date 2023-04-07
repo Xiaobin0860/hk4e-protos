@@ -6,20 +6,4 @@ import "AbilityInvokeEntry.proto";
 
 // Name: KPHEJCEMNIM
 // CmdId: 1175
-message AbilityInvocationsNotify {
-    repeated AbilityInvokeEntry invokes = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message AbilityInvocationsNotify { repeated AbilityInvokeEntry invokes = 12; }

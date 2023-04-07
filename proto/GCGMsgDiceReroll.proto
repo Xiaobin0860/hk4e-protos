@@ -6,21 +6,7 @@ import "GCGDiceSideType.proto";
 
 // Name: EMAGMDBBEJB
 message GCGMsgDiceReroll {
-    repeated GCGDiceSideType dice_side_list = 1;
-    repeated uint32 select_dice_index_list = 2;
-    uint32 controller_id = 13;
+  repeated GCGDiceSideType dice_side_list = 1;
+  repeated uint32 select_dice_index_list = 2;
+  uint32 controller_id = 13;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

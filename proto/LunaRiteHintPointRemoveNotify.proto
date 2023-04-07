@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CEHNOFKKJJP
 // CmdId: 8793
-message LunaRiteHintPointRemoveNotify {
-    repeated uint32 hint_point_index = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LunaRiteHintPointRemoveNotify { repeated uint32 hint_point_index = 6; }

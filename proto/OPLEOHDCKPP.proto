@@ -6,23 +6,9 @@ import "Vector.proto";
 
 // Name: OPLEOHDCKPP
 message OPLEOHDCKPP {
-    float OBEAEOBLJML = 2;
-    float speed = 3;
-    uint32 entity_id = 14;
-    Vector HOHCJADGKFD = 1;
-    float HCNMAJKLKEP = 4;
+  float OBEAEOBLJML = 2;
+  float speed = 3;
+  uint32 entity_id = 14;
+  Vector HOHCJADGKFD = 1;
+  float HCNMAJKLKEP = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

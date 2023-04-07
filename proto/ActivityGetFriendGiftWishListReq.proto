@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FJCECJGCHJP
 // CmdId: 8091
-message ActivityGetFriendGiftWishListReq {
-    uint32 schedule_id = 9;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ActivityGetFriendGiftWishListReq { uint32 schedule_id = 9; }

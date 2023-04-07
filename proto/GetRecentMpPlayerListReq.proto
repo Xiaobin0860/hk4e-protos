@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LAMJHMACNGB
 // CmdId: 4026
-message GetRecentMpPlayerListReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetRecentMpPlayerListReq {}

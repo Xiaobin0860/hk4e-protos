@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DGLAAOENJIH
 message DGLAAOENJIH {
-    string type = 1;
-    string content = 2;
-    uint32 ODJLKFNEFKJ = 3;
+  string type = 1;
+  string content = 2;
+  uint32 ODJLKFNEFKJ = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

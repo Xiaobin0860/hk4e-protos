@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LPGOCDCNECC
 message LPGOCDCNECC {
-    uint64 dungeon_guid = 1;
-    uint32 min_cost_time = 2;
+  uint64 dungeon_guid = 1;
+  uint32 min_cost_time = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

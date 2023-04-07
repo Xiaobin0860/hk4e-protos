@@ -6,19 +6,5 @@ import "BreakoutSyncConnectUidInfo.proto";
 
 // Name: GOICFLKADLN
 message BreakoutSyncCreateConnect {
-    repeated BreakoutSyncConnectUidInfo uid_info_list = 14;
+  repeated BreakoutSyncConnectUidInfo uid_info_list = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

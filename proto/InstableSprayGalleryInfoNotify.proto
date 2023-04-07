@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KCMKBMLANBF
 // CmdId: 5541
-message InstableSprayGalleryInfoNotify {
-    uint32 score = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message InstableSprayGalleryInfoNotify { uint32 score = 6; }

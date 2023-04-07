@@ -7,21 +7,7 @@ import "AbilityInvokeEntry.proto";
 // Name: JIHLJOAILGI
 // CmdId: 1107
 message ClientAbilityChangeNotify {
-    bool is_init_hash = 1;
-    repeated AbilityInvokeEntry invokes = 8;
-    uint32 entity_id = 3;
+  bool is_init_hash = 1;
+  repeated AbilityInvokeEntry invokes = 8;
+  uint32 entity_id = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NOFFEEDPAEB
 // CmdId: 5564
-message GalleryStopNotify {
-    uint32 gallery_id = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GalleryStopNotify { uint32 gallery_id = 10; }

@@ -2,23 +2,8 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JMDGMMFDLLE
 enum FriendOnlineState {
   FREIEND_DISCONNECT = 0;
-  FRIEND_ONLINE      = 1;
+  FRIEND_ONLINE = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

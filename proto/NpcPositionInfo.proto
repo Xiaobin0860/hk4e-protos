@@ -6,20 +6,6 @@ import "Vector.proto";
 
 // Name: FDGILKFOPLL
 message NpcPositionInfo {
-    uint32 npc_id = 1;
-    Vector pos = 2;
+  uint32 npc_id = 1;
+  Vector pos = 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

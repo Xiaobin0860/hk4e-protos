@@ -6,20 +6,6 @@ import "VectorPlane.proto";
 
 // Name: DIKOEKMPPAO
 message PolygonRegionSize {
-    float height = 1;
-    repeated VectorPlane point_list = 9;
+  float height = 1;
+  repeated VectorPlane point_list = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

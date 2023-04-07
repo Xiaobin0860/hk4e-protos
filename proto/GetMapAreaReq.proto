@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BFFMOKPHAAN
 // CmdId: 3084
-message GetMapAreaReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetMapAreaReq {}

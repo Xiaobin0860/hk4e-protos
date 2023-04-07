@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GLAFOKOICGN
 // CmdId: 1799
-message AvatarPromoteReq {
-    uint64 guid = 8;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message AvatarPromoteReq { uint64 guid = 8; }

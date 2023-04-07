@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: BIINNEGGHNI
 // CmdId: 4005
-message GetPlayerBlacklistReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetPlayerBlacklistReq {}

@@ -2,22 +2,5 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: FDJMJBNPLGD
-message FDJMJBNPLGD {
-    uint32 target_entity_id = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message FDJMJBNPLGD { uint32 target_entity_id = 15; }

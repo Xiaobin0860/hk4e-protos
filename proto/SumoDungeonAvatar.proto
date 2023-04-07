@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: KGMFLOMCIPP
 message SumoDungeonAvatar {
-    uint64 avatar_guid = 12;
-    bool is_trial = 11;
-    bool is_avlive = 8;
+  uint64 avatar_guid = 12;
+  bool is_trial = 11;
+  bool is_avlive = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

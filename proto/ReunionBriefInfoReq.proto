@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PCMJAEPOJBO
 // CmdId: 5098
-message ReunionBriefInfoReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ReunionBriefInfoReq {}

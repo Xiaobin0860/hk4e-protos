@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DKAKDEOOBBA
 // CmdId: 4507
 message HomeModuleSeenRsp {
-    int32 retcode = 11;
-    repeated uint32 seen_module_id_list = 1;
+  int32 retcode = 11;
+  repeated uint32 seen_module_id_list = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

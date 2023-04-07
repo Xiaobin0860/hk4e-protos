@@ -6,20 +6,4 @@ import "GivingRecord.proto";
 
 // Name: ALDMHFAPEBH
 // CmdId: 143
-message GivingRecordNotify {
-    repeated GivingRecord giving_record_list = 14;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GivingRecordNotify { repeated GivingRecord giving_record_list = 14; }

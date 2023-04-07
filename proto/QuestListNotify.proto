@@ -6,20 +6,4 @@ import "Quest.proto";
 
 // Name: CEPEPMLNMEF
 // CmdId: 467
-message QuestListNotify {
-    repeated Quest quest_list = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message QuestListNotify { repeated Quest quest_list = 3; }

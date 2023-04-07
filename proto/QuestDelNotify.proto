@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: NICABKGLDMP
 // CmdId: 454
-message QuestDelNotify {
-    uint32 quest_id = 12;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message QuestDelNotify { uint32 quest_id = 12; }

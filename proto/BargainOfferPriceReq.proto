@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: MLFEHCBHEJF
 // CmdId: 474
 message BargainOfferPriceReq {
-    uint32 bargain_id = 12;
-    uint32 price = 15;
+  uint32 bargain_id = 12;
+  uint32 price = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

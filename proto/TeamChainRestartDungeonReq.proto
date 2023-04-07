@@ -7,19 +7,5 @@ import "TeamChainChooseTeamInfo.proto";
 // Name: IFFDBELNGDA
 // CmdId: 21278
 message TeamChainRestartDungeonReq {
-    repeated TeamChainChooseTeamInfo team_info_list = 7;
+  repeated TeamChainChooseTeamInfo team_info_list = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

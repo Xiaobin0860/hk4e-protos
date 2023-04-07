@@ -6,20 +6,4 @@ import "MatchType.proto";
 
 // Name: KAONIMBCNLI
 // CmdId: 4196
-message PlayerCancelMatchReq {
-    MatchType match_type = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PlayerCancelMatchReq { MatchType match_type = 1; }

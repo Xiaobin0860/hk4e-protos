@@ -6,20 +6,6 @@ import "FireworksReformParam.proto";
 
 // Name: EHKHLMKNGHN
 message FireworksReformData {
-    uint32 id = 1;
-    repeated FireworksReformParam reform_param_list = 10;
+  uint32 id = 1;
+  repeated FireworksReformParam reform_param_list = 10;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

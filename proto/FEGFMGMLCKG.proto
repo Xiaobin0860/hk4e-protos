@@ -7,20 +7,6 @@ import "UgcMusicBriefInfo.proto";
 // Name: FEGFMGMLCKG
 // CmdId: 6326
 message FEGFMGMLCKG {
-    repeated UgcMusicBriefInfo JJMBELIDNLN = 1;
-    repeated UgcMusicBriefInfo OMGGIPLOILH = 12;
+  repeated UgcMusicBriefInfo JJMBELIDNLN = 1;
+  repeated UgcMusicBriefInfo OMGGIPLOILH = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

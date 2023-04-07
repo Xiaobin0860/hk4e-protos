@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: AEEFNFKPHED
 // CmdId: 7794
-message AEEFNFKPHED {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message AEEFNFKPHED {}

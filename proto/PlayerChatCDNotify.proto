@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LALPJIKIDFL
 // CmdId: 3354
-message PlayerChatCDNotify {
-    uint32 over_time = 11;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PlayerChatCDNotify { uint32 over_time = 11; }

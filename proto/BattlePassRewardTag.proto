@@ -6,21 +6,7 @@ import "BattlePassUnlockStatus.proto";
 
 // Name: IEMOLLDEMBH
 message BattlePassRewardTag {
-    uint32 reward_id = 6;
-    uint32 level = 15;
-    BattlePassUnlockStatus unlock_status = 9;
+  uint32 reward_id = 6;
+  uint32 level = 15;
+  BattlePassUnlockStatus unlock_status = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

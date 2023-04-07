@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OKGDDDOHINO
 // CmdId: 3479
-message GetWorldMpInfoReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetWorldMpInfoReq {}

@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HPNPOAEEEFL
 // CmdId: 934
 message PlayerQuitDungeonRsp {
-    int32 retcode = 8;
-    uint32 point_id = 15;
+  int32 retcode = 8;
+  uint32 point_id = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

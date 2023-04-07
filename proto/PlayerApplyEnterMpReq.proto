@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LKMHAANNAGN
 // CmdId: 1843
-message PlayerApplyEnterMpReq {
-    uint32 target_uid = 4;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PlayerApplyEnterMpReq { uint32 target_uid = 4; }

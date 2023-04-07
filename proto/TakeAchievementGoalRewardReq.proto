@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CMFHEBMCELG
 // CmdId: 2686
-message TakeAchievementGoalRewardReq {
-    repeated uint32 id_list = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message TakeAchievementGoalRewardReq { repeated uint32 id_list = 10; }

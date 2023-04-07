@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: IHPDNJGHHFE
 // CmdId: 21123
-message DuelHeartSelectDifficultyReq {
-    uint32 difficulty = 8;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message DuelHeartSelectDifficultyReq { uint32 difficulty = 8; }

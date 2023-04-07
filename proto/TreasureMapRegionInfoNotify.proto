@@ -6,20 +6,4 @@ import "TreasureMapRegionInfo.proto";
 
 // Name: KKBGBOJPPEN
 // CmdId: 2190
-message TreasureMapRegionInfoNotify {
-    TreasureMapRegionInfo region_info = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message TreasureMapRegionInfoNotify { TreasureMapRegionInfo region_info = 6; }

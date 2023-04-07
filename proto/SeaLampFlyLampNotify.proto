@@ -7,22 +7,8 @@ import "Vector.proto";
 // Name: FOPNAJKAPDA
 // CmdId: 2161
 message SeaLampFlyLampNotify {
-    int32 param = 4;
-    Vector pos = 8;
-    uint32 item_num = 2;
-    uint32 item_id = 7;
+  int32 param = 4;
+  Vector pos = 8;
+  uint32 item_num = 2;
+  uint32 item_id = 7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

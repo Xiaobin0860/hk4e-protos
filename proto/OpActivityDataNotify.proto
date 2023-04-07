@@ -7,19 +7,5 @@ import "OpActivityInfo.proto";
 // Name: LOKEFHDBKHC
 // CmdId: 5154
 message OpActivityDataNotify {
-    repeated OpActivityInfo op_activity_info_list = 8;
+  repeated OpActivityInfo op_activity_info_list = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

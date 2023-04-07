@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: CMCJOKLGMCA
 // CmdId: 7150
 message CMCJOKLGMCA {
-    uint32 AHAIAIPGFDN = 15;
-    uint32 LKFDEJMGHMP = 12;
+  uint32 AHAIAIPGFDN = 15;
+  uint32 LKFDEJMGHMP = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EKOOJGMMAGB
 // CmdId: 8056
-message ResumeRogueDiaryDungeonReq {
-    uint32 stage_id = 4;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ResumeRogueDiaryDungeonReq { uint32 stage_id = 4; }

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GJAILLBBAON
 // CmdId: 2901
-message OfferingInteractReq {
-    uint32 offering_id = 13;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message OfferingInteractReq { uint32 offering_id = 13; }

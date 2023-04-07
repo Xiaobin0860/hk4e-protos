@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EAMMPIMBPKH
 message PlantFlowerAcceptFlowerResultInfo {
-    map<uint32, uint32> MFBGONHGOKI = 14;
-    map<uint32, uint32> DOONOMIFCJA = 13;
-    uint32 uid = 12;
+  map<uint32, uint32> MFBGONHGOKI = 14;
+  map<uint32, uint32> DOONOMIFCJA = 13;
+  uint32 uid = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

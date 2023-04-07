@@ -6,23 +6,9 @@ import "FPPMLGOAFGH.proto";
 
 // Name: IJMNEOLDFMI
 message IJMNEOLDFMI {
-    int32 MMMBLKJIJLA = 1;
-    int32 NMLDPDOKLNN = 2;
-    int32 NAKIGPBGHKE = 3;
-    int32 ABKPPLDBKHO = 4;
-    repeated FPPMLGOAFGH KENIKGLDGKJ = 5;
+  int32 MMMBLKJIJLA = 1;
+  int32 NMLDPDOKLNN = 2;
+  int32 NAKIGPBGHKE = 3;
+  int32 ABKPPLDBKHO = 4;
+  repeated FPPMLGOAFGH KENIKGLDGKJ = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

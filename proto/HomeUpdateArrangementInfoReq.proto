@@ -7,19 +7,5 @@ import "HomeSceneArrangementInfo.proto";
 // Name: NDKIGENOPAA
 // CmdId: 4840
 message HomeUpdateArrangementInfoReq {
-    HomeSceneArrangementInfo scene_arrangement_info = 5;
+  HomeSceneArrangementInfo scene_arrangement_info = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

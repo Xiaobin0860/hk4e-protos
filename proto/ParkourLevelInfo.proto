@@ -6,22 +6,8 @@ import "Vector.proto";
 
 // Name: AEJMHCCJBEH
 message ParkourLevelInfo {
-    Vector pos = 12;
-    uint32 open_time = 6;
-    uint32 best_record = 7;
-    bool is_open = 3;
+  Vector pos = 12;
+  uint32 open_time = 6;
+  uint32 best_record = 7;
+  bool is_open = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

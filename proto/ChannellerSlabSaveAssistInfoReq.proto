@@ -7,19 +7,5 @@ import "ChannellerSlabAssistInfo.proto";
 // Name: LHHCPJEFGGD
 // CmdId: 8877
 message ChannellerSlabSaveAssistInfoReq {
-    repeated ChannellerSlabAssistInfo assist_info_list = 3;
+  repeated ChannellerSlabAssistInfo assist_info_list = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

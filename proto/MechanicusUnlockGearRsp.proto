@@ -2,25 +2,10 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: JABBEEICGBD
 // CmdId: 3982
 message MechanicusUnlockGearRsp {
-    uint32 mechanicus_id = 4;
-    uint32 gear_id = 13;
-    int32 retcode = 12;
+  uint32 mechanicus_id = 4;
+  uint32 gear_id = 13;
+  int32 retcode = 12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

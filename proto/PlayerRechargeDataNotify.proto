@@ -7,20 +7,6 @@ import "ProductPriceTier.proto";
 // Name: MDOEPONPAFK
 // CmdId: 4136
 message PlayerRechargeDataNotify {
-    uint32 card_product_remain_days = 12;
-    repeated ProductPriceTier product_price_tier_list = 8;
+  uint32 card_product_remain_days = 12;
+  repeated ProductPriceTier product_price_tier_list = 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

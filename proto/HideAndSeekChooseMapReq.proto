@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DNBCFAELCOC
 // CmdId: 8744
-message HideAndSeekChooseMapReq {
-    repeated uint32 map_list = 13;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HideAndSeekChooseMapReq { repeated uint32 map_list = 13; }

@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OAPHAOLKACP
 // CmdId: 4067
-message GetPlayerFriendListReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetPlayerFriendListReq {}

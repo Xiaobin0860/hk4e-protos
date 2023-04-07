@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: HIGDNBBNAMP
 // CmdId: 5000
-message ReadPrivateChatReq {
-    uint32 target_uid = 3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ReadPrivateChatReq { uint32 target_uid = 3; }

@@ -2,22 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: MCLEPEBMOHE
 // CmdId: 4645
-message HomePlantInfoReq {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message HomePlantInfoReq {}

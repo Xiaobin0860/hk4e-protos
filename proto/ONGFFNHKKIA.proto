@@ -6,20 +6,6 @@ import "JONHAPLJANI.proto";
 
 // Name: ONGFFNHKKIA
 message ONGFFNHKKIA {
-    uint32 level_id = 13;
-    repeated JONHAPLJANI LCBIEAMEBPF = 4;
+  uint32 level_id = 13;
+  repeated JONHAPLJANI LCBIEAMEBPF = 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

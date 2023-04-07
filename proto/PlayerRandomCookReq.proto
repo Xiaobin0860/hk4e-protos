@@ -6,20 +6,4 @@ import "ItemParam.proto";
 
 // Name: BIFBPKLPFKC
 // CmdId: 170
-message PlayerRandomCookReq {
-    repeated ItemParam material_list = 15;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PlayerRandomCookReq { repeated ItemParam material_list = 15; }

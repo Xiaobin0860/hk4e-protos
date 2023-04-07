@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: ECIHKMHMAMH
 // CmdId: 5089
-message GetReunionMissionInfoReq {
-    uint32 mission_id = 4;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message GetReunionMissionInfoReq { uint32 mission_id = 4; }

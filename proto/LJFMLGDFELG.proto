@@ -6,21 +6,7 @@ import "AJCFJJFJJMB.proto";
 
 // Name: LJFMLGDFELG
 message LJFMLGDFELG {
-    uint32 card_guid = 8;
-    bool OHEDGHHHLGJ = 2;
-    AJCFJJFJJMB INDKAEIGCMJ = 1;
+  uint32 card_guid = 8;
+  bool OHEDGHHHLGJ = 2;
+  AJCFJJFJJMB INDKAEIGCMJ = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

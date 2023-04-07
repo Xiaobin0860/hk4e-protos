@@ -7,20 +7,6 @@ import "HomeResource.proto";
 // Name: KHPGKFLMLEE
 // CmdId: 4554
 message HomeResourceTakeHomeCoinRsp {
-    int32 retcode = 3;
-    HomeResource home_coin = 9;
+  int32 retcode = 3;
+  HomeResource home_coin = 9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

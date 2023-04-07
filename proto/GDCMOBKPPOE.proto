@@ -7,20 +7,6 @@ import "PlatformType.proto";
 // Name: GDCMOBKPPOE
 // CmdId: 998
 message GDCMOBKPPOE {
-    repeated uint32 monster_id_list = 7;
-    repeated PlatformType DBEIFGBJDFM = 6;
+  repeated uint32 monster_id_list = 7;
+  repeated PlatformType DBEIFGBJDFM = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

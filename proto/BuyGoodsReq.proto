@@ -7,21 +7,7 @@ import "ShopGoods.proto";
 // Name: KNMKFMAAMHH
 // CmdId: 754
 message BuyGoodsReq {
-    uint32 buy_count = 14;
-    ShopGoods goods = 5;
-    uint32 shop_type = 11;
+  uint32 buy_count = 14;
+  ShopGoods goods = 5;
+  uint32 shop_type = 11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: LAMICFCLBFO
 // CmdId: 5848
-message EnterFishingReq {
-    uint32 fish_pool_id = 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message EnterFishingReq { uint32 fish_pool_id = 1; }

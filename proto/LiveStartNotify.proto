@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: ELIICPEDJIM
 // CmdId: 870
-message LiveStartNotify {
-    uint32 live_id = 5;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message LiveStartNotify { uint32 live_id = 5; }

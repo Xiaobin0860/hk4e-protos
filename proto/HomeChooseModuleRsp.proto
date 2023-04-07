@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: PDKLGLACPKN
 // CmdId: 4736
 message HomeChooseModuleRsp {
-    int32 retcode = 6;
-    uint32 module_id = 5;
+  int32 retcode = 6;
+  uint32 module_id = 5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

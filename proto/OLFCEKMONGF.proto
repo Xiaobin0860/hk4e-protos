@@ -7,21 +7,7 @@ import "LAFGBFLAEGH.proto";
 
 // Name: OLFCEKMONGF
 message OLFCEKMONGF {
-    string name = 1;
-    repeated LAFGBFLAEGH value = 2;
-    EEGMCCNFBHE PNFIHGPGNKD = 3;
+  string name = 1;
+  repeated LAFGBFLAEGH value = 2;
+  EEGMCCNFBHE PNFIHGPGNKD = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

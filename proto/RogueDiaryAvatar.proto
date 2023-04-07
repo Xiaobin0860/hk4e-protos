@@ -7,22 +7,8 @@ import "ANIHIBEGDJC.proto";
 
 // Name: KDDEEFOPBJB
 message RogueDiaryAvatar {
-    uint32 level = 13;
-    ActivityDungeonAvatar avatar = 4;
-    repeated ANIHIBEGDJC PGIFCEDONAA = 14;
-    uint32 tired_round = 3;
+  uint32 level = 13;
+  ActivityDungeonAvatar avatar = 4;
+  repeated ANIHIBEGDJC PGIFCEDONAA = 14;
+  uint32 tired_round = 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

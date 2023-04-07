@@ -7,19 +7,5 @@ import "ClientMassiveEntity.proto";
 // Name: OGJEIFDLMFE
 // CmdId: 349
 message CreateMassiveEntityReq {
-    repeated ClientMassiveEntity massive_entity_list = 6;
+  repeated ClientMassiveEntity massive_entity_list = 6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

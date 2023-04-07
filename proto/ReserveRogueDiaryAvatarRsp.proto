@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OPICKCNIEAC
 // CmdId: 8457
-message ReserveRogueDiaryAvatarRsp {
-    int32 retcode = 5;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ReserveRogueDiaryAvatarRsp { int32 retcode = 5; }

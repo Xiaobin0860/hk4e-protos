@@ -2,24 +2,9 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: OCLABAOCCHG
 // CmdId: 23079
 message GravenInnocencePhotoFinishReq {
-    uint32 object_id = 7;
-    uint32 param = 15;
+  uint32 object_id = 7;
+  uint32 param = 15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

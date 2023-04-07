@@ -6,21 +6,7 @@ import "Vector.proto";
 
 // Name: JFHEKJHNIEE
 message AbilityBornType {
-    Vector move_dir = 13;
-    Vector pos = 15;
-    Vector rot = 14;
+  Vector move_dir = 13;
+  Vector pos = 15;
+  Vector rot = 14;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

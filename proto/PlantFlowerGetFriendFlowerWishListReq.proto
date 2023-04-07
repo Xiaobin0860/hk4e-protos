@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: GEKHCHPNDHB
 // CmdId: 8828
-message PlantFlowerGetFriendFlowerWishListReq {
-    uint32 schedule_id = 6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message PlantFlowerGetFriendFlowerWishListReq { uint32 schedule_id = 6; }

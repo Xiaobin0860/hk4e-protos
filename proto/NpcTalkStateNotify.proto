@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: EIKPABMOCEM
 // CmdId: 497
-message NpcTalkStateNotify {
-    bool is_ban = 10;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message NpcTalkStateNotify { bool is_ban = 10; }

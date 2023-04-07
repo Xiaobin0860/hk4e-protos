@@ -2,23 +2,6 @@ syntax = "proto3";
 
 option go_package = "./;proto";
 
-
 // Name: DGNIFIFMMCP
 // CmdId: 189
-message ClientLockGameTimeNotify {
-    bool is_lock = 4;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+message ClientLockGameTimeNotify { bool is_lock = 4; }
